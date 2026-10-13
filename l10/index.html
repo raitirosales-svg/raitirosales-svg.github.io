@@ -137,8 +137,9 @@ function tabla(items, completada) {
   for (const it of items) {
     const [cls, tag] = dueClass(it.due, completada);
     const ind = (it.industria || '').toLowerCase().includes('retail');
+    const nota = it.ultima_nota ? `<div style="color:#8a7f72;font-size:11px;margin-top:5px;border-left:3px solid var(--sand);padding-left:8px">📝 <b>${(it.nota_fecha||'').slice(0,10)}</b> — ${it.ultima_nota.slice(0,240)}${it.ultima_nota.length>240?'…':''}</div>` : '';
     h += `<tr>
-      <td><b>${it.empresa}</b><br><span style="color:var(--gray);font-size:11px">${it.nombre}</span></td>
+      <td><b>${it.empresa}</b><br><span style="color:var(--gray);font-size:11px">${it.nombre}</span>${nota}</td>
       <td><span class="pill ${ind ? 'p-orange' : 'p-gray'}">${it.industria}</span></td>
       <td style="font-size:12px">${it.etapa}</td>
       <td class="${cls}">${it.due || '—'}${tag ? ' · ' + tag : ''}</td>

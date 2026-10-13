@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13 12:11",
+ "generado": "2026-10-13 13:03",
  "kpis": {
   "activas": 2,
   "retail": 2,
@@ -23,7 +23,9 @@
    "mrr": 1645.0,
    "due": "2026-10-12",
    "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
-   "gid": "1219268417976923"
+   "gid": "1219268417976923",
+   "ultima_nota": "Hola 👋 Actualización breve:\n El formulario corregido (filtro por zona) y el ajuste del agente están listos y validados; al probarlos, el agente seguía enviando la versión anterior del formulario.\n Escalamos el caso al equipo de WhatsApp Flows por Slack, con el video de la prueba como evidencia (Jesús también quedó taggeado en el mensaje de Slack) — quedó en revisión con ellos.\n Avisamos por acá en cuanto quede resuelto y validado en WhatsApp.",
+   "nota_fecha": "2026-10-13 02:13"
   },
   {
    "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
@@ -34,7 +36,9 @@
    "mrr": 1100.0,
    "due": "2026-10-13",
    "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "gid": "1219289480894805"
+   "gid": "1219289480894805",
+   "ultima_nota": "Hola y — actualización de este ticket.\nDiagnóstico (setup actual: agente \"Pepebot v2\" + flujo de FlowBuilder)\n El agente está sobrecargado y mal estructurado: Pepe concentra la lógica de todas las rutas (14.786 caracteres) y la rama Comercial repite reglas que ya están en las instrucciones generales (13.486). Dato de plataforma: el límite por nodo subió de 10.000 a 20.000 caracteres, así que los prompts hoy entran dentro del máximo; igualmente el rediseño los consolida en un solo agente con prompts livianos y sin redundancias, para dejar margen y evitar los problemas de edición ya vistos.\n El flujo de FlowBuilder (69 componentes) duplica al agente: consulta HubSpot 3 veces, captura datos con un formulario aparte, arma menús/evaluadores y reparte recuperos por rama. La mayor parte de sus componentes no es necesaria.\n Riesgos detectados: el token de HubSpot viaja en texto plano dentro del flujo (hay que rotarlo) y el lifecycle stage pone \"customer\" a cualquier contacto existente (mal aplicado).\nPropuesta de nuevo flujo completo\n Un solo agente Cortex (prompt liviano): reconoce al cliente en HubSpot antes de pedir datos, responde consultas frecuentes con las bases de conocimiento, val",
+   "nota_fecha": "2026-10-13 16:03"
   }
  ],
  "vencidas": [
@@ -47,7 +51,9 @@
    "mrr": 1645.0,
    "due": "2026-10-12",
    "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
-   "gid": "1219268417976923"
+   "gid": "1219268417976923",
+   "ultima_nota": "Hola 👋 Actualización breve:\n El formulario corregido (filtro por zona) y el ajuste del agente están listos y validados; al probarlos, el agente seguía enviando la versión anterior del formulario.\n Escalamos el caso al equipo de WhatsApp Flows por Slack, con el video de la prueba como evidencia (Jesús también quedó taggeado en el mensaje de Slack) — quedó en revisión con ellos.\n Avisamos por acá en cuanto quede resuelto y validado en WhatsApp.",
+   "nota_fecha": "2026-10-13 02:13"
   }
  ],
  "completadas_7d": [
