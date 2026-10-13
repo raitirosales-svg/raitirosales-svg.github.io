@@ -1,0 +1,309 @@
+{
+ "generado": "2026-10-13 11:50",
+ "kpis": {
+  "activas": 11,
+  "retail": 2,
+  "multi": 9,
+  "entregas_7d": 5,
+  "vencidas": 10,
+  "mrr_activo": 2745.0,
+  "cumplimiento": 33
+ },
+ "por_etapa": {
+  "—": 9,
+  "⏸ Espera interna": 1,
+  "🔵 En proceso": 1
+ },
+ "activas": [
+  {
+   "nombre": "CU-03/04: lead asignado al usuario ganador",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-28",
+   "proyectos": "",
+   "gid": "1217927916040849"
+  },
+  {
+   "nombre": "Refactor: orden de validación del CodeTool (cuenta: oportunidades primero)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-28",
+   "proyectos": "",
+   "gid": "1217911686810607"
+  },
+  {
+   "nombre": "CU-02/06/11: usuario inactivo → lead nuevo a grupos",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-31",
+   "proyectos": "",
+   "gid": "1217911686484795"
+  },
+  {
+   "nombre": "Revisar origen_c y campos requeridos del create-lead",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-31",
+   "proyectos": "",
+   "gid": "1217911586115922"
+  },
+  {
+   "nombre": "Matriz de pruebas QAS (13 casos de uso)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-01",
+   "proyectos": "",
+   "gid": "1217911761694936"
+  },
+  {
+   "nombre": "Preparar paquete de validación para coaches de Hansa",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-02",
+   "proyectos": "",
+   "gid": "1217911761772004"
+  },
+  {
+   "nombre": "Validación de coaches + acta de pruebas",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-04",
+   "proyectos": "",
+   "gid": "1217911687027682"
+  },
+  {
+   "nombre": "Cambio a producción + conexión canal 664",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-04",
+   "proyectos": "",
+   "gid": "1217911596834984"
+  },
+  {
+   "nombre": "Campañas: diseño (dónde llega el id en conversación)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-07",
+   "proyectos": "",
+   "gid": "1217911762097948"
+  },
+  {
+   "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
+   "empresa": "Tiendas Palm",
+   "industria": "Retail / E-commerce",
+   "etapa": "⏸ Espera interna",
+   "tipo": "Ticket",
+   "mrr": 1645.0,
+   "due": "2026-10-12",
+   "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
+   "gid": "1219268417976923"
+  },
+  {
+   "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
+   "empresa": "Promelsa",
+   "industria": "Retail / E-commerce",
+   "etapa": "🔵 En proceso",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-13",
+   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
+   "gid": "1219289480894805"
+  }
+ ],
+ "vencidas": [
+  {
+   "nombre": "CU-03/04: lead asignado al usuario ganador",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-28",
+   "proyectos": "",
+   "gid": "1217927916040849"
+  },
+  {
+   "nombre": "Refactor: orden de validación del CodeTool (cuenta: oportunidades primero)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-28",
+   "proyectos": "",
+   "gid": "1217911686810607"
+  },
+  {
+   "nombre": "CU-02/06/11: usuario inactivo → lead nuevo a grupos",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-31",
+   "proyectos": "",
+   "gid": "1217911686484795"
+  },
+  {
+   "nombre": "Revisar origen_c y campos requeridos del create-lead",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-08-31",
+   "proyectos": "",
+   "gid": "1217911586115922"
+  },
+  {
+   "nombre": "Matriz de pruebas QAS (13 casos de uso)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-01",
+   "proyectos": "",
+   "gid": "1217911761694936"
+  },
+  {
+   "nombre": "Preparar paquete de validación para coaches de Hansa",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-02",
+   "proyectos": "",
+   "gid": "1217911761772004"
+  },
+  {
+   "nombre": "Validación de coaches + acta de pruebas",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-04",
+   "proyectos": "",
+   "gid": "1217911687027682"
+  },
+  {
+   "nombre": "Cambio a producción + conexión canal 664",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-04",
+   "proyectos": "",
+   "gid": "1217911596834984"
+  },
+  {
+   "nombre": "Campañas: diseño (dónde llega el id en conversación)",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-09-07",
+   "proyectos": "",
+   "gid": "1217911762097948"
+  },
+  {
+   "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
+   "empresa": "Tiendas Palm",
+   "industria": "Retail / E-commerce",
+   "etapa": "⏸ Espera interna",
+   "tipo": "Ticket",
+   "mrr": 1645.0,
+   "due": "2026-10-12",
+   "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
+   "gid": "1219268417976923"
+  }
+ ],
+ "completadas_7d": [
+  {
+   "nombre": "🎫 Porsche Inter Auto: Migración de flujo a Cortex",
+   "empresa": "Porsche Inter Auto Chile",
+   "industria": "🚗 Automotriz",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-11",
+   "proyectos": "Tickets de implementación, 🎫 PORSCHE INTER AUTO CHILE",
+   "gid": "1218988674490666"
+  },
+  {
+   "nombre": "🎫 Hansa: actualización de versión Gemini",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "🚗 Automotriz",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-09",
+   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
+   "gid": "1219221842984352"
+  },
+  {
+   "nombre": "🎫 Carbone: Corregir imágenes de carrusel",
+   "empresa": "Carbone",
+   "industria": "Retail / E-commerce",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 2400.0,
+   "due": "2026-10-09",
+   "proyectos": "Tickets de implementación, 🎫 CARBONE",
+   "gid": "1219219949724221"
+  },
+  {
+   "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
+   "empresa": "Yomeanimo!",
+   "industria": "🔒 Seguros",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-08",
+   "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
+   "gid": "1219189229240723"
+  },
+  {
+   "nombre": "🎫 Hansa Ltda.: Sesión de revisión CRM",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "🚗 Automotriz",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-07",
+   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
+   "gid": "1219180117498423"
+  }
+ ]
+}
