@@ -3,60 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RR · Tablero L10 — Implementación MI+Retail</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<title>ATOM · Tablero L10 — Implementación MI+Retail</title>
 <style>
   :root {
-    --bg: #0F172A; --card: #1E293B; --card2: #182234; --teal: #14B8A6;
-    --amber: #F59E0B; --text: #E2E8F0; --muted: #94A3B8; --red: #EF4444; --green: #22C55E;
+    --orange: #E76812; --orange-lt: #F78427; --cream: #FFF3E8; --sand: #FBBC83;
+    --dark: #191919; --gray: #525252; --green: #3A7A56; --red: #C0392B;
+    --line: #EDE3D8; --bg: #FAF7F3; --white: #FFFFFF;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Arial, sans-serif; min-height: 100vh; }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 18px 60px; }
-  header { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
-  .mono { width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, var(--teal), #0D9488); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 20px; color: #06282a; letter-spacing: 1px; }
-  h1 { font-size: 22px; font-weight: 700; }
-  h1 span { color: var(--teal); }
-  .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
-  .meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin: 14px 0 18px; }
-  .upd { color: var(--muted); font-size: 12px; }
-  .upd b { color: var(--amber); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 22px; }
-  .kpi { background: var(--card); border: 1px solid #24314a; border-radius: 14px; padding: 16px; }
-  .kpi .n { font-size: 30px; font-weight: 800; }
-  .kpi .l { color: var(--muted); font-size: 12px; margin-top: 4px; }
-  .kpi.teal .n { color: var(--teal); } .kpi.amber .n { color: var(--amber); }
-  .kpi.red .n { color: var(--red); } .kpi.green .n { color: var(--green); }
-  h2 { font-size: 15px; margin: 26px 0 10px; color: var(--teal); text-transform: uppercase; letter-spacing: 1px; }
-  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; font-size: 13px; }
-  th { text-align: left; padding: 10px 12px; background: var(--card2); color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
-  td { padding: 10px 12px; border-top: 1px solid #24314a; }
-  .pill { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 11px; font-weight: 600; }
-  .p-teal { background: #14b8a622; color: var(--teal); }
-  .p-amber { background: #f59e0b22; color: var(--amber); }
-  .p-red { background: #ef444422; color: var(--red); }
-  .p-green { background: #22c55e22; color: var(--green); }
-  .p-muted { background: #64748b22; color: var(--muted); }
+  body { background: var(--bg); color: var(--dark); font-family: 'Segoe UI', Arial, sans-serif; min-height: 100vh; }
+  .topbar { height: 6px; background: linear-gradient(90deg, var(--orange), var(--sand)); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 22px 18px 60px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .atomlogo { font-weight: 800; font-size: 26px; letter-spacing: 3px; color: var(--orange); border-bottom: 3px solid var(--orange); padding-bottom: 2px; }
+  h1 { font-size: 20px; font-weight: 700; color: var(--dark); }
+  h1 span { color: var(--orange); }
+  .sub { color: var(--gray); font-size: 13px; margin-top: 2px; }
+  .right { display: flex; align-items: center; gap: 10px; }
+  .upd { color: var(--gray); font-size: 12px; text-align: right; }
+  .upd b { color: var(--orange); }
+  button.ref { background: var(--orange); color: #fff; border: 0; border-radius: 9px; padding: 9px 16px; font-weight: 700; font-size: 13px; cursor: pointer; }
+  button.ref:hover { background: var(--orange-lt); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 22px 0; }
+  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 16px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
+  .kpi .n { font-size: 30px; font-weight: 800; color: var(--orange); }
+  .kpi .l { color: var(--gray); font-size: 12px; margin-top: 4px; }
+  .kpi.green .n { color: var(--green); } .kpi.red .n { color: var(--red); }
+  h2 { font-size: 14px; margin: 26px 0 10px; color: var(--orange); text-transform: uppercase; letter-spacing: 1.2px; font-weight: 800; }
+  table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 12px; overflow: hidden; font-size: 13px; border: 1px solid var(--line); }
+  th { text-align: left; padding: 11px 12px; background: var(--cream); color: var(--orange); font-weight: 800; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+  td { padding: 10px 12px; border-top: 1px solid var(--line); color: var(--dark); }
+  tr:hover td { background: #FFFBF6; }
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+  .p-orange { background: #e7681222; color: var(--orange); }
+  .p-green { background: #3a7a5622; color: var(--green); }
+  .p-red { background: #c0392b22; color: var(--red); }
+  .p-gray { background: #52525222; color: var(--gray); }
   .due-red { color: var(--red); font-weight: 700; }
-  .due-amber { color: var(--amber); font-weight: 700; }
-  .due-ok { color: var(--muted); }
-  .empty { color: var(--muted); font-size: 13px; padding: 14px; background: var(--card); border-radius: 12px; }
+  .due-amber { color: var(--orange); font-weight: 700; }
+  .due-ok { color: var(--gray); }
+  .empty { color: var(--gray); font-size: 13px; padding: 16px; background: var(--white); border-radius: 12px; border: 1px dashed var(--line); }
   #gate { position: fixed; inset: 0; background: var(--bg); display: flex; align-items: center; justify-content: center; z-index: 50; }
-  #gate .box { background: var(--card); border: 1px solid #24314a; border-radius: 18px; padding: 34px; width: min(92vw, 360px); text-align: center; }
-  #gate h3 { color: var(--teal); margin-bottom: 6px; }
-  #gate p { color: var(--muted); font-size: 12px; margin-bottom: 16px; }
-  #gate input { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid #2c3b58; background: var(--bg); color: var(--text); font-size: 14px; outline: none; }
-  #gate button { margin-top: 12px; width: 100%; padding: 11px; border: 0; border-radius: 10px; background: var(--teal); color: #06282a; font-weight: 800; font-size: 14px; cursor: pointer; }
+  #gate .box { background: var(--white); border: 1px solid var(--line); border-radius: 18px; padding: 34px; width: min(92vw, 360px); text-align: center; box-shadow: 0 10px 30px rgba(25,25,25,.08); }
+  #gate h3 { color: var(--dark); margin: 10px 0 4px; }
+  #gate p { color: var(--gray); font-size: 12px; margin-bottom: 16px; }
+  #gate input { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--dark); font-size: 14px; outline: none; }
+  #gate button { margin-top: 12px; width: 100%; padding: 11px; border: 0; border-radius: 10px; background: var(--orange); color: #fff; font-weight: 800; font-size: 14px; cursor: pointer; }
   #gate .err { color: var(--red); font-size: 12px; margin-top: 10px; min-height: 14px; }
-  footer { color: #475569; font-size: 11px; text-align: center; margin-top: 40px; }
+  .flash { position: fixed; bottom: 18px; right: 18px; background: var(--dark); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 13px; opacity: 0; transition: opacity .3s; pointer-events: none; }
+  .flash.on { opacity: 1; }
+  footer { color: #B9AFA3; font-size: 11px; text-align: center; margin-top: 40px; }
 </style>
 </head>
 <body>
+<div class="topbar"></div>
 
 <div id="gate" style="display:none">
   <div class="box">
-    <div class="mono" style="margin: 0 auto 12px; width:60px; height:60px; font-size:23px;">RR</div>
+    <div class="atomlogo" style="font-size:30px">ATOM</div>
     <h3>Tablero L10</h3>
-    <p>Implementación MI + Retail · acceso restringido</p>
+    <p>Implementación MI + Retail · Raiti Rosales</p>
     <input id="clave" type="password" placeholder="Clave de acceso" onkeydown="if(event.key==='Enter')entrar()">
     <button onclick="entrar()">Entrar</button>
     <div class="err" id="gerr"></div>
@@ -65,34 +74,36 @@
 
 <div class="wrap" id="app" style="display:none">
   <header>
-    <div class="mono">RR</div>
-    <div>
-      <h1>Implementación <span>MI + Retail</span></h1>
-      <div class="sub">Raiti Rosales · Tablero L10</div>
+    <div class="brand">
+      <div class="atomlogo">ATOM</div>
+      <div>
+        <h1>Implementación <span>MI + Retail</span></h1>
+        <div class="sub">Raiti Rosales · Tablero L10</div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="upd">Actualizado:<br><b id="upd">—</b></div>
+      <button class="ref" onclick="cargar(true)">⟳ Actualizar</button>
     </div>
   </header>
-
-  <div class="meta">
-    <div class="upd">Actualizado: <b id="upd">—</b> · fuente: Asana</div>
-    <div><span class="pill p-teal" id="p_sem"></span></div>
-  </div>
 
   <div class="grid" id="kpis"></div>
 
   <h2>📌 Cuentas activas</h2>
   <div id="t_activas"></div>
 
-  <h2>🔴 Vencidas (acción requerida)</h2>
+  <h2>🔴 Vencidas · acción requerida</h2>
   <div id="t_vencidas"></div>
 
-  <h2>✅ Entregadas últimos 7 días</h2>
+  <h2>✅ Entregadas · últimos 7 días</h2>
   <div id="t_completadas"></div>
 
-  <footer>RR · Tablero privado · Los datos se actualizan automáticamente desde Asana</footer>
+  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Asana automáticamente</footer>
 </div>
+<div class="flash" id="flash">✓ Datos actualizados</div>
 
 <script>
-const CLAVE = "RR2026-l10";  // rotable
+const CLAVE = "RR2026-l10";
 
 function entrar() {
   const v = document.getElementById('clave').value;
@@ -121,13 +132,14 @@ function dueClass(due, completada) {
 }
 
 function tabla(items, completada) {
-  if (!items.length) return '<div class="empty">Sin elementos</div>';
+  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
   let h = '<table><tr><th>Cuenta / Ticket</th><th>Industria</th><th>Etapa</th><th>Vence</th><th>MRR</th></tr>';
   for (const it of items) {
     const [cls, tag] = dueClass(it.due, completada);
+    const ind = (it.industria || '').toLowerCase().includes('retail');
     h += `<tr>
-      <td><b>${it.empresa}</b><br><span style="color:var(--muted);font-size:11px">${it.nombre}</span></td>
-      <td><span class="pill ${it.industria.toLowerCase().includes('retail') ? 'p-teal' : 'p-amber'}">${it.industria}</span></td>
+      <td><b>${it.empresa}</b><br><span style="color:var(--gray);font-size:11px">${it.nombre}</span></td>
+      <td><span class="pill ${ind ? 'p-orange' : 'p-gray'}">${it.industria}</span></td>
       <td style="font-size:12px">${it.etapa}</td>
       <td class="${cls}">${it.due || '—'}${tag ? ' · ' + tag : ''}</td>
       <td>$${(it.mrr||0).toLocaleString()}</td>
@@ -136,26 +148,31 @@ function tabla(items, completada) {
   return h + '</table>';
 }
 
-async function cargar() {
+async function cargar(manual) {
   try {
-    const r = await fetch('data.json?_=' + Date.now());
+    const r = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'});
     const d = await r.json();
     document.getElementById('upd').textContent = d.generado;
     const k = d.kpis;
     document.getElementById('kpis').innerHTML = `
-      <div class="kpi teal"><div class="n">${k.activas}</div><div class="l">Cuentas activas</div></div>
+      <div class="kpi"><div class="n">${k.activas}</div><div class="l">Cuentas activas</div></div>
       <div class="kpi"><div class="n">${k.retail}</div><div class="l">🏬 Retail</div></div>
       <div class="kpi"><div class="n">${k.multi}</div><div class="l">🏢 Multiindustria</div></div>
       <div class="kpi green"><div class="n">${k.entregas_7d}</div><div class="l">Entregas 7 días</div></div>
       <div class="kpi ${k.vencidas ? 'red' : 'green'}"><div class="n">${k.vencidas}</div><div class="l">Vencidas</div></div>
-      <div class="kpi amber"><div class="n">$${k.mrr_activo.toLocaleString()}</div><div class="l">MRR activo</div></div>
-      <div class="kpi ${k.cumplimiento >= 90 ? 'green' : 'amber'}"><div class="n">${k.cumplimiento}%</div><div class="l">Cumplimiento</div></div>
+      <div class="kpi"><div class="n">$${k.mrr_activo.toLocaleString()}</div><div class="l">MRR activo</div></div>
+      <div class="kpi ${k.cumplimiento >= 90 ? 'green' : ''}"><div class="n">${k.cumplimiento}%</div><div class="l">Cumplimiento</div></div>
     `;
     document.getElementById('t_activas').innerHTML = tabla(d.activas, false);
     document.getElementById('t_vencidas').innerHTML = tabla(d.vencidas, false);
     document.getElementById('t_completadas').innerHTML = tabla(d.completadas_7d, true);
+    if (manual) {
+      const f = document.getElementById('flash');
+      f.classList.add('on');
+      setTimeout(() => f.classList.remove('on'), 1600);
+    }
   } catch (e) {
-    document.getElementById('upd').textContent = 'error cargando data.json';
+    document.getElementById('upd').textContent = 'error cargando datos';
   }
 }
 
