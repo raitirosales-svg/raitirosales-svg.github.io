@@ -1,33 +1,18 @@
 {
- "generado": "2026-10-14 16:33",
+ "generado": "2026-10-14 16:48",
  "kpis": {
-  "activas": 3,
+  "activas": 2,
   "retail": 0,
-  "multi": 3,
-  "entregas_7d": 15,
+  "multi": 2,
+  "entregas_7d": 6,
   "vencidas": 0,
   "mrr_activo": 2200.0,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "—": 1,
   "⚪️ Nuevo": 2
  },
  "activas": [
-  {
-   "nombre": "Promelsa: actualizar los tickets en Asana (+1 a 2 días) y enviar a Jesus la prop",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-10-20",
-   "proyectos": "L10: Educación & Retail",
-   "completada": "",
-   "gid": "1219475822395748",
-   "ultima_nota": "Hola Cris 👋 Actualización de este to-do:\n✅ Propuesta entregada — el flujo nuevo (corregido y completo) quedó en el ticket, con todo el hilo y el detalle: \n 1 agente Cortex + flujo de derivación mínimo (HubSpot, catálogo, validación de documento y tipificación) — implementado y probado de punta a punta.\n Ticket cerrado el 14/10 · Etapa: 🟣 Primera entrega · Deadline aprobado: 24/10.\n Siguiente paso: revisión de Jesús y del cliente para la puesta en producción.\n Punto abierto del lado cliente: ~90% de los precios del catálogo venían rotos (columna enlazada a un archivo caído); el bot deriva al asesor y ya se les avisó.\n📆 Estaré fuera por vacaciones del lunes 19 al viernes 23 de octubre; retomo el lunes 26.\nTe mantengo al tanto por acá. 👍",
-   "nota_fecha": "2026-10-14 22:24"
-  },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
    "empresa": "Lease for U",
@@ -126,114 +111,6 @@
    "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
    "completada": "2026-10-09",
    "gid": "1219189229240723"
-  },
-  {
-   "nombre": "Campañas: diseño (dónde llega el id en conversación)",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-09-07",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911762097948"
-  },
-  {
-   "nombre": "Cambio a producción + conexión canal 664",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-09-04",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911596834984"
-  },
-  {
-   "nombre": "Validación de coaches + acta de pruebas",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-09-04",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911687027682"
-  },
-  {
-   "nombre": "Preparar paquete de validación para coaches de Hansa",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-09-02",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911761772004"
-  },
-  {
-   "nombre": "Matriz de pruebas QAS (13 casos de uso)",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-09-01",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911761694936"
-  },
-  {
-   "nombre": "Revisar origen_c y campos requeridos del create-lead",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-08-31",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911586115922"
-  },
-  {
-   "nombre": "CU-02/06/11: usuario inactivo → lead nuevo a grupos",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-08-31",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911686484795"
-  },
-  {
-   "nombre": "CU-03/04: lead asignado al usuario ganador",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-08-28",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217927916040849"
-  },
-  {
-   "nombre": "Refactor: orden de validación del CodeTool (cuenta: oportunidades primero)",
-   "empresa": "(sin empresa)",
-   "industria": "—",
-   "etapa": "—",
-   "tipo": "—",
-   "mrr": 0.0,
-   "due": "2026-08-28",
-   "proyectos": "",
-   "completada": "2026-10-13",
-   "gid": "1217911686810607"
   }
  ]
 }
