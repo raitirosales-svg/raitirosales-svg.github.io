@@ -1,33 +1,19 @@
 {
- "generado": "2026-10-14 15:51",
+ "generado": "2026-10-14 16:33",
  "kpis": {
-  "activas": 4,
-  "retail": 1,
+  "activas": 3,
+  "retail": 0,
   "multi": 3,
-  "entregas_7d": 14,
-  "vencidas": 1,
-  "mrr_activo": 3300.0,
-  "cumplimiento": 93
+  "entregas_7d": 15,
+  "vencidas": 0,
+  "mrr_activo": 2200.0,
+  "cumplimiento": 100
  },
  "por_etapa": {
-  "🔵 En proceso": 1,
   "—": 1,
   "⚪️ Nuevo": 2
  },
  "activas": [
-  {
-   "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
-   "empresa": "Promelsa",
-   "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-13",
-   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "gid": "1219289480894805",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-14 17:05"
-  },
   {
    "nombre": "Promelsa: actualizar los tickets en Asana (+1 a 2 días) y enviar a Jesus la prop",
    "empresa": "(sin empresa)",
@@ -37,7 +23,10 @@
    "mrr": 0.0,
    "due": "2026-10-20",
    "proyectos": "L10: Educación & Retail",
-   "gid": "1219475822395748"
+   "completada": "",
+   "gid": "1219475822395748",
+   "ultima_nota": "Hola Cris 👋 Actualización de este to-do:\n✅ Propuesta entregada — el flujo nuevo (corregido y completo) quedó en el ticket, con todo el hilo y el detalle: \n 1 agente Cortex + flujo de derivación mínimo (HubSpot, catálogo, validación de documento y tipificación) — implementado y probado de punta a punta.\n Ticket cerrado el 14/10 · Etapa: 🟣 Primera entrega · Deadline aprobado: 24/10.\n Siguiente paso: revisión de Jesús y del cliente para la puesta en producción.\n Punto abierto del lado cliente: ~90% de los precios del catálogo venían rotos (columna enlazada a un archivo caído); el bot deriva al asesor y ya se les avisó.\n📆 Estaré fuera por vacaciones del lunes 19 al viernes 23 de octubre; retomo el lunes 26.\nTe mantengo al tanto por acá. 👍",
+   "nota_fecha": "2026-10-14 22:24"
   },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
@@ -48,6 +37,7 @@
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
+   "completada": "",
    "gid": "1219476948148769"
   },
   {
@@ -59,25 +49,24 @@
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "completada": "",
    "gid": "1219476693024906"
   }
  ],
- "vencidas": [
+ "vencidas": [],
+ "completadas_7d": [
   {
    "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
    "empresa": "Promelsa",
    "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-13",
    "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "gid": "1219289480894805",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-14 17:05"
-  }
- ],
- "completadas_7d": [
+   "completada": "2026-10-14",
+   "gid": "1219289480894805"
+  },
   {
    "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
    "empresa": "Tiendas Palm",
@@ -87,6 +76,7 @@
    "mrr": 1645.0,
    "due": "2026-10-12",
    "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
+   "completada": "2026-10-13",
    "gid": "1219268417976923"
   },
   {
@@ -98,6 +88,7 @@
    "mrr": 1100.0,
    "due": "2026-10-11",
    "proyectos": "Tickets de implementación, 🎫 PORSCHE INTER AUTO CHILE",
+   "completada": "2026-10-08",
    "gid": "1218988674490666"
   },
   {
@@ -109,6 +100,7 @@
    "mrr": 1100.0,
    "due": "2026-10-09",
    "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
+   "completada": "2026-10-08",
    "gid": "1219221842984352"
   },
   {
@@ -120,6 +112,7 @@
    "mrr": 2400.0,
    "due": "2026-10-09",
    "proyectos": "Tickets de implementación, 🎫 CARBONE",
+   "completada": "2026-10-07",
    "gid": "1219219949724221"
   },
   {
@@ -131,6 +124,7 @@
    "mrr": 1100.0,
    "due": "2026-10-08",
    "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
+   "completada": "2026-10-09",
    "gid": "1219189229240723"
   },
   {
@@ -142,6 +136,7 @@
    "mrr": 0.0,
    "due": "2026-09-07",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911762097948"
   },
   {
@@ -153,6 +148,7 @@
    "mrr": 0.0,
    "due": "2026-09-04",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911596834984"
   },
   {
@@ -164,6 +160,7 @@
    "mrr": 0.0,
    "due": "2026-09-04",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911687027682"
   },
   {
@@ -175,6 +172,7 @@
    "mrr": 0.0,
    "due": "2026-09-02",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911761772004"
   },
   {
@@ -186,6 +184,7 @@
    "mrr": 0.0,
    "due": "2026-09-01",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911761694936"
   },
   {
@@ -197,6 +196,7 @@
    "mrr": 0.0,
    "due": "2026-08-31",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911586115922"
   },
   {
@@ -208,6 +208,7 @@
    "mrr": 0.0,
    "due": "2026-08-31",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911686484795"
   },
   {
@@ -219,6 +220,7 @@
    "mrr": 0.0,
    "due": "2026-08-28",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217927916040849"
   },
   {
@@ -230,6 +232,7 @@
    "mrr": 0.0,
    "due": "2026-08-28",
    "proyectos": "",
+   "completada": "2026-10-13",
    "gid": "1217911686810607"
   }
  ]
