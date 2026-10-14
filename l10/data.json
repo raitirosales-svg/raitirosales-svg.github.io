@@ -1,32 +1,20 @@
 {
- "generado": "2026-10-13 15:51",
+ "generado": "2026-10-14 11:51",
  "kpis": {
-  "activas": 2,
-  "retail": 2,
-  "multi": 0,
+  "activas": 4,
+  "retail": 1,
+  "multi": 3,
   "entregas_7d": 14,
   "vencidas": 1,
-  "mrr_activo": 2745.0,
+  "mrr_activo": 3300.0,
   "cumplimiento": 93
  },
  "por_etapa": {
-  "⏸ Espera interna": 1,
-  "🔵 En proceso": 1
+  "🔵 En proceso": 1,
+  "—": 1,
+  "⚪️ Nuevo": 2
  },
  "activas": [
-  {
-   "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
-   "empresa": "Tiendas Palm",
-   "industria": "Retail / E-commerce",
-   "etapa": "⏸ Espera interna",
-   "tipo": "Ticket",
-   "mrr": 1645.0,
-   "due": "2026-10-12",
-   "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
-   "gid": "1219268417976923",
-   "ultima_nota": "Hola 👋 Actualización breve:\n El formulario corregido (filtro por zona) y el ajuste del agente están listos y validados; al probarlos, el agente seguía enviando la versión anterior del formulario.\n Escalamos el caso al equipo de WhatsApp Flows por Slack, con el video de la prueba como evidencia (Jesús también quedó taggeado en el mensaje de Slack) — quedó en revisión con ellos.\n Avisamos por acá en cuanto quede resuelto y validado en WhatsApp.",
-   "nota_fecha": "2026-10-13 02:13"
-  },
   {
    "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
    "empresa": "Promelsa",
@@ -37,26 +25,70 @@
    "due": "2026-10-13",
    "proyectos": "Tickets de implementación, 🎫 PROMELSA",
    "gid": "1219289480894805",
-   "ultima_nota": "Hola y — actualización de este ticket.\nDiagnóstico (setup actual: agente \"Pepebot v2\" + flujo de FlowBuilder)\n El agente está sobrecargado y mal estructurado: Pepe concentra la lógica de todas las rutas (14.786 caracteres) y la rama Comercial repite reglas que ya están en las instrucciones generales (13.486). Dato de plataforma: el límite por nodo subió de 10.000 a 20.000 caracteres, así que los prompts hoy entran dentro del máximo; igualmente el rediseño los consolida en un solo agente con prompts livianos y sin redundancias, para dejar margen y evitar los problemas de edición ya vistos.\n El flujo de FlowBuilder (69 componentes) duplica al agente: consulta HubSpot 3 veces, captura datos con un formulario aparte, arma menús/evaluadores y reparte recuperos por rama. La mayor parte de sus componentes no es necesaria.\n Riesgos detectados: el token de HubSpot viaja en texto plano dentro del flujo (hay que rotarlo) y el lifecycle stage pone \"customer\" a cualquier contacto existente (mal aplicado).\nPropuesta de nuevo flujo completo\n Un solo agente Cortex (prompt liviano): reconoce al cliente en HubSpot antes de pedir datos, responde consultas frecuentes con las bases de conocimiento, valida el portafolio contra la tabla dinámica existente y deriva según la intención (consultas generales, reclamos, pedidos, comercial, facturación) — conversación fluida, sin menús.\n 3 herramientas (code tools): consultar contacto en HubSpot · crear/actualizar contacto · validar DNI/RUC.\n Flujo residual mínimo en FlowBuilder (~12 nodos): entrada → agente → asignación por ruta + 1 condicional de ciudad para ventas. Se eliminan del flujo: peticiones HTTP, formularios, esperas y menús.\nSolicitud de extensión de plazo\nEl rediseño completo (agente Cortex + flujo FlowBuilder + herramientas) supera el tiempo/alcance original del ticket. Solicitamos extender la fecha de entrega: con las confirmaciones del listado de abajo, podemos entregar el viernes 16 de octubre.\nPara avanzar necesitamos confirmar:\n Enlace de eFact y regla de uso: ¿aplica para factura y guía de remisión en Lima? ¿Guía en provincia va directo al asesor?\n Grupo destino por ruta (hoy son ambiguos): Factura → ¿OMNICANAL o un área de facturación? · Pedidos en curso → ¿ventas/postventa? · Reclamos → Atención al cliente · Sin respuesta / Error de contexto → Atención al cliente. ¿Confirmamos?\n Rama comercial: proponemos pedir producto, cantidad y correo; ¿el documento (DNI/RUC) se pide solo cuando necesite factura?\n ¿El bot debe actualizar el lifecycle stage en HubSpot? Hoy está mal aplicado; proponemos no tocarlo hasta definir reglas.\n Rotación del token de HubSpot expuesto y token definitivo para las herramientas.\n Tabla dinámica: encontramos la tabla conectada (hoja \"Pruebas ATOM\", 3.547 SKUs: Material, Texto Ecommerce, Descripción, Categoría, Precio, Stock). ¿Es la fuente definitiva o un set de pruebas? Necesitamos confirmar fuente real de precios/stock, quién la mantiene y cada cuánto se actualiza. ¿El bot puede mostrar precios/stock o se mantiene que cotiza el asesor?\n Bases de conocimiento: necesitamos saber cuáles están activas y cuáles no. Hoy hay 7 cargadas (BDC Promelsa.xlsx + 6 catálogos PDF: Scame, Sirena, portafolio, tuberías, señalización, MT/BT) — ¿cuáles siguen vigentes y cuáles se retiran?\n Tiempos: el ticket pide derivar a un asesor si el cliente no responde en 10 minutos. ¿Confirmamos ese plazo?\nQuedamos atentos para avanzar con la implementación. Podemos compartir el detalle del análisis y el inventario de bases de conocimiento si lo necesitan.",
-   "nota_fecha": "2026-10-13 16:03"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-14 17:05"
+  },
+  {
+   "nombre": "Promelsa: actualizar los tickets en Asana (+1 a 2 días) y enviar a Jesus la prop",
+   "empresa": "(sin empresa)",
+   "industria": "—",
+   "etapa": "—",
+   "tipo": "—",
+   "mrr": 0.0,
+   "due": "2026-10-20",
+   "proyectos": "L10: Educación & Retail",
+   "gid": "1219475822395748"
+  },
+  {
+   "nombre": "🎫 Lease for U: Replicar bot a Cortex",
+   "empresa": "Lease for U",
+   "industria": "💰 Financiera",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-04",
+   "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
+   "gid": "1219476948148769"
+  },
+  {
+   "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
+   "empresa": "ULA Idiomas",
+   "industria": "🎓 Educación",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-04",
+   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "gid": "1219476693024906"
   }
  ],
  "vencidas": [
   {
+   "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
+   "empresa": "Promelsa",
+   "industria": "Retail / E-commerce",
+   "etapa": "🔵 En proceso",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-13",
+   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
+   "gid": "1219289480894805",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-14 17:05"
+  }
+ ],
+ "completadas_7d": [
+  {
    "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
    "empresa": "Tiendas Palm",
    "industria": "Retail / E-commerce",
-   "etapa": "⏸ Espera interna",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1645.0,
    "due": "2026-10-12",
    "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
-   "gid": "1219268417976923",
-   "ultima_nota": "Hola 👋 Actualización breve:\n El formulario corregido (filtro por zona) y el ajuste del agente están listos y validados; al probarlos, el agente seguía enviando la versión anterior del formulario.\n Escalamos el caso al equipo de WhatsApp Flows por Slack, con el video de la prueba como evidencia (Jesús también quedó taggeado en el mensaje de Slack) — quedó en revisión con ellos.\n Avisamos por acá en cuanto quede resuelto y validado en WhatsApp.",
-   "nota_fecha": "2026-10-13 02:13"
-  }
- ],
- "completadas_7d": [
+   "gid": "1219268417976923"
+  },
   {
    "nombre": "🎫 Porsche Inter Auto: Migración de flujo a Cortex",
    "empresa": "Porsche Inter Auto Chile",
@@ -100,17 +132,6 @@
    "due": "2026-10-08",
    "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
    "gid": "1219189229240723"
-  },
-  {
-   "nombre": "🎫 Hansa Ltda.: Sesión de revisión CRM",
-   "empresa": "Hansa Ltda. Div. Automotriz",
-   "industria": "🚗 Automotriz",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-07",
-   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
-   "gid": "1219180117498423"
   },
   {
    "nombre": "Campañas: diseño (dónde llega el id en conversación)",
