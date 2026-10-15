@@ -1,41 +1,45 @@
 {
- "generado": "2026-10-14 16:48",
+ "generado": "2026-10-15 11:51",
  "kpis": {
   "activas": 2,
   "retail": 0,
   "multi": 2,
-  "entregas_7d": 6,
+  "entregas_7d": 5,
   "vencidas": 0,
   "mrr_activo": 2200.0,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "⚪️ Nuevo": 2
+  "✏️ Primer respuesta": 2
  },
  "activas": [
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
    "empresa": "Lease for U",
    "industria": "💰 Financiera",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
    "completada": "",
-   "gid": "1219476948148769"
+   "gid": "1219476948148769",
+   "ultima_nota": "Hola Gaby 👋 Recibimos el ticket de Lease for U — vamos a replicar el bot \"Lease for U - Atención a clientes 18-09\" en Cortex, manteniendo el mismo tono de comunicación y sin integraciones adicionales.\nEstaremos revisando el flujo actual y preparando la propuesta de migración; les iremos informando los avances por este medio. Cualquier cosa que necesiten, quedo atenta. 🙌",
+   "nota_fecha": "2026-10-14 23:10"
   },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
-   "gid": "1219476693024906"
+   "gid": "1219476693024906",
+   "ultima_nota": "Hola Gaby 👋 Recibimos el ticket de ULA Idiomas — vamos a traspasar el flujo \"ULA IA 2026\" de Smarton a Cortex, replicando su funcionalidad y el mismo tono de comunicación.\nEstaremos revisando el flujo actual y preparando la propuesta de migración; les iremos informando los avances por este medio. Cualquier cosa que necesiten, quedo atenta. 🙌",
+   "nota_fecha": "2026-10-14 23:10"
   }
  ],
  "vencidas": [],
@@ -87,18 +91,6 @@
    "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
    "completada": "2026-10-08",
    "gid": "1219221842984352"
-  },
-  {
-   "nombre": "🎫 Carbone: Corregir imágenes de carrusel",
-   "empresa": "Carbone",
-   "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 2400.0,
-   "due": "2026-10-09",
-   "proyectos": "Tickets de implementación, 🎫 CARBONE",
-   "completada": "2026-10-07",
-   "gid": "1219219949724221"
   },
   {
    "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
