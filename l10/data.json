@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15 11:51",
+ "generado": "2026-10-15 15:51",
  "kpis": {
   "activas": 2,
   "retail": 0,
@@ -10,40 +10,52 @@
   "cumplimiento": 100
  },
  "por_etapa": {
-  "✏️ Primer respuesta": 2
+  "🔵 En proceso": 2
  },
  "activas": [
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
    "empresa": "Lease for U",
    "industria": "💰 Financiera",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
    "completada": "",
    "gid": "1219476948148769",
-   "ultima_nota": "Hola Gaby 👋 Recibimos el ticket de Lease for U — vamos a replicar el bot \"Lease for U - Atención a clientes 18-09\" en Cortex, manteniendo el mismo tono de comunicación y sin integraciones adicionales.\nEstaremos revisando el flujo actual y preparando la propuesta de migración; les iremos informando los avances por este medio. Cualquier cosa que necesiten, quedo atenta. 🙌",
-   "nota_fecha": "2026-10-14 23:10"
+   "ultima_nota": "ya me comunico con el cliente y valido estos puntos, muchas muchas gracias",
+   "nota_fecha": "2026-10-15 20:51"
   },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
    "gid": "1219476693024906",
-   "ultima_nota": "Hola Gaby 👋 Recibimos el ticket de ULA Idiomas — vamos a traspasar el flujo \"ULA IA 2026\" de Smarton a Cortex, replicando su funcionalidad y el mismo tono de comunicación.\nEstaremos revisando el flujo actual y preparando la propuesta de migración; les iremos informando los avances por este medio. Cualquier cosa que necesiten, quedo atenta. 🙌",
-   "nota_fecha": "2026-10-14 23:10"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-15 18:52"
   }
  ],
  "vencidas": [],
  "completadas_7d": [
+  {
+   "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
+   "empresa": "Yomeanimo!",
+   "industria": "🔒 Seguros",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-18",
+   "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
+   "completada": "2026-10-15",
+   "gid": "1219189229240723"
+  },
   {
    "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
    "empresa": "Promelsa",
@@ -91,18 +103,6 @@
    "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
    "completada": "2026-10-08",
    "gid": "1219221842984352"
-  },
-  {
-   "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
-   "empresa": "Yomeanimo!",
-   "industria": "🔒 Seguros",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-08",
-   "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
-   "completada": "2026-10-09",
-   "gid": "1219189229240723"
   }
  ]
 }
