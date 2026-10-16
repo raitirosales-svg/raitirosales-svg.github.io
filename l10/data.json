@@ -1,32 +1,18 @@
 {
- "generado": "2026-10-16 11:51",
+ "generado": "2026-10-16 15:51",
  "kpis": {
-  "activas": 2,
+  "activas": 1,
   "retail": 0,
-  "multi": 2,
-  "entregas_7d": 3,
+  "multi": 1,
+  "entregas_7d": 4,
   "vencidas": 0,
-  "mrr_activo": 2200.0,
+  "mrr_activo": 1100.0,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "🔵 En proceso": 2
+  "🔵 En proceso": 1
  },
  "activas": [
-  {
-   "nombre": "🎫 Lease for U: Replicar bot a Cortex",
-   "empresa": "Lease for U",
-   "industria": "💰 Financiera",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-04",
-   "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
-   "completada": "",
-   "gid": "1219476948148769",
-   "ultima_nota": "ya me comunico con el cliente y valido estos puntos, muchas muchas gracias",
-   "nota_fecha": "2026-10-15 20:51"
-  },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
    "empresa": "ULA Idiomas",
@@ -44,6 +30,18 @@
  ],
  "vencidas": [],
  "completadas_7d": [
+  {
+   "nombre": "🎫 Lease for U: Replicar bot a Cortex",
+   "empresa": "Lease for U",
+   "industria": "💰 Financiera",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-04",
+   "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
+   "completada": "2026-10-16",
+   "gid": "1219476948148769"
+  },
   {
    "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
    "empresa": "Yomeanimo!",
