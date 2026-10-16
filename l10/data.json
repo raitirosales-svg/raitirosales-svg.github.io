@@ -1,10 +1,10 @@
 {
- "generado": "2026-10-15 15:51",
+ "generado": "2026-10-16 11:51",
  "kpis": {
   "activas": 2,
   "retail": 0,
   "multi": 2,
-  "entregas_7d": 5,
+  "entregas_7d": 3,
   "vencidas": 0,
   "mrr_activo": 2200.0,
   "cumplimiento": 100
@@ -79,30 +79,6 @@
    "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
    "completada": "2026-10-13",
    "gid": "1219268417976923"
-  },
-  {
-   "nombre": "🎫 Porsche Inter Auto: Migración de flujo a Cortex",
-   "empresa": "Porsche Inter Auto Chile",
-   "industria": "🚗 Automotriz",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-11",
-   "proyectos": "Tickets de implementación, 🎫 PORSCHE INTER AUTO CHILE",
-   "completada": "2026-10-08",
-   "gid": "1218988674490666"
-  },
-  {
-   "nombre": "🎫 Hansa: actualización de versión Gemini",
-   "empresa": "Hansa Ltda. Div. Automotriz",
-   "industria": "🚗 Automotriz",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-09",
-   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
-   "completada": "2026-10-08",
-   "gid": "1219221842984352"
   }
  ]
 }
