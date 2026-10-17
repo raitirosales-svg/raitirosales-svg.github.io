@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16 15:51",
+ "generado": "2026-10-16 19:51",
  "kpis": {
   "activas": 1,
   "retail": 0,
@@ -10,22 +10,22 @@
   "cumplimiento": 100
  },
  "por_etapa": {
-  "🔵 En proceso": 1
+  "⚠️ Datos faltantes": 1
  },
  "activas": [
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "🔵 En proceso",
+   "etapa": "⚠️ Datos faltantes",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
    "gid": "1219476693024906",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-15 18:52"
+   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
+   "nota_fecha": "2026-10-16 22:01"
   }
  ],
  "vencidas": [],
