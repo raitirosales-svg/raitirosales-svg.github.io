@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27 07:16",
+ "generado": "2026-10-27 13:03",
  "kpis": {
   "activas": 4,
   "retail": 2,
@@ -10,36 +10,37 @@
   "cumplimiento": 100
  },
  "por_etapa": {
-  "✏️ Primer respuesta": 4
+  "🔵 En proceso": 2,
+  "✏️ Primer respuesta": 2
  },
  "activas": [
   {
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
    "gid": "1219908413601570",
-   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan crear un CodeTool en Cortex para integrar HubSpot con Atom y transferir correctamente la información del contacto. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen algún detalle adicional sobre los campos o el flujo, compártanlo por acá para avanzar más rápido.",
-   "nota_fecha": "2026-10-27 00:24"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-27 15:52"
   },
   {
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
    "empresa": "Mega Storage",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-10-30",
    "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
    "completada": "",
    "gid": "1219888709156037",
-   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan validar la API de SiteLink y evaluar su integración con Cortex. Estamos revisando la documentación anexa y validando el alcance para confirmar la estimación y los siguientes pasos. Si tienen credenciales o accesos de prueba, compártanlos por acá para avanzar más rápido.",
-   "nota_fecha": "2026-10-26 23:56"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-27 15:53"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
