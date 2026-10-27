@@ -27,6 +27,9 @@
   .upd b { color: var(--orange); }
   button.ref { background: var(--orange); color: #fff; border: 0; border-radius: 9px; padding: 9px 16px; font-weight: 700; font-size: 13px; cursor: pointer; }
   button.ref:hover { background: var(--orange-lt); }
+  button.ref:disabled { opacity: .6; cursor: wait; }
+  button.gear { background: var(--white); color: var(--orange); border: 1px solid var(--line); border-radius: 9px; width: 38px; height: 38px; font-size: 16px; cursor: pointer; }
+  button.gear:hover { background: var(--cream); }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 22px 0; }
   .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 16px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
   .kpi .n { font-size: 30px; font-weight: 800; color: var(--orange); }
@@ -53,9 +56,21 @@
   #gate input { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--dark); font-size: 14px; outline: none; }
   #gate button { margin-top: 12px; width: 100%; padding: 11px; border: 0; border-radius: 10px; background: var(--orange); color: #fff; font-weight: 800; font-size: 14px; cursor: pointer; }
   #gate .err { color: var(--red); font-size: 12px; margin-top: 10px; min-height: 14px; }
-  .flash { position: fixed; bottom: 18px; right: 18px; background: var(--dark); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 13px; opacity: 0; transition: opacity .3s; pointer-events: none; }
+  .flash { position: fixed; bottom: 18px; right: 18px; background: var(--dark); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 13px; opacity: 0; transition: opacity .3s; pointer-events: none; max-width: 90vw; }
   .flash.on { opacity: 1; }
   footer { color: #B9AFA3; font-size: 11px; text-align: center; margin-top: 40px; }
+  #cfg { position: fixed; inset: 0; background: rgba(25,25,25,.35); display: none; align-items: center; justify-content: center; padding: 18px; z-index: 60; }
+  #cfg .box { background: var(--white); border: 1px solid var(--line); border-radius: 16px; padding: 22px; width: min(92vw, 560px); box-shadow: 0 12px 30px rgba(25,25,25,.18); }
+  #cfg h3 { color: var(--dark); margin-bottom: 6px; }
+  #cfg p { color: var(--gray); font-size: 12px; line-height: 1.5; margin-bottom: 12px; }
+  #cfg code { background: var(--cream); color: var(--orange); padding: 1px 5px; border-radius: 5px; }
+  #cfg input { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--dark); font-size: 13px; outline: none; }
+  #cfg .row { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  #cfg button { border: 0; border-radius: 9px; padding: 10px 14px; font-weight: 700; font-size: 13px; cursor: pointer; }
+  #cfg .primary { background: var(--orange); color: #fff; }
+  #cfg .secondary { background: var(--cream); color: var(--orange); }
+  #cfg .danger { background: #c0392b22; color: var(--red); }
+  #cfg .hint { color: var(--gray); font-size: 11px; margin-top: 10px; }
 </style>
 </head>
 <body>
@@ -83,7 +98,8 @@
     </div>
     <div class="right">
       <div class="upd">Actualizado:<br><b id="upd">—</b></div>
-      <button class="ref" onclick="cargar(true)">⟳ Actualizar</button>
+      <button class="gear" title="Configurar token de GitHub" onclick="abrirConfig('')">⚙</button>
+      <button class="ref" id="btnref" onclick="actualizar()">⟳ Actualizar</button>
     </div>
   </header>
 
@@ -100,10 +116,28 @@
 
   <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Asana automáticamente</footer>
 </div>
+
+<div id="cfg">
+  <div class="box">
+    <h3>Configurar sincronización</h3>
+    <p>El tablero es estático. Para forzar una actualización real desde Asana, pega un token fine-grained de GitHub con permiso <b>Actions: write</b> únicamente sobre <code>raitirosales-svg/raitirosales-svg.github.io</code>. Se guarda solo en este navegador.</p>
+    <input id="cfg_token" type="password" placeholder="github_pat_..." autocomplete="off">
+    <div class="row">
+      <button class="primary" onclick="guardarToken()">Guardar token</button>
+      <button class="secondary" onclick="cerrarConfig(); cargar(true)">Solo recargar</button>
+      <button class="danger" onclick="quitarToken()">Quitar token</button>
+    </div>
+    <div class="hint" id="cfg_hint"></div>
+  </div>
+</div>
+
 <div class="flash" id="flash">✓ Datos actualizados</div>
 
 <script>
 const CLAVE = "RR2026-l10";
+const GH_REPO = "raitirosales-svg/raitirosales-svg.github.io";
+const GH_WORKFLOW = "l10-sync.yml";
+const LS_TOKEN = "rr_l10_gh_token";
 
 function entrar() {
   const v = document.getElementById('clave').value;
@@ -149,6 +183,118 @@ function tabla(items, completada) {
   return h + '</table>';
 }
 
+function toast(msg) {
+  const f = document.getElementById('flash');
+  f.textContent = msg;
+  f.classList.add('on');
+  clearTimeout(window.__flashT);
+  window.__flashT = setTimeout(() => f.classList.remove('on'), 3200);
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function ghToken() { return localStorage.getItem(LS_TOKEN) || ""; }
+
+function abrirConfig(hint) {
+  document.getElementById('cfg_hint').textContent = hint || '';
+  document.getElementById('cfg_token').value = ghToken();
+  document.getElementById('cfg').style.display = 'flex';
+}
+function cerrarConfig() { document.getElementById('cfg').style.display = 'none'; }
+function guardarToken() {
+  const v = document.getElementById('cfg_token').value.trim();
+  if (!v) { localStorage.removeItem(LS_TOKEN); toast('Token eliminado'); cerrarConfig(); return; }
+  localStorage.setItem(LS_TOKEN, v);
+  toast('Token guardado');
+  cerrarConfig();
+}
+function quitarToken() {
+  localStorage.removeItem(LS_TOKEN);
+  document.getElementById('cfg_token').value = '';
+  toast('Token eliminado');
+}
+
+function setBusy(on, txt) {
+  const b = document.getElementById('btnref');
+  b.disabled = on;
+  b.textContent = on ? (txt || 'Sincronizando…') : '⟳ Actualizar';
+}
+
+async function ghApi(path, token, opts) {
+  opts = opts || {};
+  const headers = Object.assign({
+    'Authorization': 'Bearer ' + token,
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  }, opts.headers || {});
+  const r = await fetch('https://api.github.com' + path, Object.assign({}, opts, { headers }));
+  if (!r.ok) {
+    const t = await r.text();
+    throw new Error('GitHub ' + r.status + ' ' + t.slice(0, 120));
+  }
+  return r.status === 204 ? null : r.json();
+}
+
+async function actualizar() {
+  const token = ghToken();
+  if (!token) {
+    abrirConfig('Sin token, el botón solo recarga el último data.json. Configura uno para forzar la sincronización real.');
+    return;
+  }
+  const prev = document.getElementById('upd').textContent;
+  setBusy(true, 'Sincronizando…');
+  try {
+    let beforeId = null;
+    try {
+      const before = await ghApi(`/repos/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/runs?event=workflow_dispatch&per_page=1`, token);
+      beforeId = (before.workflow_runs && before.workflow_runs[0] && before.workflow_runs[0].id) || null;
+    } catch (e) {}
+
+    await ghApi(`/repos/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/dispatches`, token, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' })
+    });
+
+    let run = null;
+    for (let i = 0; i < 20; i++) {
+      await sleep(3000);
+      const data = await ghApi(`/repos/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/runs?event=workflow_dispatch&per_page=10`, token);
+      const runs = data.workflow_runs || [];
+      run = runs.find(x => x.id !== beforeId);
+      if (run) break;
+    }
+    if (!run) throw new Error('no apareció la ejecución del workflow');
+
+    for (let i = 0; i < 60; i++) {
+      await sleep(3000);
+      const r = await ghApi(`/repos/${GH_REPO}/actions/runs/${run.id}`, token);
+      if (r.status === 'completed') {
+        if (r.conclusion !== 'success') throw new Error('el workflow terminó como ' + r.conclusion);
+        break;
+      }
+      if (i === 59) throw new Error('el workflow no terminó a tiempo');
+    }
+
+    let nuevo = false;
+    for (let i = 0; i < 18; i++) {
+      await sleep(5000);
+      try {
+        const d = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'}).then(x => x.json());
+        if (d.generado && d.generado !== prev) { nuevo = true; break; }
+      } catch (e) {}
+    }
+    await cargar(false);
+    toast(nuevo ? '✓ Sincronizado desde Asana' : '✓ Workflow listo; el tablero puede tardar unos segundos');
+  } catch (e) {
+    console.error(e);
+    toast('No se pudo forzar: ' + e.message);
+    await cargar(false);
+  } finally {
+    setBusy(false);
+  }
+}
+
 async function cargar(manual) {
   try {
     const r = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'});
@@ -167,11 +313,7 @@ async function cargar(manual) {
     document.getElementById('t_activas').innerHTML = tabla(d.activas, false);
     document.getElementById('t_vencidas').innerHTML = tabla(d.vencidas, false);
     document.getElementById('t_completadas').innerHTML = tabla(d.completadas_7d, true);
-    if (manual) {
-      const f = document.getElementById('flash');
-      f.classList.add('on');
-      setTimeout(() => f.classList.remove('on'), 1600);
-    }
+    if (manual) toast('✓ Datos actualizados');
   } catch (e) {
     document.getElementById('upd').textContent = 'error cargando datos';
   }

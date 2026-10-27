@@ -1,0 +1,43 @@
+name: L10 Sync
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+concurrency:
+  group: l10-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync Asana -> l10/data.json
+        env:
+          ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
+          TZ: America/Bogota
+        run: python l10-sync/asana_sync.py l10/data.json
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add l10/data.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data.json"
+          else
+            git commit -m "Actualizar tablero L10 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
