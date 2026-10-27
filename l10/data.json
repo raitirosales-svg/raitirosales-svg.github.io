@@ -1,82 +1,100 @@
 {
- "generado": "2026-10-19 19:51",
+ "generado": "2026-10-26 20:07",
  "kpis": {
-  "activas": 1,
-  "retail": 0,
-  "multi": 1,
-  "entregas_7d": 4,
+  "activas": 4,
+  "retail": 2,
+  "multi": 2,
+  "entregas_7d": 2,
   "vencidas": 0,
-  "mrr_activo": 1100.0,
+  "mrr_activo": 3934.5,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "⚠️ Datos faltantes": 1
+  "✏️ Primer respuesta": 4
  },
  "activas": [
   {
-   "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
+   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "⚠️ Datos faltantes",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1100.0,
-   "due": "2026-11-04",
+   "due": "2026-10-29",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
-   "gid": "1219476693024906",
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-10-16 22:01"
+   "gid": "1219908413601570",
+   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan crear un CodeTool en Cortex para integrar HubSpot con Atom y transferir correctamente la información del contacto. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen algún detalle adicional sobre los campos o el flujo, compártanlo por acá para avanzar más rápido.",
+   "nota_fecha": "2026-10-27 00:24"
+  },
+  {
+   "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
+   "empresa": "Mega Storage",
+   "industria": "Retail / E-commerce",
+   "etapa": "✏️ Primer respuesta",
+   "tipo": "Ticket",
+   "mrr": 1080.0,
+   "due": "2026-10-30",
+   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
+   "completada": "",
+   "gid": "1219888709156037",
+   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan validar la API de SiteLink y evaluar su integración con Cortex. Estamos revisando la documentación anexa y validando el alcance para confirmar la estimación y los siguientes pasos. Si tienen credenciales o accesos de prueba, compártanlos por acá para avanzar más rápido.",
+   "nota_fecha": "2026-10-26 23:56"
+  },
+  {
+   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
+   "empresa": "Ilusione",
+   "industria": "🏠 Inmobiliario",
+   "etapa": "✏️ Primer respuesta",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-02",
+   "proyectos": "Tickets de implementación, 🎫 ILUSIONE, Migrar a Cortex",
+   "completada": "",
+   "gid": "1219802577541852",
+   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan migrar Augusta de FlowBuilder a Cortex y corregir la integración con Evolta: asignación, actualización de contactos, UTM Source y mantenimiento de proyectos. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen la documentación de Evolta o las equivalencias de canales, compártanlas por acá para avanzar más rápido.",
+   "nota_fecha": "2026-10-26 23:56"
+  },
+  {
+   "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
+   "empresa": "Minelab Metal Detectors",
+   "industria": "Retail / E-commerce",
+   "etapa": "✏️ Primer respuesta",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-23",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS",
+   "completada": "",
+   "gid": "1219895100894933",
+   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan migrar el bot a Cortex e integrarlo con HubSpot para personalizar la atención y consultar pedidos, stock y precios. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen acceso a HubSpot o el export del flujo actual, compártanlos por acá para avanzar más rápido.",
+   "nota_fecha": "2026-10-26 23:56"
   }
  ],
  "vencidas": [],
  "completadas_7d": [
   {
-   "nombre": "🎫 Lease for U: Replicar bot a Cortex",
-   "empresa": "Lease for U",
-   "industria": "💰 Financiera",
-   "etapa": "🟣 Primera entrega",
+   "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
+   "empresa": "ULA Idiomas",
+   "industria": "🎓 Educación",
+   "etapa": "⛔ Rechazados",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-04",
-   "proyectos": "Tickets de implementación, 🎫 LEASE FOR U",
-   "completada": "2026-10-16",
-   "gid": "1219476948148769"
+   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "completada": "2026-10-23",
+   "gid": "1219476693024906"
   },
   {
-   "nombre": "🎫 Yomeanimo!: Ajuste de prompts para Cortex",
-   "empresa": "Yomeanimo!",
-   "industria": "🔒 Seguros",
+   "nombre": "📅 ULA Idiomas: Conexión de HubSpot a Cortex",
+   "empresa": "ULA Idiomas",
+   "industria": "🎓 Educación",
    "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
-   "due": "2026-10-18",
-   "proyectos": "Tickets de implementación, 🎫 YOMEANIMO!",
-   "completada": "2026-10-15",
-   "gid": "1219189229240723"
-  },
-  {
-   "nombre": "🎫 Promelsa: Ajuste y optimización de prompt en Cortex",
-   "empresa": "Promelsa",
-   "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-13",
-   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "completada": "2026-10-14",
-   "gid": "1219289480894805"
-  },
-  {
-   "nombre": "🎫 Tiendas Palm: Ajuste de prompt comercial",
-   "empresa": "Tiendas Palm",
-   "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1645.0,
-   "due": "2026-10-12",
-   "proyectos": "Tickets de implementación, 🎫 TIENDAS PALM",
-   "completada": "2026-10-13",
-   "gid": "1219268417976923"
+   "due": "2026-10-27",
+   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "completada": "2026-10-26",
+   "gid": "1219899609148202"
   }
  ]
 }
