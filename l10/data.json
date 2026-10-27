@@ -1,17 +1,16 @@
 {
- "generado": "2026-10-27 13:03",
+ "generado": "2026-10-27 17:07",
  "kpis": {
-  "activas": 4,
-  "retail": 2,
+  "activas": 5,
+  "retail": 3,
   "multi": 2,
   "entregas_7d": 2,
   "vencidas": 0,
-  "mrr_activo": 3934.5,
+  "mrr_activo": 4924.5,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "🔵 En proceso": 2,
-  "✏️ Primer respuesta": 2
+  "🔵 En proceso": 5
  },
  "activas": [
   {
@@ -25,8 +24,8 @@
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
    "gid": "1219908413601570",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-27 15:52"
+   "ultima_nota": "Muchas gracias por el update Raití, quedo atenta a lo que Kike nos pueda contar del WA Flows",
+   "nota_fecha": "2026-10-27 19:53"
   },
   {
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
@@ -46,29 +45,43 @@
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
    "industria": "🏠 Inmobiliario",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-02",
    "proyectos": "Tickets de implementación, 🎫 ILUSIONE, Migrar a Cortex",
    "completada": "",
    "gid": "1219802577541852",
-   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan migrar Augusta de FlowBuilder a Cortex y corregir la integración con Evolta: asignación, actualización de contactos, UTM Source y mantenimiento de proyectos. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen la documentación de Evolta o las equivalencias de canales, compártanlas por acá para avanzar más rápido.",
-   "nota_fecha": "2026-10-26 23:56"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-27 21:59"
+  },
+  {
+   "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
+   "empresa": "Promelsa",
+   "industria": "Retail / E-commerce",
+   "etapa": "🔵 En proceso",
+   "tipo": "Ticket",
+   "mrr": 990.0,
+   "due": "2026-11-02",
+   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
+   "completada": "",
+   "gid": "1219942306191743",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-27 21:59"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
    "empresa": "Minelab Metal Detectors",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-23",
    "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS",
    "completada": "",
    "gid": "1219895100894933",
-   "ultima_nota": "Hola 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan migrar el bot a Cortex e integrarlo con HubSpot para personalizar la atención y consultar pedidos, stock y precios. Estamos validando el alcance y los insumos necesarios para confirmar la estimación y los siguientes pasos. Si tienen acceso a HubSpot o el export del flujo actual, compártanlos por acá para avanzar más rápido.",
-   "nota_fecha": "2026-10-26 23:56"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-27 21:59"
   }
  ],
  "vencidas": [],
