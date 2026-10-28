@@ -1,31 +1,33 @@
 {
- "generado": "2026-10-28 08:41",
+ "generado": "2026-10-28 14:02",
  "kpis": {
   "activas": 5,
   "retail": 3,
   "multi": 2,
-  "entregas_7d": 3,
+  "entregas_7d": 4,
   "vencidas": 0,
-  "mrr_activo": 4924.5,
+  "mrr_activo": 5034.5,
   "cumplimiento": 100
  },
  "por_etapa": {
-  "🔵 En proceso": 5
+  "⏸ Espera interna": 1,
+  "🔵 En proceso": 3,
+  "✏️ Primer respuesta": 1
  },
  "activas": [
   {
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "🔵 En proceso",
+   "etapa": "⏸ Espera interna",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "",
    "gid": "1219908413601570",
-   "ultima_nota": "Muchas gracias por el update Raití, quedo atenta a lo que Kike nos pueda contar del WA Flows",
-   "nota_fecha": "2026-10-27 19:53"
+   "ultima_nota": "Paso el ticket a Espera pues el problema con el WhatsApp flow no se ha resuelto y no he tenido respuesta de Enrique.",
+   "nota_fecha": "2026-10-28 14:48"
   },
   {
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
@@ -42,20 +44,6 @@
    "nota_fecha": "2026-10-27 15:53"
   },
   {
-   "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
-   "empresa": "Promelsa",
-   "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 990.0,
-   "due": "2026-11-02",
-   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "completada": "",
-   "gid": "1219942306191743",
-   "ultima_nota": "dejemoslo a que lo complete asesor",
-   "nota_fecha": "2026-10-27 22:19"
-  },
-  {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
    "industria": "🏠 Inmobiliario",
@@ -68,6 +56,20 @@
    "gid": "1219802577541852",
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-27 21:59"
+  },
+  {
+   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
+   "empresa": "Keat",
+   "industria": "Retail / E-commerce",
+   "etapa": "✏️ Primer respuesta",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-06",
+   "proyectos": "Tickets de implementación, 🎫 KEAT",
+   "completada": "",
+   "gid": "1219959299177663",
+   "ultima_nota": "Hola Jesús 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan conectar Cortex con HubSpot vía API para consultar en tiempo real los datos del cliente y su pedido más reciente (fecha y turno de entrega, seguimiento, paquetería y productos), y tipificar las solicitudes de cambio como “Solicitud de cambio” para activar el workflow interno. Vamos a trabajar sobre la copia “Cortex sin calendario” y validar los permisos de HubSpot antes de tocar producción. Estamos confirmando el alcance y los insumos para pasarte la estimación y los siguientes pasos. Si nos compartes el ID del workflow y los contactos de prueba, avanzamos más rápido.",
+   "nota_fecha": "2026-10-28 18:51"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
@@ -97,6 +99,18 @@
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "completada": "2026-10-23",
    "gid": "1219476693024906"
+  },
+  {
+   "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
+   "empresa": "Promelsa",
+   "industria": "Retail / E-commerce",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 990.0,
+   "due": "2026-11-02",
+   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
+   "completada": "2026-10-28",
+   "gid": "1219942306191743"
   },
   {
    "nombre": "📅 Keat: Exploración de integración con HubSpot para Cortex",
