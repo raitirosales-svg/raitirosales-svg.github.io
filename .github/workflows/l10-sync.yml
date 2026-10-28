@@ -3,7 +3,7 @@ name: L10 Sync
 "on":
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 */6 * * *"
 
 concurrency:
   group: l10-sync
