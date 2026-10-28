@@ -1,29 +1,27 @@
 {
- "generado": "2026-10-28 14:40",
+ "generado": "2026-10-28 14:51",
  "kpis": {
-  "activas": 5,
-  "retail": 3,
+  "activas": 4,
+  "retail": 2,
   "multi": 2,
-  "entregas_7d": 4,
+  "entregas_7d": 5,
   "vencidas": 0,
-  "mrr_activo": 5034.5,
+  "mrr_activo": 3954.5,
   "cumplimiento": 100,
   "sla_vencidas": 0,
   "sla_por_vencer": 2,
   "sla_cumplimiento": 100,
-  "sla_tiempo_medio": 4.0,
-  "sla_entregadas_tiempo": 2,
+  "sla_tiempo_medio": 3.3,
+  "sla_entregadas_tiempo": 3,
   "sla_entregadas_tarde": 0,
   "primera_respuesta_promedio_h": 41.2,
-  "resolucion_promedio_dias": 4.0
+  "resolucion_promedio_dias": 3.3
  },
  "por_etapa": {
-  "⏸ Espera interna": 1,
-  "🔵 En proceso": 3,
-  "✏️ Primer respuesta": 1
+  "🔵 En proceso": 4
  },
  "por_area": {
-  "Educación & Retail": 4,
+  "Educación & Retail": 3,
   "Multiindustria": 1
  },
  "activas": [
@@ -31,7 +29,7 @@
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "⏸ Espera interna",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
@@ -68,8 +66,8 @@
    },
    "primera_respuesta": "2026-10-27T00:24:21",
    "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Paso el ticket a Espera pues el problema con el WhatsApp flow no se ha resuelto y no he tenido respuesta de Enrique.",
-   "nota_fecha": "2026-10-28 14:48"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -116,54 +114,10 @@
    "nota_fecha": "2026-10-27 21:59"
   },
   {
-   "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
-   "empresa": "Mega Storage",
-   "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1080.0,
-   "due": "2026-10-30",
-   "due_on": "2026-10-30",
-   "created_at": "2026-10-26T12:48:28.886Z",
-   "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
-   "gid": "1219888709156037",
-   "tipo_solicitud": "Validación de APIs",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
-   "atom_id": "sK07abz561FDc6GMrjf4",
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-26",
-    "vence": "2026-11-05",
-    "due_asana": "2026-10-30",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 3 día(s) hábil(es) antes que el SLA",
-    "estado": "a_tiempo",
-    "dia": 3,
-    "dias_restantes": 5,
-    "tiempo_ciclo": 2
-   },
-   "primera_respuesta": "2026-10-26T23:56:16",
-   "tiempo_primera_respuesta_h": 11.1,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-27 15:53"
-  },
-  {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-06",
@@ -200,8 +154,8 @@
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Hola Jesús 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan conectar Cortex con HubSpot vía API para consultar en tiempo real los datos del cliente y su pedido más reciente (fecha y turno de entrega, seguimiento, paquetería y productos), y tipificar las solicitudes de cambio como “Solicitud de cambio” para activar el workflow interno. Vamos a trabajar sobre la copia “Cortex sin calendario” y validar los permisos de HubSpot antes de tocar producción. Estamos confirmando el alcance y los insumos para pasarte la estimación y los siguientes pasos. Si nos compartes el ID del workflow y los contactos de prueba, avanzamos más rápido.",
-   "nota_fecha": "2026-10-28 18:51"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
@@ -255,7 +209,7 @@
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "⏸ Espera interna",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
@@ -292,8 +246,8 @@
    },
    "primera_respuesta": "2026-10-27T00:24:21",
    "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Paso el ticket a Espera pues el problema con el WhatsApp flow no se ha resuelto y no he tenido respuesta de Enrique.",
-   "nota_fecha": "2026-10-28 14:48"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -432,6 +386,52 @@
    "tiempo_primera_respuesta_h": 0.1,
    "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
    "nota_fecha": "2026-10-28 18:31"
+  },
+  {
+   "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
+   "empresa": "Mega Storage",
+   "industria": "Retail / E-commerce",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1080.0,
+   "due": "2026-10-30",
+   "due_on": "2026-10-30",
+   "created_at": "2026-10-26T12:48:28.886Z",
+   "created": "2026-10-26",
+   "completed_at": "2026-10-28T20:49:07.202Z",
+   "completada": "2026-10-28",
+   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
+   "gid": "1219888709156037",
+   "tipo_solicitud": "Validación de APIs",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Media",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "sK07abz561FDc6GMrjf4",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-26",
+    "vence": "2026-11-05",
+    "due_asana": "2026-10-30",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 3 día(s) hábil(es) antes que el SLA",
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-10-28",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 2,
+    "dia": null,
+    "dias_restantes": null
+   },
+   "primera_respuesta": "2026-10-26T23:56:16",
+   "tiempo_primera_respuesta_h": 11.1,
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "📅 Keat: Exploración de integración con HubSpot para Cortex",
@@ -1268,7 +1268,7 @@
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "⏸ Espera interna",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
@@ -1305,8 +1305,8 @@
    },
    "primera_respuesta": "2026-10-27T00:24:21",
    "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Paso el ticket a Espera pues el problema con el WhatsApp flow no se ha resuelto y no he tenido respuesta de Enrique.",
-   "nota_fecha": "2026-10-28 14:48"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "📅 Keat: Exploración de integración con HubSpot para Cortex",
@@ -1349,15 +1349,15 @@
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
    "empresa": "Mega Storage",
    "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-10-30",
    "due_on": "2026-10-30",
    "created_at": "2026-10-26T12:48:28.886Z",
    "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-10-28T20:49:07.202Z",
+   "completada": "2026-10-28",
    "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
    "gid": "1219888709156037",
    "tipo_solicitud": "Validación de APIs",
@@ -1379,15 +1379,17 @@
     "due_asana": "2026-10-30",
     "desalineado": true,
     "nota_desalineado": "Asana vence 3 día(s) hábil(es) antes que el SLA",
-    "estado": "a_tiempo",
-    "dia": 3,
-    "dias_restantes": 5,
-    "tiempo_ciclo": 2
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-10-28",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 2,
+    "dia": null,
+    "dias_restantes": null
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 11.1,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-27 15:53"
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
@@ -1575,7 +1577,7 @@
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-06",
@@ -1612,8 +1614,8 @@
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Hola Jesús 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan conectar Cortex con HubSpot vía API para consultar en tiempo real los datos del cliente y su pedido más reciente (fecha y turno de entrega, seguimiento, paquetería y productos), y tipificar las solicitudes de cambio como “Solicitud de cambio” para activar el workflow interno. Vamos a trabajar sobre la copia “Cortex sin calendario” y validar los permisos de HubSpot antes de tocar producción. Estamos confirmando el alcance y los insumos para pasarte la estimación y los siguientes pasos. Si nos compartes el ID del workflow y los contactos de prueba, avanzamos más rápido.",
-   "nota_fecha": "2026-10-28 18:51"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
@@ -1682,8 +1684,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 2,
-   "activos": 2,
-   "completados": 0
+   "activos": 1,
+   "completados": 1
   },
   {
    "nombre": "Angie Agudelo",
@@ -1737,7 +1739,7 @@
   {
    "semana": "2026-W44",
    "creados": 7,
-   "resueltos": 3
+   "resueltos": 4
   }
  ],
  "por_tipo": [
@@ -1777,10 +1779,6 @@
  "por_cliente": [
   {
    "cliente": "ULA Idiomas",
-   "activos": 1
-  },
-  {
-   "cliente": "Mega Storage",
    "activos": 1
   },
   {
