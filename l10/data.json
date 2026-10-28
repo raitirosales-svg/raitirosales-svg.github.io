@@ -1,74 +1,30 @@
 {
- "generado": "2026-10-28 15:06",
+ "generado": "2026-10-28 15:37",
  "kpis": {
-  "activas": 4,
+  "activas": 3,
   "retail": 2,
-  "multi": 2,
-  "entregas_7d": 5,
+  "multi": 1,
+  "entregas_7d": 6,
   "vencidas": 0,
-  "mrr_activo": 3954.5,
+  "mrr_activo": 2854.5,
   "cumplimiento": 100,
   "sla_vencidas": 0,
-  "sla_por_vencer": 2,
+  "sla_por_vencer": 1,
   "sla_cumplimiento": 100,
-  "sla_tiempo_medio": 3.3,
-  "sla_entregadas_tiempo": 3,
+  "sla_tiempo_medio": 3.0,
+  "sla_entregadas_tiempo": 4,
   "sla_entregadas_tarde": 0,
   "primera_respuesta_promedio_h": 41.2,
-  "resolucion_promedio_dias": 3.3
+  "resolucion_promedio_dias": 3.0
  },
  "por_etapa": {
-  "🔵 En proceso": 4
+  "🔵 En proceso": 3
  },
  "por_area": {
-  "Educación & Retail": 3,
-  "Multiindustria": 1
+  "Multiindustria": 1,
+  "Educación & Retail": 2
  },
  "activas": [
-  {
-   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
-   "empresa": "ULA Idiomas",
-   "industria": "🎓 Educación",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-29",
-   "due_on": "2026-10-29",
-   "created_at": "2026-10-26T18:02:41.398Z",
-   "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
-   "gid": "1219908413601570",
-   "tipo_solicitud": "Ajuste o creación de Prompt",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Gabriela Cid del Prado Hernández",
-   "persona_contacto": "gabrielacid@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
-   "atom_id": "pMIiJidjoRtjurcSOAyk",
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Prompt",
-    "dias": 3,
-    "inicio": "2026-10-26",
-    "vence": "2026-10-29",
-    "due_asana": "2026-10-29",
-    "desalineado": false,
-    "nota_desalineado": null,
-    "estado": "por_vencer",
-    "dia": 3,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 2
-   },
-   "primera_respuesta": "2026-10-27T00:24:21",
-   "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
-  },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
@@ -205,50 +161,6 @@
  "vencidas": [],
  "sla_vencidas": [],
  "sla_por_vencer": [
-  {
-   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
-   "empresa": "ULA Idiomas",
-   "industria": "🎓 Educación",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-29",
-   "due_on": "2026-10-29",
-   "created_at": "2026-10-26T18:02:41.398Z",
-   "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
-   "gid": "1219908413601570",
-   "tipo_solicitud": "Ajuste o creación de Prompt",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Gabriela Cid del Prado Hernández",
-   "persona_contacto": "gabrielacid@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
-   "atom_id": "pMIiJidjoRtjurcSOAyk",
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Prompt",
-    "dias": 3,
-    "inicio": "2026-10-26",
-    "vence": "2026-10-29",
-    "due_asana": "2026-10-29",
-    "desalineado": false,
-    "nota_desalineado": null,
-    "estado": "por_vencer",
-    "dia": 3,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 2
-   },
-   "primera_respuesta": "2026-10-27T00:24:21",
-   "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
-  },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
@@ -432,6 +344,52 @@
    "tiempo_primera_respuesta_h": 11.1,
    "ultima_nota": "Así es mi estimado. Y yo se lo resuelvo lo mas pronto posible ya teniendo los datos necesarios. Quedo atento!",
    "nota_fecha": "2026-10-28 21:01"
+  },
+  {
+   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
+   "empresa": "ULA Idiomas",
+   "industria": "🎓 Educación",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-10-29",
+   "due_on": "2026-10-29",
+   "created_at": "2026-10-26T18:02:41.398Z",
+   "created": "2026-10-26",
+   "completed_at": "2026-10-28T21:21:24.677Z",
+   "completada": "2026-10-28",
+   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "gid": "1219908413601570",
+   "tipo_solicitud": "Ajuste o creación de Prompt",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Gabriela Cid del Prado Hernández",
+   "persona_contacto": "gabrielacid@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Media",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Prompt",
+    "dias": 3,
+    "inicio": "2026-10-26",
+    "vence": "2026-10-29",
+    "due_asana": "2026-10-29",
+    "desalineado": false,
+    "nota_desalineado": null,
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-10-28",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 2,
+    "dia": null,
+    "dias_restantes": null
+   },
+   "primera_respuesta": "2026-10-27T00:24:21",
+   "tiempo_primera_respuesta_h": 6.4,
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
+   "nota_fecha": "2026-10-28 21:21"
   },
   {
    "nombre": "📅 Keat: Exploración de integración con HubSpot para Cortex",
@@ -1268,15 +1226,15 @@
    "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
    "empresa": "ULA Idiomas",
    "industria": "🎓 Educación",
-   "etapa": "🔵 En proceso",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-10-29",
    "due_on": "2026-10-29",
    "created_at": "2026-10-26T18:02:41.398Z",
    "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-10-28T21:21:24.677Z",
+   "completada": "2026-10-28",
    "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
    "gid": "1219908413601570",
    "tipo_solicitud": "Ajuste o creación de Prompt",
@@ -1298,15 +1256,17 @@
     "due_asana": "2026-10-29",
     "desalineado": false,
     "nota_desalineado": null,
-    "estado": "por_vencer",
-    "dia": 3,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 2
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-10-28",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 2,
+    "dia": null,
+    "dias_restantes": null
    },
    "primera_respuesta": "2026-10-27T00:24:21",
    "tiempo_primera_respuesta_h": 6.4,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
+   "nota_fecha": "2026-10-28 21:21"
   },
   {
    "nombre": "📅 Keat: Exploración de integración con HubSpot para Cortex",
@@ -1666,8 +1626,8 @@
   {
    "nombre": "Gabriela Cid del Prado Hernández",
    "total": 14,
-   "activos": 1,
-   "completados": 13
+   "activos": 0,
+   "completados": 14
   },
   {
    "nombre": "Jesus Roque",
@@ -1739,7 +1699,7 @@
   {
    "semana": "2026-W44",
    "creados": 7,
-   "resueltos": 4
+   "resueltos": 5
   }
  ],
  "por_tipo": [
@@ -1777,10 +1737,6 @@
   }
  ],
  "por_cliente": [
-  {
-   "cliente": "ULA Idiomas",
-   "activos": 1
-  },
   {
    "cliente": "Ilusione",
    "activos": 1
