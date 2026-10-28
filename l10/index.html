@@ -15,29 +15,30 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--dark); font-family: 'Segoe UI', Arial, sans-serif; min-height: 100vh; }
   .topbar { height: 6px; background: linear-gradient(90deg, var(--orange), var(--sand)); }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 22px 18px 60px; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 22px 18px 60px; }
   header { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
   .brand { display: flex; align-items: center; gap: 14px; }
   .atomlogo { font-weight: 800; font-size: 26px; letter-spacing: 3px; color: var(--orange); border-bottom: 3px solid var(--orange); padding-bottom: 2px; }
   h1 { font-size: 20px; font-weight: 700; color: var(--dark); }
   h1 span { color: var(--orange); }
   .sub { color: var(--gray); font-size: 13px; margin-top: 2px; }
-  .right { display: flex; align-items: center; gap: 10px; }
+  .right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .upd { color: var(--gray); font-size: 12px; text-align: right; }
   .upd b { color: var(--orange); }
+  select.area { height: 38px; border-radius: 9px; border: 1px solid var(--line); background: var(--white); color: var(--dark); padding: 0 10px; font-size: 13px; outline: none; }
   button.ref { background: var(--orange); color: #fff; border: 0; border-radius: 9px; padding: 9px 16px; font-weight: 700; font-size: 13px; cursor: pointer; }
   button.ref:hover { background: var(--orange-lt); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 22px 0; }
-  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 16px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
-  .kpi .n { font-size: 30px; font-weight: 800; color: var(--orange); }
-  .kpi .l { color: var(--gray); font-size: 12px; margin-top: 4px; }
-  .kpi.green .n { color: var(--green); } .kpi.red .n { color: var(--red); }
-  h2 { font-size: 14px; margin: 26px 0 10px; color: var(--orange); text-transform: uppercase; letter-spacing: 1.2px; font-weight: 800; }
-  table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 12px; overflow: hidden; font-size: 13px; border: 1px solid var(--line); }
-  th { text-align: left; padding: 11px 12px; background: var(--cream); color: var(--orange); font-weight: 800; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
-  td { padding: 10px 12px; border-top: 1px solid var(--line); color: var(--dark); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 10px; margin: 20px 0 6px; }
+  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 14px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
+  .kpi .n { font-size: 27px; font-weight: 800; color: var(--orange); }
+  .kpi .l { color: var(--gray); font-size: 11px; margin-top: 4px; }
+  .kpi.green .n { color: var(--green); } .kpi.red .n { color: var(--red); } .kpi.orange .n { color: var(--orange); }
+  h2 { font-size: 13px; margin: 24px 0 9px; color: var(--orange); text-transform: uppercase; letter-spacing: 1.1px; font-weight: 800; }
+  table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 12px; overflow: hidden; font-size: 12px; border: 1px solid var(--line); }
+  th { text-align: left; padding: 10px 10px; background: var(--cream); color: var(--orange); font-weight: 800; font-size: 10px; text-transform: uppercase; letter-spacing: .4px; }
+  td { padding: 9px 10px; border-top: 1px solid var(--line); color: var(--dark); vertical-align: top; }
   tr:hover td { background: #FFFBF6; }
-  .pill { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 10px; font-weight: 700; }
   .p-orange { background: #e7681222; color: var(--orange); }
   .p-green { background: #3a7a5622; color: var(--green); }
   .p-red { background: #c0392b22; color: var(--red); }
@@ -46,6 +47,10 @@
   .due-amber { color: var(--orange); font-weight: 700; }
   .due-ok { color: var(--gray); }
   .empty { color: var(--gray); font-size: 13px; padding: 16px; background: var(--white); border-radius: 12px; border: 1px dashed var(--line); }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin: 10px 0 6px; }
+  .chartcard { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 12px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
+  .chartcard h3 { font-size: 10px; color: var(--orange); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; font-weight: 800; }
+  .chartcard .box { position: relative; height: 230px; }
   #gate { position: fixed; inset: 0; background: var(--bg); display: flex; align-items: center; justify-content: center; z-index: 50; }
   #gate .box { background: var(--white); border: 1px solid var(--line); border-radius: 18px; padding: 34px; width: min(92vw, 360px); text-align: center; box-shadow: 0 10px 30px rgba(25,25,25,.08); }
   #gate h3 { color: var(--dark); margin: 10px 0 4px; }
@@ -82,6 +87,11 @@
       </div>
     </div>
     <div class="right">
+      <select class="area" id="area" onchange="render()" title="Área L10">
+        <option value="Todo">Todo</option>
+        <option value="Educación &amp; Retail">Educación &amp; Retail</option>
+        <option value="Multiindustria">Multiindustria</option>
+      </select>
       <div class="upd">Actualizado:<br><b id="upd">—</b></div>
       <button class="ref" onclick="cargar(true)">⟳ Actualizar</button>
     </div>
@@ -89,21 +99,35 @@
 
   <div class="grid" id="kpis"></div>
 
+  <h2>📊 Analítica</h2>
+  <div class="charts">
+    <div class="chartcard"><h3>Tendencia · 8 semanas</h3><div class="box"><canvas id="chTendencia"></canvas></div></div>
+    <div class="chartcard"><h3>Estado SLA</h3><div class="box"><canvas id="chSla"></canvas></div></div>
+    <div class="chartcard"><h3>Top solicitantes · 8 semanas</h3><div class="box"><canvas id="chTop"></canvas></div></div>
+    <div class="chartcard"><h3>Tipos de solicitud</h3><div class="box"><canvas id="chTipos"></canvas></div></div>
+  </div>
+
   <h2>📌 Cuentas activas</h2>
   <div id="t_activas"></div>
 
-  <h2>🔴 Vencidas · acción requerida</h2>
+  <h2>🔴 Vencidas SLA · acción requerida</h2>
   <div id="t_vencidas"></div>
+
+  <h2>🟠 Por vencer · ≤3 días hábiles</h2>
+  <div id="t_por_vencer"></div>
 
   <h2>✅ Entregadas · últimos 7 días</h2>
   <div id="t_completadas"></div>
 
-  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Asana automáticamente</footer>
+  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Asana cada 15 min · Solo tickets de Raiti</footer>
 </div>
 <div class="flash" id="flash">✓ Datos actualizados</div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
 const CLAVE = "RR2026-l10";
+let DATA = null;
+let CHARTS = {};
 
 function entrar() {
   const v = document.getElementById('clave').value;
@@ -119,6 +143,23 @@ function mostrargate(show) {
   document.getElementById('gate').style.display = show ? 'flex' : 'none';
   document.getElementById('app').style.display = show ? 'none' : 'block';
 }
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function areaActual() { return document.getElementById('area').value; }
+function enArea(x) {
+  const a = areaActual();
+  return a === 'Todo' || (x.area_l10 || '') === a;
+}
+function filtro() {
+  return {
+    activas: (DATA.activas || []).filter(enArea),
+    completadas: (DATA.completadas_7d || []).filter(enArea),
+    historial: (DATA.historial || []).filter(enArea)
+  };
+}
 
 function dueClass(due, completada) {
   if (!due) return ['', ''];
@@ -131,42 +172,211 @@ function dueClass(due, completada) {
   return ['due-ok', ''];
 }
 
-function tabla(items, completada) {
+function slaBadge(a) {
+  const s = a.sla || {};
+  let txt = 'Sin SLA', cls = 'p-gray';
+  if (s.estado === 'vencido') { txt = 'Vencido ' + Math.abs(s.dias_restantes || 0) + 'd'; cls = 'p-red'; }
+  else if (s.estado === 'por_vencer') { txt = 'Por vencer ' + (s.dias_restantes || 0) + 'd'; cls = 'p-orange'; }
+  else if (s.estado === 'entregado_a_tiempo') { txt = 'A tiempo'; cls = 'p-green'; }
+  else if (s.estado === 'entregado_tarde') { txt = 'Tarde ' + (s.dias_tarde || 0) + 'd'; cls = 'p-red'; }
+  else if (s.estado === 'a_tiempo') { txt = 'Día ' + (s.dia || '?') + '/' + (s.dias || '?'); cls = 'p-green'; }
+  const warn = s.desalineado ? ' <span title="' + esc(s.nota_desalineado || '') + '">⚠️</span>' : '';
+  return '<span class="pill ' + cls + '">' + esc(txt) + '</span>' + warn;
+}
+
+function tablaActivas(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Industria</th><th>Etapa</th><th>Vence</th><th>MRR</th></tr>';
+  const showArea = areaActual() === 'Todo';
+  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Vence Asana</th><th>MRR</th></tr>';
   for (const it of items) {
-    const [cls, tag] = dueClass(it.due, completada);
-    const ind = (it.industria || '').toLowerCase().includes('retail');
-    const nota = it.ultima_nota ? `<div style="color:#8a7f72;font-size:11px;margin-top:5px;border-left:3px solid var(--sand);padding-left:8px">📝 <b>${(it.nota_fecha||'').slice(0,10)}</b> — ${it.ultima_nota.slice(0,240)}${it.ultima_nota.length>240?'…':''}</div>` : '';
-    h += `<tr>
-      <td><b>${it.empresa}</b><br><span style="color:var(--gray);font-size:11px">${it.nombre}</span>${nota}</td>
-      <td><span class="pill ${ind ? 'p-orange' : 'p-gray'}">${it.industria}</span></td>
-      <td style="font-size:12px">${it.etapa}</td>
-      <td class="${cls}">${it.due || '—'}${tag ? ' · ' + tag : ''}</td>
-      <td>$${(it.mrr||0).toLocaleString()}</td>
-    </tr>`;
+    const [cls, tag] = dueClass(it.due, false);
+    const nota = it.ultima_nota ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 <b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,160)) + (it.ultima_nota.length > 160 ? '…' : '') + '</div>' : '';
+    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span>' + nota + '</td>' +
+      (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
+      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + slaBadge(it) + '</td>' +
+      '<td class="' + cls + '">' + esc(it.due || '—') + (tag ? ' · ' + tag : '') + '</td>' +
+      '<td>$' + (it.mrr || 0).toLocaleString() + '</td></tr>';
   }
   return h + '</table>';
+}
+
+function tablaSla(items) {
+  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
+  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA</th><th>Vence SLA</th><th>Última actualización</th></tr>';
+  for (const it of items) {
+    const s = it.sla || {};
+    const nota = it.ultima_nota ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,200)) + (it.ultima_nota.length > 200 ? '…' : '')) : 'Sin novedades';
+    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
+      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + slaBadge(it) + '</td>' +
+      '<td>' + esc(s.vence || '—') + '</td>' +
+      '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
+  }
+  return h + '</table>';
+}
+
+function tablaCompletadas(items) {
+  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
+  const showArea = areaActual() === 'Todo';
+  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>SLA</th><th>Entregada</th><th>Tiempo</th></tr>';
+  for (const it of items) {
+    const s = it.sla || {};
+    const tiempo = (s.tiempo_ciclo == null) ? '—' : (s.tiempo_ciclo + ' d');
+    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
+      (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
+      '<td>' + slaBadge(it) + '</td>' +
+      '<td>' + esc(it.completada || '—') + '</td>' +
+      '<td>' + tiempo + '</td></tr>';
+  }
+  return h + '</table>';
+}
+
+function destroyCharts() {
+  for (const k in CHARTS) { try { CHARTS[k].destroy(); } catch (e) {} }
+  CHARTS = {};
+}
+
+function chartOpts(legend, horizontal) {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: !!legend, position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } } },
+    scales: horizontal ? {
+      x: { beginAtZero: true, grid: { color: '#EDE3D8' }, ticks: { precision: 0, font: { size: 9 } } },
+      y: { grid: { display: false }, ticks: { font: { size: 9 } } }
+    } : {
+      x: { grid: { display: false }, ticks: { font: { size: 9 } } },
+      y: { beginAtZero: true, grid: { color: '#EDE3D8' }, ticks: { precision: 0, font: { size: 9 } } }
+    }
+  };
+}
+
+function semanaISO(d) {
+  const t = new Date(d.getTime());
+  t.setHours(0,0,0,0);
+  t.setDate(t.getDate() + 3 - ((t.getDay() + 6) % 7));
+  const week1 = new Date(t.getFullYear(), 0, 4);
+  const week = 1 + Math.round(((t - week1) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7);
+  return t.getFullYear() + '-W' + String(week).padStart(2, '0');
+}
+
+function renderCharts(f) {
+  if (!window.Chart) return;
+  destroyCharts();
+
+  // Tendencia: 8 semanas continuas
+  const hoy = new Date();
+  const lunes = new Date(hoy); lunes.setDate(hoy.getDate() - ((hoy.getDay() + 6) % 7));
+  const labels = [], buckets = {};
+  for (let i = 7; i >= 0; i--) {
+    const d = new Date(lunes); d.setDate(lunes.getDate() - i * 7);
+    const key = semanaISO(d);
+    labels.push(key);
+    buckets[key] = { c: 0, r: 0 };
+  }
+  for (const a of f.historial) {
+    if (a.created) {
+      const k = semanaISO(new Date(a.created + 'T00:00:00'));
+      if (buckets[k]) buckets[k].c++;
+    }
+    if (a.completada) {
+      const k = semanaISO(new Date(a.completada + 'T00:00:00'));
+      if (buckets[k]) buckets[k].r++;
+    }
+  }
+  CHARTS.tend = new Chart(document.getElementById('chTendencia'), {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        { label: 'Creados', data: labels.map(k => buckets[k].c), backgroundColor: '#E76812' },
+        { label: 'Resueltos', data: labels.map(k => buckets[k].r), backgroundColor: '#3A7A56' }
+      ]
+    },
+    options: chartOpts(true, false)
+  });
+
+  // SLA
+  const slaCats = ['A tiempo', 'Por vencer', 'Vencidas', 'Entregadas tarde'];
+  const slaVals = [
+    f.activas.filter(a => a.sla && a.sla.estado === 'a_tiempo').length + f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_a_tiempo').length,
+    f.activas.filter(a => a.sla && a.sla.estado === 'por_vencer').length,
+    f.activas.filter(a => a.sla && a.sla.estado === 'vencido').length,
+    f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_tarde').length
+  ];
+  CHARTS.sla = new Chart(document.getElementById('chSla'), {
+    type: 'doughnut',
+    data: { labels: slaCats, datasets: [{ data: slaVals, backgroundColor: ['#3A7A56', '#E76812', '#C0392B', '#8B2E2E'] }] },
+    options: chartOpts(true, false)
+  });
+
+  // Top solicitantes
+  const acc = {};
+  for (const a of f.historial) {
+    const n = a.solicitante || a.persona_contacto || 'Sin dato';
+    acc[n] = (acc[n] || 0) + 1;
+  }
+  const top = Object.entries(acc).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  CHARTS.top = new Chart(document.getElementById('chTop'), {
+    type: 'bar',
+    data: { labels: top.map(x => x[0]), datasets: [{ label: 'Tickets', data: top.map(x => x[1]), backgroundColor: '#E76812' }] },
+    options: chartOpts(false, true)
+  });
+
+  // Tipos
+  const tipos = {};
+  for (const a of f.historial) {
+    const t = a.tipo_solicitud || 'Sin dato';
+    tipos[t] = (tipos[t] || 0) + 1;
+  }
+  const topT = Object.entries(tipos).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  CHARTS.tipos = new Chart(document.getElementById('chTipos'), {
+    type: 'bar',
+    data: { labels: topT.map(x => x[0]), datasets: [{ label: 'Tickets', data: topT.map(x => x[1]), backgroundColor: '#525252' }] },
+    options: chartOpts(false, true)
+  });
+}
+
+function render() {
+  if (!DATA) return;
+  const f = filtro();
+  const activas = f.activas, completadas = f.completadas, historial = f.historial;
+  const vencidas = activas.filter(a => a.sla && a.sla.estado === 'vencido');
+  const porVencer = activas.filter(a => a.sla && a.sla.estado === 'por_vencer');
+  const compl = completadas.filter(a => a.sla && ['entregado_a_tiempo', 'entregado_tarde'].includes(a.sla.estado));
+  const at = compl.filter(a => a.sla.estado === 'entregado_a_tiempo');
+  const cumpl = compl.length ? Math.round(100 * at.length / compl.length) : null;
+  const tiempos = compl.map(a => a.sla.tiempo_ciclo).filter(v => v != null);
+  const tmed = tiempos.length ? tiempos.reduce((a, b) => a + b, 0) / tiempos.length : null;
+  const primeras = activas.concat(completadas).map(a => a.tiempo_primera_respuesta_h).filter(v => v != null);
+  const pmed = primeras.length ? primeras.reduce((a, b) => a + b, 0) / primeras.length : null;
+  const mrr = activas.reduce((s, a) => s + (a.mrr || 0), 0);
+
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="n">${activas.length}</div><div class="l">Cuentas activas</div></div>
+    <div class="kpi ${vencidas.length ? 'red' : 'green'}"><div class="n">${vencidas.length}</div><div class="l">Vencidas SLA</div></div>
+    <div class="kpi ${porVencer.length ? 'orange' : ''}"><div class="n">${porVencer.length}</div><div class="l">Por vencer (≤3 días)</div></div>
+    <div class="kpi green"><div class="n">${completadas.length}</div><div class="l">Entregas 7 días</div></div>
+    <div class="kpi ${cumpl === null || cumpl >= 90 ? 'green' : 'orange'}"><div class="n">${cumpl === null ? '—' : cumpl + '%'}</div><div class="l">Cumplimiento SLA</div></div>
+    <div class="kpi"><div class="n">${tmed === null ? '—' : tmed.toFixed(1) + ' d'}</div><div class="l">Tiempo medio</div></div>
+    <div class="kpi"><div class="n">${pmed === null ? '—' : pmed.toFixed(1) + ' h'}</div><div class="l">Primera respuesta</div></div>
+    <div class="kpi"><div class="n">$${mrr.toLocaleString()}</div><div class="l">MRR activo</div></div>
+  `;
+
+  document.getElementById('t_activas').innerHTML = tablaActivas(activas);
+  document.getElementById('t_vencidas').innerHTML = tablaSla(vencidas);
+  document.getElementById('t_por_vencer').innerHTML = tablaSla(porVencer);
+  document.getElementById('t_completadas').innerHTML = tablaCompletadas(completadas);
+  renderCharts(f);
 }
 
 async function cargar(manual) {
   try {
     const r = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'});
-    const d = await r.json();
-    document.getElementById('upd').textContent = d.generado;
-    const k = d.kpis;
-    document.getElementById('kpis').innerHTML = `
-      <div class="kpi"><div class="n">${k.activas}</div><div class="l">Cuentas activas</div></div>
-      <div class="kpi"><div class="n">${k.retail}</div><div class="l">🏬 Retail</div></div>
-      <div class="kpi"><div class="n">${k.multi}</div><div class="l">🏢 Multiindustria</div></div>
-      <div class="kpi green"><div class="n">${k.entregas_7d}</div><div class="l">Entregas 7 días</div></div>
-      <div class="kpi ${k.vencidas ? 'red' : 'green'}"><div class="n">${k.vencidas}</div><div class="l">Vencidas</div></div>
-      <div class="kpi"><div class="n">$${k.mrr_activo.toLocaleString()}</div><div class="l">MRR activo</div></div>
-      <div class="kpi ${k.cumplimiento >= 90 ? 'green' : ''}"><div class="n">${k.cumplimiento}%</div><div class="l">Cumplimiento</div></div>
-    `;
-    document.getElementById('t_activas').innerHTML = tabla(d.activas, false);
-    document.getElementById('t_vencidas').innerHTML = tabla(d.vencidas, false);
-    document.getElementById('t_completadas').innerHTML = tabla(d.completadas_7d, true);
+    DATA = await r.json();
+    document.getElementById('upd').textContent = DATA.generado;
+    render();
     if (manual) {
       const f = document.getElementById('flash');
       f.classList.add('on');
