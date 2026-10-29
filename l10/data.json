@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-29 00:06",
+ "generado": "2026-10-29 07:21",
  "kpis": {
-  "activas": 3,
+  "activas": 4,
   "retail": 2,
-  "multi": 1,
+  "multi": 2,
   "entregas_7d": 6,
   "vencidas": 0,
-  "mrr_activo": 2854.5,
+  "mrr_activo": 4344.5,
   "cumplimiento": 100,
   "sla_vencidas": 0,
   "sla_por_vencer": 1,
@@ -18,10 +18,11 @@
   "resolucion_promedio_dias": 3.0
  },
  "por_etapa": {
+  "⚪️ Nuevo": 1,
   "🔵 En proceso": 3
  },
  "por_area": {
-  "Multiindustria": 1,
+  "Multiindustria": 2,
   "Educación & Retail": 2
  },
  "activas": [
@@ -156,6 +157,39 @@
    "tiempo_primera_respuesta_h": 10.1,
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-27 21:59"
+  },
+  {
+   "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "🚗 Automotriz",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1490.0,
+   "due": "2026-10-30",
+   "due_on": "2026-10-30",
+   "created_at": "2026-10-28T22:32:40.410Z",
+   "created": "2026-10-28",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
+   "gid": "1219998943637701",
+   "tipo_solicitud": "Solicitud de acompañamiento",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Sofia Alvarado",
+   "persona_contacto": "sofia.alvarado@atomchat.io",
+   "complejidad": "Nivel Intermedio (Medium)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "uxFCMFBn315fMC20W3oR",
+   "area_l10": "Multiindustria",
+   "sla": {
+    "tipo": "Sin regla",
+    "dias": null,
+    "inicio": "2026-10-29",
+    "estado": "sin_sla"
+   }
   }
  ],
  "vencidas": [],
@@ -1306,6 +1340,39 @@
    "nota_fecha": "2026-10-27 22:59"
   },
   {
+   "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "🚗 Automotriz",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1490.0,
+   "due": "2026-10-30",
+   "due_on": "2026-10-30",
+   "created_at": "2026-10-28T22:32:40.410Z",
+   "created": "2026-10-28",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
+   "gid": "1219998943637701",
+   "tipo_solicitud": "Solicitud de acompañamiento",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Sofia Alvarado",
+   "persona_contacto": "sofia.alvarado@atomchat.io",
+   "complejidad": "Nivel Intermedio (Medium)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "uxFCMFBn315fMC20W3oR",
+   "area_l10": "Multiindustria",
+   "sla": {
+    "tipo": "Sin regla",
+    "dias": null,
+    "inicio": "2026-10-29",
+    "estado": "sin_sla"
+   }
+  },
+  {
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
    "empresa": "Mega Storage",
    "industria": "Retail / E-commerce",
@@ -1658,6 +1725,12 @@
    "total": 1,
    "activos": 1,
    "completados": 0
+  },
+  {
+   "nombre": "Sofia Alvarado",
+   "total": 1,
+   "activos": 1,
+   "completados": 0
   }
  ],
  "tendencia": [
@@ -1698,7 +1771,7 @@
   },
   {
    "semana": "2026-W44",
-   "creados": 7,
+   "creados": 8,
    "resueltos": 5
   }
  ],
@@ -1713,7 +1786,7 @@
   },
   {
    "tipo": "Solicitud de acompañamiento",
-   "total": 4
+   "total": 5
   },
   {
    "tipo": "Ajuste o creación de Prompt, Integración",
@@ -1737,6 +1810,10 @@
   }
  ],
  "por_cliente": [
+  {
+   "cliente": "Hansa Ltda. Div. Automotriz",
+   "activos": 1
+  },
   {
    "cliente": "Ilusione",
    "activos": 1
