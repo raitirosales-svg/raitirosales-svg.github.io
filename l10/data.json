@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28 15:37",
+ "generado": "2026-10-29 00:06",
  "kpis": {
   "activas": 3,
   "retail": 2,
@@ -60,9 +60,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
     "estado": "por_vencer",
-    "dia": 4,
-    "dias_restantes": 3,
-    "tiempo_ciclo": 3
+    "dia": 5,
+    "dias_restantes": 2,
+    "tiempo_ciclo": 4
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
@@ -104,9 +104,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
     "estado": "a_tiempo",
-    "dia": 1,
-    "dias_restantes": 7,
-    "tiempo_ciclo": 0
+    "dia": 2,
+    "dias_restantes": 6,
+    "tiempo_ciclo": 1
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
@@ -148,9 +148,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 2 día(s) hábil(es) antes que el SLA",
     "estado": "a_tiempo",
-    "dia": 3,
-    "dias_restantes": 18,
-    "tiempo_ciclo": 2
+    "dia": 4,
+    "dias_restantes": 17,
+    "tiempo_ciclo": 3
    },
    "primera_respuesta": "2026-10-26T23:56:17",
    "tiempo_primera_respuesta_h": 10.1,
@@ -196,9 +196,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
     "estado": "por_vencer",
-    "dia": 4,
-    "dias_restantes": 3,
-    "tiempo_ciclo": 3
+    "dia": 5,
+    "dias_restantes": 2,
+    "tiempo_ciclo": 4
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
@@ -1432,9 +1432,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
     "estado": "por_vencer",
-    "dia": 4,
-    "dias_restantes": 3,
-    "tiempo_ciclo": 3
+    "dia": 5,
+    "dias_restantes": 2,
+    "tiempo_ciclo": 4
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
@@ -1568,9 +1568,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
     "estado": "a_tiempo",
-    "dia": 1,
-    "dias_restantes": 7,
-    "tiempo_ciclo": 0
+    "dia": 2,
+    "dias_restantes": 6,
+    "tiempo_ciclo": 1
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
@@ -1612,9 +1612,9 @@
     "desalineado": true,
     "nota_desalineado": "Asana vence 2 día(s) hábil(es) antes que el SLA",
     "estado": "a_tiempo",
-    "dia": 3,
-    "dias_restantes": 18,
-    "tiempo_ciclo": 2
+    "dia": 4,
+    "dias_restantes": 17,
+    "tiempo_ciclo": 3
    },
    "primera_respuesta": "2026-10-26T23:56:17",
    "tiempo_primera_respuesta_h": 10.1,
