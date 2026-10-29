@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29 07:21",
+ "generado": "2026-10-29 11:36",
  "kpis": {
   "activas": 4,
   "retail": 2,
@@ -18,7 +18,7 @@
   "resolucion_promedio_dias": 3.0
  },
  "por_etapa": {
-  "⚪️ Nuevo": 1,
+  "✏️ Primer respuesta": 1,
   "🔵 En proceso": 3
  },
  "por_area": {
@@ -162,7 +162,7 @@
    "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
    "empresa": "Hansa Ltda. Div. Automotriz",
    "industria": "🚗 Automotriz",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1490.0,
    "due": "2026-10-30",
@@ -1343,7 +1343,7 @@
    "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
    "empresa": "Hansa Ltda. Div. Automotriz",
    "industria": "🚗 Automotriz",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1490.0,
    "due": "2026-10-30",
