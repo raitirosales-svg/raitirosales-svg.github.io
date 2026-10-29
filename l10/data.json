@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29 17:21",
+ "generado": "2026-10-29 17:36",
  "kpis": {
   "activas": 3,
   "retail": 2,
@@ -66,8 +66,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Te comparto aca la documentación una vez la reciba por parte de onboarding o el cliente",
-   "nota_fecha": "2026-10-29 23:12"
+   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
+   "nota_fecha": "2026-10-29 23:32"
   },
   {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
@@ -202,8 +202,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Te comparto aca la documentación una vez la reciba por parte de onboarding o el cliente",
-   "nota_fecha": "2026-10-29 23:12"
+   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
+   "nota_fecha": "2026-10-29 23:32"
   }
  ],
  "completadas_7d": [
@@ -1512,8 +1512,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Te comparto aca la documentación una vez la reciba por parte de onboarding o el cliente",
-   "nota_fecha": "2026-10-29 23:12"
+   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
+   "nota_fecha": "2026-10-29 23:32"
   },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
