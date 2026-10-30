@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-30 00:06",
+ "generado": "2026-10-30 10:36",
  "kpis": {
-  "activas": 3,
-  "retail": 2,
+  "activas": 5,
+  "retail": 4,
   "multi": 1,
   "entregas_7d": 7,
   "vencidas": 0,
-  "mrr_activo": 2854.5,
+  "mrr_activo": 5969.0,
   "cumplimiento": 100,
   "sla_vencidas": 0,
   "sla_por_vencer": 1,
@@ -18,11 +18,12 @@
   "resolucion_promedio_dias": 3.0
  },
  "por_etapa": {
+  "⚪️ Nuevo": 2,
   "🔵 En proceso": 3
  },
  "por_area": {
-  "Multiindustria": 1,
-  "Educación & Retail": 2
+  "Educación & Retail": 4,
+  "Multiindustria": 1
  },
  "activas": [
   {
@@ -112,6 +113,86 @@
    "tiempo_primera_respuesta_h": 20.0,
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-28 20:49"
+  },
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-04",
+   "due_on": "2026-11-04",
+   "created_at": "2026-10-29T02:52:54.905Z",
+   "created": "2026-10-29",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
+   "gid": "1220002087375986",
+   "tipo_solicitud": "Validación de APIs",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-29",
+    "vence": "2026-11-10",
+    "due_asana": "2026-11-04",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 4 día(s) hábil(es) antes que el SLA",
+    "estado": "a_tiempo",
+    "dia": 2,
+    "dias_restantes": 6,
+    "tiempo_ciclo": 1
+   }
+  },
+  {
+   "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
+   "empresa": "SINSA",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 2460.0,
+   "due": "2026-11-18",
+   "due_on": "2026-11-18",
+   "created_at": "2026-10-28T15:37:26.086Z",
+   "created": "2026-10-28",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 SINSA",
+   "gid": "1219983332504363",
+   "tipo_solicitud": "Nuevo flujo",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
+   "atom_id": "Rg9CDWojWhwN0RmAQKT3",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Nuevo flujo · cliente existente",
+    "dias": 15,
+    "inicio": "2026-10-28",
+    "vence": "2026-11-20",
+    "due_asana": "2026-11-18",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 2 día(s) hábil(es) antes que el SLA",
+    "estado": "a_tiempo",
+    "dia": 3,
+    "dias_restantes": 13,
+    "tiempo_ciclo": 2
+   }
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
@@ -1426,6 +1507,46 @@
    "nota_fecha": "2026-10-28 18:31"
   },
   {
+   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-04",
+   "due_on": "2026-11-04",
+   "created_at": "2026-10-29T02:52:54.905Z",
+   "created": "2026-10-29",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
+   "gid": "1220002087375986",
+   "tipo_solicitud": "Validación de APIs",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-29",
+    "vence": "2026-11-10",
+    "due_asana": "2026-11-04",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 4 día(s) hábil(es) antes que el SLA",
+    "estado": "a_tiempo",
+    "dia": 2,
+    "dias_restantes": 6,
+    "tiempo_ciclo": 1
+   }
+  },
+  {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
    "industria": "🏠 Inmobiliario",
@@ -1606,6 +1727,46 @@
    "nota_fecha": "2026-10-28 20:49"
   },
   {
+   "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
+   "empresa": "SINSA",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 2460.0,
+   "due": "2026-11-18",
+   "due_on": "2026-11-18",
+   "created_at": "2026-10-28T15:37:26.086Z",
+   "created": "2026-10-28",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 SINSA",
+   "gid": "1219983332504363",
+   "tipo_solicitud": "Nuevo flujo",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
+   "atom_id": "Rg9CDWojWhwN0RmAQKT3",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Nuevo flujo · cliente existente",
+    "dias": 15,
+    "inicio": "2026-10-28",
+    "vence": "2026-11-20",
+    "due_asana": "2026-11-18",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 2 día(s) hábil(es) antes que el SLA",
+    "estado": "a_tiempo",
+    "dia": 3,
+    "dias_restantes": 13,
+    "tiempo_ciclo": 2
+   }
+  },
+  {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
    "empresa": "Minelab Metal Detectors",
    "industria": "Retail / E-commerce",
@@ -1659,14 +1820,14 @@
   },
   {
    "nombre": "Jesus Roque",
-   "total": 6,
-   "activos": 1,
+   "total": 7,
+   "activos": 2,
    "completados": 5
   },
   {
    "nombre": "Michael Sancivier",
-   "total": 2,
-   "activos": 1,
+   "total": 3,
+   "activos": 2,
    "completados": 1
   },
   {
@@ -1732,7 +1893,7 @@
   },
   {
    "semana": "2026-W44",
-   "creados": 8,
+   "creados": 10,
    "resueltos": 6
   }
  ],
@@ -1742,11 +1903,11 @@
    "total": 7
   },
   {
-   "tipo": "Solicitud de acompañamiento",
-   "total": 5
+   "tipo": "Nuevo flujo",
+   "total": 6
   },
   {
-   "tipo": "Nuevo flujo",
+   "tipo": "Solicitud de acompañamiento",
    "total": 5
   },
   {
@@ -1758,25 +1919,33 @@
    "total": 2
   },
   {
+   "tipo": "Validación de APIs",
+   "total": 2
+  },
+  {
    "tipo": "Flujo Flowbuilder, Integración, Automatización (N8N)",
    "total": 1
   },
   {
    "tipo": "Flujo Flowbuilder",
    "total": 1
-  },
-  {
-   "tipo": "Validación de APIs",
-   "total": 1
   }
  ],
  "por_cliente": [
+  {
+   "cliente": "Minelab Metal Detectors MX",
+   "activos": 1
+  },
   {
    "cliente": "Ilusione",
    "activos": 1
   },
   {
    "cliente": "Keat",
+   "activos": 1
+  },
+  {
+   "cliente": "SINSA",
    "activos": 1
   },
   {
