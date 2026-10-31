@@ -1,10 +1,10 @@
 {
- "generado": "2026-10-30 22:38",
+ "generado": "2026-10-31 06:32",
  "kpis": {
   "activas": 5,
   "retail": 4,
   "multi": 1,
-  "entregas_7d": 7,
+  "entregas_7d": 6,
   "vencidas": 0,
   "mrr_activo": 5969.0,
   "cumplimiento": 100
@@ -83,18 +83,6 @@
  ],
  "vencidas": [],
  "completadas_7d": [
-  {
-   "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
-   "empresa": "ULA Idiomas",
-   "industria": "🎓 Educación",
-   "etapa": "⛔ Rechazados",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-04",
-   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
-   "completada": "2026-10-23",
-   "gid": "1219476693024906"
-  },
   {
    "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
    "empresa": "Promelsa",
