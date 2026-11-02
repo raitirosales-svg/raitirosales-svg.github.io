@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02 15:21",
+ "generado": "2026-11-02 16:00",
  "kpis": {
   "activas": 5,
   "retail": 4,
@@ -9,11 +9,12 @@
   "mrr_activo": 5969.0,
   "cumplimiento": 100,
   "sla_vencidas": 0,
-  "sla_por_vencer": 1,
+  "sla_por_vencer": 0,
   "sla_cumplimiento": 100,
   "sla_tiempo_medio": 1.7,
   "sla_entregadas_tiempo": 3,
   "sla_entregadas_tarde": 0,
+  "sla_pausados": 2,
   "primera_respuesta_promedio_h": 46.6,
   "resolucion_promedio_dias": 1.7
  },
@@ -27,50 +28,6 @@
   "Educación & Retail": 4
  },
  "activas": [
-  {
-   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
-   "empresa": "Ilusione",
-   "industria": "🏠 Inmobiliario",
-   "etapa": "⚠️ Datos faltantes",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-04",
-   "due_on": "2026-11-04",
-   "created_at": "2026-10-22T23:51:04.304Z",
-   "created": "2026-10-22",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 ILUSIONE, Migrar a Cortex",
-   "gid": "1219802577541852",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Mario Subuyuj",
-   "persona_contacto": "mario.subuyuj@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Muy Alta",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
-   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
-   "area_l10": "Multiindustria",
-   "sla": {
-    "tipo": "FlowBuilder",
-    "dias": 6,
-    "inicio": "2026-10-23",
-    "vence": "2026-11-03",
-    "due_asana": "2026-11-04",
-    "desalineado": true,
-    "nota_desalineado": "Asana da 1 día(s) hábil(es) más que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 5
-   },
-   "primera_respuesta": "2026-10-26T23:56:16",
-   "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-11-02 21:09"
-  },
   {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
@@ -96,6 +53,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -114,50 +72,6 @@
    "tiempo_primera_respuesta_h": 20.0,
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-28 20:49"
-  },
-  {
-   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
-   "empresa": "Minelab Metal Detectors MX",
-   "industria": "Retail / E-commerce",
-   "etapa": "⚠️ Datos faltantes",
-   "tipo": "Ticket",
-   "mrr": 654.5,
-   "due": "2026-11-04",
-   "due_on": "2026-11-04",
-   "created_at": "2026-10-29T02:52:54.905Z",
-   "created": "2026-10-29",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
-   "gid": "1220002087375986",
-   "tipo_solicitud": "Validación de APIs",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Alta",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
-   "atom_id": "28DAj6uou7YAHSplo3EP",
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-29",
-    "vence": "2026-11-10",
-    "due_asana": "2026-11-04",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 4 día(s) hábil(es) antes que el SLA",
-    "estado": "a_tiempo",
-    "dia": 2,
-    "dias_restantes": 6,
-    "tiempo_ciclo": 1
-   },
-   "primera_respuesta": "2026-11-02T15:32:46",
-   "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-11-02 16:47"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -184,6 +98,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
    "atom_id": "Rg9CDWojWhwN0RmAQKT3",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -228,6 +143,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Nuevo flujo + integración · cliente existente",
@@ -246,11 +162,7 @@
    "tiempo_primera_respuesta_h": 10.1,
    "ultima_nota": "Hola Michael 👋\nAvance de la parte de Cortex: el agente ya está construido en su cuenta y trabajamos directamente ahí, sin mantener copias en otro ambiente.\nQué incluye esta primera versión (Alfa 1.0)\n Un agente con seis herramientas conectadas a la tienda.\n Consulta de producto con precio y disponibilidad en vivo, y recomendaciones por categoría (detectores, accesorios, promociones, paquetes).\n Carrito: agrega, cambia cantidades, quita productos y cotiza el envío por código postal.\n Derivación a ventas, garantías y posventa con el resumen de la conversación.\n Probado contra la tienda real, solo lectura y carritos de prueba: precios, stock, totales y envío responden bien.\nLo que falta para cerrar la entrega completa\n El token de HubSpot. Es lo único que nos impide completar la parte de CRM: reconocer al cliente, actualizar sus datos y dejar la nota de la conversación.\n Para «mi pedido» y el link de pago hace falta el módulo de Minelab desplegado en producción y su token; eso va por el ticket de Magento.\n Para las consultas de política (meses sin intereses, garantía, devoluciones, envíos) necesitamos los documentos que pedimos en este mismo ticket.\nNo estamos moviendo las etapas del ticket todavía: preferimos hacer un solo movimiento cuando la entrega esté completa. Tampoco vamos a conectar el flujo al número ni a iniciar pruebas hasta tener todo el mapeo cerrado. El avance ya está de nuestro lado y lo que lo detiene es el acceso a HubSpot.",
    "nota_fecha": "2026-11-02 21:07"
-  }
- ],
- "vencidas": [],
- "sla_vencidas": [],
- "sla_por_vencer": [
+  },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
@@ -276,6 +188,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
    "atom_id": "6x4bPhCJlf3SRBa2KCmv",
+   "deadline_cancelled": "2026-11-09T00:00:00.000Z",
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "FlowBuilder",
@@ -285,17 +198,69 @@
     "due_asana": "2026-11-04",
     "desalineado": true,
     "nota_desalineado": "Asana da 1 día(s) hábil(es) más que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 5
+    "estado": "pausado",
+    "motivo": "Datos faltantes",
+    "deadline_cancelled": "2026-11-09T00:00:00.000Z",
+    "dias_restantes": null,
+    "dia": null,
+    "tiempo_ciclo": null
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
    "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
    "nota_fecha": "2026-11-02 21:09"
+  },
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚠️ Datos faltantes",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-04",
+   "due_on": "2026-11-04",
+   "created_at": "2026-10-29T02:52:54.905Z",
+   "created": "2026-10-29",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
+   "gid": "1220002087375986",
+   "tipo_solicitud": "Validación de APIs",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": "2026-11-09T00:00:00.000Z",
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-29",
+    "vence": "2026-11-10",
+    "due_asana": "2026-11-04",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 4 día(s) hábil(es) antes que el SLA",
+    "estado": "pausado",
+    "motivo": "Datos faltantes",
+    "deadline_cancelled": "2026-11-09T00:00:00.000Z",
+    "dias_restantes": null,
+    "dia": null,
+    "tiempo_ciclo": null
+   },
+   "primera_respuesta": "2026-11-02T15:32:46",
+   "tiempo_primera_respuesta_h": 108.7,
+   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
+   "nota_fecha": "2026-11-02 16:47"
   }
  ],
+ "vencidas": [],
+ "sla_vencidas": [],
+ "sla_por_vencer": [],
  "completadas_7d": [
   {
    "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
@@ -322,6 +287,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "lRlYQ3SYfW15sZ2ONTc4",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -368,6 +334,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Sin regla",
@@ -405,6 +372,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -451,6 +419,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Prompt",
@@ -497,6 +466,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Sin regla",
@@ -534,6 +504,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Sin regla",
@@ -573,6 +544,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Sin regla",
@@ -610,6 +582,7 @@
    "area_solicitante": "Onboarding",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Automatización N8N",
@@ -656,6 +629,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, WhatsApp Flows",
    "atom_id": "LcdaiipcE6fZJjppUa8p",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "FlowBuilder",
@@ -702,6 +676,7 @@
    "area_solicitante": "Onboarding",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "Me2j4KsGxAiLGf4n1u5a",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Nuevo flujo · cliente nuevo",
@@ -748,6 +723,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "ZHH8auLhKmtWa48oP9tu",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Integración / API",
@@ -794,6 +770,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Prompt",
@@ -840,6 +817,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Nuevo flujo + integración · cliente existente",
@@ -886,6 +864,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Sin regla",
@@ -923,6 +902,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Catálogos",
    "atom_id": "MUUQy4Laj5UbIiJPLfky",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Prompt",
@@ -969,6 +949,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Prompt",
@@ -1015,6 +996,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Migración a cortex, Catálogos",
    "atom_id": "hXZycTa3aJllG6UGtKWw",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -1061,6 +1043,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, WhatsApp Flows",
    "atom_id": "mdIK43zagC5BQY80ROoV",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Prompt",
@@ -1107,6 +1090,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Reconocimiento imágenes o doc, Desarrollo a medida",
    "atom_id": "lRlYQ3SYfW15sZ2ONTc4",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Prompt",
@@ -1153,6 +1137,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Migración a cortex, Catálogos, Reconocimiento imágenes o doc",
    "atom_id": "hXZycTa3aJllG6UGtKWw",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -1199,6 +1184,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex",
    "atom_id": "ZHH8auLhKmtWa48oP9tu",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Prompt",
@@ -1245,6 +1231,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Sin regla",
@@ -1282,6 +1269,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Prompt",
@@ -1328,6 +1316,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Sin regla",
@@ -1365,6 +1354,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Sin regla",
@@ -1402,6 +1392,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -1448,6 +1439,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "lRlYQ3SYfW15sZ2ONTc4",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -1494,6 +1486,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
    "atom_id": "6x4bPhCJlf3SRBa2KCmv",
+   "deadline_cancelled": "2026-11-09T00:00:00.000Z",
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "FlowBuilder",
@@ -1503,10 +1496,12 @@
     "due_asana": "2026-11-04",
     "desalineado": true,
     "nota_desalineado": "Asana da 1 día(s) hábil(es) más que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 5
+    "estado": "pausado",
+    "motivo": "Datos faltantes",
+    "deadline_cancelled": "2026-11-09T00:00:00.000Z",
+    "dias_restantes": null,
+    "dia": null,
+    "tiempo_ciclo": null
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
@@ -1538,6 +1533,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": "2026-11-09T00:00:00.000Z",
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -1547,10 +1543,12 @@
     "due_asana": "2026-11-04",
     "desalineado": true,
     "nota_desalineado": "Asana vence 4 día(s) hábil(es) antes que el SLA",
-    "estado": "a_tiempo",
-    "dia": 2,
-    "dias_restantes": 6,
-    "tiempo_ciclo": 1
+    "estado": "pausado",
+    "motivo": "Datos faltantes",
+    "deadline_cancelled": "2026-11-09T00:00:00.000Z",
+    "dias_restantes": null,
+    "dia": null,
+    "tiempo_ciclo": null
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
@@ -1582,6 +1580,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Migración a cortex",
    "atom_id": "iBVzK4eEmyR907oTYuAS",
+   "deadline_cancelled": null,
    "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -1628,6 +1627,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Migración a cortex",
    "atom_id": "pMIiJidjoRtjurcSOAyk",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -1674,6 +1674,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Integración / API",
@@ -1718,6 +1719,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
    "atom_id": "Rg9CDWojWhwN0RmAQKT3",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Nuevo flujo · cliente existente",
@@ -1762,6 +1764,7 @@
    "area_solicitante": "CSM",
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
    "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Nuevo flujo + integración · cliente existente",

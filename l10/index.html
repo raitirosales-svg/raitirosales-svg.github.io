@@ -116,6 +116,9 @@
   <h2>🟠 Por vencer · ≤3 días hábiles</h2>
   <div id="t_por_vencer"></div>
 
+  <h2>⏸ Pausados por datos faltantes</h2>
+  <div id="t_pausados"></div>
+
   <h2>✅ Entregadas · últimos 7 días</h2>
   <div id="t_completadas"></div>
 
@@ -179,6 +182,7 @@ function slaBadge(a) {
   else if (s.estado === 'por_vencer') { txt = 'Por vencer ' + (s.dias_restantes || 0) + 'd'; cls = 'p-orange'; }
   else if (s.estado === 'entregado_a_tiempo') { txt = 'A tiempo'; cls = 'p-green'; }
   else if (s.estado === 'entregado_tarde') { txt = 'Tarde ' + (s.dias_tarde || 0) + 'd'; cls = 'p-red'; }
+  else if (s.estado === 'pausado') { txt = 'Pausado · ' + (s.deadline_cancelled ? String(s.deadline_cancelled).slice(0,10) : 'datos'); cls = 'p-gray'; }
   else if (s.estado === 'a_tiempo') { txt = 'Día ' + (s.dia || '?') + '/' + (s.dias || '?'); cls = 'p-green'; }
   const warn = s.desalineado ? ' <span title="' + esc(s.nota_desalineado || '') + '">⚠️</span>' : '';
   return '<span class="pill ' + cls + '">' + esc(txt) + '</span>' + warn;
@@ -211,6 +215,22 @@ function tablaSla(items) {
       '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
       '<td>' + esc(s.vence || '—') + '</td>' +
+      '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
+  }
+  return h + '</table>';
+}
+
+function tablaPausados(items) {
+  if (!items.length) return '<div class="empty">Sin pausados 🎉</div>';
+  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Estado</th><th>Deadline datos</th><th>Última actualización</th></tr>';
+  for (const it of items) {
+    const s = it.sla || {};
+    const dl = (s.deadline_cancelled || '').slice(0,10) || '—';
+    const nota = it.ultima_nota ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,200)) + (it.ultima_nota.length > 200 ? '…' : '')) : 'Sin novedades';
+    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
+      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + slaBadge(it) + '</td>' +
+      '<td>' + esc(dl) + '</td>' +
       '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
   }
   return h + '</table>';
@@ -298,16 +318,17 @@ function renderCharts(f) {
   });
 
   // SLA
-  const slaCats = ['A tiempo', 'Por vencer', 'Vencidas', 'Entregadas tarde'];
+  const slaCats = ['A tiempo', 'Por vencer', 'Vencidas', 'Pausados', 'Entregadas tarde'];
   const slaVals = [
     f.activas.filter(a => a.sla && a.sla.estado === 'a_tiempo').length + f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_a_tiempo').length,
     f.activas.filter(a => a.sla && a.sla.estado === 'por_vencer').length,
     f.activas.filter(a => a.sla && a.sla.estado === 'vencido').length,
+    f.activas.filter(a => a.sla && a.sla.estado === 'pausado').length,
     f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_tarde').length
   ];
   CHARTS.sla = new Chart(document.getElementById('chSla'), {
     type: 'doughnut',
-    data: { labels: slaCats, datasets: [{ data: slaVals, backgroundColor: ['#3A7A56', '#E76812', '#C0392B', '#8B2E2E'] }] },
+    data: { labels: slaCats, datasets: [{ data: slaVals, backgroundColor: ['#3A7A56', '#E76812', '#C0392B', '#525252', '#8B2E2E'] }] },
     options: chartOpts(true, false)
   });
 
@@ -344,6 +365,7 @@ function render() {
   const activas = f.activas, completadas = f.completadas, historial = f.historial;
   const vencidas = activas.filter(a => a.sla && a.sla.estado === 'vencido');
   const porVencer = activas.filter(a => a.sla && a.sla.estado === 'por_vencer');
+  const pausados = activas.filter(a => a.sla && a.sla.estado === 'pausado');
   const compl = completadas.filter(a => a.sla && ['entregado_a_tiempo', 'entregado_tarde'].includes(a.sla.estado));
   const at = compl.filter(a => a.sla.estado === 'entregado_a_tiempo');
   const cumpl = compl.length ? Math.round(100 * at.length / compl.length) : null;
@@ -357,6 +379,7 @@ function render() {
     <div class="kpi"><div class="n">${activas.length}</div><div class="l">Cuentas activas</div></div>
     <div class="kpi ${vencidas.length ? 'red' : 'green'}"><div class="n">${vencidas.length}</div><div class="l">Vencidas SLA</div></div>
     <div class="kpi ${porVencer.length ? 'orange' : ''}"><div class="n">${porVencer.length}</div><div class="l">Por vencer (≤3 días)</div></div>
+    <div class="kpi"><div class="n">${pausados.length}</div><div class="l">Pausados (datos)</div></div>
     <div class="kpi green"><div class="n">${completadas.length}</div><div class="l">Entregas 7 días</div></div>
     <div class="kpi ${cumpl === null || cumpl >= 90 ? 'green' : 'orange'}"><div class="n">${cumpl === null ? '—' : cumpl + '%'}</div><div class="l">Cumplimiento SLA</div></div>
     <div class="kpi"><div class="n">${tmed === null ? '—' : tmed.toFixed(1) + ' d'}</div><div class="l">Tiempo medio</div></div>
@@ -367,6 +390,7 @@ function render() {
   document.getElementById('t_activas').innerHTML = tablaActivas(activas);
   document.getElementById('t_vencidas').innerHTML = tablaSla(vencidas);
   document.getElementById('t_por_vencer').innerHTML = tablaSla(porVencer);
+  document.getElementById('t_pausados').innerHTML = tablaPausados(pausados);
   document.getElementById('t_completadas').innerHTML = tablaCompletadas(completadas);
   renderCharts(f);
 }
