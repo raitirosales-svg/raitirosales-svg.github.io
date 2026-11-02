@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02 10:51",
+ "generado": "2026-11-02 13:06",
  "kpis": {
   "activas": 5,
   "retail": 4,
@@ -18,13 +18,13 @@
   "resolucion_promedio_dias": 1.7
  },
  "por_etapa": {
-  "⚠️ Datos faltantes": 1,
   "🔵 En proceso": 3,
+  "⚠️ Datos faltantes": 1,
   "✏️ Primer respuesta": 1
  },
  "por_area": {
-  "Educación & Retail": 4,
-  "Multiindustria": 1
+  "Multiindustria": 1,
+  "Educación & Retail": 4
  },
  "activas": [
   {
@@ -68,8 +68,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
-   "nota_fecha": "2026-10-29 23:32"
+   "ultima_nota": "Hola Mario, Mateo, equipo:\nAVANCE DEL FLUJO\nLa versión de entrega de Augusta quedó actualizada con los ajustes de catálogo, canal de origen, registro y manejo de contactos existentes. Su validación local quedó sin errores bloqueantes y está lista para cargar/publicar en Cortex y pasar a la validación final.\nSOLICITUD DE LIMPIEZA\nPara esa validación necesitamos que el CRM quede limpio de los registros creados por las pruebas. La limpieza no bloquea la construcción del flujo ni requiere cambios adicionales: solo la necesitamos para validar y demostrar sobre datos reales.\nEstos son los leads de prueba a eliminar (todos CERRADO / INDOCUMENTADO):\n- 13982956 — 900000001 — prueba.atom@example.com — Colón 470\n- 13987564 — 777777777 — prueba.atom@example.com — Colón 470\n- 13987565 — 555555555 — prueba3.atom@example.com — Colón 470\n- 13987566 — 900000003 — pruebaA.atom@example.com — Colón 470\n- 13987567 — 900000004 — pruebaB.atom@example.com — Colón 470\n- 14003590 — Ana Pérez — ana@example.com — Bolognesi 472\nNo hay endpoint de eliminación documentado; por eso lo pedimos por la UI del CRM.\nImportante: no hay que borrar todos los registros del teléfono 999888777. Ese número tiene 8 contactos preexistentes y ninguno es Ana; Ana se ubica por codpersona 14003590 o por ana@example.com.\nTambién revisar, sin borrar, el contacto real 780141 (Retiro 125): tiene DNI 00000000, que el agente estaba usando como documento placeholder. Solo confirmar que sus datos sigan correctos.\n¿Nos ayudan a coordinar con el equipo de Evolta para eliminar esos 6 registros? Con la limpieza confirmada corremos la validación final y compartimos los resultados.\nGracias.",
+   "nota_fecha": "2026-11-02 18:55"
   },
   {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
@@ -292,8 +292,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
-   "nota_fecha": "2026-10-29 23:32"
+   "ultima_nota": "Hola Mario, Mateo, equipo:\nAVANCE DEL FLUJO\nLa versión de entrega de Augusta quedó actualizada con los ajustes de catálogo, canal de origen, registro y manejo de contactos existentes. Su validación local quedó sin errores bloqueantes y está lista para cargar/publicar en Cortex y pasar a la validación final.\nSOLICITUD DE LIMPIEZA\nPara esa validación necesitamos que el CRM quede limpio de los registros creados por las pruebas. La limpieza no bloquea la construcción del flujo ni requiere cambios adicionales: solo la necesitamos para validar y demostrar sobre datos reales.\nEstos son los leads de prueba a eliminar (todos CERRADO / INDOCUMENTADO):\n- 13982956 — 900000001 — prueba.atom@example.com — Colón 470\n- 13987564 — 777777777 — prueba.atom@example.com — Colón 470\n- 13987565 — 555555555 — prueba3.atom@example.com — Colón 470\n- 13987566 — 900000003 — pruebaA.atom@example.com — Colón 470\n- 13987567 — 900000004 — pruebaB.atom@example.com — Colón 470\n- 14003590 — Ana Pérez — ana@example.com — Bolognesi 472\nNo hay endpoint de eliminación documentado; por eso lo pedimos por la UI del CRM.\nImportante: no hay que borrar todos los registros del teléfono 999888777. Ese número tiene 8 contactos preexistentes y ninguno es Ana; Ana se ubica por codpersona 14003590 o por ana@example.com.\nTambién revisar, sin borrar, el contacto real 780141 (Retiro 125): tiene DNI 00000000, que el agente estaba usando como documento placeholder. Solo confirmar que sus datos sigan correctos.\n¿Nos ayudan a coordinar con el equipo de Evolta para eliminar esos 6 registros? Con la limpieza confirmada corremos la validación final y compartimos los resultados.\nGracias.",
+   "nota_fecha": "2026-11-02 18:55"
   }
  ],
  "completadas_7d": [
@@ -1470,6 +1470,50 @@
    "nota_fecha": "2026-10-28 18:31"
   },
   {
+   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
+   "empresa": "Ilusione",
+   "industria": "🏠 Inmobiliario",
+   "etapa": "🔵 En proceso",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-04",
+   "due_on": "2026-11-04",
+   "created_at": "2026-10-22T23:51:04.304Z",
+   "created": "2026-10-22",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 ILUSIONE, Migrar a Cortex",
+   "gid": "1219802577541852",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Mario Subuyuj",
+   "persona_contacto": "mario.subuyuj@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Muy Alta",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
+   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
+   "area_l10": "Multiindustria",
+   "sla": {
+    "tipo": "FlowBuilder",
+    "dias": 6,
+    "inicio": "2026-10-23",
+    "vence": "2026-11-03",
+    "due_asana": "2026-11-04",
+    "desalineado": true,
+    "nota_desalineado": "Asana da 1 día(s) hábil(es) más que el SLA",
+    "estado": "por_vencer",
+    "dia": 6,
+    "dias_restantes": 1,
+    "tiempo_ciclo": 5
+   },
+   "primera_respuesta": "2026-10-26T23:56:16",
+   "tiempo_primera_respuesta_h": 96.1,
+   "ultima_nota": "Hola Mario, Mateo, equipo:\nAVANCE DEL FLUJO\nLa versión de entrega de Augusta quedó actualizada con los ajustes de catálogo, canal de origen, registro y manejo de contactos existentes. Su validación local quedó sin errores bloqueantes y está lista para cargar/publicar en Cortex y pasar a la validación final.\nSOLICITUD DE LIMPIEZA\nPara esa validación necesitamos que el CRM quede limpio de los registros creados por las pruebas. La limpieza no bloquea la construcción del flujo ni requiere cambios adicionales: solo la necesitamos para validar y demostrar sobre datos reales.\nEstos son los leads de prueba a eliminar (todos CERRADO / INDOCUMENTADO):\n- 13982956 — 900000001 — prueba.atom@example.com — Colón 470\n- 13987564 — 777777777 — prueba.atom@example.com — Colón 470\n- 13987565 — 555555555 — prueba3.atom@example.com — Colón 470\n- 13987566 — 900000003 — pruebaA.atom@example.com — Colón 470\n- 13987567 — 900000004 — pruebaB.atom@example.com — Colón 470\n- 14003590 — Ana Pérez — ana@example.com — Bolognesi 472\nNo hay endpoint de eliminación documentado; por eso lo pedimos por la UI del CRM.\nImportante: no hay que borrar todos los registros del teléfono 999888777. Ese número tiene 8 contactos preexistentes y ninguno es Ana; Ana se ubica por codpersona 14003590 o por ana@example.com.\nTambién revisar, sin borrar, el contacto real 780141 (Retiro 125): tiene DNI 00000000, que el agente estaba usando como documento placeholder. Solo confirmar que sus datos sigan correctos.\n¿Nos ayudan a coordinar con el equipo de Evolta para eliminar esos 6 registros? Con la limpieza confirmada corremos la validación final y compartimos los resultados.\nGracias.",
+   "nota_fecha": "2026-11-02 18:55"
+  },
+  {
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
@@ -1512,50 +1556,6 @@
    "tiempo_primera_respuesta_h": 108.7,
    "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
    "nota_fecha": "2026-11-02 16:47"
-  },
-  {
-   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
-   "empresa": "Ilusione",
-   "industria": "🏠 Inmobiliario",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-04",
-   "due_on": "2026-11-04",
-   "created_at": "2026-10-22T23:51:04.304Z",
-   "created": "2026-10-22",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 ILUSIONE, Migrar a Cortex",
-   "gid": "1219802577541852",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Mario Subuyuj",
-   "persona_contacto": "mario.subuyuj@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Muy Alta",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
-   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
-   "area_l10": "Multiindustria",
-   "sla": {
-    "tipo": "FlowBuilder",
-    "dias": 6,
-    "inicio": "2026-10-23",
-    "vence": "2026-11-03",
-    "due_asana": "2026-11-04",
-    "desalineado": true,
-    "nota_desalineado": "Asana da 1 día(s) hábil(es) más que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 5
-   },
-   "primera_respuesta": "2026-10-26T23:56:16",
-   "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "te comparto la documentación que tenemos de onboarding: https://drive.google.com/drive/folders/1tdDgQmW0IRe8wBkvNUHyT199YCp8AU6t?usp=sharing",
-   "nota_fecha": "2026-10-29 23:32"
   },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
@@ -1904,11 +1904,11 @@
  ],
  "por_cliente": [
   {
-   "cliente": "Minelab Metal Detectors MX",
+   "cliente": "Ilusione",
    "activos": 1
   },
   {
-   "cliente": "Ilusione",
+   "cliente": "Minelab Metal Detectors MX",
    "activos": 1
   },
   {
