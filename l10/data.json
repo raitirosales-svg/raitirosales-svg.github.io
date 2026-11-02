@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02 09:36",
+ "generado": "2026-11-02 10:51",
  "kpis": {
   "activas": 5,
   "retail": 4,
@@ -18,8 +18,9 @@
   "resolucion_promedio_dias": 1.7
  },
  "por_etapa": {
-  "✏️ Primer respuesta": 2,
-  "🔵 En proceso": 3
+  "⚠️ Datos faltantes": 1,
+  "🔵 En proceso": 3,
+  "✏️ Primer respuesta": 1
  },
  "por_area": {
   "Educación & Retail": 4,
@@ -118,7 +119,7 @@
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "⚠️ Datos faltantes",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-04",
@@ -155,8 +156,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Hola Michael 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan validar la documentación de la API REST de Adobe Commerce (Magento), definir endpoints y autenticación (Bearer Token) y revisar las actions que quieren implementar en Cortex, probando primero en Staging. Estamos revisando el PDF de actions/endpoints y la documentación oficial para confirmar el alcance y los permisos necesarios. Si nos comparten el ambiente de Staging o los endpoints exactos, avanzamos más rápido.",
-   "nota_fecha": "2026-11-02 15:32"
+   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
+   "nota_fecha": "2026-11-02 16:47"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -1472,7 +1473,7 @@
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "⚠️ Datos faltantes",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-04",
@@ -1509,8 +1510,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Hola Michael 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan validar la documentación de la API REST de Adobe Commerce (Magento), definir endpoints y autenticación (Bearer Token) y revisar las actions que quieren implementar en Cortex, probando primero en Staging. Estamos revisando el PDF de actions/endpoints y la documentación oficial para confirmar el alcance y los permisos necesarios. Si nos comparten el ambiente de Staging o los endpoints exactos, avanzamos más rápido.",
-   "nota_fecha": "2026-11-02 15:32"
+   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
+   "nota_fecha": "2026-11-02 16:47"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
