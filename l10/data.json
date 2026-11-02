@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02 16:00",
+ "generado": "2026-11-02 16:06",
  "kpis": {
   "activas": 5,
   "retail": 4,
@@ -20,8 +20,7 @@
  },
  "por_etapa": {
   "⚠️ Datos faltantes": 2,
-  "🔵 En proceso": 2,
-  "✏️ Primer respuesta": 1
+  "🔵 En proceso": 3
  },
  "por_area": {
   "Multiindustria": 1,
@@ -77,7 +76,7 @@
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
    "empresa": "SINSA",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 2460.0,
    "due": "2026-11-18",
@@ -115,8 +114,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:47",
    "tiempo_primera_respuesta_h": 119.9,
-   "ultima_nota": "Hola Jesús 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan transformar la encuesta de satisfacción en un WhatsApp Flow dentro de la conversación, activarlo automáticamente al finalizar y tipificar la atención, y registrar métricas de envío y finalización. Estamos validando el alcance, los flujos actuales y los enlaces de encuesta para confirmar la estimación y los siguientes pasos. Si nos comparten el flujo actual y el detalle de la tipificación, avanzamos más rápido.",
-   "nota_fecha": "2026-11-02 15:32"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-02 22:03"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
@@ -1698,7 +1697,7 @@
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
    "empresa": "SINSA",
    "industria": "Retail / E-commerce",
-   "etapa": "✏️ Primer respuesta",
+   "etapa": "🔵 En proceso",
    "tipo": "Ticket",
    "mrr": 2460.0,
    "due": "2026-11-18",
@@ -1736,8 +1735,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:47",
    "tiempo_primera_respuesta_h": 119.9,
-   "ultima_nota": "Hola Jesús 👋\nRecibimos el ticket y ya estamos revisando los requerimientos. Entendemos que necesitan transformar la encuesta de satisfacción en un WhatsApp Flow dentro de la conversación, activarlo automáticamente al finalizar y tipificar la atención, y registrar métricas de envío y finalización. Estamos validando el alcance, los flujos actuales y los enlaces de encuesta para confirmar la estimación y los siguientes pasos. Si nos comparten el flujo actual y el detalle de la tipificación, avanzamos más rápido.",
-   "nota_fecha": "2026-11-02 15:32"
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-02 22:03"
   },
   {
    "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
