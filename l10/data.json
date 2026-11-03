@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03 17:21",
+ "generado": "2026-11-03 17:51",
  "kpis": {
   "activas": 6,
   "retail": 4,
@@ -15,13 +15,13 @@
   "sla_entregadas_tiempo": 3,
   "sla_entregadas_tarde": 0,
   "sla_pausados": 2,
-  "primera_respuesta_promedio_h": 46.6,
+  "primera_respuesta_promedio_h": 54.1,
   "resolucion_promedio_dias": 1.7
  },
  "por_etapa": {
   "⚠️ Datos faltantes": 2,
   "🔵 En proceso": 3,
-  "⚪️ Nuevo": 1
+  "✏️ Primer respuesta": 1
  },
  "por_area": {
   "Multiindustria": 2,
@@ -32,7 +32,7 @@
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
    "empresa": "Hansa Ltda. Div. Automotriz",
    "industria": "🚗 Automotriz",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1490.0,
    "due": "2026-11-10",
@@ -67,7 +67,11 @@
     "dia": 6,
     "dias_restantes": 2,
     "tiempo_ciclo": 5
-   }
+   },
+   "primera_respuesta": "2026-11-03T23:38:45",
+   "tiempo_primera_respuesta_h": 265.0,
+   "ultima_nota": "Hola equipo, gracias por el ticket. Tomamos la solicitud para revisar la integración del servicio de búsqueda de campañas (GET /leads/getCampainDetail) y el envío de campaign_id_c en la creación de leads. Cualquier novedad la compartimos por este mismo medio.\nSaludos,\nRaiti",
+   "nota_fecha": "2026-11-03 23:38"
   },
   {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
@@ -306,7 +310,7 @@
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
    "empresa": "Hansa Ltda. Div. Automotriz",
    "industria": "🚗 Automotriz",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1490.0,
    "due": "2026-11-10",
@@ -341,7 +345,11 @@
     "dia": 6,
     "dias_restantes": 2,
     "tiempo_ciclo": 5
-   }
+   },
+   "primera_respuesta": "2026-11-03T23:38:45",
+   "tiempo_primera_respuesta_h": 265.0,
+   "ultima_nota": "Hola equipo, gracias por el ticket. Tomamos la solicitud para revisar la integración del servicio de búsqueda de campañas (GET /leads/getCampainDetail) y el envío de campaign_id_c en la creación de leads. Cualquier novedad la compartimos por este mismo medio.\nSaludos,\nRaiti",
+   "nota_fecha": "2026-11-03 23:38"
   }
  ],
  "completadas_7d": [
@@ -1743,7 +1751,7 @@
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
    "empresa": "Hansa Ltda. Div. Automotriz",
    "industria": "🚗 Automotriz",
-   "etapa": "⚪️ Nuevo",
+   "etapa": "✏️ Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1490.0,
    "due": "2026-11-10",
@@ -1778,7 +1786,11 @@
     "dia": 6,
     "dias_restantes": 2,
     "tiempo_ciclo": 5
-   }
+   },
+   "primera_respuesta": "2026-11-03T23:38:45",
+   "tiempo_primera_respuesta_h": 265.0,
+   "ultima_nota": "Hola equipo, gracias por el ticket. Tomamos la solicitud para revisar la integración del servicio de búsqueda de campañas (GET /leads/getCampainDetail) y el envío de campaign_id_c en la creación de leads. Cualquier novedad la compartimos por este mismo medio.\nSaludos,\nRaiti",
+   "nota_fecha": "2026-11-03 23:38"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
