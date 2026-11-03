@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03 15:06",
+ "generado": "2026-11-03 16:06",
  "kpis": {
   "activas": 6,
   "retail": 4,
@@ -787,8 +787,8 @@
    },
    "primera_respuesta": "2026-09-08T04:06:00",
    "tiempo_primera_respuesta_h": 80.0,
-   "ultima_nota": "Tu solicitud ha finalizada ✅\n tiempo de espera para tu solicitud terminó y el ticket se ha dado por completado.\nGracias por confiar en nosotros 😁",
-   "nota_fecha": "2026-09-28 05:07"
+   "ultima_nota": "",
+   "nota_fecha": "2026-11-03 21:59"
   },
   {
    "nombre": "🎫 Hansa Ltda: Creación flujo pruebas QA",
