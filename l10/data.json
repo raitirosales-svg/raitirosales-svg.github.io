@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04 10:21",
+ "generado": "2026-11-04 11:06",
  "kpis": {
   "activas": 6,
   "retail": 4,
@@ -297,8 +297,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Hola \nAmigo sigue la API generada por el cliente:\nPat-na1-45e910ef-c63b-49ea-bca6-48a03a7bab1f",
-   "nota_fecha": "2026-11-03 20:00"
+   "ultima_nota": "Hola Michael 👋\nComparto aquí la misma actualización: este es el ticket donde quedó la llave de HubSpot y el que sigue en «Datos faltantes».\nQué ya funciona\n La conexión con HubSpot quedó probada de punta a punta: leemos el contacto del cliente, lo reconocemos, lo creamos o actualizamos y dejamos la nota de la conversación.\n No hace falta crear el usuario de HubSpot: la llave que nos dieron es suficiente.\nQué nos falta para entregar el bot completo\n El servicio de pedidos de su tienda.\n El catálogo, los precios, el stock y el carrito ya funcionan sin ningún acceso especial. Solo faltan dos funciones: consultar el estado de un pedido y generar el link de pago del carrito.\n Minelab protegió esas dos funciones con una llave. No es un acceso de administrador: es una llave limitada a esas dos consultas, igual a la que usa el piloto de Reino Unido.\n Además, ese servicio hoy solo está instalado en el ambiente de pruebas, no en producción, así que también necesitamos que lo activen allá.\n El dato de «Colonia» de la dirección.\n Cuando el bot arma el carrito de un cliente, la tienda pide la colonia como parte de la dirección y hoy no nos dice cómo enviarla. Necesitamos que nos indiquen cómo se llama ese dato internamente o qué forma hay de mandarlo.\n La información de políticas.\n El bot no puede inventar respuestas. Necesitamos los documentos de:\n Meses sin intereses: bancos, plazos y mínimo de compra.\n Garantía y soporte técnico.\n Envíos y tiempos de entrega.\n Devoluciones y cambios.\n Qué hacemos cuando un producto se agota.\n Si un cliente está armando su compra y el producto se agota, ¿prefieren que le ofrezcamos otro, que le avisemos y él decida, o que lo pasemos con un asesor?\nEstado de los tickets\n Este ticket queda en «Datos faltantes» y no lo movemos hasta recibir la llave de acceso y la confirmación del despliegue en producción.\n El ticket de Cortex es el único que define el avance de la construcción del bot: mientras estos cuatro puntos no estén resueltos, no podemos terminar de armar y probar el flujo completo.",
+   "nota_fecha": "2026-11-04 16:51"
   }
  ],
  "vencidas": [],
@@ -1524,8 +1524,8 @@
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Hola \nAmigo sigue la API generada por el cliente:\nPat-na1-45e910ef-c63b-49ea-bca6-48a03a7bab1f",
-   "nota_fecha": "2026-11-03 20:00"
+   "ultima_nota": "Hola Michael 👋\nComparto aquí la misma actualización: este es el ticket donde quedó la llave de HubSpot y el que sigue en «Datos faltantes».\nQué ya funciona\n La conexión con HubSpot quedó probada de punta a punta: leemos el contacto del cliente, lo reconocemos, lo creamos o actualizamos y dejamos la nota de la conversación.\n No hace falta crear el usuario de HubSpot: la llave que nos dieron es suficiente.\nQué nos falta para entregar el bot completo\n El servicio de pedidos de su tienda.\n El catálogo, los precios, el stock y el carrito ya funcionan sin ningún acceso especial. Solo faltan dos funciones: consultar el estado de un pedido y generar el link de pago del carrito.\n Minelab protegió esas dos funciones con una llave. No es un acceso de administrador: es una llave limitada a esas dos consultas, igual a la que usa el piloto de Reino Unido.\n Además, ese servicio hoy solo está instalado en el ambiente de pruebas, no en producción, así que también necesitamos que lo activen allá.\n El dato de «Colonia» de la dirección.\n Cuando el bot arma el carrito de un cliente, la tienda pide la colonia como parte de la dirección y hoy no nos dice cómo enviarla. Necesitamos que nos indiquen cómo se llama ese dato internamente o qué forma hay de mandarlo.\n La información de políticas.\n El bot no puede inventar respuestas. Necesitamos los documentos de:\n Meses sin intereses: bancos, plazos y mínimo de compra.\n Garantía y soporte técnico.\n Envíos y tiempos de entrega.\n Devoluciones y cambios.\n Qué hacemos cuando un producto se agota.\n Si un cliente está armando su compra y el producto se agota, ¿prefieren que le ofrezcamos otro, que le avisemos y él decida, o que lo pasemos con un asesor?\nEstado de los tickets\n Este ticket queda en «Datos faltantes» y no lo movemos hasta recibir la llave de acceso y la confirmación del despliegue en producción.\n El ticket de Cortex es el único que define el avance de la construcción del bot: mientras estos cuatro puntos no estén resueltos, no podemos terminar de armar y probar el flujo completo.",
+   "nota_fecha": "2026-11-04 16:51"
   },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
