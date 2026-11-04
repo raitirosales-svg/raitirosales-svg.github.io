@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03 19:21",
+ "generado": "2026-11-03 19:36",
  "kpis": {
   "activas": 6,
   "retail": 4,
@@ -795,8 +795,8 @@
    },
    "primera_respuesta": "2026-09-08T04:06:00",
    "tiempo_primera_respuesta_h": 80.0,
-   "ultima_nota": "espero estes bien!\nAmigo para esta implementación aun se le pueden hacer ajustes y pruebas?, o debo abrir otro ticket, hubo cambio de csm.",
-   "nota_fecha": "2026-11-04 01:15"
+   "ultima_nota": "buenas noches amigo este ticket ya está cerrado me tendrías que generar otro. Pero el flujo Córtex ya estaba implementado y solo necesitaba pruebas y sacarlo a prod. Si necesitas apoyo por slack también te puedo dar insigts",
+   "nota_fecha": "2026-11-04 01:32"
   },
   {
    "nombre": "🎫 Hansa Ltda: Creación flujo pruebas QA",
