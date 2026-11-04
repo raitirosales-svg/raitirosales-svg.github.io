@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04 12:51",
+ "generado": "2026-11-04 15:21",
  "kpis": {
   "activas": 6,
   "retail": 4,
@@ -69,8 +69,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-04 16:11"
+   "ultima_nota": "Hola el cliente indica que no pueden eliminar contactos asi que avancemos con las pruebas finales.",
+   "nota_fecha": "2026-11-04 21:10"
   },
   {
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
@@ -344,8 +344,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-04 16:11"
+   "ultima_nota": "Hola el cliente indica que no pueden eliminar contactos asi que avancemos con las pruebas finales.",
+   "nota_fecha": "2026-11-04 21:10"
   }
  ],
  "sla_por_vencer": [
@@ -1662,8 +1662,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 96.1,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-04 16:11"
+   "ultima_nota": "Hola el cliente indica que no pueden eliminar contactos asi que avancemos con las pruebas finales.",
+   "nota_fecha": "2026-11-04 21:10"
   },
   {
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
