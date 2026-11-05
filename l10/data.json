@@ -1,16 +1,17 @@
 {
- "generado": "2026-11-04 23:39",
+ "generado": "2026-11-05 08:50",
  "kpis": {
-  "activas": 6,
-  "retail": 4,
+  "activas": 7,
+  "retail": 5,
   "multi": 2,
-  "entregas_7d": 4,
-  "vencidas": 0,
-  "mrr_activo": 7459.0,
-  "cumplimiento": 100
+  "entregas_7d": 1,
+  "vencidas": 1,
+  "mrr_activo": 8113.5,
+  "cumplimiento": 50
  },
  "por_etapa": {
   "⚠️ Datos faltantes": 1,
+  "⚪️ Nuevo": 1,
   "🔵 En proceso": 5
  },
  "activas": [
@@ -27,6 +28,18 @@
    "gid": "1220002087375986",
    "ultima_nota": "Hola Michael 👋\nComparto aquí la misma actualización: este es el ticket donde quedó la llave de HubSpot y el que sigue en «Datos faltantes».\nQué ya funciona\n La conexión con HubSpot quedó probada de punta a punta: leemos el contacto del cliente, lo reconocemos, lo creamos o actualizamos y dejamos la nota de la conversación.\n No hace falta crear el usuario de HubSpot: la llave que nos dieron es suficiente.\nQué nos falta para entregar el bot completo\n El servicio de pedidos de su tienda.\n El catálogo, los precios, el stock y el carrito ya funcionan sin ningún acceso especial. Solo faltan dos funciones: consultar el estado de un pedido y generar el link de pago del carrito.\n Minelab protegió esas dos funciones con una llave. No es un acceso de administrador: es una llave limitada a esas dos consultas, igual a la que usa el piloto de Reino Unido.\n Además, ese servicio hoy solo está instalado en el ambiente de pruebas, no en producción, así que también necesitamos que lo activen allá.\n El dato de «Colonia» de la dirección.\n Cuando el bot arma el carrito de un cliente, la tienda pide la colonia como parte de la dirección y hoy no nos dice cómo enviarla. Necesitamos que nos indiquen cómo se llama ese dato internamente o qué forma hay de mandarlo.\n La información de políticas.\n El bot no puede inventar respuestas. Necesitamos los documentos de:\n Meses sin intereses: bancos, plazos y mínimo de compra.\n Garantía y soporte técnico.\n Envíos y tiempos de entrega.\n Devoluciones y cambios.\n Qué hacemos cuando un producto se agota.\n Si un cliente está armando su compra y el producto se agota, ¿prefieren que le ofrezcamos otro, que le avisemos y él decida, o que lo pasemos con un asesor?\nEstado de los tickets\n Este ticket queda en «Datos faltantes» y no lo movemos hasta recibir la llave de acceso y la confirmación del despliegue en producción.\n El ticket de Cortex es el único que define el avance de la construcción del bot: mientras estos cuatro puntos no estén resueltos, no podemos terminar de armar y probar el flujo completo.",
    "nota_fecha": "2026-11-04 16:51"
+  },
+  {
+   "nombre": "📅 Minelab Metal Detectors: Migración a Cortex e integración API Magento",
+   "empresa": "Minelab Metal Detectors",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-06",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS",
+   "completada": "",
+   "gid": "1220230582407942"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -99,32 +112,23 @@
    "nota_fecha": "2026-11-04 23:30"
   }
  ],
- "vencidas": [],
+ "vencidas": [
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚠️ Datos faltantes",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-04",
+   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
+   "completada": "",
+   "gid": "1220002087375986",
+   "ultima_nota": "Hola Michael 👋\nComparto aquí la misma actualización: este es el ticket donde quedó la llave de HubSpot y el que sigue en «Datos faltantes».\nQué ya funciona\n La conexión con HubSpot quedó probada de punta a punta: leemos el contacto del cliente, lo reconocemos, lo creamos o actualizamos y dejamos la nota de la conversación.\n No hace falta crear el usuario de HubSpot: la llave que nos dieron es suficiente.\nQué nos falta para entregar el bot completo\n El servicio de pedidos de su tienda.\n El catálogo, los precios, el stock y el carrito ya funcionan sin ningún acceso especial. Solo faltan dos funciones: consultar el estado de un pedido y generar el link de pago del carrito.\n Minelab protegió esas dos funciones con una llave. No es un acceso de administrador: es una llave limitada a esas dos consultas, igual a la que usa el piloto de Reino Unido.\n Además, ese servicio hoy solo está instalado en el ambiente de pruebas, no en producción, así que también necesitamos que lo activen allá.\n El dato de «Colonia» de la dirección.\n Cuando el bot arma el carrito de un cliente, la tienda pide la colonia como parte de la dirección y hoy no nos dice cómo enviarla. Necesitamos que nos indiquen cómo se llama ese dato internamente o qué forma hay de mandarlo.\n La información de políticas.\n El bot no puede inventar respuestas. Necesitamos los documentos de:\n Meses sin intereses: bancos, plazos y mínimo de compra.\n Garantía y soporte técnico.\n Envíos y tiempos de entrega.\n Devoluciones y cambios.\n Qué hacemos cuando un producto se agota.\n Si un cliente está armando su compra y el producto se agota, ¿prefieren que le ofrezcamos otro, que le avisemos y él decida, o que lo pasemos con un asesor?\nEstado de los tickets\n Este ticket queda en «Datos faltantes» y no lo movemos hasta recibir la llave de acceso y la confirmación del despliegue en producción.\n El ticket de Cortex es el único que define el avance de la construcción del bot: mientras estos cuatro puntos no estén resueltos, no podemos terminar de armar y probar el flujo completo.",
+   "nota_fecha": "2026-11-04 16:51"
+  }
+ ],
  "completadas_7d": [
-  {
-   "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
-   "empresa": "Promelsa",
-   "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 990.0,
-   "due": "2026-11-02",
-   "proyectos": "Tickets de implementación, 🎫 PROMELSA",
-   "completada": "2026-10-28",
-   "gid": "1219942306191743"
-  },
-  {
-   "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
-   "empresa": "Mega Storage",
-   "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1080.0,
-   "due": "2026-10-30",
-   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
-   "completada": "2026-10-28",
-   "gid": "1219888709156037"
-  },
   {
    "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
    "empresa": "Hansa Ltda. Div. Automotriz",
@@ -136,18 +140,6 @@
    "proyectos": "Tickets de implementación, 🎫 HANSA LTDA. DIV. AUTOMOTRIZ",
    "completada": "2026-10-29",
    "gid": "1219998943637701"
-  },
-  {
-   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
-   "empresa": "ULA Idiomas",
-   "industria": "🎓 Educación",
-   "etapa": "🟣 Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-10-29",
-   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
-   "completada": "2026-10-28",
-   "gid": "1219908413601570"
   }
  ]
 }
