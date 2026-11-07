@@ -1,30 +1,29 @@
 {
- "generado": "2026-11-06 17:51",
+ "generado": "2026-11-06 20:51",
  "kpis": {
-  "activas": 7,
-  "retail": 4,
+  "activas": 6,
+  "retail": 3,
   "multi": 3,
-  "entregas_7d": 1,
+  "entregas_7d": 2,
   "vencidas": 0,
-  "mrr_activo": 8559.0,
+  "mrr_activo": 7904.5,
   "cumplimiento": 100,
   "sla_vencidas": 3,
-  "sla_por_vencer": 2,
+  "sla_por_vencer": 1,
   "sla_cumplimiento": 100,
-  "sla_tiempo_medio": 0,
-  "sla_entregadas_tiempo": 0,
+  "sla_tiempo_medio": 5.0,
+  "sla_entregadas_tiempo": 1,
   "sla_entregadas_tarde": 0,
   "sla_pausados": 0,
   "primera_respuesta_promedio_h": 53.5,
-  "resolucion_promedio_dias": 0
+  "resolucion_promedio_dias": 5.0
  },
  "por_etapa": {
   "🔵 En proceso": 5,
-  "🟣 Primera entrega": 1,
-  " 🧪 Pruebas y doc": 1
+  "🟣 Primera entrega": 1
  },
  "por_area": {
-  "Educación & Retail": 5,
+  "Educación & Retail": 4,
   "Multiindustria": 2
  },
  "activas": [
@@ -207,51 +206,6 @@
    "tiempo_primera_respuesta_h": 20.0,
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-28 20:49"
-  },
-  {
-   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
-   "empresa": "Minelab Metal Detectors MX",
-   "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
-   "tipo": "Ticket",
-   "mrr": 654.5,
-   "due": "2026-11-09",
-   "due_on": "2026-11-09",
-   "created_at": "2026-10-29T02:52:54.905Z",
-   "created": "2026-10-29",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
-   "gid": "1220002087375986",
-   "tipo_solicitud": "Validación de APIs",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Alta",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
-   "atom_id": "28DAj6uou7YAHSplo3EP",
-   "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-29",
-    "vence": "2026-11-10",
-    "due_asana": "2026-11-09",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 2,
-    "tiempo_ciclo": 5
-   },
-   "primera_respuesta": "2026-11-02T15:32:46",
-   "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Este ticket no tiene set de evaluación no puede estar finalizado sin el set de pruebas se reabre",
-   "nota_fecha": "2026-11-06 15:54"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -527,20 +481,22 @@
    "tiempo_primera_respuesta_h": 20.0,
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-10-28 20:49"
-  },
+  }
+ ],
+ "completadas_7d": [
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-09",
    "due_on": "2026-11-09",
    "created_at": "2026-10-29T02:52:54.905Z",
    "created": "2026-10-29",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-07T02:50:35.495Z",
+   "completada": "2026-11-07",
    "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
    "gid": "1220002087375986",
    "tipo_solicitud": "Validación de APIs",
@@ -563,18 +519,18 @@
     "due_asana": "2026-11-09",
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 2,
-    "tiempo_ciclo": 5
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-11-06",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 5,
+    "dia": null,
+    "dias_restantes": null
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Este ticket no tiene set de evaluación no puede estar finalizado sin el set de pruebas se reabre",
-   "nota_fecha": "2026-11-06 15:54"
-  }
- ],
- "completadas_7d": [
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-07 02:50"
+  },
   {
    "nombre": "📅 Minelab Metal Detectors: Migración a Cortex e integración API Magento",
    "empresa": "Minelab Metal Detectors",
@@ -1696,15 +1652,15 @@
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-09",
    "due_on": "2026-11-09",
    "created_at": "2026-10-29T02:52:54.905Z",
    "created": "2026-10-29",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-07T02:50:35.495Z",
+   "completada": "2026-11-07",
    "proyectos": "Tickets de implementación, 🎫 MINELAB METAL DETECTORS, MINELA",
    "gid": "1220002087375986",
    "tipo_solicitud": "Validación de APIs",
@@ -1727,15 +1683,17 @@
     "due_asana": "2026-11-09",
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 6,
-    "dias_restantes": 2,
-    "tiempo_ciclo": 5
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-11-06",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 5,
+    "dia": null,
+    "dias_restantes": null
    },
    "primera_respuesta": "2026-11-02T15:32:46",
    "tiempo_primera_respuesta_h": 108.7,
-   "ultima_nota": "Este ticket no tiene set de evaluación no puede estar finalizado sin el set de pruebas se reabre",
-   "nota_fecha": "2026-11-06 15:54"
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-07 02:50"
   },
   {
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
@@ -1889,8 +1847,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 4,
-   "activos": 2,
-   "completados": 2
+   "activos": 1,
+   "completados": 3
   },
   {
    "nombre": "Sofia Alvarado",
@@ -1956,7 +1914,7 @@
   {
    "semana": "2026-W45",
    "creados": 1,
-   "resueltos": 1
+   "resueltos": 2
   }
  ],
  "por_tipo": [
@@ -2004,10 +1962,6 @@
   },
   {
    "cliente": "ULA Idiomas",
-   "activos": 1
-  },
-  {
-   "cliente": "Minelab Metal Detectors MX",
    "activos": 1
   },
   {
