@@ -1,30 +1,29 @@
 {
- "generado": "2026-11-06 23:51",
+ "generado": "2026-11-07 00:06",
  "kpis": {
-  "activas": 5,
-  "retail": 3,
+  "activas": 4,
+  "retail": 2,
   "multi": 2,
-  "entregas_7d": 3,
+  "entregas_7d": 4,
   "vencidas": 0,
-  "mrr_activo": 6804.5,
+  "mrr_activo": 5704.5,
   "cumplimiento": 100,
   "sla_vencidas": 2,
-  "sla_por_vencer": 1,
-  "sla_cumplimiento": 50,
-  "sla_tiempo_medio": 7.0,
-  "sla_entregadas_tiempo": 1,
+  "sla_por_vencer": 0,
+  "sla_cumplimiento": 67,
+  "sla_tiempo_medio": 6.7,
+  "sla_entregadas_tiempo": 2,
   "sla_entregadas_tarde": 1,
   "sla_pausados": 0,
   "primera_respuesta_promedio_h": 53.5,
-  "resolucion_promedio_dias": 7.0
+  "resolucion_promedio_dias": 6.7
  },
  "por_etapa": {
-  " 🧪 Pruebas y doc": 1,
   "🟣 Primera entrega": 1,
   "🔵 En proceso": 3
  },
  "por_area": {
-  "Educación & Retail": 4,
+  "Educación & Retail": 3,
   "Multiindustria": 1
  },
  "activas": [
@@ -117,51 +116,6 @@
    "tiempo_primera_respuesta_h": 265.0,
    "ultima_nota": "Hola equipo,\nComparto avance del ticket y la propuesta de regla para la integración de campañas:\n1) Servicio verificado (PROD, solo lectura): GET /leads/getCampainDetail responde correctamente. Catálogo por marca: VW 367 campañas · Camiones 147 · Audi 203 · Xpeng 27. Notas técnicas: requiere idDivision=\"03\" + al menos un filtro adicional (usaremos idAmercado); la documentación trae un typo (getCampaingDetail), el nombre correcto es getCampainDetail.\n2) Propuesta de regla de asociación: al crear el lead, buscar la campaña con idDivision=03 + idAmercado de la marca + nombre=<modelo del vehículo> + gestion=<año actual>; entre las coincidencias, priorizar status Active y la que corresponda al mes vigente. Si no hay coincidencia razonable, el lead se crea sin campaña (campo opcional), sin bloquear la creación.\n3) Implementación: ajuste en el CodeTool de creación de leads (envía campaign_id_c + campania_c) + mapeo en N8N. Sin cambios en los flujos conversacionales.\nPendiente para pruebas: necesitamos la credencial vigente del ambiente QA (la actual rechaza con invalid_client) o coordinar una prueba controlada en PROD con Grover.\n¿Les parece bien esta regla o prefieren otro criterio (p. ej., tabla de mapeo anuncio→campaña)?\nSaludos,\nRaiti",
    "nota_fecha": "2026-11-06 23:39"
-  },
-  {
-   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
-   "empresa": "Keat",
-   "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-06",
-   "due_on": "2026-11-06",
-   "created_at": "2026-10-27T22:49:41.044Z",
-   "created": "2026-10-27",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 KEAT",
-   "gid": "1219959299177663",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Jesus Roque",
-   "persona_contacto": "jesus.roque@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
-   "atom_id": "qeVs1ANiTUeA5rJZGmou",
-   "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-28",
-    "vence": "2026-11-09",
-    "due_asana": "2026-11-06",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 7,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 6
-   },
-   "primera_respuesta": "2026-10-28T18:51:27",
-   "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
-   "nota_fecha": "2026-11-07 05:48"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -347,53 +301,7 @@
    "nota_fecha": "2026-11-06 23:39"
   }
  ],
- "sla_por_vencer": [
-  {
-   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
-   "empresa": "Keat",
-   "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-06",
-   "due_on": "2026-11-06",
-   "created_at": "2026-10-27T22:49:41.044Z",
-   "created": "2026-10-27",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 KEAT",
-   "gid": "1219959299177663",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Jesus Roque",
-   "persona_contacto": "jesus.roque@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
-   "atom_id": "qeVs1ANiTUeA5rJZGmou",
-   "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-28",
-    "vence": "2026-11-09",
-    "due_asana": "2026-11-06",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 7,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 6
-   },
-   "primera_respuesta": "2026-10-28T18:51:27",
-   "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
-   "nota_fecha": "2026-11-07 05:48"
-  }
- ],
+ "sla_por_vencer": [],
  "completadas_7d": [
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
@@ -441,6 +349,53 @@
    "tiempo_primera_respuesta_h": 108.7,
    "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
    "nota_fecha": "2026-11-07 02:50"
+  },
+  {
+   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
+   "empresa": "Keat",
+   "industria": "Retail / E-commerce",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-06",
+   "due_on": "2026-11-06",
+   "created_at": "2026-10-27T22:49:41.044Z",
+   "created": "2026-10-27",
+   "completed_at": "2026-11-07T05:57:54.103Z",
+   "completada": "2026-11-07",
+   "proyectos": "Tickets de implementación, 🎫 KEAT",
+   "gid": "1219959299177663",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Media",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
+   "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-28",
+    "vence": "2026-11-09",
+    "due_asana": "2026-11-06",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-11-07",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 6,
+    "dia": null,
+    "dias_restantes": null
+   },
+   "primera_respuesta": "2026-10-28T18:51:27",
+   "tiempo_primera_respuesta_h": 20.0,
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-07 05:57"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -1437,15 +1392,15 @@
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
    "industria": "Retail / E-commerce",
-   "etapa": " 🧪 Pruebas y doc",
+   "etapa": "🟣 Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-06",
    "due_on": "2026-11-06",
    "created_at": "2026-10-27T22:49:41.044Z",
    "created": "2026-10-27",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-07T05:57:54.103Z",
+   "completada": "2026-11-07",
    "proyectos": "Tickets de implementación, 🎫 KEAT",
    "gid": "1219959299177663",
    "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
@@ -1468,15 +1423,17 @@
     "due_asana": "2026-11-06",
     "desalineado": true,
     "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 7,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 6
+    "estado": "entregado_a_tiempo",
+    "completado": "2026-11-07",
+    "dias_tarde": 0,
+    "tiempo_ciclo": 6,
+    "dia": null,
+    "dias_restantes": null
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
-   "nota_fecha": "2026-11-07 05:48"
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-07 05:57"
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -1801,8 +1758,8 @@
   {
    "nombre": "Jesus Roque",
    "total": 7,
-   "activos": 2,
-   "completados": 5
+   "activos": 1,
+   "completados": 6
   },
   {
    "nombre": "Michael Sancivier",
@@ -1874,7 +1831,7 @@
   {
    "semana": "2026-W45",
    "creados": 1,
-   "resueltos": 3
+   "resueltos": 4
   }
  ],
  "por_tipo": [
@@ -1912,10 +1869,6 @@
   }
  ],
  "por_cliente": [
-  {
-   "cliente": "Keat",
-   "activos": 1
-  },
   {
    "cliente": "ULA Idiomas",
    "activos": 1
