@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-06 22:36",
+ "generado": "2026-11-06 23:51",
  "kpis": {
   "activas": 5,
   "retail": 3,
@@ -19,8 +19,9 @@
   "resolucion_promedio_dias": 7.0
  },
  "por_etapa": {
-  "🔵 En proceso": 4,
-  "🟣 Primera entrega": 1
+  " 🧪 Pruebas y doc": 1,
+  "🟣 Primera entrega": 1,
+  "🔵 En proceso": 3
  },
  "por_area": {
   "Educación & Retail": 4,
@@ -121,7 +122,7 @@
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
    "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
+   "etapa": " 🧪 Pruebas y doc",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-06",
@@ -159,8 +160,8 @@
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
+   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
+   "nota_fecha": "2026-11-07 05:48"
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -351,7 +352,7 @@
    "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
    "empresa": "Keat",
    "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
+   "etapa": " 🧪 Pruebas y doc",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-06",
@@ -389,8 +390,8 @@
    },
    "primera_respuesta": "2026-10-28T18:51:27",
    "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
+   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
+   "nota_fecha": "2026-11-07 05:48"
   }
  ],
  "completadas_7d": [
@@ -1210,7 +1211,7 @@
    "nombre": "🎫 Mega Storage: Validación e integración de API SiteLink",
    "empresa": "Mega Storage",
    "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
+   "etapa": "🟢 Finalizado",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-10-30",
@@ -1250,8 +1251,8 @@
    },
    "primera_respuesta": "2026-10-26T23:56:16",
    "tiempo_primera_respuesta_h": 11.1,
-   "ultima_nota": "Buen dia \nTe comparto lo necesario para la siguiente fase:\n Usuario de API\n Empresa (Corp Code): CABK\n Usuario: Atom\n Contraseña: Atom2026$\nCódigos de sucursal (sLocationCode):\nPanamá (Mega Storage):\n L001 · San Francisco\n L003 · Transístmica\n L004 · Juan Díaz\n L005 · Condado del Rey\nColombia (UStorage by Mega Storage):\n L002 · Medellín (Puerto Seco)\n L006 · Prado (Bogotá)\n L007 · Megacenter (Medellín)\n L008 · Hayuelos (Bogotá)\n L010 · Crespo (Cartagena)\n L011 · Granadillo (Barranquilla)\nL009 (Cali) aparece en SiteLink, pero no es una sucursal en operación: por favor exclúyanla de las consultas y de las respuestas del asistente.\n Ambiente de prueba\n SiteLink tiene un ambiente de pruebas, pero no está habilitado para la API, así que el ambiente de prueba lo debe montar Atom de su lado. Les comparto cómo lo resolvimos nosotros en la web de alquiler en línea que estamos lanzando:\n Todas las consultas se hacen contra SiteLink real: sucursales, disponibilidad, tarifas, seguros y cotización. Esto no tiene ningún riesgo, porque son solo lecturas.\n En el ambiente de prueba, todo lo que escribiría en SiteLink (crear clientes, reservas o alquileres) se simula: la aplicación responde como si se hubiera hecho, pero no envía nada a SiteLink.\n Para que la prueba sea realista, cada operación simulada aparta temporalmente la bodega dentro del propio ambiente de prueba, así se ve cómo deja de aparecer como disponible.\n Para esta fase de precios y disponibilidad pueden probar directamente con el usuario de consulta. Si más adelante necesitan registrar leads o reservas, lo coordinamos antes y se hace con un cliente de prueba identificado como \"PRUEBA ATOM\".\n Precio a mostrar\n El precio que debe mostrar el asistente es la mensualidad que realmente pagará el cliente: renta mensual + seguro básico + impuesto.\n Panamá: (renta + seguro de $7.00) × 1.07 (ITBMS 7 %). Ejemplo: renta de $30.00 → ($30.00 + $7.00) × 1.07 = $39.59 al mes.\n Colombia: el mismo criterio, con el seguro básico de la sede y el IVA correspondiente, en pesos.\n Es el mismo precio que muestra nuestra web de alquiler, para que el cliente vea lo mismo en WhatsApp y en la web.\n Colombia\n Sí, las sedes de Colombia también usan SiteLink, en la misma empresa (CABK). Con el mismo usuario se consultan todas, cambiando el código de sucursal.\nQuedo atento para coordinar los siguientes pasos.",
-   "nota_fecha": "2026-11-04 04:27"
+   "ultima_nota": "Tu solicitud ha finalizada ✅\n tiempo de espera para tu solicitud terminó y el ticket se ha dado por completado.\nGracias por confiar en nosotros 😁",
+   "nota_fecha": "2026-11-07 05:49"
   },
   {
    "nombre": "📅 Hansa Ltda. Div. Automotriz: Acompañamiento pruebas de conectividad",
@@ -1295,7 +1296,7 @@
    "nombre": "🎫 Promelsa: Corregir identificación de clientes en CRM con Cortex",
    "empresa": "Promelsa",
    "industria": "Retail / E-commerce",
-   "etapa": "🟣 Primera entrega",
+   "etapa": "🟢 Finalizado",
    "tipo": "Ticket",
    "mrr": 990.0,
    "due": "2026-11-02",
@@ -1335,8 +1336,8 @@
    },
    "primera_respuesta": "2026-10-27T14:52:04",
    "tiempo_primera_respuesta_h": 0.1,
-   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nQuedamos atentos 👀",
-   "nota_fecha": "2026-10-28 18:31"
+   "ultima_nota": "Tu solicitud ha finalizada ✅\n tiempo de espera para tu solicitud terminó y el ticket se ha dado por completado.\nGracias por confiar en nosotros 😁",
+   "nota_fecha": "2026-11-07 05:49"
   },
   {
    "nombre": "🎫 Lease for U: Replicar bot a Cortex",
@@ -1433,6 +1434,51 @@
    "nota_fecha": "2026-10-23 05:53"
   },
   {
+   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
+   "empresa": "Keat",
+   "industria": "Retail / E-commerce",
+   "etapa": " 🧪 Pruebas y doc",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-06",
+   "due_on": "2026-11-06",
+   "created_at": "2026-10-27T22:49:41.044Z",
+   "created": "2026-10-27",
+   "completed_at": "",
+   "completada": "",
+   "proyectos": "Tickets de implementación, 🎫 KEAT",
+   "gid": "1219959299177663",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "complejidad": "Nivel Alto (High)",
+   "prioridad": "Media",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
+   "atom_id": "qeVs1ANiTUeA5rJZGmou",
+   "deadline_cancelled": null,
+   "area_l10": "Educación & Retail",
+   "sla": {
+    "tipo": "Integración / API",
+    "dias": 7,
+    "inicio": "2026-10-28",
+    "vence": "2026-11-09",
+    "due_asana": "2026-11-06",
+    "desalineado": true,
+    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
+    "estado": "por_vencer",
+    "dia": 7,
+    "dias_restantes": 1,
+    "tiempo_ciclo": 6
+   },
+   "primera_respuesta": "2026-10-28T18:51:27",
+   "tiempo_primera_respuesta_h": 20.0,
+   "ultima_nota": "Hola equipo,\nComparto la entrega de la integración Cortex ↔ HubSpot de Keat (V2.9.1). Se preparó sobre la copia “Cortex sin calendario”; producción no se modificó.\nResultado de la corrida de entrega: • 50/50 conversaciones evaluadas. • 91.64% de cumplimiento (umbral 90%). • 54/54 llamadas a HubSpot correctas; ficha K10395 consultada. • 0 alucinaciones y 0 fallos de inyección.\nLa integración ya identifica al cliente por WhatsApp y responde pedido, fecha/turno, paquetería y guía con datos de HubSpot, sin inventar información. La tipificación de cambios está implementada; falta validar el disparo del workflow.\nEl paquete de entrega incluye: • Agente V2.9.1 y prompt. • Documentación técnica de la API. • Reporte QA y Excel de pruebas. • Colección Postman.\nPendientes antes de producción:\n Validar tipificación → workflow en HubSpot.\n Probar una ficha con entrega vigente.\n Validación final de Keat.\nEl reporte QA detalla los criterios y los casos de cierre en conversaciones largas; no hubo precios ni garantías inventadas.\nQuedo atento a la validación para cerrar el ticket.",
+   "nota_fecha": "2026-11-07 05:48"
+  },
+  {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
    "empresa": "Ilusione",
    "industria": "🏠 Inmobiliario",
@@ -1478,51 +1524,6 @@
    "tiempo_primera_respuesta_h": 96.1,
    "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
    "nota_fecha": "2026-11-07 04:34"
-  },
-  {
-   "nombre": "🎫 Keat: Integración API Cortex con HubSpot para consultar pedidos",
-   "empresa": "Keat",
-   "industria": "Retail / E-commerce",
-   "etapa": "🔵 En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-06",
-   "due_on": "2026-11-06",
-   "created_at": "2026-10-27T22:49:41.044Z",
-   "created": "2026-10-27",
-   "completed_at": "",
-   "completada": "",
-   "proyectos": "Tickets de implementación, 🎫 KEAT",
-   "gid": "1219959299177663",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Jesus Roque",
-   "persona_contacto": "jesus.roque@atomchat.io",
-   "complejidad": "Nivel Alto (High)",
-   "prioridad": "Media",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
-   "atom_id": "qeVs1ANiTUeA5rJZGmou",
-   "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
-   "sla": {
-    "tipo": "Integración / API",
-    "dias": 7,
-    "inicio": "2026-10-28",
-    "vence": "2026-11-09",
-    "due_asana": "2026-11-06",
-    "desalineado": true,
-    "nota_desalineado": "Asana vence 1 día(s) hábil(es) antes que el SLA",
-    "estado": "por_vencer",
-    "dia": 7,
-    "dias_restantes": 1,
-    "tiempo_ciclo": 6
-   },
-   "primera_respuesta": "2026-10-28T18:51:27",
-   "tiempo_primera_respuesta_h": 20.0,
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-10-28 20:49"
   },
   {
    "nombre": "📅 Minelab Metal Detectors: Migración a Cortex e integración API Magento",
