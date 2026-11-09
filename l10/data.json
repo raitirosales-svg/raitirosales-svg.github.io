@@ -1,17 +1,18 @@
 {
- "generado": "2026-11-08 23:00",
+ "generado": "2026-11-09 09:52",
  "kpis": {
-  "activas": 4,
-  "retail": 2,
+  "activas": 6,
+  "retail": 4,
   "multi": 2,
   "entregas_7d": 4,
-  "vencidas": 0,
-  "mrr_activo": 5704.5,
-  "cumplimiento": 100
+  "vencidas": 1,
+  "mrr_activo": 7864.5,
+  "cumplimiento": 80
  },
  "por_etapa": {
   "🟣 Primera entrega": 1,
-  "🔵 En proceso": 3
+  "🔵 En proceso": 3,
+  "⚪️ Nuevo": 2
  },
  "activas": [
   {
@@ -69,9 +70,48 @@
    "gid": "1219895100894933",
    "ultima_nota": "Hola equipo 👋\nActualización de estado del proyecto. Este es el ticket donde vive la construcción del bot; los demás ya cumplieron su parte y aquí queda el hilo completo.\nEstado del bot\n 90–95 % construido.\n Un agente en Cortex con 6 herramientas, 3 salidas y las políticas listas para cargar.\n Probado contra la tienda real: catálogo, precios, stock, carrito, totales y envío.\nQué pasó con los otros tickets\n Validación de APIs de Magento (1220002087375986) — cerrado de nuestra parte.\n Entregada la lista de endpoints y cuáles requieren autenticación.\n 8 de las 12 acciones del piloto UK funcionan sin credenciales.\n «Colonia» resuelto: segunda línea de calle + atributo colonia. Verificado.\n La llave del servicio de pedidos quedó en gestión con TI de Minelab (1–2 semanas).\n El módulo minelab-agent no está desplegado en producción.\n Reunión de acompañamiento (1220230582407942) — cumplida.\n Resumen de la llamada, acuerdos y siguientes pasos publicados.\n Movida a «Primera entrega».\n HubSpot — resuelto.\n Conectado y probado de punta a punta: leer, crear o actualizar contacto y dejar nota.\n No hace falta usuario de HubSpot; la llave de API es suficiente.\n Políticas — recibidas.\n MSI, garantías, devoluciones y envíos.\n Producto agotado: se transfiere a un humano de Ventas.\nLo que falta\n La llave con permisos de estado de pedido y link de pago. TI de Minelab, vía Pedro, estimado 1–2 semanas.\n El despliegue del módulo minelab-agent en producción. Del lado de Minelab.\nMientras tanto, esas dos ramas se derivan a un humano; el resto del bot funciona completo.\nSiguientes pasos\n Atom: terminar el bot sin las dos funciones y correr las pruebas completas — aproximadamente 2 días.\n Coordinar con Michael las fechas de salida a producción.\n Cuando llegue la llave: probar estado de pedido y link de pago, y activar las dos ramas.\nSe envió el documento técnico para TI por correo el 5-nov.\nEste ticket sigue en «En proceso» hasta terminar las pruebas. Después pasa a «Primera entrega».",
    "nota_fecha": "2026-11-05 20:36"
+  },
+  {
+   "nombre": "🎫 MEGA Storage Panamá: Migración a Cortex e integración SiteLink",
+   "empresa": "MEGA Storage Panamá",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1080.0,
+   "due": "2026-12-02",
+   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE",
+   "completada": "",
+   "gid": "1220197226823480"
+  },
+  {
+   "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
+   "empresa": "MEGA Storage",
+   "industria": "Retail / E-commerce",
+   "etapa": "⚪️ Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1080.0,
+   "due": "2026-12-02",
+   "proyectos": "Tickets de implementación, 🎫 MEGA STORAGE, Megastorage Colom",
+   "completada": "",
+   "gid": "1220197146454868"
   }
  ],
- "vencidas": [],
+ "vencidas": [
+  {
+   "nombre": "🎫 ULA Idiomas: Crear Codetool en Cortex para integrar Hubspot",
+   "empresa": "ULA Idiomas",
+   "industria": "🎓 Educación",
+   "etapa": "🟣 Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-08",
+   "proyectos": "Tickets de implementación, 🎫 ULA IDIOMAS",
+   "completada": "",
+   "gid": "1219908413601570",
+   "ultima_nota": "Hola espero estes bien \nTe comparto feedback de parte de mi cliente con Cortex, al parecer esta duplicando contactos y no esta dando las imagenes en carrusel, adjuntos puntos a analizar:\n ⁠Llenan el formulario no están llegando al asesor , se quedan en el bot, es decir si se crean en HubSpot pero no llegan al asesor en el chat.\n Cuando se crean en HubSpot se duplican es decir como que cuando llenan el formulario los crea en HubSpot y la regla de crear datos que ya tiene número de teléfono también esta activa entonces se crea dos veces\n Los que se crean con formulario llegan sin el nombre.\n ⁠A veces el bot es un poco redundante en la mensajería no sé pueda corregir\n ⁠Y el tema del carrusel con ningún cliente ha sucedido no sé si lo del carrusel no sea para palabras tan puntuales sino solo si persona está interesada se lo pueda mostrar.",
+   "nota_fecha": "2026-11-05 18:44"
+  }
+ ],
  "completadas_7d": [
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
