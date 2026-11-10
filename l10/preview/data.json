@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10 08:45",
+ "generado": "2026-11-10 09:21",
  "kpis": {
   "activas": 6,
   "retail": 2,
@@ -20,8 +20,7 @@
  },
  "por_etapa": {
   "Ajustes de entrega": 1,
-  "En proceso": 3,
-  "nuevo": 2
+  "En proceso": 5
  },
  "por_area": {
   "Educación & Retail": 2,
@@ -208,7 +207,7 @@
    "nombre": "MEGA Storage Panamá: Migración a Cortex e integración SiteLink",
    "empresa": "MEGA Storage Panamá",
    "industria": "Retail / E-commerce",
-   "etapa": "nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-12-02",
@@ -252,7 +251,7 @@
    "nombre": "MEGA Storage: Migración a Cortex e integración con SiteLink",
    "empresa": "MEGA Storage",
    "industria": "Retail / E-commerce",
-   "etapa": "nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-12-02",
@@ -5802,7 +5801,7 @@
    "nombre": "MEGA Storage Panamá: Migración a Cortex e integración SiteLink",
    "empresa": "MEGA Storage Panamá",
    "industria": "Retail / E-commerce",
-   "etapa": "nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-12-02",
@@ -5846,7 +5845,7 @@
    "nombre": "MEGA Storage: Migración a Cortex e integración con SiteLink",
    "empresa": "MEGA Storage",
    "industria": "Retail / E-commerce",
-   "etapa": "nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1080.0,
    "due": "2026-12-02",
