@@ -194,7 +194,7 @@ function tablaActivas(items) {
   let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Vence Asana</th><th>MRR</th></tr>';
   for (const it of items) {
     const [cls, tag] = dueClass(it.due, false);
-    const nota = it.ultima_nota ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 <b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,160)) + (it.ultima_nota.length > 160 ? '…' : '') + '</div>' : '';
+    const nota = (it.resumen || it.ultima_nota) ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 <b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,160)) + ((it.resumen || it.ultima_nota).length > 160 ? '…' : '') + '</div>' : '';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span>' + nota + '</td>' +
       (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
       '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
@@ -210,7 +210,7 @@ function tablaSla(items) {
   let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA</th><th>Vence SLA</th><th>Última actualización</th></tr>';
   for (const it of items) {
     const s = it.sla || {};
-    const nota = it.ultima_nota ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,200)) + (it.ultima_nota.length > 200 ? '…' : '')) : 'Sin novedades';
+    const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
       '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
@@ -226,7 +226,7 @@ function tablaPausados(items) {
   for (const it of items) {
     const s = it.sla || {};
     const dl = (s.deadline_cancelled || '').slice(0,10) || '—';
-    const nota = it.ultima_nota ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc(it.ultima_nota.slice(0,200)) + (it.ultima_nota.length > 200 ? '…' : '')) : 'Sin novedades';
+    const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
       '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
