@@ -122,7 +122,7 @@
   <h2>✅ Entregadas · últimos 7 días</h2>
   <div id="t_completadas"></div>
 
-  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Asana cada 15 min · Solo tickets de Raiti</footer>
+  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Ticketera cada 15 min · Alcance de Raiti</footer>
 </div>
 <div class="flash" id="flash">✓ Datos actualizados</div>
 
@@ -200,10 +200,12 @@ function etapaBadge(e) {
 function tablaActivas(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
   const showArea = areaActual() === 'Todo';
-  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Vence Asana</th><th>MRR</th></tr>';
+  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Vence</th><th>MRR</th></tr>';
   for (const it of items) {
     const [cls, tag] = dueClass(it.due, false);
-    const nota = (it.resumen || it.ultima_nota) ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 <b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,160)) + ((it.resumen || it.ultima_nota).length > 160 ? '…' : '') + '</div>' : '';
+    const texto = it.resumen || it.ultima_nota || '';
+    const fecha = (it.nota_fecha || '').slice(0,10);
+    const nota = texto ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 ' + (fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,160)) + (texto.length > 160 ? '…' : '') + '</div>' : '';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span>' + nota + '</td>' +
       (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
       '<td>' + etapaBadge(it.etapa) + '</td>' +
@@ -216,10 +218,12 @@ function tablaActivas(items) {
 
 function tablaSla(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA</th><th>Vence SLA</th><th>Última actualización</th></tr>';
+  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA</th><th>Vence SLA</th><th>Resumen</th></tr>';
   for (const it of items) {
     const s = it.sla || {};
-    const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
+    const texto = it.resumen || it.ultima_nota || '';
+    const fecha = (it.nota_fecha || '').slice(0,10);
+    const nota = texto ? ((fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,200)) + (texto.length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
       '<td>' + etapaBadge(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
@@ -231,11 +235,13 @@ function tablaSla(items) {
 
 function tablaPausados(items) {
   if (!items.length) return '<div class="empty">Sin pausados 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Estado</th><th>Deadline datos</th><th>Última actualización</th></tr>';
+  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Estado</th><th>Deadline datos</th><th>Resumen</th></tr>';
   for (const it of items) {
     const s = it.sla || {};
     const dl = (s.deadline_cancelled || '').slice(0,10) || '—';
-    const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
+    const texto = it.resumen || it.ultima_nota || '';
+    const fecha = (it.nota_fecha || '').slice(0,10);
+    const nota = texto ? ((fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,200)) + (texto.length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
       '<td>' + etapaBadge(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +

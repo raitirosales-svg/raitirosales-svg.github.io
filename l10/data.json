@@ -1,9 +1,16 @@
 {
- "generado": "2026-11-10 10:36",
+ "generado": "2026-11-10 10:50",
+ "meta": {
+  "generado": "2026-11-10 10:50",
+  "ticketera_actualizado": "2026-11-10 16:46:00.839Z",
+  "ticketera_total": 124,
+  "asana_sync_status": "synced",
+  "fuente_sla": "ticketera"
+ },
  "kpis": {
   "activas": 6,
-  "retail": 2,
-  "multi": 4,
+  "retail": 4,
+  "multi": 2,
   "entregas_7d": 4,
   "vencidas": 1,
   "mrr_activo": 7864.5,
@@ -23,8 +30,8 @@
   "En proceso": 5
  },
  "por_area": {
-  "Educación & Retail": 2,
-  "Multiindustria": 4
+  "Educación & Retail": 5,
+  "Multiindustria": 1
  },
  "activas": [
   {
@@ -67,7 +74,7 @@
     "dia": 9,
     "tiempo_ciclo": 11
    },
-   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:07",
+   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:46",
    "ultima_nota": "",
    "nota_fecha": ""
   },
@@ -97,7 +104,7 @@
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 12,
@@ -141,7 +148,7 @@
    "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
    "atom_id": "Rg9CDWojWhwN0RmAQKT3",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 15,
@@ -185,7 +192,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -229,7 +236,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos, Reconocimiento imágenes o doc, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -273,7 +280,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -333,7 +340,7 @@
     "dia": 9,
     "tiempo_ciclo": 11
    },
-   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:07",
+   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:46",
    "ultima_nota": "",
    "nota_fecha": ""
   }
@@ -379,7 +386,7 @@
     "dia": 9,
     "tiempo_ciclo": 11
    },
-   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:07",
+   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:46",
    "ultima_nota": "",
    "nota_fecha": ""
   }
@@ -411,7 +418,7 @@
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 12,
@@ -457,7 +464,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -503,7 +510,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
    "atom_id": "6x4bPhCJlf3SRBa2KCmv",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 11,
@@ -549,7 +556,7 @@
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -595,7 +602,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -657,7 +664,7 @@
     "dia": 9,
     "tiempo_ciclo": 11
    },
-   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:07",
+   "resumen": "Creación de un Codetool en Cortex para integrar Hubspot y Atom.\n    El objetivo es transferir la información solicitada a Hubspot de manera correcta.\n    Aplica al bot ULA Idiomas - LULO como parte de la migración a Cortex.\nEstado: ajustes_entrega · vence 2026-11-08 · actualizado 2026-11-10 16:46",
    "ultima_nota": "",
    "nota_fecha": ""
   },
@@ -687,7 +694,7 @@
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 12,
@@ -731,7 +738,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -775,7 +782,7 @@
    "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
    "atom_id": "Rg9CDWojWhwN0RmAQKT3",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 15,
@@ -819,7 +826,7 @@
    "iniciativas": "Cortex, Migración a cortex",
    "atom_id": "iBVzK4eEmyR907oTYuAS",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 16,
@@ -865,7 +872,7 @@
    "iniciativas": "Cortex",
    "atom_id": "ZHH8auLhKmtWa48oP9tu",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 9,
@@ -911,7 +918,7 @@
    "iniciativas": "Cortex, WhatsApp Flows",
    "atom_id": "mdIK43zagC5BQY80ROoV",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -957,7 +964,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Reconocimiento imágenes o doc, Desarrollo a medida",
    "atom_id": "lRlYQ3SYfW15sZ2ONTc4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -1003,7 +1010,7 @@
    "iniciativas": "Cortex",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -1049,7 +1056,7 @@
    "iniciativas": "Cortex, FlowBuilder, Migración a cortex, Catálogos",
    "atom_id": "hXZycTa3aJllG6UGtKWw",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -1095,7 +1102,7 @@
    "iniciativas": "Cortex, Integraciones, Catálogos",
    "atom_id": "MUUQy4Laj5UbIiJPLfky",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -1141,7 +1148,7 @@
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -1187,7 +1194,7 @@
    "iniciativas": "Cortex, FlowBuilder, Migración a cortex, Catálogos, Reconocimiento imágenes o doc",
    "atom_id": "hXZycTa3aJllG6UGtKWw",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 16,
@@ -1233,7 +1240,7 @@
    "iniciativas": "Cortex, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -1279,7 +1286,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "Me2j4KsGxAiLGf4n1u5a",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 11,
@@ -1325,7 +1332,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "ZHH8auLhKmtWa48oP9tu",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 10,
@@ -1371,7 +1378,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 10,
@@ -1417,7 +1424,7 @@
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -1463,7 +1470,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex",
    "atom_id": "ZHH8auLhKmtWa48oP9tu",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -1555,7 +1562,7 @@
    "iniciativas": "Cortex, FlowBuilder, Catálogos",
    "atom_id": "ZzBTNPrrXtOYbzer7iRi",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 11,
@@ -1601,7 +1608,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "kD93JVojeqpFmitzVG6q",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -1647,7 +1654,7 @@
    "iniciativas": "WhatsApp Flows",
    "atom_id": "",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -1693,7 +1700,7 @@
    "iniciativas": "Cortex",
    "atom_id": "Lf7RrDVrM6sgkTLqjAxv",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -1739,7 +1746,7 @@
    "iniciativas": "Cortex, FlowBuilder, Migración a cortex",
    "atom_id": "",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 15,
@@ -1785,7 +1792,7 @@
    "iniciativas": "Cortex, FlowBuilder, Catálogos",
    "atom_id": "ZzBTNPrrXtOYbzer7iRi",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 10,
@@ -1831,7 +1838,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos, Reconocimiento imágenes o doc",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -1877,7 +1884,7 @@
    "iniciativas": "FlowBuilder, Reconocimiento imágenes o doc",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -1923,7 +1930,7 @@
    "iniciativas": "FlowBuilder, Catálogos",
    "atom_id": "36Nw6c42jX4CNe1W3K2c",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -1969,7 +1976,7 @@
    "iniciativas": "Integraciones",
    "atom_id": "oU4Weme4qo92qrBdfG0A",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 16,
@@ -2015,7 +2022,7 @@
    "iniciativas": "Cortex, FlowBuilder",
    "atom_id": "neo63uH2SepCFGWkLec3",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -2061,7 +2068,7 @@
    "iniciativas": "FlowBuilder, Integraciones",
    "atom_id": "LcdaiipcE6fZJjppUa8p",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -2107,7 +2114,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "kD93JVojeqpFmitzVG6q",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 11,
@@ -2199,7 +2206,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -2337,7 +2344,7 @@
    "iniciativas": "Integraciones, Desarrollo a medida",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -2567,7 +2574,7 @@
    "iniciativas": "Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -2613,7 +2620,7 @@
    "iniciativas": "Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -2659,7 +2666,7 @@
    "iniciativas": "Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -2705,7 +2712,7 @@
    "iniciativas": "Otros",
    "atom_id": "kD93JVojeqpFmitzVG6q",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -2797,7 +2804,7 @@
    "iniciativas": "Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -2843,7 +2850,7 @@
    "iniciativas": "FlowBuilder, Integraciones",
    "atom_id": "sTQFQ3qyxZiff9pWH4uh",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -2935,7 +2942,7 @@
    "iniciativas": "Catálogos",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -2981,7 +2988,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 48,
@@ -3119,7 +3126,7 @@
    "iniciativas": "FlowBuilder, Catálogos",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -3165,7 +3172,7 @@
    "iniciativas": "Catálogos",
    "atom_id": "zqyah5iU1bvW80H5qVvO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -3303,7 +3310,7 @@
    "iniciativas": "Catálogos",
    "atom_id": "36Nw6c42jX4CNe1W3K2c",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -3349,7 +3356,7 @@
    "iniciativas": "FlowBuilder, Catálogos",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -3395,7 +3402,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 5,
@@ -3441,7 +3448,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -3487,7 +3494,7 @@
    "iniciativas": "Otros",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -3533,7 +3540,7 @@
    "iniciativas": "Otros",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -3579,7 +3586,7 @@
    "iniciativas": "Catálogos",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 21,
@@ -3671,7 +3678,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos",
    "atom_id": "DwBauOTEzy424xuQk3OO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 17,
@@ -3717,7 +3724,7 @@
    "iniciativas": "Catálogos",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 5,
@@ -3763,7 +3770,7 @@
    "iniciativas": "Otros",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -3809,7 +3816,7 @@
    "iniciativas": "Otros",
    "atom_id": "3eSBGTufsljkVA2J3U0N",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -3855,7 +3862,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos, Desarrollo a medida",
    "atom_id": "9iudA5R1zoFLI8TwSMYV",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 14,
@@ -3901,7 +3908,7 @@
    "iniciativas": "FlowBuilder, Integraciones",
    "atom_id": "SaPaLHGvvspO5636zpSX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -3947,7 +3954,7 @@
    "iniciativas": "FlowBuilder, Reconocimiento imágenes o doc",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -3993,7 +4000,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos, Reconocimiento imágenes o doc",
    "atom_id": "Xbayi5gdLy5Bui8SlE09",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -4039,7 +4046,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -4085,7 +4092,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos",
    "atom_id": "3eSBGTufsljkVA2J3U0N",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 14,
@@ -4131,7 +4138,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos, Reconocimiento imágenes o doc",
    "atom_id": "Xbayi5gdLy5Bui8SlE09",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -4177,7 +4184,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "ik7fO7lCBQU27P68ZlVf",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -4223,7 +4230,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "CNQ9IYDvq6Jsw54QPaDE",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 13,
@@ -4269,7 +4276,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "CNQ9IYDvq6Jsw54QPaDE",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -4315,7 +4322,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "CNQ9IYDvq6Jsw54QPaDE",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -4361,7 +4368,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "zqyah5iU1bvW80H5qVvO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -4407,7 +4414,7 @@
    "iniciativas": "FlowBuilder, Reconocimiento imágenes o doc",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -4499,7 +4506,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 9,
@@ -4545,7 +4552,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos",
    "atom_id": "Xbayi5gdLy5Bui8SlE09",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -4683,7 +4690,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "9iudA5R1zoFLI8TwSMYV",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 12,
@@ -4729,7 +4736,7 @@
    "iniciativas": "FlowBuilder, Reconocimiento imágenes o doc",
    "atom_id": "zqyah5iU1bvW80H5qVvO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 18,
@@ -4775,7 +4782,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Catálogos",
    "atom_id": "MUUQy4Laj5UbIiJPLfky",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Sin fecha",
     "dias": null,
@@ -4811,7 +4818,7 @@
    "iniciativas": "Otros",
    "atom_id": "sdpI8zgZb3GhuUIjikgd",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -4857,7 +4864,7 @@
    "iniciativas": "FlowBuilder, Reconocimiento imágenes o doc",
    "atom_id": "jExXmNVJnpbdnVtNbtkS",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -4949,7 +4956,7 @@
    "iniciativas": "FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -5087,7 +5094,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "ClvQIuzUrlMBvS8ounUw",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -5133,7 +5140,7 @@
    "iniciativas": "FlowBuilder, Catálogos",
    "atom_id": "zqyah5iU1bvW80H5qVvO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -5225,7 +5232,7 @@
    "iniciativas": "Otros",
    "atom_id": "sdpI8zgZb3GhuUIjikgd",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -5271,7 +5278,7 @@
    "iniciativas": "Otros",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -5363,7 +5370,7 @@
    "iniciativas": "Otros",
    "atom_id": "mGkJYO0hEac1gLRqk5KI",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -5409,7 +5416,7 @@
    "iniciativas": "Otros",
    "atom_id": "zqyah5iU1bvW80H5qVvO",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 3,
@@ -5455,7 +5462,7 @@
    "iniciativas": "FlowBuilder, Integraciones",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -5501,7 +5508,7 @@
    "iniciativas": "FlowBuilder, Catálogos",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 1,
@@ -5547,7 +5554,7 @@
    "iniciativas": "FlowBuilder",
    "atom_id": "eSYLeY2iUCMLQf4s0TwJ",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 6,
@@ -5593,7 +5600,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -5685,7 +5692,7 @@
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "lRlYQ3SYfW15sZ2ONTc4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -5731,7 +5738,7 @@
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -5777,7 +5784,7 @@
    "iniciativas": "Cortex, Integraciones",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -5823,7 +5830,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos, Reconocimiento imágenes o doc, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -5867,7 +5874,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos, Desarrollo a medida",
    "atom_id": "sK07abz561FDc6GMrjf4",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 20,
@@ -5911,7 +5918,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
    "atom_id": "6x4bPhCJlf3SRBa2KCmv",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 11,
@@ -5957,7 +5964,7 @@
    "iniciativas": "Cortex, Integraciones, Desarrollo a medida",
    "atom_id": "qeVs1ANiTUeA5rJZGmou",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -6003,7 +6010,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 8,
@@ -6049,7 +6056,7 @@
    "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
    "atom_id": "28DAj6uou7YAHSplo3EP",
    "deadline_cancelled": null,
-   "area_l10": "Multiindustria",
+   "area_l10": "Educación & Retail",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 2,
@@ -6141,7 +6148,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, Desarrollo a medida",
    "atom_id": "uxFCMFBn315fMC20W3oR",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 21,
@@ -6187,7 +6194,7 @@
    "iniciativas": "Cortex, FlowBuilder, Integraciones, WhatsApp Flows",
    "atom_id": "LcdaiipcE6fZJjppUa8p",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 7,
@@ -6233,7 +6240,7 @@
    "iniciativas": "Otros",
    "atom_id": "36Nw6c42jX4CNe1W3K2c",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 4,
@@ -6279,7 +6286,7 @@
    "iniciativas": "Integraciones",
    "atom_id": "ufW4kEvg7GKMSMeSbDjX",
    "deadline_cancelled": null,
-   "area_l10": "Educación & Retail",
+   "area_l10": "Multiindustria",
    "sla": {
     "tipo": "Vencimiento",
     "dias": 9,
