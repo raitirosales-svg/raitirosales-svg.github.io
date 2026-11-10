@@ -380,8 +380,6 @@ function render() {
   const cumpl = compl.length ? Math.round(100 * at.length / compl.length) : null;
   const tiempos = compl.map(a => a.sla.tiempo_ciclo).filter(v => v != null);
   const tmed = tiempos.length ? tiempos.reduce((a, b) => a + b, 0) / tiempos.length : null;
-  const primeras = activas.concat(completadas).map(a => a.tiempo_primera_respuesta_h).filter(v => v != null);
-  const pmed = primeras.length ? primeras.reduce((a, b) => a + b, 0) / primeras.length : null;
   const mrr = activas.reduce((s, a) => s + (a.mrr || 0), 0);
 
   document.getElementById('kpis').innerHTML = `
@@ -392,7 +390,6 @@ function render() {
     <div class="kpi green"><div class="n">${completadas.length}</div><div class="l">Entregas 7 días</div></div>
     <div class="kpi ${cumpl === null || cumpl >= 90 ? 'green' : 'orange'}"><div class="n">${cumpl === null ? '—' : cumpl + '%'}</div><div class="l">Cumplimiento SLA</div></div>
     <div class="kpi"><div class="n">${tmed === null ? '—' : tmed.toFixed(1) + ' d'}</div><div class="l">Tiempo medio</div></div>
-    <div class="kpi"><div class="n">${pmed === null ? '—' : pmed.toFixed(1) + ' h'}</div><div class="l">Primera respuesta</div></div>
     <div class="kpi"><div class="n">$${mrr.toLocaleString()}</div><div class="l">MRR activo</div></div>
   `;
 
