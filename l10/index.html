@@ -164,14 +164,10 @@ function filtro() {
   };
 }
 
-function dueClass(due, completada) {
-  if (!due) return ['', ''];
-  const hoy = new Date(); hoy.setHours(0,0,0,0);
-  const d = new Date(due + 'T00:00:00');
-  const dias = Math.round((d - hoy) / 86400000);
-  if (completada) return ['due-ok', ''];
-  if (dias < 0) return ['due-red', 'vencida'];
-  if (dias <= 2) return ['due-amber', 'próxima'];
+function dueClassSla(it) {
+  const e = (it.sla || {}).estado;
+  if (e === 'vencido') return ['due-red', 'vencida'];
+  if (e === 'por_vencer') return ['due-amber', 'próxima'];
   return ['due-ok', ''];
 }
 
@@ -202,7 +198,7 @@ function tablaActivas(items) {
   const showArea = areaActual() === 'Todo';
   let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Vence</th><th>MRR</th></tr>';
   for (const it of items) {
-    const [cls, tag] = dueClass(it.due, false);
+    const [cls, tag] = dueClassSla(it);
     const texto = it.resumen || it.ultima_nota || '';
     const fecha = (it.nota_fecha || '').slice(0,10);
     const nota = texto ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 ' + (fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,160)) + (texto.length > 160 ? '…' : '') + '</div>' : '';
