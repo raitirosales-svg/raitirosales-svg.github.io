@@ -201,7 +201,7 @@ function etapaBadge(e) {
 function tablaActivas(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
   const showArea = areaActual() === 'Todo';
-  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA</th><th>Compromiso</th><th>MRR</th></tr>';
+  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA interno</th><th>Compromiso</th><th>MRR</th></tr>';
   for (const it of items) {
     const texto = it.resumen || it.ultima_nota || '';
     const fecha = (it.nota_fecha || '').slice(0,10);
@@ -218,7 +218,7 @@ function tablaActivas(items) {
 
 function tablaSla(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA</th><th>Compromiso</th><th>Resumen</th></tr>';
+  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA interno</th><th>Compromiso</th><th>Resumen</th></tr>';
   for (const it of items) {
     const texto = it.resumen || it.ultima_nota || '';
     const fecha = (it.nota_fecha || '').slice(0,10);
