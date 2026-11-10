@@ -188,6 +188,15 @@ function slaBadge(a) {
   return '<span class="pill ' + cls + '">' + esc(txt) + '</span>' + warn;
 }
 
+function etapaBadge(e) {
+  const v = e || '—';
+  let cls = 'p-gray';
+  if (v === 'Ajustes de entrega') cls = 'p-orange';
+  else if (v === 'Finalizado') cls = 'p-green';
+  else if (v === 'Rechazado') cls = 'p-red';
+  return '<span class="pill ' + cls + '">' + esc(v) + '</span>';
+}
+
 function tablaActivas(items) {
   if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
   const showArea = areaActual() === 'Todo';
@@ -197,7 +206,7 @@ function tablaActivas(items) {
     const nota = (it.resumen || it.ultima_nota) ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 <b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,160)) + ((it.resumen || it.ultima_nota).length > 160 ? '…' : '') + '</div>' : '';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span>' + nota + '</td>' +
       (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
-      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + etapaBadge(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
       '<td class="' + cls + '">' + esc(it.due || '—') + (tag ? ' · ' + tag : '') + '</td>' +
       '<td>$' + (it.mrr || 0).toLocaleString() + '</td></tr>';
@@ -212,7 +221,7 @@ function tablaSla(items) {
     const s = it.sla || {};
     const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
-      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + etapaBadge(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
       '<td>' + esc(s.vence || '—') + '</td>' +
       '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
@@ -228,7 +237,7 @@ function tablaPausados(items) {
     const dl = (s.deadline_cancelled || '').slice(0,10) || '—';
     const nota = (it.resumen || it.ultima_nota) ? ('<b>' + esc((it.nota_fecha || '').slice(0,10)) + '</b> — ' + esc((it.resumen || it.ultima_nota).slice(0,200)) + ((it.resumen || it.ultima_nota).length > 200 ? '…' : '')) : 'Sin novedades';
     h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
-      '<td style="font-size:11px">' + esc(it.etapa) + '</td>' +
+      '<td>' + etapaBadge(it.etapa) + '</td>' +
       '<td>' + slaBadge(it) + '</td>' +
       '<td>' + esc(dl) + '</td>' +
       '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
