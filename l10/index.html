@@ -3,55 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
 <title>ATOM · Tablero L10 — Implementación MI+Retail</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
     --orange: #E76812; --orange-lt: #F78427; --cream: #FFF3E8; --sand: #FBBC83;
     --dark: #191919; --gray: #525252; --green: #3A7A56; --red: #C0392B;
+    --amber: #B26A00; --blue: #2F5D8C; --purple: #6B4C9A;
     --line: #EDE3D8; --bg: #FAF7F3; --white: #FFFFFF;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--dark); font-family: 'Segoe UI', Arial, sans-serif; min-height: 100vh; }
+  body { background: var(--bg); color: var(--dark); font-family: 'Segoe UI', Arial, sans-serif; }
   .topbar { height: 6px; background: linear-gradient(90deg, var(--orange), var(--sand)); }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 22px 18px 60px; }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 22px 18px 60px; }
   header { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
   .brand { display: flex; align-items: center; gap: 14px; }
   .atomlogo { font-weight: 800; font-size: 26px; letter-spacing: 3px; color: var(--orange); border-bottom: 3px solid var(--orange); padding-bottom: 2px; }
-  h1 { font-size: 20px; font-weight: 700; color: var(--dark); }
+  h1 { font-size: 20px; font-weight: 700; }
   h1 span { color: var(--orange); }
   .sub { color: var(--gray); font-size: 13px; margin-top: 2px; }
   .right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .preview { background: var(--dark); color: #fff; font-size: 10px; font-weight: 800; letter-spacing: .8px; padding: 6px 10px; border-radius: 20px; }
   .upd { color: var(--gray); font-size: 12px; text-align: right; }
   .upd b { color: var(--orange); }
-  select.area { height: 38px; border-radius: 9px; border: 1px solid var(--line); background: var(--white); color: var(--dark); padding: 0 10px; font-size: 13px; outline: none; }
-  button.ref { background: var(--orange); color: #fff; border: 0; border-radius: 9px; padding: 9px 16px; font-weight: 700; font-size: 13px; cursor: pointer; }
+  select { height: 36px; border-radius: 9px; border: 1px solid var(--line); background: var(--white); color: var(--dark); padding: 0 10px; font-size: 13px; outline: none; }
+  .note { margin-top: 14px; background: var(--cream); border: 1px solid var(--line); color: var(--gray); border-radius: 10px; padding: 9px 12px; font-size: 11.5px; }
+  button.ref { background: var(--orange); color: #fff; border: 0; border-radius: 9px; padding: 9px 14px; font-weight: 800; font-size: 12px; cursor: pointer; }
   button.ref:hover { background: var(--orange-lt); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 10px; margin: 20px 0 6px; }
-  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 14px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
-  .kpi .n { font-size: 27px; font-weight: 800; color: var(--orange); }
-  .kpi .l { color: var(--gray); font-size: 11px; margin-top: 4px; }
-  .kpi.green .n { color: var(--green); } .kpi.red .n { color: var(--red); } .kpi.orange .n { color: var(--orange); }
-  h2 { font-size: 13px; margin: 24px 0 9px; color: var(--orange); text-transform: uppercase; letter-spacing: 1.1px; font-weight: 800; }
-  table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 12px; overflow: hidden; font-size: 12px; border: 1px solid var(--line); }
-  th { text-align: left; padding: 10px 10px; background: var(--cream); color: var(--orange); font-weight: 800; font-size: 10px; text-transform: uppercase; letter-spacing: .4px; }
-  td { padding: 9px 10px; border-top: 1px solid var(--line); color: var(--dark); vertical-align: top; }
-  tr:hover td { background: #FFFBF6; }
-  .pill { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 10px; font-weight: 700; }
-  .p-orange { background: #e7681222; color: var(--orange); }
-  .p-green { background: #3a7a5622; color: var(--green); }
-  .p-red { background: #c0392b22; color: var(--red); }
-  .p-gray { background: #52525222; color: var(--gray); }
-  .due-red { color: var(--red); font-weight: 700; }
-  .due-amber { color: var(--orange); font-weight: 700; }
-  .due-ok { color: var(--gray); }
-  .empty { color: var(--gray); font-size: 13px; padding: 16px; background: var(--white); border-radius: 12px; border: 1px dashed var(--line); }
-  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin: 10px 0 6px; }
-  .chartcard { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 12px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
-  .chartcard h3 { font-size: 10px; color: var(--orange); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; font-weight: 800; }
-  .chartcard .box { position: relative; height: 230px; }
-  #gate { position: fixed; inset: 0; background: var(--bg); display: flex; align-items: center; justify-content: center; z-index: 50; }
+  #gate { position: fixed; inset: 0; background: var(--bg); display: none; align-items: center; justify-content: center; z-index: 50; }
   #gate .box { background: var(--white); border: 1px solid var(--line); border-radius: 18px; padding: 34px; width: min(92vw, 360px); text-align: center; box-shadow: 0 10px 30px rgba(25,25,25,.08); }
   #gate h3 { color: var(--dark); margin: 10px 0 4px; }
   #gate p { color: var(--gray); font-size: 12px; margin-bottom: 16px; }
@@ -60,13 +39,56 @@
   #gate .err { color: var(--red); font-size: 12px; margin-top: 10px; min-height: 14px; }
   .flash { position: fixed; bottom: 18px; right: 18px; background: var(--dark); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 13px; opacity: 0; transition: opacity .3s; pointer-events: none; }
   .flash.on { opacity: 1; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 10px; margin: 18px 0 6px; }
+  .kpi { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 14px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
+  .kpi .n { font-size: 27px; font-weight: 800; color: var(--orange); }
+  .kpi .l { color: var(--gray); font-size: 11px; margin-top: 4px; }
+  .kpi.green .n { color: var(--green); } .kpi.red .n { color: var(--red); } .kpi.orange .n { color: var(--orange); }
+  h2 { font-size: 13px; margin: 26px 0 9px; color: var(--orange); text-transform: uppercase; letter-spacing: 1.1px; font-weight: 800; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin: 10px 0 6px; }
+  .chartcard { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 12px; box-shadow: 0 2px 8px rgba(25,25,25,.04); }
+  .chartcard h3 { font-size: 10px; color: var(--orange); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; font-weight: 800; }
+  .chartcard .box { position: relative; height: 220px; }
+  .table-wrap { width: 100%; overflow-x: auto; border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; background: var(--white); font-size: 11.5px; border: 1px solid var(--line); min-width: 1180px; }
+  th { text-align: left; padding: 9px 8px; background: var(--cream); color: var(--orange); font-weight: 800; font-size: 9.5px; text-transform: uppercase; letter-spacing: .4px; white-space: nowrap; }
+  td { padding: 9px 8px; border-top: 1px solid var(--line); vertical-align: top; }
+  tr:hover td { background: #FFFBF6; }
+  .company { font-weight: 800; font-size: 12.5px; }
+  .ticket { color: var(--gray); font-size: 10.5px; margin-top: 2px; line-height: 1.3; }
+  .mov { color: #8a7f72; font-size: 10px; margin-top: 4px; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 9.5px; font-weight: 700; white-space: nowrap; }
+  .tag-green { background: #3a7a5622; color: var(--green); }
+  .tag-orange { background: #e7681222; color: var(--orange); }
+  .tag-red { background: #c0392b22; color: var(--red); }
+  .tag-gray { background: #52525218; color: var(--gray); }
+  .tag-blue { background: #2f5d8c1f; color: var(--blue); }
+  .tag-purple { background: #6b4c9a1f; color: var(--purple); }
+  .date-red { color: var(--red); font-weight: 800; }
+  .date-amber { color: var(--orange); font-weight: 800; }
+  .date-ok { color: var(--gray); font-weight: 700; }
+  .nowrap { white-space: nowrap; }
+  .ai-preview { color: #3d3d3d; font-size: 11px; line-height: 1.35; }
+  .ai-full { color: #3d3d3d; font-size: 11px; line-height: 1.4; margin-top: 4px; }
+  .ai-full div { margin: 1px 0; }
+  .ai-warn { background: var(--cream); border-left: 3px solid var(--orange); padding-left: 6px; color: var(--amber); font-weight: 700; }
+  .ai-risk { color: #7a3b00; }
+  details { margin-top: 5px; }
+  details summary { cursor: pointer; color: var(--orange); font-size: 10px; font-weight: 700; }
+  .empty { color: var(--gray); font-size: 13px; padding: 16px; background: var(--white); border-radius: 12px; border: 1px dashed var(--line); }
+  .muted { color: var(--gray); font-size: 10.5px; }
   footer { color: #B9AFA3; font-size: 11px; text-align: center; margin-top: 40px; }
+  @media (max-width: 720px) {
+    .wrap { padding: 16px 10px 40px; }
+    h1 { font-size: 17px; }
+    .grid { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+  }
 </style>
 </head>
 <body>
 <div class="topbar"></div>
 
-<div id="gate" style="display:none">
+<div id="gate">
   <div class="box">
     <div class="atomlogo" style="font-size:30px">ATOM</div>
     <h3>Tablero L10</h3>
@@ -83,54 +105,188 @@
       <div class="atomlogo">ATOM</div>
       <div>
         <h1>Implementación <span>MI + Retail</span></h1>
-        <div class="sub">Raiti Rosales · Tablero L10</div>
+        <div class="sub">Estado de tickets · Asana · En vivo</div>
       </div>
     </div>
     <div class="right">
-      <select class="area" id="area" onchange="render()" title="Área L10">
+      <span class="preview">ASANA · EN VIVO</span>
+      <select id="area" onchange="render()">
         <option value="Todo">Todo</option>
         <option value="Educación &amp; Retail">Educación &amp; Retail</option>
         <option value="Multiindustria">Multiindustria</option>
       </select>
-      <div class="upd">Actualizado:<br><b id="upd">—</b></div>
       <button class="ref" onclick="cargar(true)">⟳ Actualizar</button>
+      <div class="upd">Actualizado:<br><b id="upd">—</b></div>
     </div>
   </header>
 
-  <div class="grid" id="kpis"></div>
-
-  <h2>📊 Analítica</h2>
-  <div class="charts">
-    <div class="chartcard"><h3>Tendencia · 8 semanas</h3><div class="box"><canvas id="chTendencia"></canvas></div></div>
-    <div class="chartcard"><h3>Estado SLA</h3><div class="box"><canvas id="chSla"></canvas></div></div>
-    <div class="chartcard"><h3>Top solicitantes · 8 semanas</h3><div class="box"><canvas id="chTop"></canvas></div></div>
-    <div class="chartcard"><h3>Tipos de solicitud</h3><div class="box"><canvas id="chTipos"></canvas></div></div>
+  <div class="note">
+    Fuente: Asana. La <b>fecha de entrega</b> es el <b>due_on</b> del ticket. La complejidad muestra el SLA estándar de referencia
+    (2/4/6/10 días hábiles) sin calcular una fecha distinta. La prioridad es de asignación y no define el estado.
+    La <b>discrepancia de fecha</b> se activa con la regla de Asana: <b>Primera entrega → Ajustes entrega</b>.
+    La página se actualiza automáticamente cada 5 min con el último sync de Asana.
   </div>
 
-  <h2>📌 Cuentas activas</h2>
-  <div id="t_activas"></div>
+  <div class="grid" id="kpis"></div>
 
-  <h2>🔴 Vencidas SLA · acción requerida</h2>
-  <div id="t_vencidas"></div>
+  <h2>Analítica</h2>
+  <div class="charts">
+    <div class="chartcard"><h3>Tendencia · 8 semanas</h3><div class="box"><canvas id="chTendencia"></canvas></div></div>
+    <div class="chartcard"><h3>Estado de entrega</h3><div class="box"><canvas id="chEstado"></canvas></div></div>
+    <div class="chartcard"><h3>Complejidad · activos</h3><div class="box"><canvas id="chComplejidad"></canvas></div></div>
+    <div class="chartcard"><h3>Prioridad · activos</h3><div class="box"><canvas id="chPrioridad"></canvas></div></div>
+  </div>
 
-  <h2>🟠 Por vencer · ≤3 días hábiles</h2>
-  <div id="t_por_vencer"></div>
+  <h2>Tickets activos · ordenados por fecha de entrega</h2>
+  <div class="table-wrap" id="activas"></div>
 
-  <h2>⏸ Pausados por datos faltantes</h2>
-  <div id="t_pausados"></div>
+  <h2>Entregadas · últimos 7 días</h2>
+  <div class="table-wrap" id="completadas"></div>
 
-  <h2>✅ Entregadas · últimos 7 días</h2>
-  <div id="t_completadas"></div>
-
-  <footer>ATOM · Implementación MI+Retail · Datos sincronizados desde Ticketera cada 15 min · Alcance de Raiti</footer>
+  <footer>ATOM · Implementación MI + Retail · Datos desde Asana · Se actualiza cada 15 min</footer>
 </div>
 <div class="flash" id="flash">✓ Datos actualizados</div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script>
 const CLAVE = "RR2026-l10";
 let DATA = null;
-let CHARTS = {};
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function areaActual() { return document.getElementById('area').value; }
+function enArea(x) { const a = areaActual(); return a === 'Todo' || (x.area_l10 || '') === a; }
+function money(n) { return '$' + Number(n || 0).toLocaleString('es-NI', {maximumFractionDigits: 2}); }
+function tag(text, cls) { return '<span class="tag ' + cls + '">' + esc(text) + '</span>'; }
+
+function stageTag(e) {
+  const map = {
+    'Ajustes entrega': 'tag-orange', 'En proceso': 'tag-blue', 'Nuevo': 'tag-gray',
+    'Primera entrega': 'tag-purple', 'Datos faltantes': 'tag-gray', 'Pruebas y doc': 'tag-purple',
+    'Finalizado': 'tag-green', 'Rechazados': 'tag-red', 'Espera (interno)': 'tag-gray',
+    'Primer respuesta': 'tag-blue'
+  };
+  return tag(e || 'Sin etapa', map[e] || 'tag-gray');
+}
+function compTag(a) {
+  const map = { 'Bajo': 'tag-green', 'Intermedio': 'tag-blue', 'Alto': 'tag-orange', 'Muy Alto': 'tag-red' };
+  const txt = a.complejidad + (a.sla_dias_referencia ? ' · ' + a.sla_dias_referencia + 'd' : '');
+  return tag(txt, map[a.complejidad] || 'tag-gray');
+}
+function prioTag(a) {
+  const map = { 'Baja': 'tag-gray', 'Media': 'tag-blue', 'Alta': 'tag-orange', 'Muy Alta': 'tag-red' };
+  const txt = (a.prioridad || '—') + ' · ' + (a.puntaje_prioridad || 0);
+  return tag(txt, map[a.prioridad] || 'tag-gray');
+}
+function estadoTag(a) {
+  if (a.pausado) return tag('Pausado', 'tag-gray');
+  const e = a.estado_entrega;
+  if (e === 'vencido') return tag('Vencido ' + Math.abs(a.dias_restantes || 0) + 'd', 'tag-red');
+  if (e === 'vence_hoy') return tag('Vence hoy', 'tag-orange');
+  if (e === 'por_vencer') return tag('Por vencer ' + (a.dias_restantes || 0) + 'd', 'tag-orange');
+  if (e === 'a_tiempo') return tag('A tiempo', 'tag-green');
+  if (e === 'entregado_a_tiempo') return tag('A tiempo', 'tag-green');
+  if (e === 'entregado_tarde') return tag('Tarde ' + Math.abs(a.dias_restantes || 0) + 'd', 'tag-red');
+  return tag('Sin fecha', 'tag-gray');
+}
+function fechaClass(a) {
+  if (a.pausado) return 'date-ok';
+  if (a.estado_entrega === 'vencido') return 'date-red';
+  if (a.estado_entrega === 'vence_hoy' || a.estado_entrega === 'por_vencer') return 'date-amber';
+  return 'date-ok';
+}
+function resumenPreview(t) {
+  const x = String(t || '').replace(/\s+/g, ' ').trim();
+  return esc(x.length > 260 ? x.slice(0, 260) + '…' : x);
+}
+function esDiscrepancia(t) {
+  const s = String(t || '');
+  return /discrepancia de fecha:/i.test(s) && !/discrepancia de fecha:\s*sin dato/i.test(s);
+}
+function resumenFull(t) {
+  return String(t || '').split('\n').map(function(line) {
+    let cls = '';
+    if (esDiscrepancia(line)) cls = 'ai-warn';
+    else if (/bloqueador|riesgo/i.test(line)) cls = 'ai-risk';
+    return '<div class="' + cls + '">' + esc(line || ' ') + '</div>';
+  }).join('');
+}
+function resumenCell(a) {
+  const t = a.resumen_ia || '';
+  if (!t) return '<span class="muted">Sin resumen</span>';
+  const full = resumenFull(t);
+  if (t.length <= 260) return '<div class="ai-full">' + full + '</div>';
+  return '<div class="ai-preview">' + resumenPreview(t) + '</div>' +
+    '<details><summary>Ver resumen completo</summary><div class="ai-full">' + full + '</div></details>';
+}
+function ticketCell(a) {
+  const discrep = a.discrepancia_fecha ? ' ' + tag('Discrepancia de fecha', 'tag-orange') : '';
+  const mov = a.nota_fecha ? 'Último: ' + esc(a.nota_fecha) + ' · ' + esc(a.nota_autor || '—') : 'Sin movimientos registrados';
+  return '<div class="company">' + esc(a.empresa) + discrep + '</div>' +
+    '<div class="ticket">' + esc(a.nombre) + '</div>' +
+    '<div class="mov">' + mov + '</div>';
+}
+
+function tablaActivas(items) {
+  if (!items.length) return '<div class="empty">Sin tickets activos.</div>';
+  let h = '<table><thead><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Complejidad</th><th>Entrega</th><th>Prioridad</th><th>MRR</th><th>Estado</th><th>Resumen IA</th></tr></thead><tbody>';
+  for (const a of items) {
+    h += '<tr><td>' + ticketCell(a) + '</td>' +
+      '<td>' + stageTag(a.etapa) + '</td>' +
+      '<td>' + compTag(a) + '</td>' +
+      '<td class="' + fechaClass(a) + ' nowrap"><b>' + esc(a.due || '—') + '</b></td>' +
+      '<td>' + prioTag(a) + '</td>' +
+      '<td>' + money(a.mrr) + '</td>' +
+      '<td>' + estadoTag(a) + '</td>' +
+      '<td>' + resumenCell(a) + '</td></tr>';
+  }
+  return h + '</tbody></table>';
+}
+function tablaCompletadas(items) {
+  if (!items.length) return '<div class="empty">Sin entregas en los últimos 7 días.</div>';
+  let h = '<table><thead><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Complejidad</th><th>Entrega</th><th>Entregada</th><th>Prioridad</th><th>MRR</th><th>Estado</th></tr></thead><tbody>';
+  for (const a of items) {
+    h += '<tr><td><div class="company">' + esc(a.empresa) + '</div><div class="ticket">' + esc(a.nombre) + '</div></td>' +
+      '<td>' + stageTag(a.etapa) + '</td>' +
+      '<td>' + compTag(a) + '</td>' +
+      '<td class="date-ok nowrap">' + esc(a.due || '—') + '</td>' +
+      '<td class="nowrap">' + esc(a.completada || '—') + '</td>' +
+      '<td>' + prioTag(a) + '</td>' +
+      '<td>' + money(a.mrr) + '</td>' +
+      '<td>' + estadoTag(a) + '</td></tr>';
+  }
+  return h + '</tbody></table>';
+}
+
+function render() {
+  if (!DATA) return;
+  const act = DATA.activas.filter(enArea);
+  const comp = DATA.completadas_7d.filter(enArea);
+  const venc = act.filter(a => a.estado_entrega === 'vencido' && !a.pausado);
+  const hoy = act.filter(a => a.estado_entrega === 'vence_hoy' && !a.pausado);
+  const pv = act.filter(a => a.estado_entrega === 'por_vencer' && !a.pausado);
+  const alta = act.filter(a => ['Alta', 'Muy Alta'].includes(a.prioridad));
+  const compl = comp.filter(a => ['entregado_a_tiempo', 'entregado_tarde'].includes(a.estado_entrega));
+  const at = compl.filter(a => a.estado_entrega === 'entregado_a_tiempo');
+  const cumpl = compl.length ? Math.round(100 * at.length / compl.length) : null;
+  const mrr = act.reduce((s, a) => s + (a.mrr || 0), 0);
+
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="n">${act.length}</div><div class="l">Tickets activos</div></div>
+    <div class="kpi ${venc.length ? 'red' : 'green'}"><div class="n">${venc.length}</div><div class="l">Vencidos</div></div>
+    <div class="kpi ${hoy.length ? 'orange' : ''}"><div class="n">${hoy.length}</div><div class="l">Vencen hoy</div></div>
+    <div class="kpi ${pv.length ? 'orange' : ''}"><div class="n">${pv.length}</div><div class="l">Por vencer (≤3 días)</div></div>
+    <div class="kpi green"><div class="n">${comp.length}</div><div class="l">Entregas 7 días</div></div>
+    <div class="kpi ${cumpl === null || cumpl >= 90 ? 'green' : 'orange'}"><div class="n">${cumpl === null ? '—' : cumpl + '%'}</div><div class="l">Cumplimiento entrega</div></div>
+    <div class="kpi ${alta.length ? 'orange' : ''}"><div class="n">${alta.length}</div><div class="l">Prioridad alta</div></div>
+    <div class="kpi"><div class="n">${money(mrr)}</div><div class="l">MRR activo</div></div>
+  `;
+  document.getElementById('activas').innerHTML = tablaActivas(act);
+  document.getElementById('completadas').innerHTML = tablaCompletadas(comp);
+  renderCharts(act);
+}
 
 function entrar() {
   const v = document.getElementById('clave').value;
@@ -139,140 +295,34 @@ function entrar() {
     mostrargate(false);
     cargar();
   } else {
-    document.getElementById('gerr').textContent = "Clave incorrecta";
+    document.getElementById('gerr').textContent = 'Clave incorrecta';
   }
 }
 function mostrargate(show) {
   document.getElementById('gate').style.display = show ? 'flex' : 'none';
   document.getElementById('app').style.display = show ? 'none' : 'block';
 }
-function esc(s) {
-  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
-    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
-  });
-}
-function areaActual() { return document.getElementById('area').value; }
-function enArea(x) {
-  const a = areaActual();
-  return a === 'Todo' || (x.area_l10 || '') === a;
-}
-function filtro() {
-  return {
-    activas: (DATA.activas || []).filter(enArea),
-    completadas: (DATA.completadas_7d || []).filter(enArea),
-    historial: (DATA.historial || []).filter(enArea)
-  };
-}
-
-function compromisoClass(it) {
-  return (it.sla || {}).desalineado ? 'due-amber' : 'due-ok';
-}
-
-function slaBadge(a) {
-  const s = a.sla || {};
-  let txt = 'Sin SLA', cls = 'p-gray';
-  if (s.estado === 'vencido') { txt = 'Vencido ' + Math.abs(s.dias_restantes || 0) + 'd'; cls = 'p-red'; }
-  else if (s.estado === 'por_vencer') { txt = s.dias_restantes ? 'Por vencer ' + s.dias_restantes + 'd' : 'Vence hoy'; cls = 'p-orange'; }
-  else if (s.estado === 'entregado_a_tiempo') { txt = 'A tiempo'; cls = 'p-green'; }
-  else if (s.estado === 'entregado_tarde') { txt = 'Tarde ' + (s.dias_tarde || 0) + 'd'; cls = 'p-red'; }
-  else if (s.estado === 'pausado') { txt = 'Pausado · ' + (s.deadline_cancelled ? String(s.deadline_cancelled).slice(0,10) : 'datos'); cls = 'p-gray'; }
-  else if (s.estado === 'a_tiempo') { txt = s.dia ? 'Día ' + s.dia + '/' + s.dias : 'A tiempo'; cls = 'p-green'; }
-  const warn = s.desalineado ? ' <span title="' + esc(s.nota_desalineado || '') + '">⚠️</span>' : '';
-  return '<span class="pill ' + cls + '">' + esc(txt) + '</span>' + warn;
-}
-
-function slaCell(it) {
-  const s = it.sla || {};
-  const vence = s.vence ? '<div style="font-size:10px;color:var(--gray)">SLA vence ' + esc(s.vence) + '</div>' : '';
-  const fuente = s.fuente === 'compromiso' ? '<div style="font-size:10px;color:var(--gray)">SLA por compromiso</div>' : '';
-  const nota = s.desalineado ? '<div style="font-size:10px;color:var(--orange)">' + esc(s.nota_desalineado || '') + '</div>' : '';
-  return slaBadge(it) + vence + fuente + nota;
-}
-
-function etapaBadge(e) {
-  const v = e || '—';
-  let cls = 'p-gray';
-  if (v === 'Ajustes de entrega') cls = 'p-orange';
-  else if (v === 'Finalizado') cls = 'p-green';
-  else if (v === 'Rechazado') cls = 'p-red';
-  return '<span class="pill ' + cls + '">' + esc(v) + '</span>';
-}
-
-function tablaActivas(items) {
-  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  const showArea = areaActual() === 'Todo';
-  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>Etapa</th><th>SLA interno</th><th>Compromiso</th><th>MRR</th></tr>';
-  for (const it of items) {
-    const texto = it.resumen || it.ultima_nota || '';
-    const fecha = (it.nota_fecha || '').slice(0,10);
-    const nota = texto ? '<div style="color:#8a7f72;font-size:10.5px;margin-top:4px;border-left:3px solid var(--sand);padding-left:7px">📝 ' + (fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,160)) + (texto.length > 160 ? '…' : '') + '</div>' : '';
-    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span>' + nota + '</td>' +
-      (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
-      '<td>' + etapaBadge(it.etapa) + '</td>' +
-      '<td>' + slaCell(it) + '</td>' +
-      '<td class="' + compromisoClass(it) + '">' + esc(it.due || '—') + '</td>' +
-      '<td>$' + (it.mrr || 0).toLocaleString() + '</td></tr>';
+async function cargar(manual) {
+  try {
+    const r = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'});
+    DATA = await r.json();
+    document.getElementById('upd').textContent = (DATA.meta && DATA.meta.generado) ? DATA.meta.generado : (DATA.generado || '—');
+    render();
+    if (manual) {
+      const f = document.getElementById('flash');
+      f.classList.add('on');
+      setTimeout(function() { f.classList.remove('on'); }, 1600);
+    }
+  } catch (e) {
+    document.getElementById('upd').textContent = 'error cargando datos';
   }
-  return h + '</table>';
 }
 
-function tablaSla(items) {
-  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>SLA interno</th><th>Compromiso</th><th>Resumen</th></tr>';
-  for (const it of items) {
-    const texto = it.resumen || it.ultima_nota || '';
-    const fecha = (it.nota_fecha || '').slice(0,10);
-    const nota = texto ? ((fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,200)) + (texto.length > 200 ? '…' : '')) : 'Sin novedades';
-    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
-      '<td>' + etapaBadge(it.etapa) + '</td>' +
-      '<td>' + slaCell(it) + '</td>' +
-      '<td class="' + compromisoClass(it) + '">' + esc(it.due || '—') + '</td>' +
-      '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
-  }
-  return h + '</table>';
-}
-
-function tablaPausados(items) {
-  if (!items.length) return '<div class="empty">Sin pausados 🎉</div>';
-  let h = '<table><tr><th>Cuenta / Ticket</th><th>Etapa</th><th>Estado</th><th>Deadline datos</th><th>Resumen</th></tr>';
-  for (const it of items) {
-    const s = it.sla || {};
-    const dl = (s.deadline_cancelled || '').slice(0,10) || '—';
-    const texto = it.resumen || it.ultima_nota || '';
-    const fecha = (it.nota_fecha || '').slice(0,10);
-    const nota = texto ? ((fecha ? '<b>' + esc(fecha) + '</b> — ' : '<b>Resumen IA</b> — ') + esc(texto.slice(0,200)) + (texto.length > 200 ? '…' : '')) : 'Sin novedades';
-    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
-      '<td>' + etapaBadge(it.etapa) + '</td>' +
-      '<td>' + slaBadge(it) + '</td>' +
-      '<td>' + esc(dl) + '</td>' +
-      '<td style="font-size:10.5px;color:var(--gray)">' + nota + '</td></tr>';
-  }
-  return h + '</table>';
-}
-
-function tablaCompletadas(items) {
-  if (!items.length) return '<div class="empty">Sin elementos 🎉</div>';
-  const showArea = areaActual() === 'Todo';
-  let h = '<table><tr><th>Cuenta / Ticket</th>' + (showArea ? '<th>Área</th>' : '') + '<th>SLA interno</th><th>Compromiso</th><th>Entregada</th><th>Tiempo</th></tr>';
-  for (const it of items) {
-    const s = it.sla || {};
-    const tiempo = (s.tiempo_ciclo == null) ? '—' : (s.tiempo_ciclo + ' d');
-    const compCls = s.estado_compromiso === 'entregado_tarde' ? 'due-red' : 'due-ok';
-    h += '<tr><td><b>' + esc(it.empresa) + '</b><br><span style="color:var(--gray);font-size:10.5px">' + esc(it.nombre) + '</span></td>' +
-      (showArea ? '<td><span class="pill p-gray">' + esc(it.area_l10 || '—') + '</span></td>' : '') +
-      '<td>' + slaCell(it) + '</td>' +
-      '<td class="' + compCls + '">' + esc(s.compromiso || '—') + '</td>' +
-      '<td>' + esc(it.completada || '—') + '</td>' +
-      '<td>' + tiempo + '</td></tr>';
-  }
-  return h + '</table>';
-}
-
+let CHARTS = {};
 function destroyCharts() {
   for (const k in CHARTS) { try { CHARTS[k].destroy(); } catch (e) {} }
   CHARTS = {};
 }
-
 function chartOpts(legend, horizontal) {
   return {
     responsive: true,
@@ -287,7 +337,6 @@ function chartOpts(legend, horizontal) {
     }
   };
 }
-
 function semanaISO(d) {
   const t = new Date(d.getTime());
   t.setHours(0,0,0,0);
@@ -296,12 +345,11 @@ function semanaISO(d) {
   const week = 1 + Math.round(((t - week1) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7);
   return t.getFullYear() + '-W' + String(week).padStart(2, '0');
 }
-
-function renderCharts(f) {
+function renderCharts(act) {
   if (!window.Chart) return;
   destroyCharts();
 
-  // Tendencia: 8 semanas continuas
+  const hist = DATA.historial.filter(enArea);
   const hoy = new Date();
   const lunes = new Date(hoy); lunes.setDate(hoy.getDate() - ((hoy.getDay() + 6) % 7));
   const labels = [], buckets = {};
@@ -311,7 +359,7 @@ function renderCharts(f) {
     labels.push(key);
     buckets[key] = { c: 0, r: 0 };
   }
-  for (const a of f.historial) {
+  for (const a of hist) {
     if (a.created) {
       const k = semanaISO(new Date(a.created + 'T00:00:00'));
       if (buckets[k]) buckets[k].c++;
@@ -333,103 +381,46 @@ function renderCharts(f) {
     options: chartOpts(true, false)
   });
 
-  // SLA
-  const slaCats = ['A tiempo', 'Por vencer', 'Vencidas', 'Pausados', 'Entregadas tarde'];
-  const slaVals = [
-    f.activas.filter(a => a.sla && a.sla.estado === 'a_tiempo').length + f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_a_tiempo').length,
-    f.activas.filter(a => a.sla && a.sla.estado === 'por_vencer').length,
-    f.activas.filter(a => a.sla && a.sla.estado === 'vencido').length,
-    f.activas.filter(a => a.sla && a.sla.estado === 'pausado').length,
-    f.completadas.filter(a => a.sla && a.sla.estado === 'entregado_tarde').length
+  const estadoLabels = ['A tiempo', 'Vence hoy', 'Por vencer', 'Vencido', 'Pausado'];
+  const estadoVals = [
+    act.filter(a => a.estado_entrega === 'a_tiempo').length,
+    act.filter(a => a.estado_entrega === 'vence_hoy').length,
+    act.filter(a => a.estado_entrega === 'por_vencer').length,
+    act.filter(a => a.estado_entrega === 'vencido' && !a.pausado).length,
+    act.filter(a => a.pausado).length
   ];
-  CHARTS.sla = new Chart(document.getElementById('chSla'), {
+  CHARTS.estado = new Chart(document.getElementById('chEstado'), {
     type: 'doughnut',
-    data: { labels: slaCats, datasets: [{ data: slaVals, backgroundColor: ['#3A7A56', '#E76812', '#C0392B', '#525252', '#8B2E2E'] }] },
+    data: { labels: estadoLabels, datasets: [{ data: estadoVals, backgroundColor: ['#3A7A56', '#E76812', '#F78427', '#C0392B', '#525252'] }] },
     options: chartOpts(true, false)
   });
 
-  // Top solicitantes
-  const acc = {};
-  for (const a of f.historial) {
-    const n = a.solicitante || a.persona_contacto || 'Sin dato';
-    acc[n] = (acc[n] || 0) + 1;
-  }
-  const top = Object.entries(acc).sort((a, b) => b[1] - a[1]).slice(0, 5);
-  CHARTS.top = new Chart(document.getElementById('chTop'), {
+  const compLabels = ['Bajo', 'Intermedio', 'Alto', 'Muy Alto', 'Sin clasificar'];
+  const compVals = compLabels.map(c => act.filter(a => a.complejidad === c).length);
+  CHARTS.comp = new Chart(document.getElementById('chComplejidad'), {
     type: 'bar',
-    data: { labels: top.map(x => x[0]), datasets: [{ label: 'Tickets', data: top.map(x => x[1]), backgroundColor: '#E76812' }] },
-    options: chartOpts(false, true)
+    data: { labels: compLabels, datasets: [{ label: 'Tickets', data: compVals, backgroundColor: ['#3A7A56', '#2F5D8C', '#E76812', '#C0392B', '#525252'] }] },
+    options: chartOpts(false, false)
   });
 
-  // Tipos
-  const tipos = {};
-  for (const a of f.historial) {
-    const t = a.tipo_solicitud || 'Sin dato';
-    tipos[t] = (tipos[t] || 0) + 1;
-  }
-  const topT = Object.entries(tipos).sort((a, b) => b[1] - a[1]).slice(0, 5);
-  CHARTS.tipos = new Chart(document.getElementById('chTipos'), {
+  const prioLabels = ['Baja', 'Media', 'Alta', 'Muy Alta'];
+  const prioVals = prioLabels.map(p => act.filter(a => a.prioridad === p).length);
+  CHARTS.prio = new Chart(document.getElementById('chPrioridad'), {
     type: 'bar',
-    data: { labels: topT.map(x => x[0]), datasets: [{ label: 'Tickets', data: topT.map(x => x[1]), backgroundColor: '#525252' }] },
-    options: chartOpts(false, true)
+    data: { labels: prioLabels, datasets: [{ label: 'Tickets', data: prioVals, backgroundColor: ['#525252', '#2F5D8C', '#E76812', '#C0392B'] }] },
+    options: chartOpts(false, false)
   });
 }
 
-function render() {
-  if (!DATA) return;
-  const f = filtro();
-  const activas = f.activas, completadas = f.completadas, historial = f.historial;
-  const vencidas = activas.filter(a => a.sla && a.sla.estado === 'vencido');
-  const porVencer = activas.filter(a => a.sla && a.sla.estado === 'por_vencer');
-  const pausados = activas.filter(a => a.sla && a.sla.estado === 'pausado');
-  const compl = completadas.filter(a => a.sla && ['entregado_a_tiempo', 'entregado_tarde'].includes(a.sla.estado));
-  const at = compl.filter(a => a.sla.estado === 'entregado_a_tiempo');
-  const cumpl = compl.length ? Math.round(100 * at.length / compl.length) : null;
-  const tiempos = compl.map(a => a.sla.tiempo_ciclo).filter(v => v != null);
-  const tmed = tiempos.length ? tiempos.reduce((a, b) => a + b, 0) / tiempos.length : null;
-  const mrr = activas.reduce((s, a) => s + (a.mrr || 0), 0);
-  const compEnt = completadas.filter(a => a.sla && a.sla.compromiso);
-  const compAt = compEnt.filter(a => a.completada && a.completada <= a.sla.compromiso);
-  const compCumpl = compEnt.length ? Math.round(100 * compAt.length / compEnt.length) : null;
-
-  document.getElementById('kpis').innerHTML = `
-    <div class="kpi"><div class="n">${activas.length}</div><div class="l">Cuentas activas</div></div>
-    <div class="kpi ${vencidas.length ? 'red' : 'green'}"><div class="n">${vencidas.length}</div><div class="l">Vencidas SLA interno</div></div>
-    <div class="kpi ${porVencer.length ? 'orange' : ''}"><div class="n">${porVencer.length}</div><div class="l">Por vencer (≤3 hábiles)</div></div>
-    <div class="kpi"><div class="n">${pausados.length}</div><div class="l">Pausados (datos)</div></div>
-    <div class="kpi green"><div class="n">${completadas.length}</div><div class="l">Entregas 7 días</div></div>
-    <div class="kpi ${cumpl === null || cumpl >= 90 ? 'green' : 'orange'}"><div class="n">${cumpl === null ? '—' : cumpl + '%'}</div><div class="l">Cumplimiento SLA interno</div></div>
-    <div class="kpi ${compCumpl === null || compCumpl >= 90 ? 'green' : 'orange'}"><div class="n">${compCumpl === null ? '—' : compCumpl + '%'}</div><div class="l">Cumplimiento compromiso</div></div>
-    <div class="kpi"><div class="n">${tmed === null ? '—' : tmed.toFixed(1) + ' d'}</div><div class="l">Tiempo medio</div></div>
-    <div class="kpi"><div class="n">$${mrr.toLocaleString()}</div><div class="l">MRR activo</div></div>
-  `;
-
-  document.getElementById('t_activas').innerHTML = tablaActivas(activas);
-  document.getElementById('t_vencidas').innerHTML = tablaSla(vencidas);
-  document.getElementById('t_por_vencer').innerHTML = tablaSla(porVencer);
-  document.getElementById('t_pausados').innerHTML = tablaPausados(pausados);
-  document.getElementById('t_completadas').innerHTML = tablaCompletadas(completadas);
-  renderCharts(f);
+if (localStorage.getItem('rr_l10_ok') === '1') {
+  mostrargate(false);
+  cargar();
+} else {
+  mostrargate(true);
 }
-
-async function cargar(manual) {
-  try {
-    const r = await fetch('data.json?t=' + Date.now(), {cache: 'no-store'});
-    DATA = await r.json();
-    document.getElementById('upd').textContent = DATA.generado;
-    render();
-    if (manual) {
-      const f = document.getElementById('flash');
-      f.classList.add('on');
-      setTimeout(() => f.classList.remove('on'), 1600);
-    }
-  } catch (e) {
-    document.getElementById('upd').textContent = 'error cargando datos';
-  }
-}
-
-if (localStorage.getItem('rr_l10_ok') === '1') { mostrargate(false); cargar(); }
-else { mostrargate(true); }
+setInterval(function() {
+  if (localStorage.getItem('rr_l10_ok') === '1') cargar(false);
+}, 5 * 60 * 1000);
 </script>
 </body>
 </html>
