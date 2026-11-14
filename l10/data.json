@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-14 11:36",
+ "generado": "2026-11-14 12:36",
  "meta": {
-  "generado": "2026-11-14 11:36",
+  "generado": "2026-11-14 12:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -106,14 +106,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.",
+   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.\nArchivo para el carrusel de productos https://docs.google.com/spreadsheets/d/19xXikkoGcM4jepNDLjRd4u6rhxm63WUN9-VIzv9jrXU/edit?usp=sharing\nArchivo de errores identificados por el cliente., para ser corregidos. https://docs.google.com/document/d/1nVEgYKDSWsl8bcBCksSTTk_o5qxTiJXOxPQGPGwGrKw/edit?usp=sharing",
    "nota_fecha": "2026-11-13 12:46",
    "nota_autor": "Michael Sancivier",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realiza la revisión inicial del ticket. El Cortex está listo, ya que el cliente completó la fase de pruebas previamente.\n\nBloqueadores / riesgos: Existen dudas sobre los links de URLs; se requiere mayor detalle o confirmación del cliente sobre la expectativa de los links faltantes.\n\nSiguiente paso: Definir los requerimientos sobre los links de URLs para proceder con la implementación final."
+   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realizó la revisión inicial del ticket. Se recibió contexto adicional sobre la fase de pruebas previa y se cuenta con el archivo de productos para el carrusel y el documento con errores identificados por el cliente para su corrección.\n\nBloqueadores / riesgos: Dudas sobre los links de URLs faltantes. Sin dato sobre discrepancia de fecha.\n\nSiguiente paso: Analizar los archivos compartidos (carrusel de productos y errores identificados) para proceder con los ajustes de prompt en Cortex."
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -343,14 +343,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.",
+   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.\nArchivo para el carrusel de productos https://docs.google.com/spreadsheets/d/19xXikkoGcM4jepNDLjRd4u6rhxm63WUN9-VIzv9jrXU/edit?usp=sharing\nArchivo de errores identificados por el cliente., para ser corregidos. https://docs.google.com/document/d/1nVEgYKDSWsl8bcBCksSTTk_o5qxTiJXOxPQGPGwGrKw/edit?usp=sharing",
    "nota_fecha": "2026-11-13 12:46",
    "nota_autor": "Michael Sancivier",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realiza la revisión inicial del ticket. El Cortex está listo, ya que el cliente completó la fase de pruebas previamente.\n\nBloqueadores / riesgos: Existen dudas sobre los links de URLs; se requiere mayor detalle o confirmación del cliente sobre la expectativa de los links faltantes.\n\nSiguiente paso: Definir los requerimientos sobre los links de URLs para proceder con la implementación final."
+   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realizó la revisión inicial del ticket. Se recibió contexto adicional sobre la fase de pruebas previa y se cuenta con el archivo de productos para el carrusel y el documento con errores identificados por el cliente para su corrección.\n\nBloqueadores / riesgos: Dudas sobre los links de URLs faltantes. Sin dato sobre discrepancia de fecha.\n\nSiguiente paso: Analizar los archivos compartidos (carrusel de productos y errores identificados) para proceder con los ajustes de prompt en Cortex."
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -738,14 +738,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.",
+   "ultima_nota": "Hola \nAmigo espero estes bien!\nContexto y disculpa no lo coloque antes, lo que paso con Yo me animo es que ya estaba por terminar la fase de pruebas, de hecho el cortex esta listo, pero ellos se demoraron y el ticket se cerro, por lo que Raiti me pidio abrir otro.\nEn este esta el historial de todo lo que ya esta hecho.\nArchivo para el carrusel de productos https://docs.google.com/spreadsheets/d/19xXikkoGcM4jepNDLjRd4u6rhxm63WUN9-VIzv9jrXU/edit?usp=sharing\nArchivo de errores identificados por el cliente., para ser corregidos. https://docs.google.com/document/d/1nVEgYKDSWsl8bcBCksSTTk_o5qxTiJXOxPQGPGwGrKw/edit?usp=sharing",
    "nota_fecha": "2026-11-13 12:46",
    "nota_autor": "Michael Sancivier",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realiza la revisión inicial del ticket. El Cortex está listo, ya que el cliente completó la fase de pruebas previamente.\n\nBloqueadores / riesgos: Existen dudas sobre los links de URLs; se requiere mayor detalle o confirmación del cliente sobre la expectativa de los links faltantes.\n\nSiguiente paso: Definir los requerimientos sobre los links de URLs para proceder con la implementación final."
+   "resumen_ia": "Estado actual: Primer respuesta.\n\nAjustes / avances: Se realizó la revisión inicial del ticket. Se recibió contexto adicional sobre la fase de pruebas previa y se cuenta con el archivo de productos para el carrusel y el documento con errores identificados por el cliente para su corrección.\n\nBloqueadores / riesgos: Dudas sobre los links de URLs faltantes. Sin dato sobre discrepancia de fecha.\n\nSiguiente paso: Analizar los archivos compartidos (carrusel de productos y errores identificados) para proceder con los ajustes de prompt en Cortex."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
