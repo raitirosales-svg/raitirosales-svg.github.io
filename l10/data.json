@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-13 16:51",
+ "generado": "2026-11-13 18:51",
  "meta": {
-  "generado": "2026-11-13 16:51",
+  "generado": "2026-11-13 18:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,33 +10,32 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 8,
+  "activas": 7,
   "vencidas": 0,
   "vence_hoy": 0,
   "por_vencer": 4,
   "pausados": 0,
-  "entregas_7d": 4,
+  "entregas_7d": 5,
   "cumplimiento": 100,
-  "prioridad_alta": 1,
-  "mrr_activo": 10974.5
+  "prioridad_alta": 0,
+  "mrr_activo": 10320.0
  },
  "por_etapa": {
   "Ajustes entrega": 1,
   "Primer respuesta": 3,
-  "En proceso": 4
+  "En proceso": 3
  },
  "por_area": {
-  "Educación & Retail": 6,
+  "Educación & Retail": 5,
   "Multiindustria": 2
  },
  "por_complejidad": {
   "Alto": 4,
   "Bajo": 1,
-  "Muy Alto": 3
+  "Muy Alto": 2
  },
  "por_prioridad": {
-  "Baja": 7,
-  "Alta": 1
+  "Baja": 7
  },
  "activas": [
   {
@@ -233,45 +232,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se confirmó la comprensión del requerimiento para crear un WhatsApp Flow de registro de motos e integrarlo con Cortex. Actualmente se encuentra en fase de validación de información.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Finalizar la validación de la información para avanzar a la siguiente fase del proyecto."
-  },
-  {
-   "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
-   "empresa": "Minelab Metal Detectors",
-   "industria": "Retail / E-commerce",
-   "area_l10": "Educación & Retail",
-   "etapa": "En proceso",
-   "tipo": "Ticket",
-   "mrr": 654.5,
-   "due": "2026-11-23",
-   "due_on": "2026-11-23",
-   "created_at": "2026-10-26T13:48:50.135Z",
-   "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1219895100894933",
-   "tipo_solicitud": "Nuevo Flujo + integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex",
-   "atom_id": "28DAj6uou7YAHSplo3EP",
-   "deadline_cancelled": null,
-   "complejidad": "Muy Alto",
-   "complejidad_nivel": 3,
-   "sla_dias_referencia": 10,
-   "prioridad": "Alta",
-   "puntaje_prioridad": 40.0,
-   "resumen_ticket": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos.",
-   "ultima_nota": "Hola equipo 👋\nActualización de estado del proyecto. Este es el ticket donde vive la construcción del bot; los demás ya cumplieron su parte y aquí queda el hilo completo.\nEstado del bot\n 90–95 % construido.\n Un agente en Cortex con 6 herramientas, 3 salidas y las políticas listas para cargar.\n Probado contra la tienda real: catálogo, precios, stock, carrito, totales y envío.\nQué pasó con los otros tickets\n Validación de APIs de Magento (1220002087375986) — cerrado de nuestra parte.\n Entregada la lista de endpoints y cuáles requieren autenticación.\n 8 de las 12 acciones del piloto UK funcionan sin credenciales.\n «Colonia» resuelto: segunda línea de calle + atributo colonia. Verificado.\n La llave del servicio de pedidos quedó en gestión con TI de Minelab (1–2 semanas).\n El módulo minelab-agent no está desplegado en producción.\n Reunión de acompañamiento (1220230582407942) — cumplida.\n Resumen de la llamada, acuerdos y siguientes pasos publicados.\n Movida a «Primera entrega».\n HubSpot — resuelto.\n Conectado y probado de punta a punta: leer, crear o actualizar contacto y dejar nota.\n No hace falta usuario de HubSpot; la llave de API es suficiente.\n Políticas — recibidas.\n MSI, garantías, devoluciones y envíos.\n Producto agotado: se transfiere a un humano de Ventas.\nLo que falta\n La llave con permisos de estado de pedido y link de pago. TI de Minelab, vía Pedro, estimado 1–2 semanas.\n El despliegue del módulo minelab-agent en producción. Del lado de Minelab.\nMientras tanto, esas dos ramas se derivan a un humano; el resto del bot funciona completo.\nSiguientes pasos\n Atom: terminar el bot sin las dos funciones y correr las pruebas completas — aproximadamente 2 días.\n Coordinar con Michael las fechas de salida a producción.\n Cuando llegue la llave: probar estado de pedido y link de pago, y activar las dos ramas.\nSe envió el documento técnico para TI por correo el 5-nov.\nEste ticket sigue en «En proceso» hasta terminar las pruebas. Después pasa a «Primera entrega».",
-   "nota_fecha": "2026-11-05 14:36",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "a_tiempo",
-   "dias_restantes": 6,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual:\n- En proceso. El bot tiene un avance del 90-95%.\n\nAjustes / avances:\n- Agente en Cortex con 6 herramientas operativas.\n- Integración con HubSpot completada y probada (lectura, creación, actualización de contactos y notas).\n- Políticas de MSI, garantías, devoluciones y envíos recibidas y listas para cargar.\n- Definida la derivación a ventas ante productos agotados.\n- Resuelto el campo de Colonia.\n\nBloqueadores / riesgos:\n- Pendiente entrega de llave con permisos para estado de pedido y link de pago (estimado 1-2 semanas por TI de Minelab).\n- Pendiente despliegue del módulo minelab-agent en producción por parte de Minelab.\n\nSiguiente paso:\n- Atom finalizará el bot (sin las dos funciones pendientes) y ejecutará pruebas completas en 2 días."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -551,6 +511,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Integrar el endpoint de búsqueda de campañas en SuiteCRM para vincular su UUID al crear leads."
+  },
+  {
+   "nombre": "🎫 Minelab Metal Detectors: Migración a Cortex e integración HubSpot",
+   "empresa": "Minelab Metal Detectors",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-23",
+   "due_on": "2026-11-23",
+   "created_at": "2026-10-26T13:48:50.135Z",
+   "created": "2026-10-26",
+   "completed_at": "2026-11-14T00:47:42.264Z",
+   "completada": "2026-11-13",
+   "gid": "1219895100894933",
+   "tipo_solicitud": "Nuevo Flujo + integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
+   "complejidad": "Muy Alto",
+   "complejidad_nivel": 3,
+   "sla_dias_referencia": 10,
+   "prioridad": "Alta",
+   "puntaje_prioridad": 40.0,
+   "resumen_ticket": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos.",
+   "ultima_nota": "Hola Michael 👋\nCompartimos la entrega documental de la migración a Cortex (Alfa 1.6). Ya quedó cerrada la parte ejecutable y documentados los pendientes externos.\nResultado\n 13/13 pruebas ejecutables correctas = 100 %; 0 FAIL.\n B3 (CRM): contacto de prueba creado/actualizado y luego archivado; búsqueda posterior 0.\n A11: cierre en Ventas correcto, pero el mensaje de despedida no se ve en el simulador; queda BLOCKED-HANDOFF hasta validarlo en FlowBuilder/canal de pruebas.\n B1/B2: fallback correcto; la integración real sigue bloqueada por el token de Minelab.\n C1–C6: N/A por falta de fixtures inyectables.\nMaterial\n https://drive.google.com/drive/folders/1vazoRbS1sP9x1fH0N8UV5MI5RTDPFNDH\n https://drive.google.com/drive/folders/1p16wSmJTwB31LdVZwWyA9O52IdxcOO0O\n https://drive.google.com/drive/folders/1YqCtV1Jrq1S02V0OhmpVPEq6ipbOJh7G\n https://drive.google.com/file/d/1tRNTk1RcnKa9cHuynSyuJ81NHaSyWOVQ/view?usp=drivesdk\n https://drive.google.com/file/d/1cbbLaESqJ-sf5mO0s5Va8DgwPv20U6yu/view?usp=drivesdk\n El Excel de evaluación incluye la hoja Conversaciones con los turnos documentados de la corrida.\nPendientes para cerrar\n A11: validar la despedida en FlowBuilder/canal; responsable Raiti Rosales; fecha pendiente hasta tener número/FlowBuilder.\n Token Minelab para estado de pedido y link de pago.\n FlowBuilder final: se usará una versión similar más completa y se apuntará a Alfa 1.6 (el metadata actual apunta a v4 y tiene 9 puertos).\n Fixtures C1–C6 en harness aislado.\nEl ticket queda en Primera entrega con el alcance ejecutable documentado. Los archivos compartidos están redactados: el agente completo con credenciales queda en el entorno de Atom.\nQuedamos atentos para revisarlo juntos.",
+   "nota_fecha": "2026-11-13 18:48",
+   "nota_autor": "Raiti Rosales Plata",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos."
   },
   {
    "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
@@ -1300,15 +1299,15 @@
    "empresa": "Minelab Metal Detectors",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "En proceso",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-23",
    "due_on": "2026-11-23",
    "created_at": "2026-10-26T13:48:50.135Z",
    "created": "2026-10-26",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-14T00:47:42.264Z",
+   "completada": "2026-11-13",
    "gid": "1219895100894933",
    "tipo_solicitud": "Nuevo Flujo + integración",
    "tipo_cliente": "Existente",
@@ -1325,14 +1324,14 @@
    "prioridad": "Alta",
    "puntaje_prioridad": 40.0,
    "resumen_ticket": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos.",
-   "ultima_nota": "Hola equipo 👋\nActualización de estado del proyecto. Este es el ticket donde vive la construcción del bot; los demás ya cumplieron su parte y aquí queda el hilo completo.\nEstado del bot\n 90–95 % construido.\n Un agente en Cortex con 6 herramientas, 3 salidas y las políticas listas para cargar.\n Probado contra la tienda real: catálogo, precios, stock, carrito, totales y envío.\nQué pasó con los otros tickets\n Validación de APIs de Magento (1220002087375986) — cerrado de nuestra parte.\n Entregada la lista de endpoints y cuáles requieren autenticación.\n 8 de las 12 acciones del piloto UK funcionan sin credenciales.\n «Colonia» resuelto: segunda línea de calle + atributo colonia. Verificado.\n La llave del servicio de pedidos quedó en gestión con TI de Minelab (1–2 semanas).\n El módulo minelab-agent no está desplegado en producción.\n Reunión de acompañamiento (1220230582407942) — cumplida.\n Resumen de la llamada, acuerdos y siguientes pasos publicados.\n Movida a «Primera entrega».\n HubSpot — resuelto.\n Conectado y probado de punta a punta: leer, crear o actualizar contacto y dejar nota.\n No hace falta usuario de HubSpot; la llave de API es suficiente.\n Políticas — recibidas.\n MSI, garantías, devoluciones y envíos.\n Producto agotado: se transfiere a un humano de Ventas.\nLo que falta\n La llave con permisos de estado de pedido y link de pago. TI de Minelab, vía Pedro, estimado 1–2 semanas.\n El despliegue del módulo minelab-agent en producción. Del lado de Minelab.\nMientras tanto, esas dos ramas se derivan a un humano; el resto del bot funciona completo.\nSiguientes pasos\n Atom: terminar el bot sin las dos funciones y correr las pruebas completas — aproximadamente 2 días.\n Coordinar con Michael las fechas de salida a producción.\n Cuando llegue la llave: probar estado de pedido y link de pago, y activar las dos ramas.\nSe envió el documento técnico para TI por correo el 5-nov.\nEste ticket sigue en «En proceso» hasta terminar las pruebas. Después pasa a «Primera entrega».",
-   "nota_fecha": "2026-11-05 14:36",
+   "ultima_nota": "Hola Michael 👋\nCompartimos la entrega documental de la migración a Cortex (Alfa 1.6). Ya quedó cerrada la parte ejecutable y documentados los pendientes externos.\nResultado\n 13/13 pruebas ejecutables correctas = 100 %; 0 FAIL.\n B3 (CRM): contacto de prueba creado/actualizado y luego archivado; búsqueda posterior 0.\n A11: cierre en Ventas correcto, pero el mensaje de despedida no se ve en el simulador; queda BLOCKED-HANDOFF hasta validarlo en FlowBuilder/canal de pruebas.\n B1/B2: fallback correcto; la integración real sigue bloqueada por el token de Minelab.\n C1–C6: N/A por falta de fixtures inyectables.\nMaterial\n https://drive.google.com/drive/folders/1vazoRbS1sP9x1fH0N8UV5MI5RTDPFNDH\n https://drive.google.com/drive/folders/1p16wSmJTwB31LdVZwWyA9O52IdxcOO0O\n https://drive.google.com/drive/folders/1YqCtV1Jrq1S02V0OhmpVPEq6ipbOJh7G\n https://drive.google.com/file/d/1tRNTk1RcnKa9cHuynSyuJ81NHaSyWOVQ/view?usp=drivesdk\n https://drive.google.com/file/d/1cbbLaESqJ-sf5mO0s5Va8DgwPv20U6yu/view?usp=drivesdk\n El Excel de evaluación incluye la hoja Conversaciones con los turnos documentados de la corrida.\nPendientes para cerrar\n A11: validar la despedida en FlowBuilder/canal; responsable Raiti Rosales; fecha pendiente hasta tener número/FlowBuilder.\n Token Minelab para estado de pedido y link de pago.\n FlowBuilder final: se usará una versión similar más completa y se apuntará a Alfa 1.6 (el metadata actual apunta a v4 y tiene 9 puertos).\n Fixtures C1–C6 en harness aislado.\nEl ticket queda en Primera entrega con el alcance ejecutable documentado. Los archivos compartidos están redactados: el agente completo con credenciales queda en el entorno de Atom.\nQuedamos atentos para revisarlo juntos.",
+   "nota_fecha": "2026-11-13 18:48",
    "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "a_tiempo",
-   "dias_restantes": 6,
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual:\n- En proceso. El bot tiene un avance del 90-95%.\n\nAjustes / avances:\n- Agente en Cortex con 6 herramientas operativas.\n- Integración con HubSpot completada y probada (lectura, creación, actualización de contactos y notas).\n- Políticas de MSI, garantías, devoluciones y envíos recibidas y listas para cargar.\n- Definida la derivación a ventas ante productos agotados.\n- Resuelto el campo de Colonia.\n\nBloqueadores / riesgos:\n- Pendiente entrega de llave con permisos para estado de pedido y link de pago (estimado 1-2 semanas por TI de Minelab).\n- Pendiente despliegue del módulo minelab-agent en producción por parte de Minelab.\n\nSiguiente paso:\n- Atom finalizará el bot (sin las dos funciones pendientes) y ejecutará pruebas completas en 2 días."
+   "resumen_ia": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos."
   },
   {
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
@@ -2014,8 +2013,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 8,
-   "activos": 5,
-   "completados": 3
+   "activos": 4,
+   "completados": 4
   },
   {
    "nombre": "Sofia Alvarado",
@@ -2087,7 +2086,7 @@
   {
    "semana": "2026-W46",
    "creados": 3,
-   "resueltos": 2
+   "resueltos": 3
   }
  ],
  "por_tipo": [
