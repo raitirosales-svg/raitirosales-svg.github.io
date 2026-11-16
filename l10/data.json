@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-16 09:06",
+ "generado": "2026-11-16 09:51",
  "meta": {
-  "generado": "2026-11-16 09:06",
+  "generado": "2026-11-16 09:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -67,14 +67,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Hola Raiti, perfecto\nMuchas gracias\nQuedo atento.",
-   "nota_fecha": "2026-11-13 15:46",
+   "ultima_nota": "Buenos días chicos, el cliente movió la fecha de la reunión para mañana martes a las 11:30 am hora Colombia\nMe ayudan moviendo el due date para mañana por favor",
+   "nota_fecha": "2026-11-16 09:45",
    "nota_autor": "Elliott Peralta",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se confirmó la necesidad de acompañamiento para la integración de HubSpot y la implementación de Cortex en la línea Mega Sofía. El equipo se encuentra validando la información.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con la validación de la información para avanzar a la siguiente fase. Fecha de entrega: 2026-11-16."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El equipo de implementación recibió el ticket y se encuentra validando la información necesaria para avanzar con la integración de HubSpot y Cortex en la línea Mega Sofía.\nBloqueadores / riesgos: El cliente reprogramó la reunión para el martes 17 de noviembre a las 11:30 am (hora Colombia). Discrepancia de fecha: La fecha de entrega oficial es 2026-11-16, pero el cliente solicitó mover el due date debido al cambio de reunión.\nSiguiente paso: Actualizar la fecha de entrega y asistir a la reunión reprogramada para definir la implementación."
   },
   {
    "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
@@ -582,14 +582,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Hola Raiti, perfecto\nMuchas gracias\nQuedo atento.",
-   "nota_fecha": "2026-11-13 15:46",
+   "ultima_nota": "Buenos días chicos, el cliente movió la fecha de la reunión para mañana martes a las 11:30 am hora Colombia\nMe ayudan moviendo el due date para mañana por favor",
+   "nota_fecha": "2026-11-16 09:45",
    "nota_autor": "Elliott Peralta",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se confirmó la necesidad de acompañamiento para la integración de HubSpot y la implementación de Cortex en la línea Mega Sofía. El equipo se encuentra validando la información.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con la validación de la información para avanzar a la siguiente fase. Fecha de entrega: 2026-11-16."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El equipo de implementación recibió el ticket y se encuentra validando la información necesaria para avanzar con la integración de HubSpot y Cortex en la línea Mega Sofía.\nBloqueadores / riesgos: El cliente reprogramó la reunión para el martes 17 de noviembre a las 11:30 am (hora Colombia). Discrepancia de fecha: La fecha de entrega oficial es 2026-11-16, pero el cliente solicitó mover el due date debido al cambio de reunión.\nSiguiente paso: Actualizar la fecha de entrega y asistir a la reunión reprogramada para definir la implementación."
   },
   {
    "nombre": "🎫 Mega Storage: Nuevo flujo e integración con SiteLink API",
