@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-17 11:21",
+ "generado": "2026-11-17 11:36",
  "meta": {
-  "generado": "2026-11-17 11:21",
+  "generado": "2026-11-17 11:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,33 +10,73 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 5,
-  "vencidas": 0,
+  "activas": 6,
+  "vencidas": 1,
   "vence_hoy": 1,
   "por_vencer": 1,
   "pausados": 0,
-  "entregas_7d": 5,
+  "entregas_7d": 4,
   "cumplimiento": 100,
-  "prioridad_alta": 0,
-  "mrr_activo": 8120.0
+  "prioridad_alta": 1,
+  "mrr_activo": 9220.0
  },
  "por_etapa": {
-  "Primer respuesta": 2,
-  "En proceso": 3
+  "En proceso": 4,
+  "Primer respuesta": 2
  },
  "por_area": {
-  "Multiindustria": 1,
+  "Multiindustria": 2,
   "Educación & Retail": 4
  },
  "por_complejidad": {
+  "Alto": 3,
   "Bajo": 1,
-  "Alto": 2,
   "Muy Alto": 2
  },
  "por_prioridad": {
+  "Muy Alta": 1,
   "Baja": 5
  },
  "activas": [
+  {
+   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
+   "empresa": "Ilusione",
+   "industria": "Inmobiliario",
+   "area_l10": "Multiindustria",
+   "etapa": "En proceso",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-14",
+   "due_on": "2026-11-14",
+   "created_at": "2026-10-22T23:51:04.304Z",
+   "created": "2026-10-22",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1219802577541852",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Mario Subuyuj",
+   "persona_contacto": "mario.subuyuj@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
+   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 65.0,
+   "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-17 11:16",
+   "nota_autor": "—",
+   "estado_entrega": "vencido",
+   "dias_restantes": -2,
+   "pausado": false,
+   "discrepancia_fecha": true,
+   "resumen_ia": "- Estado actual: En proceso.\n- Ajustes / avances: Se han realizado ajustes en el catálogo, manejo de contactos y formato de fechas/nombres. Las pruebas en simulador alcanzaron un 98% y 90% de efectividad. Se trabaja en los últimos requerimientos solicitados por el cliente.\n- Bloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-14, la cual ya ha sido superada. Se requiere una línea de WhatsApp conectada para validar la asignación real y descartar errores del simulador.\n- Siguiente paso: Implementar el formato de áreas (152m2) y configurar la derivación aleatoria de leads cuando el cliente no proporcione sus datos. Realizar pruebas finales con la línea conectada proporcionada por el cliente."
+  },
   {
    "nombre": "📅 Mega Travel: Acompañamiento en reunión sobre HubSpot y Cortex",
    "empresa": "Mega Travel",
@@ -233,7 +273,47 @@
    "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: El equipo de implementación ha recibido el ticket y se encuentra en la fase de estudio de alcance, insumos y dependencias. Se ha iniciado formalmente el trabajo en la solicitud.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: El equipo de implementación realizará la primera interacción con el cliente a través del hilo del ticket."
   }
  ],
- "vencidas": [],
+ "vencidas": [
+  {
+   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
+   "empresa": "Ilusione",
+   "industria": "Inmobiliario",
+   "area_l10": "Multiindustria",
+   "etapa": "En proceso",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-14",
+   "due_on": "2026-11-14",
+   "created_at": "2026-10-22T23:51:04.304Z",
+   "created": "2026-10-22",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1219802577541852",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Mario Subuyuj",
+   "persona_contacto": "mario.subuyuj@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
+   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 65.0,
+   "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-17 11:16",
+   "nota_autor": "—",
+   "estado_entrega": "vencido",
+   "dias_restantes": -2,
+   "pausado": false,
+   "discrepancia_fecha": true,
+   "resumen_ia": "- Estado actual: En proceso.\n- Ajustes / avances: Se han realizado ajustes en el catálogo, manejo de contactos y formato de fechas/nombres. Las pruebas en simulador alcanzaron un 98% y 90% de efectividad. Se trabaja en los últimos requerimientos solicitados por el cliente.\n- Bloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-14, la cual ya ha sido superada. Se requiere una línea de WhatsApp conectada para validar la asignación real y descartar errores del simulador.\n- Siguiente paso: Implementar el formato de áreas (152m2) y configurar la derivación aleatoria de leads cuando el cliente no proporcione sus datos. Realizar pruebas finales con la línea conectada proporcionada por el cliente."
+  }
+ ],
  "por_vencer": [
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -432,45 +512,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Migrar bot de WhatsApp a Cortex e integrar HubSpot para personalizar la atención y sincronizar datos."
-  },
-  {
-   "nombre": "🎫 Ilusione: Migración de Augusta a Cortex y mejoras",
-   "empresa": "Ilusione",
-   "industria": "Inmobiliario",
-   "area_l10": "Multiindustria",
-   "etapa": "En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-14",
-   "due_on": "2026-11-14",
-   "created_at": "2026-10-22T23:51:04.304Z",
-   "created": "2026-10-22",
-   "completed_at": "2026-11-12T21:10:43.665Z",
-   "completada": "2026-11-12",
-   "gid": "1219802577541852",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Mario Subuyuj",
-   "persona_contacto": "mario.subuyuj@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, FlowBuilder, Integraciones, Migración a cortex, Catálogos",
-   "atom_id": "6x4bPhCJlf3SRBa2KCmv",
-   "deadline_cancelled": null,
-   "complejidad": "Alto",
-   "complejidad_nivel": 2,
-   "sla_dias_referencia": 6,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 65.0,
-   "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-17 11:16",
-   "nota_autor": "—",
-   "estado_entrega": "entregado_a_tiempo",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta."
   }
  ],
  "historial": [
@@ -1188,8 +1229,8 @@
    "due_on": "2026-11-14",
    "created_at": "2026-10-22T23:51:04.304Z",
    "created": "2026-10-22",
-   "completed_at": "2026-11-12T21:10:43.665Z",
-   "completada": "2026-11-12",
+   "completed_at": "",
+   "completada": "",
    "gid": "1219802577541852",
    "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
    "tipo_cliente": "Existente",
@@ -1209,11 +1250,11 @@
    "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
    "nota_fecha": "2026-11-17 11:16",
    "nota_autor": "—",
-   "estado_entrega": "entregado_a_tiempo",
-   "dias_restantes": 0,
+   "estado_entrega": "vencido",
+   "dias_restantes": -2,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta."
+   "resumen_ia": "- Estado actual: En proceso.\n- Ajustes / avances: Se han realizado ajustes en el catálogo, manejo de contactos y formato de fechas/nombres. Las pruebas en simulador alcanzaron un 98% y 90% de efectividad. Se trabaja en los últimos requerimientos solicitados por el cliente.\n- Bloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-14, la cual ya ha sido superada. Se requiere una línea de WhatsApp conectada para validar la asignación real y descartar errores del simulador.\n- Siguiente paso: Implementar el formato de áreas (152m2) y configurar la derivación aleatoria de leads cuando el cliente no proporcione sus datos. Realizar pruebas finales con la línea conectada proporcionada por el cliente."
   },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
@@ -1763,8 +1804,8 @@
   {
    "nombre": "Mario Subuyuj",
    "total": 1,
-   "activos": 0,
-   "completados": 1
+   "activos": 1,
+   "completados": 0
   }
  ],
  "tendencia": [
@@ -1801,7 +1842,7 @@
   {
    "semana": "2026-W46",
    "creados": 3,
-   "resueltos": 4
+   "resueltos": 3
   },
   {
    "semana": "2026-W47",
