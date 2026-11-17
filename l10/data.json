@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-17 11:51",
+ "generado": "2026-11-17 12:36",
  "meta": {
-  "generado": "2026-11-17 11:51",
+  "generado": "2026-11-17 12:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,74 +10,33 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 6,
+  "activas": 5,
   "vencidas": 0,
-  "vence_hoy": 1,
+  "vence_hoy": 0,
   "por_vencer": 2,
   "pausados": 0,
-  "entregas_7d": 4,
+  "entregas_7d": 5,
   "cumplimiento": 100,
   "prioridad_alta": 1,
-  "mrr_activo": 9220.0
+  "mrr_activo": 8120.0
  },
  "por_etapa": {
-  "Primer respuesta": 2,
-  "En proceso": 3,
+  "En proceso": 4,
   "Ajustes entrega": 1
  },
  "por_area": {
-  "Multiindustria": 2,
-  "Educación & Retail": 4
+  "Educación & Retail": 4,
+  "Multiindustria": 1
  },
  "por_complejidad": {
-  "Bajo": 1,
   "Alto": 3,
   "Muy Alto": 2
  },
  "por_prioridad": {
-  "Baja": 5,
+  "Baja": 4,
   "Muy Alta": 1
  },
  "activas": [
-  {
-   "nombre": "📅 Mega Travel: Acompañamiento en reunión sobre HubSpot y Cortex",
-   "empresa": "Mega Travel",
-   "industria": "Turismo- hotel",
-   "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-17",
-   "due_on": "2026-11-17",
-   "created_at": "2026-11-11T20:28:16.857Z",
-   "created": "2026-11-11",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220446340749109",
-   "tipo_solicitud": "Solicitud de acompañamiento",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Elliott Peralta",
-   "persona_contacto": "elliott.peralta@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "EBYqtm3meARQQMv2Q6sJ",
-   "deadline_cancelled": null,
-   "complejidad": "Bajo",
-   "complejidad_nivel": 0,
-   "sla_dias_referencia": 2,
-   "prioridad": "Baja",
-   "puntaje_prioridad": 0.0,
-   "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Se ajusta fecha de entrega al Dia 17 debido a que se movió la reunión.",
-   "nota_fecha": "2026-11-16 10:11",
-   "nota_autor": "Alex Guevara",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha confirmado la recepción del ticket y se está validando la información necesaria para la integración de HubSpot y la implementación de Cortex en la línea Mega Sofía.\nBloqueadores / riesgos: Discrepancia de fecha: El cliente reprogramó la reunión para el martes 17 de noviembre a las 11:30 am (hora Colombia).\nSiguiente paso: Asistir a la reunión programada para el 17 de noviembre para definir los detalles de la integración e implementación."
-  },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
    "empresa": "SINSA",
@@ -161,7 +120,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-23",
@@ -186,14 +145,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear e integrar un WhatsApp Flow en Cortex para recopilar datos de registro de motos.",
-   "ultima_nota": "Hola Jesus,\nRecibimos el ticket *🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex*.\nEntendemos que necesitas crear un WhatsApp Flow para el registro de interesados en motos e integrarlo con el Cortex de Motos para continuar con la validación y atención comercial.\nEstamos validando la información para avanzar a la siguiente fase. Te mantendremos al tanto por este hilo.\nGracias.",
-   "nota_fecha": "2026-11-13 16:49",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-17 12:28",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se confirmó la comprensión del requerimiento para crear un WhatsApp Flow de registro de motos e integrarlo con Cortex. Actualmente se encuentra en fase de validación de información.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Finalizar la validación de la información para avanzar a la siguiente fase del proyecto."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -358,6 +317,45 @@
  "pausados": [],
  "completadas_7d": [
   {
+   "nombre": "📅 Mega Travel: Acompañamiento en reunión sobre HubSpot y Cortex",
+   "empresa": "Mega Travel",
+   "industria": "Turismo- hotel",
+   "area_l10": "Multiindustria",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-17",
+   "due_on": "2026-11-17",
+   "created_at": "2026-11-11T20:28:16.857Z",
+   "created": "2026-11-11",
+   "completed_at": "2026-11-17T18:30:17.028Z",
+   "completada": "2026-11-17",
+   "gid": "1220446340749109",
+   "tipo_solicitud": "Solicitud de acompañamiento",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Elliott Peralta",
+   "persona_contacto": "elliott.peralta@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "EBYqtm3meARQQMv2Q6sJ",
+   "deadline_cancelled": null,
+   "complejidad": "Bajo",
+   "complejidad_nivel": 0,
+   "sla_dias_referencia": 2,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 0.0,
+   "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-17 12:30",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp."
+  },
+  {
    "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
    "empresa": "Yomeanimo!",
    "industria": "Seguros",
@@ -520,7 +518,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-23",
@@ -545,29 +543,29 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear e integrar un WhatsApp Flow en Cortex para recopilar datos de registro de motos.",
-   "ultima_nota": "Hola Jesus,\nRecibimos el ticket *🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex*.\nEntendemos que necesitas crear un WhatsApp Flow para el registro de interesados en motos e integrarlo con el Cortex de Motos para continuar con la validación y atención comercial.\nEstamos validando la información para avanzar a la siguiente fase. Te mantendremos al tanto por este hilo.\nGracias.",
-   "nota_fecha": "2026-11-13 16:49",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-17 12:28",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se confirmó la comprensión del requerimiento para crear un WhatsApp Flow de registro de motos e integrarlo con Cortex. Actualmente se encuentra en fase de validación de información.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Finalizar la validación de la información para avanzar a la siguiente fase del proyecto."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
   },
   {
    "nombre": "📅 Mega Travel: Acompañamiento en reunión sobre HubSpot y Cortex",
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-17",
    "due_on": "2026-11-17",
    "created_at": "2026-11-11T20:28:16.857Z",
    "created": "2026-11-11",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-17T18:30:17.028Z",
+   "completada": "2026-11-17",
    "gid": "1220446340749109",
    "tipo_solicitud": "Solicitud de acompañamiento",
    "tipo_cliente": "Existente",
@@ -584,14 +582,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Se ajusta fecha de entrega al Dia 17 debido a que se movió la reunión.",
-   "nota_fecha": "2026-11-16 10:11",
-   "nota_autor": "Alex Guevara",
-   "estado_entrega": "vence_hoy",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-17 12:30",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha confirmado la recepción del ticket y se está validando la información necesaria para la integración de HubSpot y la implementación de Cortex en la línea Mega Sofía.\nBloqueadores / riesgos: Discrepancia de fecha: El cliente reprogramó la reunión para el martes 17 de noviembre a las 11:30 am (hora Colombia).\nSiguiente paso: Asistir a la reunión programada para el 17 de noviembre para definir los detalles de la integración e implementación."
+   "resumen_ia": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp."
   },
   {
    "nombre": "🎫 Mega Storage: Nuevo flujo e integración con SiteLink API",
@@ -1798,8 +1796,8 @@
   {
    "nombre": "Elliott Peralta",
    "total": 1,
-   "activos": 1,
-   "completados": 0
+   "activos": 0,
+   "completados": 1
   },
   {
    "nombre": "Mario Subuyuj",
@@ -1847,7 +1845,7 @@
   {
    "semana": "2026-W47",
    "creados": 0,
-   "resueltos": 1
+   "resueltos": 2
   }
  ],
  "por_tipo": [
