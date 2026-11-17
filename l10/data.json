@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-17 08:12",
+ "generado": "2026-11-17 10:36",
  "meta": {
-  "generado": "2026-11-17 08:12",
+  "generado": "2026-11-17 10:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,31 +10,31 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 6,
+  "activas": 5,
   "vencidas": 0,
-  "vence_hoy": 2,
+  "vence_hoy": 1,
   "por_vencer": 1,
   "pausados": 0,
-  "entregas_7d": 4,
+  "entregas_7d": 5,
   "cumplimiento": 100,
   "prioridad_alta": 0,
-  "mrr_activo": 9220.0
+  "mrr_activo": 8120.0
  },
  "por_etapa": {
   "Primer respuesta": 2,
-  "En proceso": 4
+  "En proceso": 3
  },
  "por_area": {
-  "Multiindustria": 2,
+  "Multiindustria": 1,
   "Educación & Retail": 4
  },
  "por_complejidad": {
   "Bajo": 1,
-  "Alto": 3,
+  "Alto": 2,
   "Muy Alto": 2
  },
  "por_prioridad": {
-  "Baja": 6
+  "Baja": 5
  },
  "activas": [
   {
@@ -75,45 +75,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha confirmado la recepción del ticket y se está validando la información necesaria para la integración de HubSpot y la implementación de Cortex en la línea Mega Sofía.\nBloqueadores / riesgos: Discrepancia de fecha: El cliente reprogramó la reunión para el martes 17 de noviembre a las 11:30 am (hora Colombia).\nSiguiente paso: Asistir a la reunión programada para el 17 de noviembre para definir los detalles de la integración e implementación."
-  },
-  {
-   "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
-   "empresa": "Yomeanimo!",
-   "industria": "Seguros",
-   "area_l10": "Multiindustria",
-   "etapa": "En proceso",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-17",
-   "due_on": "2026-11-17",
-   "created_at": "2026-11-04T19:59:46.387Z",
-   "created": "2026-11-04",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220226886263361",
-   "tipo_solicitud": "Ajuste o creación de Prompt",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex",
-   "atom_id": "ZHH8auLhKmtWa48oP9tu",
-   "deadline_cancelled": null,
-   "complejidad": "Alto",
-   "complejidad_nivel": 2,
-   "sla_dias_referencia": 6,
-   "prioridad": "Baja",
-   "puntaje_prioridad": 0.0,
-   "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-16 11:36",
-   "nota_autor": "—",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha iniciado el trabajo en la solicitud. Se cuenta con el contexto previo de la fase de pruebas y los archivos de referencia para el carrusel de productos y los errores identificados por el cliente.\n\nBloqueadores / riesgos: Existen dudas sobre los links de URLs y la expectativa de los links faltantes. Sin dato sobre discrepancia de fecha.\n\nSiguiente paso: Resolver las dudas sobre los links de URLs y continuar con los ajustes del prompt en Cortex para la derivación a Avento y la optimización de la cotización en WhatsApp."
   },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
@@ -316,6 +277,45 @@
  ],
  "pausados": [],
  "completadas_7d": [
+  {
+   "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
+   "empresa": "Yomeanimo!",
+   "industria": "Seguros",
+   "area_l10": "Multiindustria",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-17",
+   "due_on": "2026-11-17",
+   "created_at": "2026-11-04T19:59:46.387Z",
+   "created": "2026-11-04",
+   "completed_at": "2026-11-17T16:32:54.020Z",
+   "completada": "2026-11-17",
+   "gid": "1220226886263361",
+   "tipo_solicitud": "Ajuste o creación de Prompt",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex",
+   "atom_id": "ZHH8auLhKmtWa48oP9tu",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 0.0,
+   "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
+   "ultima_nota": "Hola Michael,\nEl ticket quedó en Primera entrega. Les dejo el paquete de entrega de Yomi - YoMeAnimo! (Cortex) y la guía para ejecutar las pruebas.\nQué se implementó:\n- Agente Cortex con flujo de cotización, servicio y derivación; cotizador real y HubSpot.\n- Prompt V3: precios y cuotas solo del cotizador, sin planilla; email no bloqueante; T&C antes de avanzar.\n- Base de conocimiento sin precios y ficha visual; corrección de la recuperación de cláusulas de T&C.\n- Corrección de la asociación del negocio en HubSpot con el contact_id devuelto por la tool.\nEstado:\n- Construcción técnica: 89%. Avance total del paquete: 78%.\n- Validación: 3/15 casos PASS en simulador; 12 pendientes en WhatsApp real (6 críticos); 0 fallos críticos confirmados (T&C PASS 2/2 tras el fix).\n- Release 80%: pendiente de los 12 casos reales (9/12 + 0 críticos).\nPara probar, seguir el paso a paso:\n1. Abrir el documento \"Guion de prueba WhatsApp - 12 casos\": https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n2. Usar el número de prueba y un cliente/contacto distinto por caso, o resetear el contexto entre casos.\n3. No dar nombre ni email salvo en los casos de cierre (8 a 11).\n4. Ejecutar los 12 casos, capturar conversación/transcript y contacto/negocio en HubSpot, y cargar la planilla de resultados del guion.\nLos casos críticos son 1, 4, 6, 8, 9 y 10. Con 13/14/15 en PASS, se necesitan 9/12 reales + 0 críticos.\nPendientes del cliente:\n- T&C: aprobar el documento auxiliar de cláusulas, reemplazarlo por una versión oficial indexada o retirarlo. El PDF oficial sigue siendo la fuente legal.\n- Imágenes de Assisto para el carrusel (fallback a lista).\n- Verificar que la base de cláusulas esté READY antes de probar.\nEnlaces:\n- Guía de pruebas: https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n- Evaluación: https://docs.google.com/spreadsheets/d/1DtAp3rBz77PFvmvWjnrENvWokSrAMIDi/edit\n- Documentación: https://drive.google.com/file/d/1nNwxiwCXPA6HpJIOgMY4tDl-ETFkXNyH/view\n- Carpeta completa: https://drive.google.com/drive/folders/1lm0Ytj_BJXnM9tfbVfMDobnSJjVgQ5W3\nTambién dejé los links en los campos URL Documentación y URL Pruebas. El plazo de revisión es de 10 días hábiles. Quedo atento.",
+   "nota_fecha": "2026-11-17 10:33",
+   "nota_autor": "Raiti Rosales Plata",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp."
+  },
   {
    "nombre": "🎫 Hansa Ltda. Div. Automotriz: Integración API búsqueda de campañas",
    "empresa": "Hansa Ltda. Div. Automotriz",
@@ -635,15 +635,15 @@
    "empresa": "Yomeanimo!",
    "industria": "Seguros",
    "area_l10": "Multiindustria",
-   "etapa": "En proceso",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-17",
    "due_on": "2026-11-17",
    "created_at": "2026-11-04T19:59:46.387Z",
    "created": "2026-11-04",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-17T16:32:54.020Z",
+   "completada": "2026-11-17",
    "gid": "1220226886263361",
    "tipo_solicitud": "Ajuste o creación de Prompt",
    "tipo_cliente": "Existente",
@@ -660,14 +660,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-16 11:36",
-   "nota_autor": "—",
-   "estado_entrega": "vence_hoy",
+   "ultima_nota": "Hola Michael,\nEl ticket quedó en Primera entrega. Les dejo el paquete de entrega de Yomi - YoMeAnimo! (Cortex) y la guía para ejecutar las pruebas.\nQué se implementó:\n- Agente Cortex con flujo de cotización, servicio y derivación; cotizador real y HubSpot.\n- Prompt V3: precios y cuotas solo del cotizador, sin planilla; email no bloqueante; T&C antes de avanzar.\n- Base de conocimiento sin precios y ficha visual; corrección de la recuperación de cláusulas de T&C.\n- Corrección de la asociación del negocio en HubSpot con el contact_id devuelto por la tool.\nEstado:\n- Construcción técnica: 89%. Avance total del paquete: 78%.\n- Validación: 3/15 casos PASS en simulador; 12 pendientes en WhatsApp real (6 críticos); 0 fallos críticos confirmados (T&C PASS 2/2 tras el fix).\n- Release 80%: pendiente de los 12 casos reales (9/12 + 0 críticos).\nPara probar, seguir el paso a paso:\n1. Abrir el documento \"Guion de prueba WhatsApp - 12 casos\": https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n2. Usar el número de prueba y un cliente/contacto distinto por caso, o resetear el contexto entre casos.\n3. No dar nombre ni email salvo en los casos de cierre (8 a 11).\n4. Ejecutar los 12 casos, capturar conversación/transcript y contacto/negocio en HubSpot, y cargar la planilla de resultados del guion.\nLos casos críticos son 1, 4, 6, 8, 9 y 10. Con 13/14/15 en PASS, se necesitan 9/12 reales + 0 críticos.\nPendientes del cliente:\n- T&C: aprobar el documento auxiliar de cláusulas, reemplazarlo por una versión oficial indexada o retirarlo. El PDF oficial sigue siendo la fuente legal.\n- Imágenes de Assisto para el carrusel (fallback a lista).\n- Verificar que la base de cláusulas esté READY antes de probar.\nEnlaces:\n- Guía de pruebas: https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n- Evaluación: https://docs.google.com/spreadsheets/d/1DtAp3rBz77PFvmvWjnrENvWokSrAMIDi/edit\n- Documentación: https://drive.google.com/file/d/1nNwxiwCXPA6HpJIOgMY4tDl-ETFkXNyH/view\n- Carpeta completa: https://drive.google.com/drive/folders/1lm0Ytj_BJXnM9tfbVfMDobnSJjVgQ5W3\nTambién dejé los links en los campos URL Documentación y URL Pruebas. El plazo de revisión es de 10 días hábiles. Quedo atento.",
+   "nota_fecha": "2026-11-17 10:33",
+   "nota_autor": "Raiti Rosales Plata",
+   "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha iniciado el trabajo en la solicitud. Se cuenta con el contexto previo de la fase de pruebas y los archivos de referencia para el carrusel de productos y los errores identificados por el cliente.\n\nBloqueadores / riesgos: Existen dudas sobre los links de URLs y la expectativa de los links faltantes. Sin dato sobre discrepancia de fecha.\n\nSiguiente paso: Resolver las dudas sobre los links de URLs y continuar con los ajustes del prompt en Cortex para la derivación a Avento y la optimización de la cotización en WhatsApp."
+   "resumen_ia": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -1739,8 +1739,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 8,
-   "activos": 4,
-   "completados": 4
+   "activos": 3,
+   "completados": 5
   },
   {
    "nombre": "Sofia Alvarado",
@@ -1768,11 +1768,6 @@
   }
  ],
  "tendencia": [
-  {
-   "semana": "2026-W39",
-   "creados": 0,
-   "resueltos": 3
-  },
   {
    "semana": "2026-W40",
    "creados": 1,
@@ -1807,6 +1802,11 @@
    "semana": "2026-W46",
    "creados": 3,
    "resueltos": 4
+  },
+  {
+   "semana": "2026-W47",
+   "creados": 0,
+   "resueltos": 1
   }
  ],
  "por_tipo": [
