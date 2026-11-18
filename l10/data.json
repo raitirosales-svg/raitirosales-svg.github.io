@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-18 08:11",
+ "generado": "2026-11-18 11:51",
  "meta": {
-  "generado": "2026-11-18 08:11",
+  "generado": "2026-11-18 11:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 51,
-  "con_empresa": 32,
+  "tareas": 52,
+  "con_empresa": 33,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 5,
+  "activas": 6,
   "vencidas": 0,
   "vence_hoy": 1,
   "por_vencer": 2,
@@ -18,22 +18,24 @@
   "entregas_7d": 5,
   "cumplimiento": 100,
   "prioridad_alta": 1,
-  "mrr_activo": 8120.0
+  "mrr_activo": 9426.2
  },
  "por_etapa": {
   "En proceso": 4,
-  "Ajustes entrega": 1
+  "Ajustes entrega": 1,
+  "Nuevo": 1
  },
  "por_area": {
   "Educación & Retail": 4,
-  "Multiindustria": 1
+  "Multiindustria": 2
  },
  "por_complejidad": {
   "Alto": 3,
+  "Intermedio": 1,
   "Muy Alto": 2
  },
  "por_prioridad": {
-  "Baja": 4,
+  "Baja": 5,
   "Muy Alta": 1
  },
  "activas": [
@@ -153,6 +155,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
+  },
+  {
+   "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
+   "empresa": "Nimac",
+   "industria": "Otra",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1306.2,
+   "due": "2026-11-24",
+   "due_on": "2026-11-24",
+   "created_at": "2026-11-18T17:09:27.575Z",
+   "created": "2026-11-18",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220679387171410",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex",
+   "atom_id": "4o2Xs3jzFaBxlDRxM2rr",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 10.0,
+   "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar ajustes finos en el bot Cortex NIMAC V2 utilizando el archivo de pruebas para habilitar su producción. Fecha de entrega oficial: 2026-11-24."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -513,6 +554,45 @@
   }
  ],
  "historial": [
+  {
+   "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
+   "empresa": "Nimac",
+   "industria": "Otra",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1306.2,
+   "due": "2026-11-24",
+   "due_on": "2026-11-24",
+   "created_at": "2026-11-18T17:09:27.575Z",
+   "created": "2026-11-18",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220679387171410",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex",
+   "atom_id": "4o2Xs3jzFaBxlDRxM2rr",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 10.0,
+   "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar ajustes finos en el bot Cortex NIMAC V2 utilizando el archivo de pruebas para habilitar su producción. Fecha de entrega oficial: 2026-11-24."
+  },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
    "empresa": "Carbone",
@@ -1770,16 +1850,16 @@
    "completados": 11
   },
   {
+   "nombre": "Michael Sancivier",
+   "total": 9,
+   "activos": 4,
+   "completados": 5
+  },
+  {
    "nombre": "Jesus Roque",
    "total": 8,
    "activos": 2,
    "completados": 6
-  },
-  {
-   "nombre": "Michael Sancivier",
-   "total": 8,
-   "activos": 3,
-   "completados": 5
   },
   {
    "nombre": "Sofia Alvarado",
@@ -1844,7 +1924,7 @@
   },
   {
    "semana": "2026-W47",
-   "creados": 0,
+   "creados": 1,
    "resueltos": 2
   }
  ],
@@ -1866,6 +1946,10 @@
    "total": 5
   },
   {
+   "tipo": "Flujo Flowbuilder",
+   "total": 2
+  },
+  {
    "tipo": "Validación de APIs",
    "total": 2
   },
@@ -1875,10 +1959,6 @@
   },
   {
    "tipo": "Ajuste o creación de Prompt, Validación de APIs",
-   "total": 1
-  },
-  {
-   "tipo": "Ajuste o creación de Prompt, Integración",
    "total": 1
   }
  ]
