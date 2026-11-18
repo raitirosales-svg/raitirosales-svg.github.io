@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-18 11:51",
+ "generado": "2026-11-18 14:51",
  "meta": {
-  "generado": "2026-11-18 11:51",
+  "generado": "2026-11-18 14:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -23,7 +23,7 @@
  "por_etapa": {
   "En proceso": 4,
   "Ajustes entrega": 1,
-  "Nuevo": 1
+  "Primer respuesta": 1
  },
  "por_area": {
   "Educación & Retail": 4,
@@ -161,7 +161,7 @@
    "empresa": "Nimac",
    "industria": "Otra",
    "area_l10": "Multiindustria",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1306.2,
    "due": "2026-11-24",
@@ -186,14 +186,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Michael,\nGracias por el ticket. Ya revisé el caso y entiendo el requerimiento: retomar el bot *Cortex NIMAC - V2* y ejecutar los ajustes finos que quedaron pendientes del ticket anterior, usando el archivo de pruebas del cliente, para dejarlo listo para el Go Live.\nVoy a revisar el archivo de evaluación caso por caso y armar el plan de ajustes. La fecha de entrega registrada es el 24 de noviembre, y te iré compartiendo el avance por este mismo hilo.\nQuedo atento.",
+   "nota_fecha": "2026-11-18 14:44",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar ajustes finos en el bot Cortex NIMAC V2 utilizando el archivo de pruebas para habilitar su producción. Fecha de entrega oficial: 2026-11-24."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC - V2 y realizar los ajustes finos pendientes basados en el archivo de pruebas del cliente. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de trabajo.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecutar el plan de ajustes y compartir los avances a través del hilo del ticket."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -559,7 +559,7 @@
    "empresa": "Nimac",
    "industria": "Otra",
    "area_l10": "Multiindustria",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1306.2,
    "due": "2026-11-24",
@@ -584,14 +584,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Michael,\nGracias por el ticket. Ya revisé el caso y entiendo el requerimiento: retomar el bot *Cortex NIMAC - V2* y ejecutar los ajustes finos que quedaron pendientes del ticket anterior, usando el archivo de pruebas del cliente, para dejarlo listo para el Go Live.\nVoy a revisar el archivo de evaluación caso por caso y armar el plan de ajustes. La fecha de entrega registrada es el 24 de noviembre, y te iré compartiendo el avance por este mismo hilo.\nQuedo atento.",
+   "nota_fecha": "2026-11-18 14:44",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar ajustes finos en el bot Cortex NIMAC V2 utilizando el archivo de pruebas para habilitar su producción. Fecha de entrega oficial: 2026-11-24."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC - V2 y realizar los ajustes finos pendientes basados en el archivo de pruebas del cliente. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de trabajo.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecutar el plan de ajustes y compartir los avances a través del hilo del ticket."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
