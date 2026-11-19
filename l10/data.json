@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-19 09:51",
+ "generado": "2026-11-19 10:51",
  "meta": {
-  "generado": "2026-11-19 09:51",
+  "generado": "2026-11-19 10:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 52,
-  "con_empresa": 33,
+  "tareas": 53,
+  "con_empresa": 34,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 6,
+  "activas": 7,
   "vencidas": 0,
   "vence_hoy": 0,
   "por_vencer": 3,
@@ -18,26 +18,27 @@
   "entregas_7d": 7,
   "cumplimiento": 86,
   "prioridad_alta": 2,
-  "mrr_activo": 9816.2
+  "mrr_activo": 10470.7
  },
  "por_etapa": {
   "Ajustes entrega": 1,
   "En proceso": 3,
   "Primer respuesta": 1,
-  "Nuevo": 1
+  "Nuevo": 2
  },
  "por_area": {
   "Multiindustria": 2,
-  "Educación & Retail": 4
+  "Educación & Retail": 5
  },
  "por_complejidad": {
   "Alto": 3,
-  "Intermedio": 1,
+  "Intermedio": 2,
   "Muy Alto": 2
  },
  "por_prioridad": {
   "Muy Alta": 1,
   "Baja": 4,
+  "Media": 1,
   "Alta": 1
  },
  "activas": [
@@ -157,6 +158,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC V2 y realizar los ajustes finos pendientes utilizando el archivo de pruebas del cliente para habilitar su producción. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de trabajo.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecutar el plan de ajustes y compartir los avances a través del hilo del ticket."
+  },
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-25",
+   "due_on": "2026-11-25",
+   "created_at": "2026-11-19T15:51:50.883Z",
+   "created": "2026-11-19",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220713557813748",
+   "tipo_solicitud": "Validación de APIs, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Integraciones",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Media",
+   "puntaje_prioridad": 25.0,
+   "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar la configuración del token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción. Fecha de entrega oficial: 2026-11-25."
   },
   {
    "nombre": "🎫 Universidad Panamericana: Migrar bot V2 a Cortex",
@@ -673,6 +713,45 @@
   }
  ],
  "historial": [
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-25",
+   "due_on": "2026-11-25",
+   "created_at": "2026-11-19T15:51:50.883Z",
+   "created": "2026-11-19",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220713557813748",
+   "tipo_solicitud": "Validación de APIs, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Integraciones",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Media",
+   "puntaje_prioridad": 25.0,
+   "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar la configuración del token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción. Fecha de entrega oficial: 2026-11-25."
+  },
   {
    "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
    "empresa": "Nimac",
@@ -1970,8 +2049,8 @@
   },
   {
    "nombre": "Michael Sancivier",
-   "total": 9,
-   "activos": 4,
+   "total": 10,
+   "activos": 5,
    "completados": 5
   },
   {
@@ -2049,7 +2128,7 @@
   },
   {
    "semana": "2026-W47",
-   "creados": 2,
+   "creados": 3,
    "resueltos": 4
   }
  ],
@@ -2079,11 +2158,11 @@
    "total": 2
   },
   {
-   "tipo": "Flujo Flowbuilder, Integración",
+   "tipo": "Validación de APIs, Integración",
    "total": 1
   },
   {
-   "tipo": "Flujo Flowbuilder, Integración, Nuevo Flujo + integración",
+   "tipo": "Flujo Flowbuilder, Integración",
    "total": 1
   }
  ]
