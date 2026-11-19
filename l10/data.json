@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-19 14:21",
+ "generado": "2026-11-19 16:06",
  "meta": {
-  "generado": "2026-11-19 14:21",
+  "generado": "2026-11-19 16:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -22,9 +22,9 @@
  },
  "por_etapa": {
   "Ajustes entrega": 1,
-  "En proceso": 3,
+  "En proceso": 4,
   "Primer respuesta": 1,
-  "Nuevo": 3
+  "Nuevo": 2
  },
  "por_area": {
   "Multiindustria": 2,
@@ -164,7 +164,7 @@
    "empresa": "FarmaValue Guatemala y El Salvador",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 0,
    "due": "2026-11-25",
@@ -189,14 +189,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Ajustar los Cortex de Instagram y Facebook para corregir fallas operativas en producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-19 15:59",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar la ejecución de los ajustes en los Cortex de Instagram y Facebook para corregir las fallas operativas reportadas. Fecha de entrega oficial: 2026-11-25."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: El equipo ha recibido el ticket y ha iniciado los trabajos de revisión y ajuste de los Cortex de Instagram y Facebook para corregir fallas operativas.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con la ejecución de los ajustes y mantener comunicación a través del hilo del ticket ante cualquier avance o duda."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
@@ -757,7 +757,7 @@
    "empresa": "FarmaValue Guatemala y El Salvador",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 0,
    "due": "2026-11-25",
@@ -782,14 +782,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Ajustar los Cortex de Instagram y Facebook para corregir fallas operativas en producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-19 15:59",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar la ejecución de los ajustes en los Cortex de Instagram y Facebook para corregir las fallas operativas reportadas. Fecha de entrega oficial: 2026-11-25."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: El equipo ha recibido el ticket y ha iniciado los trabajos de revisión y ajuste de los Cortex de Instagram y Facebook para corregir fallas operativas.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con la ejecución de los ajustes y mantener comunicación a través del hilo del ticket ante cualquier avance o duda."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
