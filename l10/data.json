@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-19 08:21",
+ "generado": "2026-11-19 09:51",
  "meta": {
-  "generado": "2026-11-19 08:21",
+  "generado": "2026-11-19 09:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -15,8 +15,8 @@
   "vence_hoy": 0,
   "por_vencer": 3,
   "pausados": 0,
-  "entregas_7d": 6,
-  "cumplimiento": 100,
+  "entregas_7d": 7,
+  "cumplimiento": 86,
   "prioridad_alta": 2,
   "mrr_activo": 9816.2
  },
@@ -398,6 +398,45 @@
  ],
  "pausados": [],
  "completadas_7d": [
+  {
+   "nombre": "🎫 Minelab Metal Detectors MX: Validación de APIs de Magento",
+   "empresa": "Minelab Metal Detectors MX",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Finalizado",
+   "tipo": "Ticket",
+   "mrr": 654.5,
+   "due": "2026-11-09",
+   "due_on": "2026-11-09",
+   "created_at": "2026-10-29T02:52:54.905Z",
+   "created": "2026-10-28",
+   "completed_at": "2026-11-19T15:42:37.388Z",
+   "completada": "2026-11-19",
+   "gid": "1220002087375986",
+   "tipo_solicitud": "Validación de APIs",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex, Desarrollo a medida",
+   "atom_id": "28DAj6uou7YAHSplo3EP",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Alta",
+   "puntaje_prioridad": 40.0,
+   "resumen_ticket": "Validar la API REST de Magento en Cortex para la integración del bot de WhatsApp.",
+   "ultima_nota": "Buen dia Amigo \nLos 3 casos de respuestas incorrectas ya fueron resueltos?\n https://docs.google.com/spreadsheets/d/1pvpktegQxozgPgvVtdHHUjLPXqV5-0w5/edit?usp=sharing&ouid=107982260823737123182&rtpof=true&sd=true",
+   "nota_fecha": "2026-11-16 22:11",
+   "nota_autor": "Michael Sancivier",
+   "estado_entrega": "entregado_tarde",
+   "dias_restantes": -8,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Validar la API REST de Magento en Cortex para la integración del bot de WhatsApp."
+  },
   {
    "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
    "empresa": "SINSA",
@@ -1036,8 +1075,8 @@
    "due_on": "2026-11-09",
    "created_at": "2026-10-29T02:52:54.905Z",
    "created": "2026-10-28",
-   "completed_at": "2026-11-07T02:50:35.495Z",
-   "completada": "2026-11-06",
+   "completed_at": "2026-11-19T15:42:37.388Z",
+   "completada": "2026-11-19",
    "gid": "1220002087375986",
    "tipo_solicitud": "Validación de APIs",
    "tipo_cliente": "Existente",
@@ -1054,11 +1093,11 @@
    "prioridad": "Alta",
    "puntaje_prioridad": 40.0,
    "resumen_ticket": "Validar la API REST de Magento en Cortex para la integración del bot de WhatsApp.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
-   "estado_entrega": "entregado_a_tiempo",
-   "dias_restantes": 0,
+   "ultima_nota": "Buen dia Amigo \nLos 3 casos de respuestas incorrectas ya fueron resueltos?\n https://docs.google.com/spreadsheets/d/1pvpktegQxozgPgvVtdHHUjLPXqV5-0w5/edit?usp=sharing&ouid=107982260823737123182&rtpof=true&sd=true",
+   "nota_fecha": "2026-11-16 22:11",
+   "nota_autor": "Michael Sancivier",
+   "estado_entrega": "entregado_tarde",
+   "dias_restantes": -8,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Validar la API REST de Magento en Cortex para la integración del bot de WhatsApp."
@@ -2001,7 +2040,7 @@
   {
    "semana": "2026-W45",
    "creados": 4,
-   "resueltos": 3
+   "resueltos": 2
   },
   {
    "semana": "2026-W46",
@@ -2011,7 +2050,7 @@
   {
    "semana": "2026-W47",
    "creados": 2,
-   "resueltos": 3
+   "resueltos": 4
   }
  ],
  "por_tipo": [
