@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-19 13:06",
+ "generado": "2026-11-19 14:06",
  "meta": {
-  "generado": "2026-11-19 13:06",
+  "generado": "2026-11-19 14:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -72,14 +72,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Hola ! ¿como estas?\nMe ayudas dandome update de estos ultimos ajustes?",
-   "nota_fecha": "2026-11-19 12:52",
-   "nota_autor": "Mario Subuyuj",
+   "ultima_nota": "Buenas tardes, Mario.\nUna disculpa por la demora hoy termino de hacer las pruebas de los ajustes y te aviso. Ya estan hechas las correcciones pero quiero depurar todo antes de entregarte.",
+   "nota_fecha": "2026-11-19 13:53",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: En proceso. El flujo base está construido y validado en simulador con resultados de 90-98%. Pendiente de implementar ajustes finales solicitados por el cliente para proceder con la validación en línea real.\n\n- Ajustes / avances: Se completaron los ajustes de formato de fechas, nombres de proyectos, estandarización de unidades (m2) y lógica de contacto existente. Se cuenta con documentación técnica, set de pruebas (46 casos) y colección de Postman entregados.\n\n- Bloqueadores / riesgos: Falta la conexión de la línea de WhatsApp para validar la asignación real y derivación. Pendiente implementar el formato de áreas (152m2) y la lógica de derivación aleatoria a asociadas cuando no se obtienen datos. Discrepancia de fecha: La fecha de entrega oficial es 2026-11-20.\n\n- Siguiente paso: Implementar los dos ajustes solicitados el 17/11 (formato de áreas y derivación aleatoria) y realizar las pruebas finales con la línea conectada por el cliente."
+   "resumen_ia": "- Estado actual: En proceso. El equipo realiza las pruebas finales de los últimos ajustes solicitados por el cliente antes de la entrega definitiva.\n- Ajustes / avances: Se han implementado las correcciones de formato de áreas (152m2), nombres de proyectos, fechas y lógica de flujo. Se alcanzó un 98% y 90% de efectividad en simulador para servicio y ventas. Se está trabajando en la derivación aleatoria de leads cuando no se proporcionan datos.\n- Bloqueadores / riesgos: Pendiente de realizar pruebas con línea de WhatsApp conectada para validar la asignación real. Existen 8 leads de prueba pendientes de limpieza en el CRM.\n- Siguiente paso: Finalizar las pruebas de los últimos ajustes, validar con el cliente y realizar la entrega final."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -348,14 +348,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Hola ! ¿como estas?\nMe ayudas dandome update de estos ultimos ajustes?",
-   "nota_fecha": "2026-11-19 12:52",
-   "nota_autor": "Mario Subuyuj",
+   "ultima_nota": "Buenas tardes, Mario.\nUna disculpa por la demora hoy termino de hacer las pruebas de los ajustes y te aviso. Ya estan hechas las correcciones pero quiero depurar todo antes de entregarte.",
+   "nota_fecha": "2026-11-19 13:53",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: En proceso. El flujo base está construido y validado en simulador con resultados de 90-98%. Pendiente de implementar ajustes finales solicitados por el cliente para proceder con la validación en línea real.\n\n- Ajustes / avances: Se completaron los ajustes de formato de fechas, nombres de proyectos, estandarización de unidades (m2) y lógica de contacto existente. Se cuenta con documentación técnica, set de pruebas (46 casos) y colección de Postman entregados.\n\n- Bloqueadores / riesgos: Falta la conexión de la línea de WhatsApp para validar la asignación real y derivación. Pendiente implementar el formato de áreas (152m2) y la lógica de derivación aleatoria a asociadas cuando no se obtienen datos. Discrepancia de fecha: La fecha de entrega oficial es 2026-11-20.\n\n- Siguiente paso: Implementar los dos ajustes solicitados el 17/11 (formato de áreas y derivación aleatoria) y realizar las pruebas finales con la línea conectada por el cliente."
+   "resumen_ia": "- Estado actual: En proceso. El equipo realiza las pruebas finales de los últimos ajustes solicitados por el cliente antes de la entrega definitiva.\n- Ajustes / avances: Se han implementado las correcciones de formato de áreas (152m2), nombres de proyectos, fechas y lógica de flujo. Se alcanzó un 98% y 90% de efectividad en simulador para servicio y ventas. Se está trabajando en la derivación aleatoria de leads cuando no se proporcionan datos.\n- Bloqueadores / riesgos: Pendiente de realizar pruebas con línea de WhatsApp conectada para validar la asignación real. Existen 8 leads de prueba pendientes de limpieza en el CRM.\n- Siguiente paso: Finalizar las pruebas de los últimos ajustes, validar con el cliente y realizar la entrega final."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -1562,14 +1562,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Hola ! ¿como estas?\nMe ayudas dandome update de estos ultimos ajustes?",
-   "nota_fecha": "2026-11-19 12:52",
-   "nota_autor": "Mario Subuyuj",
+   "ultima_nota": "Buenas tardes, Mario.\nUna disculpa por la demora hoy termino de hacer las pruebas de los ajustes y te aviso. Ya estan hechas las correcciones pero quiero depurar todo antes de entregarte.",
+   "nota_fecha": "2026-11-19 13:53",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: En proceso. El flujo base está construido y validado en simulador con resultados de 90-98%. Pendiente de implementar ajustes finales solicitados por el cliente para proceder con la validación en línea real.\n\n- Ajustes / avances: Se completaron los ajustes de formato de fechas, nombres de proyectos, estandarización de unidades (m2) y lógica de contacto existente. Se cuenta con documentación técnica, set de pruebas (46 casos) y colección de Postman entregados.\n\n- Bloqueadores / riesgos: Falta la conexión de la línea de WhatsApp para validar la asignación real y derivación. Pendiente implementar el formato de áreas (152m2) y la lógica de derivación aleatoria a asociadas cuando no se obtienen datos. Discrepancia de fecha: La fecha de entrega oficial es 2026-11-20.\n\n- Siguiente paso: Implementar los dos ajustes solicitados el 17/11 (formato de áreas y derivación aleatoria) y realizar las pruebas finales con la línea conectada por el cliente."
+   "resumen_ia": "- Estado actual: En proceso. El equipo realiza las pruebas finales de los últimos ajustes solicitados por el cliente antes de la entrega definitiva.\n- Ajustes / avances: Se han implementado las correcciones de formato de áreas (152m2), nombres de proyectos, fechas y lógica de flujo. Se alcanzó un 98% y 90% de efectividad en simulador para servicio y ventas. Se está trabajando en la derivación aleatoria de leads cuando no se proporcionan datos.\n- Bloqueadores / riesgos: Pendiente de realizar pruebas con línea de WhatsApp conectada para validar la asignación real. Existen 8 leads de prueba pendientes de limpieza en el CRM.\n- Siguiente paso: Finalizar las pruebas de los últimos ajustes, validar con el cliente y realizar la entrega final."
   },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
