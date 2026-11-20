@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-20 00:06",
+ "generado": "2026-11-20 12:06",
  "meta": {
-  "generado": "2026-11-20 00:06",
+  "generado": "2026-11-20 12:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 52,
-  "con_empresa": 33,
+  "tareas": 53,
+  "con_empresa": 34,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 8,
+  "activas": 9,
   "vencidas": 0,
   "vence_hoy": 1,
   "por_vencer": 4,
@@ -18,27 +18,27 @@
   "entregas_7d": 7,
   "cumplimiento": 86,
   "prioridad_alta": 2,
-  "mrr_activo": 10470.7
+  "mrr_activo": 12870.7
  },
  "por_etapa": {
   "Ajustes entrega": 1,
   "En proceso": 4,
-  "Primer respuesta": 1,
+  "Primer respuesta": 2,
   "Nuevo": 2
  },
  "por_area": {
   "Multiindustria": 2,
-  "Educación & Retail": 6
+  "Educación & Retail": 7
  },
  "por_complejidad": {
-  "Alto": 3,
+  "Alto": 4,
   "Intermedio": 3,
   "Muy Alto": 2
  },
  "por_prioridad": {
   "Muy Alta": 1,
   "Baja": 4,
-  "Media": 2,
+  "Media": 3,
   "Alta": 1
  },
  "activas": [
@@ -203,7 +203,7 @@
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-25",
@@ -228,14 +228,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Michael 👋\nRecibido. Gracias por compartir la llave de staging. Ya la probamos y este es el resultado:\nQUÉ ENCONTRAMOS\n• La llave responde, pero el servicio de pedidos de MX staging devuelve 404: no disponible para esta tienda.\n• Lo mismo pasa con el link de pago.\n• En producción la ruta ya responde como “no autorizado”, no como “no existe”; eso sugiere que el módulo está desplegado y que falta la llave de producción.\n• Ya no necesitamos que nos confirmen los permisos: la llave se probó. El punto es que Minelab habilite/confirme la ruta para la tienda de MX staging (mx_new_exp_store_view) o confirme si la llave pertenece a otra tienda.\nCARRITO DE PRUEBA\n• Magento no tiene una lista pública de carritos abandonados; revisé las opciones disponibles.\n• Creé un carrito de prueba controlado: agregar GO-FIND 11, cotizar envío y fijar dirección funcionó.\n• El link de pago falla por el mismo 404. El carrito se limpió al final.\n• Si quieren usar un carrito abandonado real, necesitamos el cart_id o un reporte de Admin.\nPARA AVANZAR\n1. Que Minelab habilite/confirme la ruta de MX staging para la llave.\n2. Un pedido de staging (email + número) para probar el caso “pedido encontrado”; el caso “no encontrado” ya se puede probar.\n3. IPs de salida de Atom para producción y responsable de contacto: Raiti Rosales (raiti.rosales@atomchat.io), con el Equipo de Implementación como backup.\nTIEMPO\n• 1.5–2 días de trabajo.\n• Entrega de este ticket: martes 24 de noviembre (vence el 25), si la ruta se habilita/confirma esta semana.\n• Cierre total del proyecto —flujo final y producción—: 1–2 días adicionales.\nSeguimos con la configuración y la evidencia. ¿Nos ayudas confirmando con Minelab que la llave es para MX staging y que la ruta está habilitada para mx_new_exp_store_view?",
+   "nota_fecha": "2026-11-20 11:55",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 3,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar la configuración del token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción. Fecha de entrega oficial: 2026-11-25."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se probó la llave de staging recibida; el servicio de pedidos y el link de pago devuelven error 404. Se confirmó que el módulo en producción está desplegado. Se realizó un carrito de prueba exitoso hasta el paso de pago.\nBloqueadores / riesgos: El servicio de pedidos de MX staging devuelve 404 para la tienda mx_new_exp_store_view. Se requiere confirmación de Minelab sobre la habilitación de la ruta y la validez de la llave. Discrepancia de fecha: El equipo estima la entrega para el 2026-11-24, antes de la fecha oficial del 2026-11-25.\nSiguiente paso: Esperar confirmación de Minelab sobre la ruta y la llave, y recibir un pedido de staging para pruebas."
   },
   {
    "nombre": "🎫 Universidad Panamericana: Migrar bot V2 a Cortex",
@@ -275,6 +275,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar la migración del bot V2 a Cortex, incluyendo la implementación de WhatsApp Flows y la integración con HubSpot.\nFecha de entrega: 2026-11-27."
+  },
+  {
+   "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
+   "empresa": "Carbone",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 2400.0,
+   "due": "2026-11-30",
+   "due_on": "2026-11-30",
+   "created_at": "2026-11-20T14:50:02.510Z",
+   "created": "2026-11-20",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220743637983576",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, WhatsApp Flows, Reconocimiento imágenes o doc",
+   "atom_id": "MUUQy4Laj5UbIiJPLfky",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Media",
+   "puntaje_prioridad": 20.0,
+   "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 6,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos en Carbone.\nFecha de entrega: 2026-11-30."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -479,7 +518,7 @@
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-25",
@@ -504,14 +543,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Michael 👋\nRecibido. Gracias por compartir la llave de staging. Ya la probamos y este es el resultado:\nQUÉ ENCONTRAMOS\n• La llave responde, pero el servicio de pedidos de MX staging devuelve 404: no disponible para esta tienda.\n• Lo mismo pasa con el link de pago.\n• En producción la ruta ya responde como “no autorizado”, no como “no existe”; eso sugiere que el módulo está desplegado y que falta la llave de producción.\n• Ya no necesitamos que nos confirmen los permisos: la llave se probó. El punto es que Minelab habilite/confirme la ruta para la tienda de MX staging (mx_new_exp_store_view) o confirme si la llave pertenece a otra tienda.\nCARRITO DE PRUEBA\n• Magento no tiene una lista pública de carritos abandonados; revisé las opciones disponibles.\n• Creé un carrito de prueba controlado: agregar GO-FIND 11, cotizar envío y fijar dirección funcionó.\n• El link de pago falla por el mismo 404. El carrito se limpió al final.\n• Si quieren usar un carrito abandonado real, necesitamos el cart_id o un reporte de Admin.\nPARA AVANZAR\n1. Que Minelab habilite/confirme la ruta de MX staging para la llave.\n2. Un pedido de staging (email + número) para probar el caso “pedido encontrado”; el caso “no encontrado” ya se puede probar.\n3. IPs de salida de Atom para producción y responsable de contacto: Raiti Rosales (raiti.rosales@atomchat.io), con el Equipo de Implementación como backup.\nTIEMPO\n• 1.5–2 días de trabajo.\n• Entrega de este ticket: martes 24 de noviembre (vence el 25), si la ruta se habilita/confirma esta semana.\n• Cierre total del proyecto —flujo final y producción—: 1–2 días adicionales.\nSeguimos con la configuración y la evidencia. ¿Nos ayudas confirmando con Minelab que la llave es para MX staging y que la ruta está habilitada para mx_new_exp_store_view?",
+   "nota_fecha": "2026-11-20 11:55",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 3,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar la configuración del token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción. Fecha de entrega oficial: 2026-11-25."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se probó la llave de staging recibida; el servicio de pedidos y el link de pago devuelven error 404. Se confirmó que el módulo en producción está desplegado. Se realizó un carrito de prueba exitoso hasta el paso de pago.\nBloqueadores / riesgos: El servicio de pedidos de MX staging devuelve 404 para la tienda mx_new_exp_store_view. Se requiere confirmación de Minelab sobre la habilitación de la ruta y la validez de la llave. Discrepancia de fecha: El equipo estima la entrega para el 2026-11-24, antes de la fecha oficial del 2026-11-25.\nSiguiente paso: Esperar confirmación de Minelab sobre la ruta y la llave, y recibir un pedido de staging para pruebas."
   }
  ],
  "pausados": [],
@@ -792,6 +831,45 @@
  ],
  "historial": [
   {
+   "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
+   "empresa": "Carbone",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 2400.0,
+   "due": "2026-11-30",
+   "due_on": "2026-11-30",
+   "created_at": "2026-11-20T14:50:02.510Z",
+   "created": "2026-11-20",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220743637983576",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Jesus Roque",
+   "persona_contacto": "jesus.roque@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, WhatsApp Flows, Reconocimiento imágenes o doc",
+   "atom_id": "MUUQy4Laj5UbIiJPLfky",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Media",
+   "puntaje_prioridad": 20.0,
+   "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 6,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos en Carbone.\nFecha de entrega: 2026-11-30."
+  },
+  {
    "nombre": "🎫 FarmaValue Guatemala y El Salvador: Ajustar Cortex Instagram y Facebook",
    "empresa": "FarmaValue Guatemala y El Salvador",
    "industria": "Retail / E-commerce",
@@ -835,7 +913,7 @@
    "empresa": "Minelab Metal Detectors MX",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 654.5,
    "due": "2026-11-25",
@@ -860,14 +938,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Michael 👋\nRecibido. Gracias por compartir la llave de staging. Ya la probamos y este es el resultado:\nQUÉ ENCONTRAMOS\n• La llave responde, pero el servicio de pedidos de MX staging devuelve 404: no disponible para esta tienda.\n• Lo mismo pasa con el link de pago.\n• En producción la ruta ya responde como “no autorizado”, no como “no existe”; eso sugiere que el módulo está desplegado y que falta la llave de producción.\n• Ya no necesitamos que nos confirmen los permisos: la llave se probó. El punto es que Minelab habilite/confirme la ruta para la tienda de MX staging (mx_new_exp_store_view) o confirme si la llave pertenece a otra tienda.\nCARRITO DE PRUEBA\n• Magento no tiene una lista pública de carritos abandonados; revisé las opciones disponibles.\n• Creé un carrito de prueba controlado: agregar GO-FIND 11, cotizar envío y fijar dirección funcionó.\n• El link de pago falla por el mismo 404. El carrito se limpió al final.\n• Si quieren usar un carrito abandonado real, necesitamos el cart_id o un reporte de Admin.\nPARA AVANZAR\n1. Que Minelab habilite/confirme la ruta de MX staging para la llave.\n2. Un pedido de staging (email + número) para probar el caso “pedido encontrado”; el caso “no encontrado” ya se puede probar.\n3. IPs de salida de Atom para producción y responsable de contacto: Raiti Rosales (raiti.rosales@atomchat.io), con el Equipo de Implementación como backup.\nTIEMPO\n• 1.5–2 días de trabajo.\n• Entrega de este ticket: martes 24 de noviembre (vence el 25), si la ruta se habilita/confirma esta semana.\n• Cierre total del proyecto —flujo final y producción—: 1–2 días adicionales.\nSeguimos con la configuración y la evidencia. ¿Nos ayudas confirmando con Minelab que la llave es para MX staging y que la ruta está habilitada para mx_new_exp_store_view?",
+   "nota_fecha": "2026-11-20 11:55",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 3,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Realizar la configuración del token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción. Fecha de entrega oficial: 2026-11-25."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se probó la llave de staging recibida; el servicio de pedidos y el link de pago devuelven error 404. Se confirmó que el módulo en producción está desplegado. Se realizó un carrito de prueba exitoso hasta el paso de pago.\nBloqueadores / riesgos: El servicio de pedidos de MX staging devuelve 404 para la tienda mx_new_exp_store_view. Se requiere confirmación de Minelab sobre la habilitación de la ruta y la validez de la llave. Discrepancia de fecha: El equipo estima la entrega para el 2026-11-24, antes de la fecha oficial del 2026-11-25.\nSiguiente paso: Esperar confirmación de Minelab sobre la ruta y la llave, y recibir un pedido de staging para pruebas."
   },
   {
    "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
@@ -2094,8 +2172,8 @@
   },
   {
    "nombre": "Jesus Roque",
-   "total": 8,
-   "activos": 1,
+   "total": 9,
+   "activos": 2,
    "completados": 7
   },
   {
@@ -2161,7 +2239,7 @@
   },
   {
    "semana": "2026-W47",
-   "creados": 4,
+   "creados": 5,
    "resueltos": 4
   }
  ],
@@ -2183,6 +2261,10 @@
    "total": 4
   },
   {
+   "tipo": "Ajuste o creación de Prompt, Flujo Flowbuilder",
+   "total": 2
+  },
+  {
    "tipo": "Validación de APIs",
    "total": 2
   },
@@ -2192,10 +2274,6 @@
   },
   {
    "tipo": "Flujo Flowbuilder",
-   "total": 1
-  },
-  {
-   "tipo": "Flujo Flowbuilder, Integración",
    "total": 1
   }
  ]
