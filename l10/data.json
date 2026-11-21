@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-20 13:51",
+ "generado": "2026-11-20 21:21",
  "meta": {
-  "generado": "2026-11-20 13:51",
+  "generado": "2026-11-20 21:21",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -21,7 +21,7 @@
   "mrr_activo": 12870.7
  },
  "por_etapa": {
-  "Ajustes entrega": 1,
+  "Primera entrega": 1,
   "En proceso": 3,
   "Primer respuesta": 2,
   "Nuevo": 2
@@ -47,7 +47,7 @@
    "empresa": "Ilusione",
    "industria": "Inmobiliario",
    "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-20",
@@ -72,14 +72,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Buenas tardes, Mario.\nUna disculpa por la demora hoy termino de hacer las pruebas de los ajustes y te aviso. Ya estan hechas las correcciones pero quiero depurar todo antes de entregarte.",
-   "nota_fecha": "2026-11-19 13:53",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-20 21:19",
+   "nota_autor": "—",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: En proceso. El equipo realiza las pruebas finales de los últimos ajustes solicitados por el cliente antes de la entrega definitiva.\n- Ajustes / avances: Se han implementado las correcciones de formato de áreas (152m2), nombres de proyectos, fechas y lógica de flujo. Se alcanzó un 98% y 90% de efectividad en simulador para servicio y ventas. Se está trabajando en la derivación aleatoria de leads cuando no se proporcionan datos.\n- Bloqueadores / riesgos: Pendiente de realizar pruebas con línea de WhatsApp conectada para validar la asignación real. Existen 8 leads de prueba pendientes de limpieza en el CRM.\n- Siguiente paso: Finalizar las pruebas de los últimos ajustes, validar con el cliente y realizar la entrega final."
+   "resumen_ia": "- Estado actual: En etapa de pruebas finales tras aplicar ajustes solicitados. El bot está listo para validación con línea real.\n- Ajustes / avances: Se corrigió el formato de áreas (152m2), se implementó la derivación al grupo Recupero para leads sin datos (vía tipificación o etiqueta) y se confirmó el funcionamiento del Round Robin. Se entregó documentación técnica, colección Postman y resultados de pruebas en simulador (50 conversaciones).\n- Bloqueadores / riesgos: Falta validar el flujo con una línea de WhatsApp conectada para confirmar el comportamiento real y resolver 2 casos de cierre pendientes en el simulador.\n- Siguiente paso: Reimportar y publicar el flujo en Cortex, realizar pruebas con línea real y confirmar la zona horaria del grupo de asociadas."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -1693,7 +1693,7 @@
    "empresa": "Ilusione",
    "industria": "Inmobiliario",
    "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-20",
@@ -1718,14 +1718,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Migrar el bot Augusta a Cortex para corregir la asignación cruzada y sincronizar con CRM Evolta.",
-   "ultima_nota": "Buenas tardes, Mario.\nUna disculpa por la demora hoy termino de hacer las pruebas de los ajustes y te aviso. Ya estan hechas las correcciones pero quiero depurar todo antes de entregarte.",
-   "nota_fecha": "2026-11-19 13:53",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-20 21:19",
+   "nota_autor": "—",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: En proceso. El equipo realiza las pruebas finales de los últimos ajustes solicitados por el cliente antes de la entrega definitiva.\n- Ajustes / avances: Se han implementado las correcciones de formato de áreas (152m2), nombres de proyectos, fechas y lógica de flujo. Se alcanzó un 98% y 90% de efectividad en simulador para servicio y ventas. Se está trabajando en la derivación aleatoria de leads cuando no se proporcionan datos.\n- Bloqueadores / riesgos: Pendiente de realizar pruebas con línea de WhatsApp conectada para validar la asignación real. Existen 8 leads de prueba pendientes de limpieza en el CRM.\n- Siguiente paso: Finalizar las pruebas de los últimos ajustes, validar con el cliente y realizar la entrega final."
+   "resumen_ia": "- Estado actual: En etapa de pruebas finales tras aplicar ajustes solicitados. El bot está listo para validación con línea real.\n- Ajustes / avances: Se corrigió el formato de áreas (152m2), se implementó la derivación al grupo Recupero para leads sin datos (vía tipificación o etiqueta) y se confirmó el funcionamiento del Round Robin. Se entregó documentación técnica, colección Postman y resultados de pruebas en simulador (50 conversaciones).\n- Bloqueadores / riesgos: Falta validar el flujo con una línea de WhatsApp conectada para confirmar el comportamiento real y resolver 2 casos de cierre pendientes en el simulador.\n- Siguiente paso: Reimportar y publicar el flujo en Cortex, realizar pruebas con línea real y confirmar la zona horaria del grupo de asociadas."
   },
   {
    "nombre": "🎫 ULA Idiomas: Traspaso de flujo a Cortex",
