@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-23 08:50",
+ "generado": "2026-11-23 10:06",
  "meta": {
-  "generado": "2026-11-23 08:50",
+  "generado": "2026-11-23 10:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -22,8 +22,8 @@
  },
  "por_etapa": {
   "En proceso": 3,
-  "Primer respuesta": 2,
-  "Nuevo": 2
+  "Primer respuesta": 3,
+  "Nuevo": 1
  },
  "por_area": {
   "Educación & Retail": 6,
@@ -201,7 +201,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-30",
@@ -226,14 +226,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Jesus, recibimos el ticket *🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow*.\nEntendemos que el cliente ya replicó el nuevo Cortex de motos y el WhatsApp Flow, y que necesitamos revisar y optimizar el prompt, la lógica conversacional, las validaciones y el flujo, dejando ambos listos para la ronda de pruebas del 24–25/11 y la salida a producción de diciembre.\nPara avanzar necesitamos el export del nuevo Cortex, el JSON del Flow con su mapping y flowId, el número/WABA nuevo y el número de pruebas, la decisión de dónde se guardan las imágenes y documentos, y confirmar si el ticket anterior se cierra o se mantiene. Con esos insumos hacemos la auditoría y los ajustes.\nTe mantendremos al tanto por este hilo.",
+   "nota_fecha": "2026-11-23 10:01",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 5,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos en Carbone.\nFecha de entrega: 2026-11-30."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se definió el alcance: revisar y optimizar prompt, lógica conversacional, validaciones y flujo para la atención de motos.\nBloqueadores / riesgos: Se requiere información técnica para proceder: export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, ubicación de almacenamiento de archivos y estatus del ticket anterior.\nSiguiente paso: Esperar la entrega de los insumos solicitados por parte del cliente para realizar la auditoría y los ajustes."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -583,8 +583,8 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Buenos días \nEl cliente nos envía la info acordada\nDe acuerdo con nuestra operación, les comparto la estructura de nuestros grupos de atención B2B junto con las funciones de cada área para facilitar su gestión:\n Mayoreo 1: Cotizaciones y reservas de programas rotativos o a la medida.\n Mayoreo 2: Cotizaciones y reservas de programas en serie/bloqueos. (Programas que incluyen vuelos)\n Área Comercial: Vinculaciones, visitas y capacitaciones.\n Grupos: Cotizaciones para más de 10 personas.\n PQRS: Gestión de peticiones, quejas, reclamos y sugerencias. \n Para este grupo es posible añadirle al cortex que brinde información como el link para radicar pqrs https://radpz.share.hsforms.com/2Ek3XkEcpTeKAjjcMni6rOw\n Emisiones Aéreas: Cotizaciones y emisión de tiquetes aéreos.\n Mega Net: Nuestra plataforma de autogestión 24/7 para cotizar y reservar. El asesor asignado brindará apoyo, acompañamiento y aclaraciones sobre su uso.\nOPERACIONES GENERAL\nMAYOREO 1\nMAYOREO 2\nAREA COMERCIAL\nGRUPOS \nPQRS\nEmisiones Areas\nMEGA NET\nMAYERLY DIAZ\nCAROLINA CARANTON\nJuan Manuel Contreras\nIngrid Villareal\nPatricia Galindo\nBryan Aguirre\nTatiana Ruiz\nJUAN CATIVE\nLaura Paola Leal Salazar\nDayana Rivera\nJESSICA GUEVARA\nAngie Lorena Alvarado Chacon\nIsabella Zapata\nMauricio Jurado\n Respecto a la asignación del Área Comercial, El flujo debe iniciar solicitando la ubicación de la agencia para enrutar la conversación directamente con el asesor de su zona. Adjunto comparto el documento con las regiones del área comercial.\nGracias por el apoyo",
-   "nota_fecha": "2026-11-23 08:23",
+   "ultima_nota": "Este ticket se puede cerrar, ya abrí uno nuevo para estos cambios.",
+   "nota_fecha": "2026-11-23 10:05",
    "nota_autor": "Elliott Peralta",
    "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
@@ -638,7 +638,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-30",
@@ -663,14 +663,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola Jesus, recibimos el ticket *🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow*.\nEntendemos que el cliente ya replicó el nuevo Cortex de motos y el WhatsApp Flow, y que necesitamos revisar y optimizar el prompt, la lógica conversacional, las validaciones y el flujo, dejando ambos listos para la ronda de pruebas del 24–25/11 y la salida a producción de diciembre.\nPara avanzar necesitamos el export del nuevo Cortex, el JSON del Flow con su mapping y flowId, el número/WABA nuevo y el número de pruebas, la decisión de dónde se guardan las imágenes y documentos, y confirmar si el ticket anterior se cierra o se mantiene. Con esos insumos hacemos la auditoría y los ajustes.\nTe mantendremos al tanto por este hilo.",
+   "nota_fecha": "2026-11-23 10:01",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 5,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos en Carbone.\nFecha de entrega: 2026-11-30."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se definió el alcance: revisar y optimizar prompt, lógica conversacional, validaciones y flujo para la atención de motos.\nBloqueadores / riesgos: Se requiere información técnica para proceder: export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, ubicación de almacenamiento de archivos y estatus del ticket anterior.\nSiguiente paso: Esperar la entrega de los insumos solicitados por parte del cliente para realizar la auditoría y los ajustes."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
@@ -897,8 +897,8 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Asistir a reunión para definir la integración con HubSpot e implementación de Cortex en WhatsApp.",
-   "ultima_nota": "Buenos días \nEl cliente nos envía la info acordada\nDe acuerdo con nuestra operación, les comparto la estructura de nuestros grupos de atención B2B junto con las funciones de cada área para facilitar su gestión:\n Mayoreo 1: Cotizaciones y reservas de programas rotativos o a la medida.\n Mayoreo 2: Cotizaciones y reservas de programas en serie/bloqueos. (Programas que incluyen vuelos)\n Área Comercial: Vinculaciones, visitas y capacitaciones.\n Grupos: Cotizaciones para más de 10 personas.\n PQRS: Gestión de peticiones, quejas, reclamos y sugerencias. \n Para este grupo es posible añadirle al cortex que brinde información como el link para radicar pqrs https://radpz.share.hsforms.com/2Ek3XkEcpTeKAjjcMni6rOw\n Emisiones Aéreas: Cotizaciones y emisión de tiquetes aéreos.\n Mega Net: Nuestra plataforma de autogestión 24/7 para cotizar y reservar. El asesor asignado brindará apoyo, acompañamiento y aclaraciones sobre su uso.\nOPERACIONES GENERAL\nMAYOREO 1\nMAYOREO 2\nAREA COMERCIAL\nGRUPOS \nPQRS\nEmisiones Areas\nMEGA NET\nMAYERLY DIAZ\nCAROLINA CARANTON\nJuan Manuel Contreras\nIngrid Villareal\nPatricia Galindo\nBryan Aguirre\nTatiana Ruiz\nJUAN CATIVE\nLaura Paola Leal Salazar\nDayana Rivera\nJESSICA GUEVARA\nAngie Lorena Alvarado Chacon\nIsabella Zapata\nMauricio Jurado\n Respecto a la asignación del Área Comercial, El flujo debe iniciar solicitando la ubicación de la agencia para enrutar la conversación directamente con el asesor de su zona. Adjunto comparto el documento con las regiones del área comercial.\nGracias por el apoyo",
-   "nota_fecha": "2026-11-23 08:23",
+   "ultima_nota": "Este ticket se puede cerrar, ya abrí uno nuevo para estos cambios.",
+   "nota_fecha": "2026-11-23 10:05",
    "nota_autor": "Elliott Peralta",
    "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
