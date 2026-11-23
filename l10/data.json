@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-23 10:06",
+ "generado": "2026-11-23 15:51",
  "meta": {
-  "generado": "2026-11-23 10:06",
+  "generado": "2026-11-23 15:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 52,
-  "con_empresa": 34,
+  "tareas": 53,
+  "con_empresa": 35,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 7,
+  "activas": 8,
   "vencidas": 0,
   "vence_hoy": 1,
   "por_vencer": 2,
@@ -18,24 +18,24 @@
   "entregas_7d": 6,
   "cumplimiento": 83,
   "prioridad_alta": 1,
-  "mrr_activo": 11770.7
+  "mrr_activo": 12870.7
  },
  "por_etapa": {
   "En proceso": 3,
   "Primer respuesta": 3,
-  "Nuevo": 1
+  "Nuevo": 2
  },
  "por_area": {
   "Educación & Retail": 6,
-  "Multiindustria": 1
+  "Multiindustria": 2
  },
  "por_complejidad": {
   "Alto": 3,
-  "Intermedio": 2,
+  "Intermedio": 3,
   "Muy Alto": 2
  },
  "por_prioridad": {
-  "Baja": 4,
+  "Baja": 5,
   "Media": 2,
   "Alta": 1
  },
@@ -234,6 +234,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se definió el alcance: revisar y optimizar prompt, lógica conversacional, validaciones y flujo para la atención de motos.\nBloqueadores / riesgos: Se requiere información técnica para proceder: export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, ubicación de almacenamiento de archivos y estatus del ticket anterior.\nSiguiente paso: Esperar la entrega de los insumos solicitados por parte del cliente para realizar la auditoría y los ajustes."
+  },
+  {
+   "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
+   "empresa": "Mega Travel",
+   "industria": "Turismo- hotel",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-30",
+   "due_on": "2026-11-30",
+   "created_at": "2026-11-23T21:44:32.993Z",
+   "created": "2026-11-23",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220829764488184",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Elliott Peralta",
+   "persona_contacto": "elliott.peralta@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex",
+   "atom_id": "EBYqtm3meARQQMv2Q6sJ",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 0.0,
+   "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 5,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del enrutamiento en Cortex Mega Nova para la asignación de asesores por región o redirección a grupo.\nFecha de entrega: 2026-11-30."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -633,6 +672,45 @@
   }
  ],
  "historial": [
+  {
+   "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
+   "empresa": "Mega Travel",
+   "industria": "Turismo- hotel",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-30",
+   "due_on": "2026-11-30",
+   "created_at": "2026-11-23T21:44:32.993Z",
+   "created": "2026-11-23",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220829764488184",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Elliott Peralta",
+   "persona_contacto": "elliott.peralta@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex",
+   "atom_id": "EBYqtm3meARQQMv2Q6sJ",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 0.0,
+   "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 5,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del enrutamiento en Cortex Mega Nova para la asignación de asesores por región o redirección a grupo.\nFecha de entrega: 2026-11-30."
+  },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
    "empresa": "Carbone",
@@ -1981,8 +2059,8 @@
   },
   {
    "nombre": "Elliott Peralta",
-   "total": 2,
-   "activos": 0,
+   "total": 3,
+   "activos": 1,
    "completados": 2
   },
   {
@@ -2005,11 +2083,6 @@
   }
  ],
  "tendencia": [
-  {
-   "semana": "2026-W40",
-   "creados": 1,
-   "resueltos": 1
-  },
   {
    "semana": "2026-W41",
    "creados": 6,
@@ -2044,6 +2117,11 @@
    "semana": "2026-W47",
    "creados": 5,
    "resueltos": 6
+  },
+  {
+   "semana": "2026-W48",
+   "creados": 1,
+   "resueltos": 0
   }
  ],
  "por_tipo": [
@@ -2064,6 +2142,10 @@
    "total": 4
   },
   {
+   "tipo": "Flujo Flowbuilder",
+   "total": 2
+  },
+  {
    "tipo": "Ajuste o creación de Prompt, Flujo Flowbuilder",
    "total": 2
   },
@@ -2073,10 +2155,6 @@
   },
   {
    "tipo": "Validación de APIs, Integración",
-   "total": 1
-  },
-  {
-   "tipo": "Flujo Flowbuilder",
    "total": 1
   }
  ]
