@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-24 08:36",
+ "generado": "2026-11-24 09:36",
  "meta": {
-  "generado": "2026-11-24 08:36",
+  "generado": "2026-11-24 09:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -21,8 +21,8 @@
   "mrr_activo": 12870.7
  },
  "por_etapa": {
-  "En proceso": 3,
-  "Primer respuesta": 3,
+  "En proceso": 5,
+  "Primer respuesta": 1,
   "Ajustes entrega": 1,
   "Nuevo": 2
  },
@@ -85,7 +85,7 @@
    "empresa": "Nimac",
    "industria": "Otra",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1306.2,
    "due": "2026-11-24",
@@ -110,14 +110,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
-   "ultima_nota": "Gracias amigo, por tu apoyo.",
-   "nota_fecha": "2026-11-18 21:16",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-24 09:33",
+   "nota_autor": "—",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC V2 y realizar los ajustes finos pendientes utilizando el archivo de pruebas del cliente para habilitar su producción. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de trabajo.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecutar el plan de ajustes y compartir los avances a través del hilo del ticket."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC V2 y realizar los ajustes finos pendientes basados en el archivo de pruebas del cliente para habilitar su producción. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de ajustes.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: Ejecutar los ajustes finos definidos en el plan de trabajo y notificar los avances a través del hilo del ticket."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
@@ -241,7 +241,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-30",
@@ -266,14 +266,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "Hola Jesus, recibimos el ticket *🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow*.\nEntendemos que el cliente ya replicó el nuevo Cortex de motos y el WhatsApp Flow, y que necesitamos revisar y optimizar el prompt, la lógica conversacional, las validaciones y el flujo, dejando ambos listos para la ronda de pruebas del 24–25/11 y la salida a producción de diciembre.\nPara avanzar necesitamos el export del nuevo Cortex, el JSON del Flow con su mapping y flowId, el número/WABA nuevo y el número de pruebas, la decisión de dónde se guardan las imágenes y documentos, y confirmar si el ticket anterior se cierra o se mantiene. Con esos insumos hacemos la auditoría y los ajustes.\nTe mantendremos al tanto por este hilo.",
-   "nota_fecha": "2026-11-23 10:01",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-24 09:34",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se definió el alcance: revisar y optimizar prompt, lógica conversacional, validaciones y flujo para la atención de motos.\nBloqueadores / riesgos: Se requiere información técnica para proceder: export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, ubicación de almacenamiento de archivos y estatus del ticket anterior.\nSiguiente paso: Esperar la entrega de los insumos solicitados por parte del cliente para realizar la auditoría y los ajustes."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha iniciado el trabajo de revisión y optimización del nuevo Cortex y WhatsApp Flow para la atención de motos.\nBloqueadores / riesgos: Se requiere el export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, definición de almacenamiento de archivos y confirmación sobre el cierre del ticket anterior. Discrepancia de fecha: El ticket indica entrega el 2026-11-30, pero se menciona una ronda de pruebas para el 24-25/11.\nSiguiente paso: Recibir los insumos solicitados por el equipo de implementación para proceder con la auditoría y los ajustes técnicos."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -796,7 +796,7 @@
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2400.0,
    "due": "2026-11-30",
@@ -821,14 +821,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "Hola Jesus, recibimos el ticket *🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow*.\nEntendemos que el cliente ya replicó el nuevo Cortex de motos y el WhatsApp Flow, y que necesitamos revisar y optimizar el prompt, la lógica conversacional, las validaciones y el flujo, dejando ambos listos para la ronda de pruebas del 24–25/11 y la salida a producción de diciembre.\nPara avanzar necesitamos el export del nuevo Cortex, el JSON del Flow con su mapping y flowId, el número/WABA nuevo y el número de pruebas, la decisión de dónde se guardan las imágenes y documentos, y confirmar si el ticket anterior se cierra o se mantiene. Con esos insumos hacemos la auditoría y los ajustes.\nTe mantendremos al tanto por este hilo.",
-   "nota_fecha": "2026-11-23 10:01",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-24 09:34",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió el ticket y se definió el alcance: revisar y optimizar prompt, lógica conversacional, validaciones y flujo para la atención de motos.\nBloqueadores / riesgos: Se requiere información técnica para proceder: export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, ubicación de almacenamiento de archivos y estatus del ticket anterior.\nSiguiente paso: Esperar la entrega de los insumos solicitados por parte del cliente para realizar la auditoría y los ajustes."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha iniciado el trabajo de revisión y optimización del nuevo Cortex y WhatsApp Flow para la atención de motos.\nBloqueadores / riesgos: Se requiere el export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, definición de almacenamiento de archivos y confirmación sobre el cierre del ticket anterior. Discrepancia de fecha: El ticket indica entrega el 2026-11-30, pero se menciona una ronda de pruebas para el 24-25/11.\nSiguiente paso: Recibir los insumos solicitados por el equipo de implementación para proceder con la auditoría y los ajustes técnicos."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
@@ -913,7 +913,7 @@
    "empresa": "Nimac",
    "industria": "Otra",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1306.2,
    "due": "2026-11-24",
@@ -938,14 +938,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Ajustar el bot Cortex NIMAC - V2 con el archivo de pruebas para habilitar su producción.",
-   "ultima_nota": "Gracias amigo, por tu apoyo.",
-   "nota_fecha": "2026-11-18 21:16",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-24 09:33",
+   "nota_autor": "—",
    "estado_entrega": "vence_hoy",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC V2 y realizar los ajustes finos pendientes utilizando el archivo de pruebas del cliente para habilitar su producción. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de trabajo.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecutar el plan de ajustes y compartir los avances a través del hilo del ticket."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha recibido el requerimiento para retomar el bot Cortex NIMAC V2 y realizar los ajustes finos pendientes basados en el archivo de pruebas del cliente para habilitar su producción. El responsable está revisando el archivo de evaluación caso por caso para definir el plan de ajustes.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: Ejecutar los ajustes finos definidos en el plan de trabajo y notificar los avances a través del hilo del ticket."
   },
   {
    "nombre": "🎫 Universidad Panamericana: Migrar bot V2 a Cortex",
