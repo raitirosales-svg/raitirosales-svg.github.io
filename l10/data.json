@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-24 09:51",
+ "generado": "2026-11-24 10:36",
  "meta": {
-  "generado": "2026-11-24 09:51",
+  "generado": "2026-11-24 10:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -71,14 +71,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear e integrar un WhatsApp Flow en Cortex para recopilar datos de registro de motos.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-17 12:28",
-   "nota_autor": "—",
+   "ultima_nota": "Hola y \nLes comparto la actualización de Carbone Motos después de la reunión con Jesús del 20/11. El foco cambió: el cliente ya replicó el Cortex y el WhatsApp Flow, y ahora me pidió implementar y optimizar el caso de uso completo, no solo revisarlo.\nLo que me dijo Jesús\n El número nuevo de Motos es independiente del retail, termina en 951 y aún no tiene tráfico. Ahí voy a probar.\n El cliente quiere un solo Flow, sin dividirlo: contado pasa a un ejecutivo; financiamiento va con Gaital y pide datos, dos referencias y documentos. Daniela lo procesa manualmente; la API de Gaital es un siguiente paso.\n Los documentos se suben uno por uno, una pantalla por documento. Voy a probar la cámara del Flow; si no funciona, busco un workaround.\n Hoy los documentos quedan solo en el chat de Atom. Voy a armar un N8N que consolide datos e imágenes en Google Sheets, con imágenes en Drive y URL en la hoja. Lo pruebo como CINSA, posiblemente base64; falta confirmar qué acepta Gaital.\n El Cortex de Motos lo armó Rodrigo desde el megacortex retail v19 con IA. Voy a revisar datos quemados (precios, costos), prompt, campos, lógica y costo operativo.\nTiempos\n Empiezo este viernes 27/11 y la primera entrega es el 2/12.\n Quedamos en que Jesús avisa a Rodrigo cuando el flujo de pruebas esté listo y coordina una revisión el lunes siguiente.\n La minuta CSM habla de pruebas 24–25/11; en la reunión con Jesús quedó el 2/12. Queda pendiente confirmar cuál fecha queda vigente y si ajustamos el vencimiento del ticket (30/11) al 2/12.\nTickets\n 🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow: es el ticket activo, con el alcance de implementación + optimización. Ya tiene primera respuesta.\n 🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex: venció el 23/11 y la reunión traslada todo el trabajo al ticket nuevo. Mi recomendación es cerrarlo como reemplazado; si les parece, lo hago.\nEn resumen: un solo Flow, N8N a Sheets/Drive, Cortex optimizado, pruebas en 951 y entrega el 2/12.\nAlex, con esto queda claro que no es solo acompañamiento: es un frente nuevo de implementación.\nCualquier ajuste, lo vemos por acá. Gracias.",
+   "nota_fecha": "2026-11-24 10:25",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "vencido",
    "dias_restantes": -1,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
+   "resumen_ia": "Estado actual: En proceso. El alcance cambió de una revisión a la implementación y optimización completa del caso de uso.\n\nAjustes / avances: Se definió un flujo único para contado y financiamiento, integración mediante N8N para consolidar datos en Google Sheets y documentos en Drive, y revisión del Cortex de Motos para ajustar lógica y prompts.\n\nBloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-23, pero tras reunión con el cliente se acordó una entrega para el 02/12. El ticket actual está vencido y se recomienda cerrarlo como reemplazado por el nuevo ticket de implementación.\n\nSiguiente paso: Iniciar ejecución el 27/11 y realizar entrega el 02/12."
   },
   {
    "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
@@ -266,14 +266,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-24 09:34",
-   "nota_autor": "—",
+   "ultima_nota": "Hola y \nLes comparto la actualización de Carbone Motos después de la reunión con Jesús del 20/11. El foco cambió: el cliente ya replicó el Cortex y el WhatsApp Flow, y ahora me pidió implementar y optimizar el caso de uso completo, no solo revisarlo.\nLo que me dijo Jesús\n El número nuevo de Motos es independiente del retail, termina en 951 y aún no tiene tráfico. Ahí voy a probar.\n El cliente quiere un solo Flow, sin dividirlo: contado pasa a un ejecutivo; financiamiento va con Gaital y pide datos, dos referencias y documentos. Daniela lo procesa manualmente; la API de Gaital es un siguiente paso.\n Los documentos se suben uno por uno, una pantalla por documento. Voy a probar la cámara del Flow; si no funciona, busco un workaround.\n Hoy los documentos quedan solo en el chat de Atom. Voy a armar un N8N que consolide datos e imágenes en Google Sheets, con imágenes en Drive y URL en la hoja. Lo pruebo como CINSA, posiblemente base64; falta confirmar qué acepta Gaital.\n El Cortex de Motos lo armó Rodrigo desde el megacortex retail v19 con IA. Voy a revisar datos quemados (precios, costos), prompt, campos, lógica y costo operativo.\nTiempos\n Empiezo este viernes 27/11 y la primera entrega es el 2/12.\n Quedamos en que Jesús avisa a Rodrigo cuando el flujo de pruebas esté listo y coordina una revisión el lunes siguiente.\n La minuta CSM habla de pruebas 24–25/11; en la reunión con Jesús quedó el 2/12. Queda pendiente confirmar cuál fecha queda vigente y si ajustamos el vencimiento del ticket (30/11) al 2/12.\nTickets\n 🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow: es el ticket activo, con el alcance de implementación + optimización. Ya tiene primera respuesta.\n 🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex: venció el 23/11 y la reunión traslada todo el trabajo al ticket nuevo. Mi recomendación es cerrarlo como reemplazado; si les parece, lo hago.\nEn resumen: un solo Flow, N8N a Sheets/Drive, Cortex optimizado, pruebas en 951 y entrega el 2/12.\nAlex, con esto queda claro que no es solo acompañamiento: es un frente nuevo de implementación.\nCualquier ajuste, lo vemos por acá. Gracias.",
+   "nota_fecha": "2026-11-24 10:25",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha iniciado el trabajo de revisión y optimización del nuevo Cortex y WhatsApp Flow para la atención de motos.\nBloqueadores / riesgos: Se requiere el export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, definición de almacenamiento de archivos y confirmación sobre el cierre del ticket anterior. Discrepancia de fecha: El ticket indica entrega el 2026-11-30, pero se menciona una ronda de pruebas para el 24-25/11.\nSiguiente paso: Recibir los insumos solicitados por el equipo de implementación para proceder con la auditoría y los ajustes técnicos."
+   "resumen_ia": "Estado actual: En proceso. El alcance cambió de revisión a implementación y optimización completa del caso de uso de Motos.\n\nAjustes / avances: Se definió un flujo único (contado a ejecutivo, financiamiento a Gaital), integración mediante N8N para consolidar datos en Google Sheets y archivos en Drive, y revisión del Cortex de Motos para eliminar datos quemados y optimizar lógica.\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket vence el 30/11, pero la entrega acordada con el cliente es el 02/12. Pendiente confirmar si se ajusta la fecha oficial.\n\nSiguiente paso: Iniciar implementación el 27/11 y realizar pruebas en el número 951 para entrega el 02/12. Cerrar ticket anterior como reemplazado."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -424,14 +424,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear e integrar un WhatsApp Flow en Cortex para recopilar datos de registro de motos.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-17 12:28",
-   "nota_autor": "—",
+   "ultima_nota": "Hola y \nLes comparto la actualización de Carbone Motos después de la reunión con Jesús del 20/11. El foco cambió: el cliente ya replicó el Cortex y el WhatsApp Flow, y ahora me pidió implementar y optimizar el caso de uso completo, no solo revisarlo.\nLo que me dijo Jesús\n El número nuevo de Motos es independiente del retail, termina en 951 y aún no tiene tráfico. Ahí voy a probar.\n El cliente quiere un solo Flow, sin dividirlo: contado pasa a un ejecutivo; financiamiento va con Gaital y pide datos, dos referencias y documentos. Daniela lo procesa manualmente; la API de Gaital es un siguiente paso.\n Los documentos se suben uno por uno, una pantalla por documento. Voy a probar la cámara del Flow; si no funciona, busco un workaround.\n Hoy los documentos quedan solo en el chat de Atom. Voy a armar un N8N que consolide datos e imágenes en Google Sheets, con imágenes en Drive y URL en la hoja. Lo pruebo como CINSA, posiblemente base64; falta confirmar qué acepta Gaital.\n El Cortex de Motos lo armó Rodrigo desde el megacortex retail v19 con IA. Voy a revisar datos quemados (precios, costos), prompt, campos, lógica y costo operativo.\nTiempos\n Empiezo este viernes 27/11 y la primera entrega es el 2/12.\n Quedamos en que Jesús avisa a Rodrigo cuando el flujo de pruebas esté listo y coordina una revisión el lunes siguiente.\n La minuta CSM habla de pruebas 24–25/11; en la reunión con Jesús quedó el 2/12. Queda pendiente confirmar cuál fecha queda vigente y si ajustamos el vencimiento del ticket (30/11) al 2/12.\nTickets\n 🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow: es el ticket activo, con el alcance de implementación + optimización. Ya tiene primera respuesta.\n 🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex: venció el 23/11 y la reunión traslada todo el trabajo al ticket nuevo. Mi recomendación es cerrarlo como reemplazado; si les parece, lo hago.\nEn resumen: un solo Flow, N8N a Sheets/Drive, Cortex optimizado, pruebas en 951 y entrega el 2/12.\nAlex, con esto queda claro que no es solo acompañamiento: es un frente nuevo de implementación.\nCualquier ajuste, lo vemos por acá. Gracias.",
+   "nota_fecha": "2026-11-24 10:25",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "vencido",
    "dias_restantes": -1,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
+   "resumen_ia": "Estado actual: En proceso. El alcance cambió de una revisión a la implementación y optimización completa del caso de uso.\n\nAjustes / avances: Se definió un flujo único para contado y financiamiento, integración mediante N8N para consolidar datos en Google Sheets y documentos en Drive, y revisión del Cortex de Motos para ajustar lógica y prompts.\n\nBloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-23, pero tras reunión con el cliente se acordó una entrega para el 02/12. El ticket actual está vencido y se recomienda cerrarlo como reemplazado por el nuevo ticket de implementación.\n\nSiguiente paso: Iniciar ejecución el 27/11 y realizar entrega el 02/12."
   }
  ],
  "por_vencer": [
@@ -822,14 +822,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 20.0,
    "resumen_ticket": "Revisar y optimizar prompt, lógica conversacional y WhatsApp Flow para independizar la atención de motos.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-24 09:34",
-   "nota_autor": "—",
+   "ultima_nota": "Hola y \nLes comparto la actualización de Carbone Motos después de la reunión con Jesús del 20/11. El foco cambió: el cliente ya replicó el Cortex y el WhatsApp Flow, y ahora me pidió implementar y optimizar el caso de uso completo, no solo revisarlo.\nLo que me dijo Jesús\n El número nuevo de Motos es independiente del retail, termina en 951 y aún no tiene tráfico. Ahí voy a probar.\n El cliente quiere un solo Flow, sin dividirlo: contado pasa a un ejecutivo; financiamiento va con Gaital y pide datos, dos referencias y documentos. Daniela lo procesa manualmente; la API de Gaital es un siguiente paso.\n Los documentos se suben uno por uno, una pantalla por documento. Voy a probar la cámara del Flow; si no funciona, busco un workaround.\n Hoy los documentos quedan solo en el chat de Atom. Voy a armar un N8N que consolide datos e imágenes en Google Sheets, con imágenes en Drive y URL en la hoja. Lo pruebo como CINSA, posiblemente base64; falta confirmar qué acepta Gaital.\n El Cortex de Motos lo armó Rodrigo desde el megacortex retail v19 con IA. Voy a revisar datos quemados (precios, costos), prompt, campos, lógica y costo operativo.\nTiempos\n Empiezo este viernes 27/11 y la primera entrega es el 2/12.\n Quedamos en que Jesús avisa a Rodrigo cuando el flujo de pruebas esté listo y coordina una revisión el lunes siguiente.\n La minuta CSM habla de pruebas 24–25/11; en la reunión con Jesús quedó el 2/12. Queda pendiente confirmar cuál fecha queda vigente y si ajustamos el vencimiento del ticket (30/11) al 2/12.\nTickets\n 🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow: es el ticket activo, con el alcance de implementación + optimización. Ya tiene primera respuesta.\n 🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex: venció el 23/11 y la reunión traslada todo el trabajo al ticket nuevo. Mi recomendación es cerrarlo como reemplazado; si les parece, lo hago.\nEn resumen: un solo Flow, N8N a Sheets/Drive, Cortex optimizado, pruebas en 951 y entrega el 2/12.\nAlex, con esto queda claro que no es solo acompañamiento: es un frente nuevo de implementación.\nCualquier ajuste, lo vemos por acá. Gracias.",
+   "nota_fecha": "2026-11-24 10:25",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha iniciado el trabajo de revisión y optimización del nuevo Cortex y WhatsApp Flow para la atención de motos.\nBloqueadores / riesgos: Se requiere el export del nuevo Cortex, JSON del Flow (con mapping y flowId), número/WABA nuevo, número de pruebas, definición de almacenamiento de archivos y confirmación sobre el cierre del ticket anterior. Discrepancia de fecha: El ticket indica entrega el 2026-11-30, pero se menciona una ronda de pruebas para el 24-25/11.\nSiguiente paso: Recibir los insumos solicitados por el equipo de implementación para proceder con la auditoría y los ajustes técnicos."
+   "resumen_ia": "Estado actual: En proceso. El alcance cambió de revisión a implementación y optimización completa del caso de uso de Motos.\n\nAjustes / avances: Se definió un flujo único (contado a ejecutivo, financiamiento a Gaital), integración mediante N8N para consolidar datos en Google Sheets y archivos en Drive, y revisión del Cortex de Motos para eliminar datos quemados y optimizar lógica.\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket vence el 30/11, pero la entrega acordada con el cliente es el 02/12. Pendiente confirmar si se ajusta la fecha oficial.\n\nSiguiente paso: Iniciar implementación el 27/11 y realizar pruebas en el número 951 para entrega el 02/12. Cerrar ticket anterior como reemplazado."
   },
   {
    "nombre": "🎫 Minelab Metal Detectors MX: Configuración de token e integración",
@@ -1017,14 +1017,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear e integrar un WhatsApp Flow en Cortex para recopilar datos de registro de motos.",
-   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
-   "nota_fecha": "2026-11-17 12:28",
-   "nota_autor": "—",
+   "ultima_nota": "Hola y \nLes comparto la actualización de Carbone Motos después de la reunión con Jesús del 20/11. El foco cambió: el cliente ya replicó el Cortex y el WhatsApp Flow, y ahora me pidió implementar y optimizar el caso de uso completo, no solo revisarlo.\nLo que me dijo Jesús\n El número nuevo de Motos es independiente del retail, termina en 951 y aún no tiene tráfico. Ahí voy a probar.\n El cliente quiere un solo Flow, sin dividirlo: contado pasa a un ejecutivo; financiamiento va con Gaital y pide datos, dos referencias y documentos. Daniela lo procesa manualmente; la API de Gaital es un siguiente paso.\n Los documentos se suben uno por uno, una pantalla por documento. Voy a probar la cámara del Flow; si no funciona, busco un workaround.\n Hoy los documentos quedan solo en el chat de Atom. Voy a armar un N8N que consolide datos e imágenes en Google Sheets, con imágenes en Drive y URL en la hoja. Lo pruebo como CINSA, posiblemente base64; falta confirmar qué acepta Gaital.\n El Cortex de Motos lo armó Rodrigo desde el megacortex retail v19 con IA. Voy a revisar datos quemados (precios, costos), prompt, campos, lógica y costo operativo.\nTiempos\n Empiezo este viernes 27/11 y la primera entrega es el 2/12.\n Quedamos en que Jesús avisa a Rodrigo cuando el flujo de pruebas esté listo y coordina una revisión el lunes siguiente.\n La minuta CSM habla de pruebas 24–25/11; en la reunión con Jesús quedó el 2/12. Queda pendiente confirmar cuál fecha queda vigente y si ajustamos el vencimiento del ticket (30/11) al 2/12.\nTickets\n 🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow: es el ticket activo, con el alcance de implementación + optimización. Ya tiene primera respuesta.\n 🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex: venció el 23/11 y la reunión traslada todo el trabajo al ticket nuevo. Mi recomendación es cerrarlo como reemplazado; si les parece, lo hago.\nEn resumen: un solo Flow, N8N a Sheets/Drive, Cortex optimizado, pruebas en 951 y entrega el 2/12.\nAlex, con esto queda claro que no es solo acompañamiento: es un frente nuevo de implementación.\nCualquier ajuste, lo vemos por acá. Gracias.",
+   "nota_fecha": "2026-11-24 10:25",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "vencido",
    "dias_restantes": -1,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha recibido la solicitud para crear el WhatsApp Flow de registro de motos e integrarlo con Cortex. El equipo ha iniciado los trabajos técnicos tras validar la información necesaria.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del flujo y la integración con el sistema Cortex para la validación y atención comercial."
+   "resumen_ia": "Estado actual: En proceso. El alcance cambió de una revisión a la implementación y optimización completa del caso de uso.\n\nAjustes / avances: Se definió un flujo único para contado y financiamiento, integración mediante N8N para consolidar datos en Google Sheets y documentos en Drive, y revisión del Cortex de Motos para ajustar lógica y prompts.\n\nBloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-11-23, pero tras reunión con el cliente se acordó una entrega para el 02/12. El ticket actual está vencido y se recomienda cerrarlo como reemplazado por el nuevo ticket de implementación.\n\nSiguiente paso: Iniciar ejecución el 27/11 y realizar entrega el 02/12."
   },
   {
    "nombre": "📅 Mega Travel: Acompañamiento en reunión sobre HubSpot y Cortex",
