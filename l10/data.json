@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-24 10:36",
+ "generado": "2026-11-24 10:51",
  "meta": {
-  "generado": "2026-11-24 10:36",
+  "generado": "2026-11-24 10:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -24,7 +24,8 @@
   "En proceso": 5,
   "Datos faltantes": 1,
   "Ajustes entrega": 1,
-  "Nuevo": 2
+  "Nuevo": 1,
+  "Primer respuesta": 1
  },
  "por_area": {
   "Educación & Retail": 7,
@@ -280,7 +281,7 @@
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-30",
@@ -305,14 +306,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola equipo,\nGracias por compartir el detalle del enrutamiento y la información de las áreas de atención. Recibimos la información de Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net, junto con la referencia de regiones para el Área Comercial y el enlace de PQRS.\nQueda registrado. Lo estaremos trabajando y, si necesitamos alguna aclaración o información adicional, la solicitaremos por este mismo hilo.\nGracias.",
+   "nota_fecha": "2026-11-24 10:38",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del enrutamiento en Cortex Mega Nova para la asignación de asesores por región o redirección a grupo.\nFecha de entrega: 2026-11-30."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
   },
   {
    "nombre": "🎫 MEGA Storage: Migración a Cortex e integración con SiteLink",
@@ -758,7 +759,7 @@
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-30",
@@ -783,14 +784,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "Hola equipo,\nGracias por compartir el detalle del enrutamiento y la información de las áreas de atención. Recibimos la información de Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net, junto con la referencia de regiones para el Área Comercial y el enlace de PQRS.\nQueda registrado. Lo estaremos trabajando y, si necesitamos alguna aclaración o información adicional, la solicitaremos por este mismo hilo.\nGracias.",
+   "nota_fecha": "2026-11-24 10:38",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del enrutamiento en Cortex Mega Nova para la asignación de asesores por región o redirección a grupo.\nFecha de entrega: 2026-11-30."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
