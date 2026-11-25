@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 11:36",
+ "generado": "2026-11-25 12:06",
  "meta": {
-  "generado": "2026-11-25 11:36",
+  "generado": "2026-11-25 12:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -22,9 +22,9 @@
  },
  "por_etapa": {
   "Datos faltantes": 1,
-  "Primer respuesta": 3,
+  "En proceso": 6,
   "Ajustes entrega": 2,
-  "En proceso": 4
+  "Primer respuesta": 1
  },
  "por_area": {
   "Educación & Retail": 7,
@@ -86,7 +86,7 @@
    "empresa": "Universidad Panamericana",
    "industria": "Educación",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2850.0,
    "due": "2026-11-27",
@@ -111,14 +111,14 @@
    "prioridad": "Alta",
    "puntaje_prioridad": 55.0,
    "resumen_ticket": "Migrar el bot V2 a Cortex implementando WhatsApp Flows y manteniendo la integración con HubSpot.",
-   "ultima_nota": "Hola Dulce,\nGracias por escribirnos. Ya revisé el ticket *Universidad Panamericana: Migrar bot V2 a Cortex* y entiendo el requerimiento: pasar *V2 - UP - Ai - v3* a Cortex manteniendo el journey y el orden de etapas, sumar WhatsApp Flows en la captura de datos y conservar el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nSi necesito algún dato adicional, te lo pido por este mismo hilo.\nQuedo atento.",
-   "nota_fecha": "2026-11-24 16:07",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-25 11:53",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha validado el requerimiento de migrar el bot V2 a Cortex, incluyendo la implementación de WhatsApp Flows, el mantenimiento del journey, el orden de etapas, el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación se encuentra a la espera de solicitar datos adicionales si fueran necesarios para proceder con la migración. Fecha de entrega oficial: 2026-11-27."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha confirmado el alcance del requerimiento, que incluye la migración del bot V2 a Cortex, la implementación de WhatsApp Flows para captura de datos, el mantenimiento del journey, el recupero de 3 toques, la salida de spam y la integración con HubSpot. El equipo ya inició los trabajos de desarrollo.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: Continuar con la migración del bot y la configuración de las integraciones solicitadas."
   },
   {
    "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
@@ -281,7 +281,7 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-12-01",
@@ -306,14 +306,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. Este ticket centraliza el detalle técnico y los avances del flujo Plan Dental y del enrutamiento. El ticket 🎫 Saludsa: Ajustar comportamiento del bot Cortex se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
-   "nota_fecha": "2026-11-25 11:32",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-25 11:53",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El ticket ha sido recibido y se le ha asignado prioridad. Se ha definido que este ticket centralizará el detalle técnico y los avances del flujo Plan Dental y del enrutamiento, trabajando de forma coordinada con el ticket de ajuste del bot Cortex.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo técnico y reportar avances en el hilo del ticket."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha confirmado la recepción del ticket y se ha iniciado el trabajo técnico. Se está gestionando de forma coordinada con el ticket de ajuste del bot Cortex para centralizar el detalle del flujo Plan Dental y el enrutamiento.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo de las correcciones de cobertura, precios y enrutamiento para evitar la reasignación incorrecta de leads."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -440,7 +440,7 @@
    "empresa": "Universidad Panamericana",
    "industria": "Educación",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2850.0,
    "due": "2026-11-27",
@@ -465,14 +465,14 @@
    "prioridad": "Alta",
    "puntaje_prioridad": 55.0,
    "resumen_ticket": "Migrar el bot V2 a Cortex implementando WhatsApp Flows y manteniendo la integración con HubSpot.",
-   "ultima_nota": "Hola Dulce,\nGracias por escribirnos. Ya revisé el ticket *Universidad Panamericana: Migrar bot V2 a Cortex* y entiendo el requerimiento: pasar *V2 - UP - Ai - v3* a Cortex manteniendo el journey y el orden de etapas, sumar WhatsApp Flows en la captura de datos y conservar el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nSi necesito algún dato adicional, te lo pido por este mismo hilo.\nQuedo atento.",
-   "nota_fecha": "2026-11-24 16:07",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-25 11:53",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha validado el requerimiento de migrar el bot V2 a Cortex, incluyendo la implementación de WhatsApp Flows, el mantenimiento del journey, el orden de etapas, el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación se encuentra a la espera de solicitar datos adicionales si fueran necesarios para proceder con la migración. Fecha de entrega oficial: 2026-11-27."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha confirmado el alcance del requerimiento, que incluye la migración del bot V2 a Cortex, la implementación de WhatsApp Flows para captura de datos, el mantenimiento del journey, el recupero de 3 toques, la salida de spam y la integración con HubSpot. El equipo ya inició los trabajos de desarrollo.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: Continuar con la migración del bot y la configuración de las integraciones solicitadas."
   },
   {
    "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
@@ -875,7 +875,7 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-12-01",
@@ -900,14 +900,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. Este ticket centraliza el detalle técnico y los avances del flujo Plan Dental y del enrutamiento. El ticket 🎫 Saludsa: Ajustar comportamiento del bot Cortex se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
-   "nota_fecha": "2026-11-25 11:32",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-25 11:53",
+   "nota_autor": "—",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El ticket ha sido recibido y se le ha asignado prioridad. Se ha definido que este ticket centralizará el detalle técnico y los avances del flujo Plan Dental y del enrutamiento, trabajando de forma coordinada con el ticket de ajuste del bot Cortex.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo técnico y reportar avances en el hilo del ticket."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se ha confirmado la recepción del ticket y se ha iniciado el trabajo técnico. Se está gestionando de forma coordinada con el ticket de ajuste del bot Cortex para centralizar el detalle del flujo Plan Dental y el enrutamiento.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo de las correcciones de cobertura, precios y enrutamiento para evitar la reasignación incorrecta de leads."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -1109,7 +1109,7 @@
    "empresa": "Universidad Panamericana",
    "industria": "Educación",
    "area_l10": "Educación & Retail",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 2850.0,
    "due": "2026-11-27",
@@ -1134,14 +1134,14 @@
    "prioridad": "Alta",
    "puntaje_prioridad": 55.0,
    "resumen_ticket": "Migrar el bot V2 a Cortex implementando WhatsApp Flows y manteniendo la integración con HubSpot.",
-   "ultima_nota": "Hola Dulce,\nGracias por escribirnos. Ya revisé el ticket *Universidad Panamericana: Migrar bot V2 a Cortex* y entiendo el requerimiento: pasar *V2 - UP - Ai - v3* a Cortex manteniendo el journey y el orden de etapas, sumar WhatsApp Flows en la captura de datos y conservar el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nSi necesito algún dato adicional, te lo pido por este mismo hilo.\nQuedo atento.",
-   "nota_fecha": "2026-11-24 16:07",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-25 11:53",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se ha validado el requerimiento de migrar el bot V2 a Cortex, incluyendo la implementación de WhatsApp Flows, el mantenimiento del journey, el orden de etapas, el recupero de 3 toques, la salida de spam y la integración con HubSpot.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación se encuentra a la espera de solicitar datos adicionales si fueran necesarios para proceder con la migración. Fecha de entrega oficial: 2026-11-27."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: Se ha confirmado el alcance del requerimiento, que incluye la migración del bot V2 a Cortex, la implementación de WhatsApp Flows para captura de datos, el mantenimiento del journey, el recupero de 3 toques, la salida de spam y la integración con HubSpot. El equipo ya inició los trabajos de desarrollo.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: Continuar con la migración del bot y la configuración de las integraciones solicitadas."
   },
   {
    "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
