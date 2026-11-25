@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 10:36",
+ "generado": "2026-11-25 10:51",
  "meta": {
-  "generado": "2026-11-25 10:36",
+  "generado": "2026-11-25 10:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -22,10 +22,9 @@
  },
  "por_etapa": {
   "Datos faltantes": 1,
-  "Primer respuesta": 2,
+  "Primer respuesta": 3,
   "Ajustes entrega": 2,
-  "En proceso": 4,
-  "Nuevo": 1
+  "En proceso": 4
  },
  "por_area": {
   "Educación & Retail": 7,
@@ -282,7 +281,7 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-12-01",
@@ -307,14 +306,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "¡Hola, Michael! Gracias por el ticket. Confirmo que ya lo recibí; le estaré dando prioridad. Cualquier avance te lo comparto por este mismo hilo.",
+   "nota_fecha": "2026-11-25 10:45",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el desarrollo para corregir cobertura, precios y enrutamiento en el flujo Cortex, asegurando la correcta asignación de leads recurrentes antes de la fecha de entrega oficial 2026-12-01."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Ticket recibido y con prioridad asignada por el equipo de implementación.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecución de las correcciones en cobertura, precios y enrutamiento del flujo Cortex."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -876,7 +875,7 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Nuevo",
+   "etapa": "Primer respuesta",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-12-01",
@@ -901,14 +900,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
+   "ultima_nota": "¡Hola, Michael! Gracias por el ticket. Confirmo que ya lo recibí; le estaré dando prioridad. Cualquier avance te lo comparto por este mismo hilo.",
+   "nota_fecha": "2026-11-25 10:45",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el desarrollo para corregir cobertura, precios y enrutamiento en el flujo Cortex, asegurando la correcta asignación de leads recurrentes antes de la fecha de entrega oficial 2026-12-01."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Ticket recibido y con prioridad asignada por el equipo de implementación.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecución de las correcciones en cobertura, precios y enrutamiento del flujo Cortex."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
