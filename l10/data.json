@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 10:51",
+ "generado": "2026-11-25 11:36",
  "meta": {
-  "generado": "2026-11-25 10:51",
+  "generado": "2026-11-25 11:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -189,14 +189,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Gracias muy amables por su apoyo.",
-   "nota_fecha": "2026-11-25 10:13",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
+   "nota_fecha": "2026-11-25 11:32",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances:\n- Se resolvieron inicialmente los casos de planes dentales (omisión de preexistencias), asignación a SAC para proveedores y limpieza de flujo dental.\n- El ticket se encuentra actualmente en revisión tras reportarse persistencia de errores críticos.\n\nBloqueadores / riesgos:\n- Persisten errores en el flujo de plan dental: cobertura internacional incorrecta, precios desactualizados, redundancia de datos y fallos en el enrutamiento.\n- Problemas de reasignación de leads recurrentes y desvío de producto.\n- Falta de asignación de responsable tras la salida de Jorge Suyén.\n- Discrepancia de fecha: El cliente solicita validar correcciones este viernes 2026-11-28 para destrabar facturación.\n\nSiguiente paso:\n- Definir responsable del equipo para dar seguimiento a los nuevos requerimientos y resolver los errores reportados."
+   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
@@ -306,14 +306,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "¡Hola, Michael! Gracias por el ticket. Confirmo que ya lo recibí; le estaré dando prioridad. Cualquier avance te lo comparto por este mismo hilo.",
-   "nota_fecha": "2026-11-25 10:45",
+   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. Este ticket centraliza el detalle técnico y los avances del flujo Plan Dental y del enrutamiento. El ticket 🎫 Saludsa: Ajustar comportamiento del bot Cortex se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
+   "nota_fecha": "2026-11-25 11:32",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Ticket recibido y con prioridad asignada por el equipo de implementación.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecución de las correcciones en cobertura, precios y enrutamiento del flujo Cortex."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El ticket ha sido recibido y se le ha asignado prioridad. Se ha definido que este ticket centralizará el detalle técnico y los avances del flujo Plan Dental y del enrutamiento, trabajando de forma coordinada con el ticket de ajuste del bot Cortex.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo técnico y reportar avances en el hilo del ticket."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -543,14 +543,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Gracias muy amables por su apoyo.",
-   "nota_fecha": "2026-11-25 10:13",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
+   "nota_fecha": "2026-11-25 11:32",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances:\n- Se resolvieron inicialmente los casos de planes dentales (omisión de preexistencias), asignación a SAC para proveedores y limpieza de flujo dental.\n- El ticket se encuentra actualmente en revisión tras reportarse persistencia de errores críticos.\n\nBloqueadores / riesgos:\n- Persisten errores en el flujo de plan dental: cobertura internacional incorrecta, precios desactualizados, redundancia de datos y fallos en el enrutamiento.\n- Problemas de reasignación de leads recurrentes y desvío de producto.\n- Falta de asignación de responsable tras la salida de Jorge Suyén.\n- Discrepancia de fecha: El cliente solicita validar correcciones este viernes 2026-11-28 para destrabar facturación.\n\nSiguiente paso:\n- Definir responsable del equipo para dar seguimiento a los nuevos requerimientos y resolver los errores reportados."
+   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
@@ -900,14 +900,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "¡Hola, Michael! Gracias por el ticket. Confirmo que ya lo recibí; le estaré dando prioridad. Cualquier avance te lo comparto por este mismo hilo.",
-   "nota_fecha": "2026-11-25 10:45",
+   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. Este ticket centraliza el detalle técnico y los avances del flujo Plan Dental y del enrutamiento. El ticket 🎫 Saludsa: Ajustar comportamiento del bot Cortex se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
+   "nota_fecha": "2026-11-25 11:32",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Ticket recibido y con prioridad asignada por el equipo de implementación.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Ejecución de las correcciones en cobertura, precios y enrutamiento del flujo Cortex."
+   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: El ticket ha sido recibido y se le ha asignado prioridad. Se ha definido que este ticket centralizará el detalle técnico y los avances del flujo Plan Dental y del enrutamiento, trabajando de forma coordinada con el ticket de ajuste del bot Cortex.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo técnico y reportar avances en el hilo del ticket."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -1173,14 +1173,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Gracias muy amables por su apoyo.",
-   "nota_fecha": "2026-11-25 10:13",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
+   "nota_fecha": "2026-11-25 11:32",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances:\n- Se resolvieron inicialmente los casos de planes dentales (omisión de preexistencias), asignación a SAC para proveedores y limpieza de flujo dental.\n- El ticket se encuentra actualmente en revisión tras reportarse persistencia de errores críticos.\n\nBloqueadores / riesgos:\n- Persisten errores en el flujo de plan dental: cobertura internacional incorrecta, precios desactualizados, redundancia de datos y fallos en el enrutamiento.\n- Problemas de reasignación de leads recurrentes y desvío de producto.\n- Falta de asignación de responsable tras la salida de Jorge Suyén.\n- Discrepancia de fecha: El cliente solicita validar correcciones este viernes 2026-11-28 para destrabar facturación.\n\nSiguiente paso:\n- Definir responsable del equipo para dar seguimiento a los nuevos requerimientos y resolver los errores reportados."
+   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
