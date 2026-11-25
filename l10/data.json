@@ -1,37 +1,38 @@
 {
- "generado": "2026-11-25 10:21",
+ "generado": "2026-11-25 10:36",
  "meta": {
-  "generado": "2026-11-25 10:21",
+  "generado": "2026-11-25 10:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 54,
-  "con_empresa": 36,
+  "tareas": 55,
+  "con_empresa": 37,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 9,
+  "activas": 10,
   "vencidas": 0,
   "vence_hoy": 0,
   "por_vencer": 5,
   "pausados": 1,
   "entregas_7d": 5,
   "cumplimiento": 80,
-  "prioridad_alta": 2,
-  "mrr_activo": 13635.0
+  "prioridad_alta": 3,
+  "mrr_activo": 15155.0
  },
  "por_etapa": {
   "Datos faltantes": 1,
   "Primer respuesta": 2,
   "Ajustes entrega": 2,
-  "En proceso": 4
+  "En proceso": 4,
+  "Nuevo": 1
  },
  "por_area": {
-  "Educación & Retail": 6,
+  "Educación & Retail": 7,
   "Multiindustria": 3
  },
  "por_complejidad": {
-  "Intermedio": 3,
+  "Intermedio": 4,
   "Alto": 4,
   "Muy Alto": 2
  },
@@ -39,7 +40,7 @@
   "Media": 2,
   "Alta": 1,
   "Baja": 5,
-  "Muy Alta": 1
+  "Muy Alta": 2
  },
  "activas": [
   {
@@ -275,6 +276,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
+  },
+  {
+   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
+   "empresa": "Saludsa",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1520.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-24T21:40:27.781Z",
+   "created": "2026-11-24",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220884029105031",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "sdpI8zgZb3GhuUIjikgd",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 75.0,
+   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el desarrollo para corregir cobertura, precios y enrutamiento en el flujo Cortex, asegurando la correcta asignación de leads recurrentes antes de la fecha de entrega oficial 2026-12-01."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -831,6 +871,45 @@
   }
  ],
  "historial": [
+  {
+   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
+   "empresa": "Saludsa",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1520.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-24T21:40:27.781Z",
+   "created": "2026-11-24",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220884029105031",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "sdpI8zgZb3GhuUIjikgd",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 75.0,
+   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "a_tiempo",
+   "dias_restantes": 4,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el desarrollo para corregir cobertura, precios y enrutamiento en el flujo Cortex, asegurando la correcta asignación de leads recurrentes antes de la fecha de entrega oficial 2026-12-01."
+  },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
    "empresa": "Mega Travel",
@@ -2239,8 +2318,8 @@
  "top_solicitantes": [
   {
    "nombre": "Michael Sancivier",
-   "total": 11,
-   "activos": 6,
+   "total": 12,
+   "activos": 7,
    "completados": 5
   },
   {
@@ -2318,7 +2397,7 @@
   },
   {
    "semana": "2026-W48",
-   "creados": 1,
+   "creados": 2,
    "resueltos": 2
   }
  ],
@@ -2340,6 +2419,10 @@
    "total": 4
   },
   {
+   "tipo": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "total": 2
+  },
+  {
    "tipo": "Flujo Flowbuilder",
    "total": 2
   },
@@ -2350,10 +2433,6 @@
   {
    "tipo": "Validación de APIs",
    "total": 2
-  },
-  {
-   "tipo": "Validación de APIs, Integración",
-   "total": 1
   }
  ]
 }
