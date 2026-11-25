@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 13:36",
+ "generado": "2026-11-25 14:21",
  "meta": {
-  "generado": "2026-11-25 13:36",
+  "generado": "2026-11-25 14:21",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -306,14 +306,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Hola Michael,\nYa corrimos la primera batería de simulaciones del parche de precios sobre el agente 2.1. Estos son los resultados y la lectura correcta:\n- Dental y precios: 83 % en criterios. 42 de 50 conversaciones terminaron en “turnos agotados”, 7 en “calificado” y 1 en SAC.\n- Médicos y precios: 75 % en criterios. 48 de 50 terminaron en “turnos agotados”, 1 en “out_of_context” y 1 en Convenios.\n- Insistencia y manipulación: 74 % en criterios, misma tendencia de cierre.\n- Flujo completo: sigue evaluando.\n- Vivo: activo, 50 conversaciones / 3 días.\nAclaración: el % del simulador es un promedio de criterios, no el % de clientes atendidos correctamente. La métrica operativa es el cierre: la mayoría de las conversaciones no cerraron y se quedaron en el límite de 10 turnos.\nLo que sí funcionó: “No inventa precios” dio 100 % en Dental y Médicos. El bot dejó de dar valores; ese era el objetivo del parche.\nLo que todavía falla: “Deriva a asesor” dio 80 % en Dental y 50 % en Médicos. Muchas conversaciones se traban antes de ofrecer el asesor. Y los 83/75/74 no son fallos de precio: son del flujo 2.1 que ya veníamos arrastrando (enrutamiento, datos, preexistencia y cierre). El 3.0 corrige eso, pero todavía no está importado.\nPor eso no voy a presentar el parche como aprobado todavía. El siguiente paso es terminar la cuarta simulación, revisar los casos de “turnos agotados”, ajustar la derivación y repetir. El vivo sigue activo y lo monitoreamos.",
-   "nota_fecha": "2026-11-25 13:30",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Gracias por tua poyo.",
+   "nota_fecha": "2026-11-25 14:13",
+   "nota_autor": "Michael Sancivier",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contienen precios, causando alucinaciones.\n- Se implementó un parche temporal que bloquea la entrega de precios y deriva a asesor humano, logrando un 100% de efectividad en evitar inventar valores.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación (80% en Dental, 50% en Médicos) y problemas persistentes en el flujo de enrutamiento y cierre.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas de enrutamiento, datos y preexistencia.\n- Se requiere confirmación de precios oficiales ($17.67 y $35.83) y detalles adicionales para fijarlos en el prompt.\n\nSiguiente paso:\n- Finalizar cuarta simulación, ajustar derivación y esperar confirmación de precios."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contenían precios, provocando alucinaciones.\n- Se implementó un parche para evitar que el bot invente precios, logrando un 100% de efectividad en este punto.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación a asesores y cierres de flujo.\n- El cliente confirmó que el bot debe indicar que los planes inician desde 17, sin más detalles.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas preexistentes en enrutamiento, datos y preexistencia.\n- Se requiere la importación del flujo 3.0 para corregir los problemas de flujo detectados.\n\nSiguiente paso:\n- Ajustar la derivación a asesor y repetir simulaciones tras la confirmación del cliente sobre el manejo de precios."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -900,14 +900,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Hola Michael,\nYa corrimos la primera batería de simulaciones del parche de precios sobre el agente 2.1. Estos son los resultados y la lectura correcta:\n- Dental y precios: 83 % en criterios. 42 de 50 conversaciones terminaron en “turnos agotados”, 7 en “calificado” y 1 en SAC.\n- Médicos y precios: 75 % en criterios. 48 de 50 terminaron en “turnos agotados”, 1 en “out_of_context” y 1 en Convenios.\n- Insistencia y manipulación: 74 % en criterios, misma tendencia de cierre.\n- Flujo completo: sigue evaluando.\n- Vivo: activo, 50 conversaciones / 3 días.\nAclaración: el % del simulador es un promedio de criterios, no el % de clientes atendidos correctamente. La métrica operativa es el cierre: la mayoría de las conversaciones no cerraron y se quedaron en el límite de 10 turnos.\nLo que sí funcionó: “No inventa precios” dio 100 % en Dental y Médicos. El bot dejó de dar valores; ese era el objetivo del parche.\nLo que todavía falla: “Deriva a asesor” dio 80 % en Dental y 50 % en Médicos. Muchas conversaciones se traban antes de ofrecer el asesor. Y los 83/75/74 no son fallos de precio: son del flujo 2.1 que ya veníamos arrastrando (enrutamiento, datos, preexistencia y cierre). El 3.0 corrige eso, pero todavía no está importado.\nPor eso no voy a presentar el parche como aprobado todavía. El siguiente paso es terminar la cuarta simulación, revisar los casos de “turnos agotados”, ajustar la derivación y repetir. El vivo sigue activo y lo monitoreamos.",
-   "nota_fecha": "2026-11-25 13:30",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Gracias por tua poyo.",
+   "nota_fecha": "2026-11-25 14:13",
+   "nota_autor": "Michael Sancivier",
    "estado_entrega": "a_tiempo",
    "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contienen precios, causando alucinaciones.\n- Se implementó un parche temporal que bloquea la entrega de precios y deriva a asesor humano, logrando un 100% de efectividad en evitar inventar valores.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación (80% en Dental, 50% en Médicos) y problemas persistentes en el flujo de enrutamiento y cierre.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas de enrutamiento, datos y preexistencia.\n- Se requiere confirmación de precios oficiales ($17.67 y $35.83) y detalles adicionales para fijarlos en el prompt.\n\nSiguiente paso:\n- Finalizar cuarta simulación, ajustar derivación y esperar confirmación de precios."
+   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contenían precios, provocando alucinaciones.\n- Se implementó un parche para evitar que el bot invente precios, logrando un 100% de efectividad en este punto.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación a asesores y cierres de flujo.\n- El cliente confirmó que el bot debe indicar que los planes inician desde 17, sin más detalles.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas preexistentes en enrutamiento, datos y preexistencia.\n- Se requiere la importación del flujo 3.0 para corregir los problemas de flujo detectados.\n\nSiguiente paso:\n- Ajustar la derivación a asesor y repetir simulaciones tras la confirmación del cliente sobre el manejo de precios."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
