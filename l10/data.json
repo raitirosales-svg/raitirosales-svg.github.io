@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-26 00:06",
+ "generado": "2026-11-26 08:51",
  "meta": {
-  "generado": "2026-11-26 00:06",
+  "generado": "2026-11-26 08:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -23,8 +23,7 @@
  "por_etapa": {
   "Datos faltantes": 2,
   "Ajustes entrega": 1,
-  "En proceso": 4,
-  "Primer respuesta": 1
+  "En proceso": 5
  },
  "por_area": {
   "Educación & Retail": 6,
@@ -202,7 +201,7 @@
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-30",
@@ -227,14 +226,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
-   "ultima_nota": "Hola equipo,\nGracias por compartir el detalle del enrutamiento y la información de las áreas de atención. Recibimos la información de Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net, junto con la referencia de regiones para el Área Comercial y el enlace de PQRS.\nQueda registrado. Lo estaremos trabajando y, si necesitamos alguna aclaración o información adicional, la solicitaremos por este mismo hilo.\nGracias.",
-   "nota_fecha": "2026-11-24 10:38",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-26 08:49",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se recibió y registró la información detallada sobre las áreas de atención (Mayoreo 1 y 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo referencias de regiones y enlaces necesarios. El equipo técnico ha iniciado los trabajos de configuración.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del enrutamiento en Cortex y solicitar aclaraciones adicionales si fueran necesarias."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -439,7 +438,7 @@
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-30",
@@ -464,14 +463,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
-   "ultima_nota": "Hola equipo,\nGracias por compartir el detalle del enrutamiento y la información de las áreas de atención. Recibimos la información de Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net, junto con la referencia de regiones para el Área Comercial y el enlace de PQRS.\nQueda registrado. Lo estaremos trabajando y, si necesitamos alguna aclaración o información adicional, la solicitaremos por este mismo hilo.\nGracias.",
-   "nota_fecha": "2026-11-24 10:38",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-26 08:49",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se recibió y registró la información detallada sobre las áreas de atención (Mayoreo 1 y 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo referencias de regiones y enlaces necesarios. El equipo técnico ha iniciado los trabajos de configuración.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del enrutamiento en Cortex y solicitar aclaraciones adicionales si fueran necesarias."
   }
  ],
  "pausados": [
@@ -835,7 +834,7 @@
    "empresa": "Mega Travel",
    "industria": "Turismo- hotel",
    "area_l10": "Multiindustria",
-   "etapa": "Primer respuesta",
+   "etapa": "En proceso",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-30",
@@ -860,14 +859,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el enrutamiento en Cortex Mega Nova para asignar asesores por región o redirigir a un grupo.",
-   "ultima_nota": "Hola equipo,\nGracias por compartir el detalle del enrutamiento y la información de las áreas de atención. Recibimos la información de Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net, junto con la referencia de regiones para el Área Comercial y el enlace de PQRS.\nQueda registrado. Lo estaremos trabajando y, si necesitamos alguna aclaración o información adicional, la solicitaremos por este mismo hilo.\nGracias.",
-   "nota_fecha": "2026-11-24 10:38",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "Tu ticket está en proceso 🚀\n Hemos empezado a trabajar en tu solicitud.",
+   "nota_fecha": "2026-11-26 08:49",
+   "nota_autor": "—",
    "estado_entrega": "por_vencer",
    "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
+   "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se recibió y registró la información detallada sobre las áreas de atención (Mayoreo 1 y 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo referencias de regiones y enlaces necesarios. El equipo técnico ha iniciado los trabajos de configuración.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del enrutamiento en Cortex y solicitar aclaraciones adicionales si fueran necesarias."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
