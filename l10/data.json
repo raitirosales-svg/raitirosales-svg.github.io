@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 14:21",
+ "generado": "2026-11-25 19:36",
  "meta": {
-  "generado": "2026-11-25 14:21",
+  "generado": "2026-11-25 19:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,28 +10,28 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 10,
+  "activas": 9,
   "vencidas": 0,
   "vence_hoy": 0,
   "por_vencer": 4,
   "pausados": 2,
-  "entregas_7d": 5,
-  "cumplimiento": 80,
-  "prioridad_alta": 3,
-  "mrr_activo": 15155.0
+  "entregas_7d": 6,
+  "cumplimiento": 83,
+  "prioridad_alta": 2,
+  "mrr_activo": 13635.0
  },
  "por_etapa": {
   "Datos faltantes": 2,
   "Ajustes entrega": 2,
-  "En proceso": 5,
+  "En proceso": 4,
   "Primer respuesta": 1
  },
  "por_area": {
-  "Educación & Retail": 7,
+  "Educación & Retail": 6,
   "Multiindustria": 3
  },
  "por_complejidad": {
-  "Intermedio": 4,
+  "Intermedio": 3,
   "Alto": 4,
   "Muy Alto": 2
  },
@@ -39,7 +39,7 @@
   "Media": 2,
   "Alta": 1,
   "Baja": 5,
-  "Muy Alta": 2
+  "Muy Alta": 1
  },
  "activas": [
   {
@@ -275,45 +275,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
-  },
-  {
-   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
-   "empresa": "Saludsa",
-   "industria": "Retail / E-commerce",
-   "area_l10": "Educación & Retail",
-   "etapa": "En proceso",
-   "tipo": "Ticket",
-   "mrr": 1520.0,
-   "due": "2026-12-01",
-   "due_on": "2026-12-01",
-   "created_at": "2026-11-24T21:40:27.781Z",
-   "created": "2026-11-24",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220884029105031",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "sdpI8zgZb3GhuUIjikgd",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 75.0,
-   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Gracias por tua poyo.",
-   "nota_fecha": "2026-11-25 14:13",
-   "nota_autor": "Michael Sancivier",
-   "estado_entrega": "a_tiempo",
-   "dias_restantes": 4,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contenían precios, provocando alucinaciones.\n- Se implementó un parche para evitar que el bot invente precios, logrando un 100% de efectividad en este punto.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación a asesores y cierres de flujo.\n- El cliente confirmó que el bot debe indicar que los planes inician desde 17, sin más detalles.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas preexistentes en enrutamiento, datos y preexistencia.\n- Se requiere la importación del flujo 3.0 para corregir los problemas de flujo detectados.\n\nSiguiente paso:\n- Ajustar la derivación a asesor y repetir simulaciones tras la confirmación del cliente sobre el manejo de precios."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -674,6 +635,45 @@
  ],
  "completadas_7d": [
   {
+   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
+   "empresa": "Saludsa",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1520.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-24T21:40:27.781Z",
+   "created": "2026-11-24",
+   "completed_at": "2026-11-26T01:23:24.744Z",
+   "completada": "2026-11-25",
+   "gid": "1220884029105031",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "sdpI8zgZb3GhuUIjikgd",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 75.0,
+   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-25 19:23",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes."
+  },
+  {
    "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
    "empresa": "Nimac",
    "industria": "Otra",
@@ -875,15 +875,15 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "En proceso",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-12-01",
    "due_on": "2026-12-01",
    "created_at": "2026-11-24T21:40:27.781Z",
    "created": "2026-11-24",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-26T01:23:24.744Z",
+   "completada": "2026-11-25",
    "gid": "1220884029105031",
    "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
    "tipo_cliente": "Existente",
@@ -900,14 +900,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Gracias por tua poyo.",
-   "nota_fecha": "2026-11-25 14:13",
-   "nota_autor": "Michael Sancivier",
-   "estado_entrega": "a_tiempo",
-   "dias_restantes": 4,
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-25 19:23",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances:\n- Se identificó que las bases de conocimiento y el flujo actual no contenían precios, provocando alucinaciones.\n- Se implementó un parche para evitar que el bot invente precios, logrando un 100% de efectividad en este punto.\n- Se realizaron simulaciones sobre el agente 2.1 con resultados mixtos en derivación a asesores y cierres de flujo.\n- El cliente confirmó que el bot debe indicar que los planes inician desde 17, sin más detalles.\n\nBloqueadores / riesgos:\n- El flujo 2.1 presenta fallas preexistentes en enrutamiento, datos y preexistencia.\n- Se requiere la importación del flujo 3.0 para corregir los problemas de flujo detectados.\n\nSiguiente paso:\n- Ajustar la derivación a asesor y repetir simulaciones tras la confirmación del cliente sobre el manejo de precios."
+   "resumen_ia": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -2318,8 +2318,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 12,
-   "activos": 7,
-   "completados": 5
+   "activos": 6,
+   "completados": 6
   },
   {
    "nombre": "Gabriela Cid del Prado Hernández",
@@ -2397,7 +2397,7 @@
   {
    "semana": "2026-W48",
    "creados": 2,
-   "resueltos": 2
+   "resueltos": 3
   }
  ],
  "por_tipo": [
