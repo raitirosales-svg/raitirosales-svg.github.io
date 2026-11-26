@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-25 21:06",
+ "generado": "2026-11-26 00:06",
  "meta": {
-  "generado": "2026-11-25 21:06",
+  "generado": "2026-11-26 00:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 55,
-  "con_empresa": 37,
+  "tareas": 54,
+  "con_empresa": 36,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
@@ -15,8 +15,8 @@
   "vence_hoy": 0,
   "por_vencer": 3,
   "pausados": 2,
-  "entregas_7d": 7,
-  "cumplimiento": 86,
+  "entregas_7d": 6,
+  "cumplimiento": 83,
   "prioridad_alta": 1,
   "mrr_activo": 12664.5
  },
@@ -74,8 +74,8 @@
    "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
    "nota_fecha": "2026-11-24 09:50",
    "nota_autor": "—",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
+   "estado_entrega": "vencido",
+   "dias_restantes": -1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
@@ -114,7 +114,7 @@
    "nota_fecha": "2026-11-25 12:42",
    "nota_autor": "—",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se ha iniciado el proceso de migración del bot V2 a Cortex, manteniendo el journey, recupero de 3 toques, salida de spam e integración con HubSpot.\nBloqueadores / riesgos: Falta definir la opción de formulario (A o B) y los nombres exactos de las sedes. Se requiere un token de API privada de HubSpot para optimizar la integración, validar datos y mapear correctamente propiedades y pipelines. El ticket está pausado hasta recibir esta información.\nSiguiente paso: El cliente debe confirmar la opción de formulario, proporcionar los nombres de las sedes y entregar el token de API de HubSpot para retomar la migración."
@@ -153,7 +153,7 @@
    "nota_fecha": "2026-11-17 10:33",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
@@ -192,7 +192,7 @@
    "nota_fecha": "2026-11-24 10:25",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso. El alcance cambió de revisión a implementación y optimización completa del caso de uso de Motos.\n\nAjustes / avances: Se definió un flujo único (contado a ejecutivo, financiamiento a Gaital), integración mediante N8N para consolidar datos en Google Sheets y archivos en Drive, y revisión del Cortex de Motos para eliminar datos quemados y optimizar lógica.\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket vence el 30/11, pero la entrega acordada con el cliente es el 02/12. Pendiente confirmar si se ajusta la fecha oficial.\n\nSiguiente paso: Iniciar implementación el 27/11 y realizar pruebas en el número 951 para entrega el 02/12. Cerrar ticket anterior como reemplazado."
@@ -231,7 +231,7 @@
    "nota_fecha": "2026-11-24 10:38",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
@@ -270,7 +270,7 @@
    "nota_fecha": "2026-11-25 10:08",
    "nota_autor": "Alex Guevara",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso. El alcance cambió de una revisión a la implementación y optimización completa del caso de uso.\n\nAjustes / avances: Se definió un flujo único para contado y financiamiento. Se está trabajando en un N8N para consolidar datos en Google Sheets y documentos en Drive. Se realizará la revisión del Cortex de Motos (prompt, lógica y costos). Pruebas en número independiente (terminación 951).\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket original venció el 23/11, pero se acordó entrega para el 02/12. Se requiere confirmar si el formato base64 es aceptado por Gaital.\n\nSiguiente paso: Iniciar implementación el 27/11 para entrega el 02/12 y coordinar revisión con el cliente."
@@ -309,7 +309,7 @@
    "nota_fecha": "2026-11-11 21:49",
    "nota_autor": "—",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: El equipo de implementación ha recibido el ticket y se encuentra en la fase de estudio de alcance, insumos y dependencias. Se ha iniciado el trabajo en la solicitud.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: El equipo de implementación enviará una primera interacción al cliente a través del hilo del ticket tras finalizar el análisis inicial."
@@ -348,7 +348,7 @@
    "nota_fecha": "2026-11-19 08:16",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: El equipo se encuentra estudiando el alcance, insumos y dependencias del proyecto. El ticket está siendo trabajado activamente.\nBloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-12-02, pero en los comentarios se proyecta la entrega para el martes 2026-11-26.\nSiguiente paso: Finalizar el estudio del alcance y proceder con la migración a Cortex e integración de SiteLink para cumplir con la proyección de entrega."
@@ -390,7 +390,7 @@
    "nota_fecha": "2026-11-17 10:33",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
@@ -429,7 +429,7 @@
    "nota_fecha": "2026-11-24 10:25",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso. El alcance cambió de revisión a implementación y optimización completa del caso de uso de Motos.\n\nAjustes / avances: Se definió un flujo único (contado a ejecutivo, financiamiento a Gaital), integración mediante N8N para consolidar datos en Google Sheets y archivos en Drive, y revisión del Cortex de Motos para eliminar datos quemados y optimizar lógica.\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket vence el 30/11, pero la entrega acordada con el cliente es el 02/12. Pendiente confirmar si se ajusta la fecha oficial.\n\nSiguiente paso: Iniciar implementación el 27/11 y realizar pruebas en el número 951 para entrega el 02/12. Cerrar ticket anterior como reemplazado."
@@ -468,7 +468,7 @@
    "nota_fecha": "2026-11-24 10:38",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
@@ -508,8 +508,8 @@
    "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
    "nota_fecha": "2026-11-24 09:50",
    "nota_autor": "—",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
+   "estado_entrega": "vencido",
+   "dias_restantes": -1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
@@ -548,7 +548,7 @@
    "nota_fecha": "2026-11-25 12:42",
    "nota_autor": "—",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se ha iniciado el proceso de migración del bot V2 a Cortex, manteniendo el journey, recupero de 3 toques, salida de spam e integración con HubSpot.\nBloqueadores / riesgos: Falta definir la opción de formulario (A o B) y los nombres exactos de las sedes. Se requiere un token de API privada de HubSpot para optimizar la integración, validar datos y mapear correctamente propiedades y pipelines. El ticket está pausado hasta recibir esta información.\nSiguiente paso: El cliente debe confirmar la opción de formulario, proporcionar los nombres de las sedes y entregar el token de API de HubSpot para retomar la migración."
@@ -788,45 +788,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Validar la API REST de Magento en Cortex para la integración del bot de WhatsApp."
-  },
-  {
-   "nombre": "🎫 SINSA: Implementación de encuesta de satisfacción con WhatsApp Flow",
-   "empresa": "SINSA",
-   "industria": "Retail / E-commerce",
-   "area_l10": "Educación & Retail",
-   "etapa": "Primera entrega",
-   "tipo": "Ticket",
-   "mrr": 2460.0,
-   "due": "2026-11-18",
-   "due_on": "2026-11-18",
-   "created_at": "2026-10-28T15:37:26.086Z",
-   "created": "2026-10-28",
-   "completed_at": "2026-11-18T22:22:57.601Z",
-   "completada": "2026-11-18",
-   "gid": "1219983332504363",
-   "tipo_solicitud": "Nuevo flujo",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Jesus Roque",
-   "persona_contacto": "jesus.roque@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, FlowBuilder, WhatsApp Flows",
-   "atom_id": "Rg9CDWojWhwN0RmAQKT3",
-   "deadline_cancelled": null,
-   "complejidad": "Alto",
-   "complejidad_nivel": 2,
-   "sla_dias_referencia": 6,
-   "prioridad": "Baja",
-   "puntaje_prioridad": 10.0,
-   "resumen_ticket": "Crear encuesta de satisfacción mediante WhatsApp Flow en Cortex y Flowbuilder para responder sin salir del chat.",
-   "ultima_nota": "Documentación en Drive\nCarpeta del ticket: https://drive.google.com/drive/folders/1AB1ABW4vPJmBVDcwHmYQuM1ZPeLCqDC7\n01-Pruebas (Excel de evaluación): https://drive.google.com/drive/folders/1PDvzBOhy1cT9ze4M3kKgbkdk1A_w0Jmf\n03-Documentación (entrega y guía): https://drive.google.com/drive/folders/13CYBznvqU4ADPfY_XkGnwT2blWt3O8zV\nContiene el Excel con resumen, criterios, cierres, casos y transcripciones; el documento de entrega, la guía de puesta en marcha y los JSON de los formularios y del agente.",
-   "nota_fecha": "2026-11-18 16:57",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "entregado_a_tiempo",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Crear encuesta de satisfacción mediante WhatsApp Flow en Cortex y Flowbuilder para responder sin salir del chat."
   }
  ],
  "historial": [
@@ -903,7 +864,7 @@
    "nota_fecha": "2026-11-24 10:38",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Primer respuesta.\nAjustes / avances: Se recibió y registró la información sobre las áreas de atención (Mayoreo 1, Mayoreo 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo las regiones para el Área Comercial y el enlace de PQRS.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: El equipo de implementación trabajará en el ajuste del enrutamiento y solicitará aclaraciones adicionales si fuera necesario."
@@ -942,7 +903,7 @@
    "nota_fecha": "2026-11-24 10:25",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso. El alcance cambió de revisión a implementación y optimización completa del caso de uso de Motos.\n\nAjustes / avances: Se definió un flujo único (contado a ejecutivo, financiamiento a Gaital), integración mediante N8N para consolidar datos en Google Sheets y archivos en Drive, y revisión del Cortex de Motos para eliminar datos quemados y optimizar lógica.\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket vence el 30/11, pero la entrega acordada con el cliente es el 02/12. Pendiente confirmar si se ajusta la fecha oficial.\n\nSiguiente paso: Iniciar implementación el 27/11 y realizar pruebas en el número 951 para entrega el 02/12. Cerrar ticket anterior como reemplazado."
@@ -980,8 +941,8 @@
    "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
    "nota_fecha": "2026-11-24 09:50",
    "nota_autor": "—",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
+   "estado_entrega": "vencido",
+   "dias_restantes": -1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
@@ -1098,7 +1059,7 @@
    "nota_fecha": "2026-11-25 12:42",
    "nota_autor": "—",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": true,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se ha iniciado el proceso de migración del bot V2 a Cortex, manteniendo el journey, recupero de 3 toques, salida de spam e integración con HubSpot.\nBloqueadores / riesgos: Falta definir la opción de formulario (A o B) y los nombres exactos de las sedes. Se requiere un token de API privada de HubSpot para optimizar la integración, validar datos y mapear correctamente propiedades y pipelines. El ticket está pausado hasta recibir esta información.\nSiguiente paso: El cliente debe confirmar la opción de formulario, proporcionar los nombres de las sedes y entregar el token de API de HubSpot para retomar la migración."
@@ -1176,7 +1137,7 @@
    "nota_fecha": "2026-11-25 10:08",
    "nota_autor": "Alex Guevara",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso. El alcance cambió de una revisión a la implementación y optimización completa del caso de uso.\n\nAjustes / avances: Se definió un flujo único para contado y financiamiento. Se está trabajando en un N8N para consolidar datos en Google Sheets y documentos en Drive. Se realizará la revisión del Cortex de Motos (prompt, lógica y costos). Pruebas en número independiente (terminación 951).\n\nBloqueadores / riesgos: Discrepancia de fecha: El ticket original venció el 23/11, pero se acordó entrega para el 02/12. Se requiere confirmar si el formato base64 es aceptado por Gaital.\n\nSiguiente paso: Iniciar implementación el 27/11 para entrega el 02/12 y coordinar revisión con el cliente."
@@ -1254,7 +1215,7 @@
    "nota_fecha": "2026-11-10 16:41",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 9,
+   "dias_restantes": 8,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Crear un nuevo flujo en Cortex integrado con SiteLink API para consultar disponibilidad y tarifas."
@@ -1332,7 +1293,7 @@
    "nota_fecha": "2026-11-17 10:33",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "dias_restantes": 1,
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
@@ -1371,7 +1332,7 @@
    "nota_fecha": "2026-11-19 08:16",
    "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: El equipo se encuentra estudiando el alcance, insumos y dependencias del proyecto. El ticket está siendo trabajado activamente.\nBloqueadores / riesgos: Discrepancia de fecha: La fecha de entrega oficial es 2026-12-02, pero en los comentarios se proyecta la entrega para el martes 2026-11-26.\nSiguiente paso: Finalizar el estudio del alcance y proceder con la migración a Cortex e integración de SiteLink para cumplir con la proyección de entrega."
@@ -1410,7 +1371,7 @@
    "nota_fecha": "2026-11-11 21:49",
    "nota_autor": "—",
    "estado_entrega": "a_tiempo",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\n\nAjustes / avances: El equipo de implementación ha recibido el ticket y se encuentra en la fase de estudio de alcance, insumos y dependencias. Se ha iniciado el trabajo en la solicitud.\n\nBloqueadores / riesgos: Sin dato.\n\nSiguiente paso: El equipo de implementación enviará una primera interacción al cliente a través del hilo del ticket tras finalizar el análisis inicial."
@@ -1523,9 +1484,9 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 10.0,
    "resumen_ticket": "Crear encuesta de satisfacción mediante WhatsApp Flow en Cortex y Flowbuilder para responder sin salir del chat.",
-   "ultima_nota": "Documentación en Drive\nCarpeta del ticket: https://drive.google.com/drive/folders/1AB1ABW4vPJmBVDcwHmYQuM1ZPeLCqDC7\n01-Pruebas (Excel de evaluación): https://drive.google.com/drive/folders/1PDvzBOhy1cT9ze4M3kKgbkdk1A_w0Jmf\n03-Documentación (entrega y guía): https://drive.google.com/drive/folders/13CYBznvqU4ADPfY_XkGnwT2blWt3O8zV\nContiene el Excel con resumen, criterios, cierres, casos y transcripciones; el documento de entrega, la guía de puesta en marcha y los JSON de los formularios y del agente.",
-   "nota_fecha": "2026-11-18 16:57",
-   "nota_autor": "Raiti Rosales Plata",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
    "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
@@ -2233,45 +2194,6 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Sin resumen"
-  },
-  {
-   "nombre": "🎫 Hansa Ltda.: Capturar campañas de Meta",
-   "empresa": "Hansa Ltda. Div. Automotriz",
-   "industria": "Automotriz",
-   "area_l10": "Multiindustria",
-   "etapa": "Rechazados",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-09-25",
-   "due_on": "2026-09-25",
-   "created_at": "2026-08-27T20:12:07.006Z",
-   "created": "2026-08-27",
-   "completed_at": "2026-09-30T05:51:00.099Z",
-   "completada": "2026-09-29",
-   "gid": "1217925849250790",
-   "tipo_solicitud": "Nuevo Flujo + integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Gabriela Cid del Prado Hernández",
-   "persona_contacto": "gabrielacid@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, FlowBuilder, Integraciones, Desarrollo a medida",
-   "atom_id": "uxFCMFBn315fMC20W3oR",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Alta",
-   "puntaje_prioridad": 40.0,
-   "resumen_ticket": "",
-   "ultima_nota": "",
-   "nota_fecha": "",
-   "nota_autor": "",
-   "estado_entrega": "entregado_tarde",
-   "dias_restantes": -2,
-   "pausado": false,
-   "discrepancia_fecha": false,
-   "resumen_ia": "Sin resumen"
   }
  ],
  "top_solicitantes": [
@@ -2282,16 +2204,16 @@
    "completados": 7
   },
   {
-   "nombre": "Gabriela Cid del Prado Hernández",
-   "total": 9,
-   "activos": 0,
-   "completados": 9
-  },
-  {
    "nombre": "Jesus Roque",
    "total": 9,
    "activos": 2,
    "completados": 7
+  },
+  {
+   "nombre": "Gabriela Cid del Prado Hernández",
+   "total": 8,
+   "activos": 0,
+   "completados": 8
   },
   {
    "nombre": "Elliott Peralta",
@@ -2371,7 +2293,7 @@
   },
   {
    "tipo": "Nuevo Flujo + integración",
-   "total": 5
+   "total": 4
   },
   {
    "tipo": "Nuevo flujo",
