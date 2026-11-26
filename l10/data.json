@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-25 19:36",
+ "generado": "2026-11-25 20:06",
  "meta": {
-  "generado": "2026-11-25 19:36",
+  "generado": "2026-11-25 20:06",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,36 +10,35 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 9,
+  "activas": 8,
   "vencidas": 0,
   "vence_hoy": 0,
-  "por_vencer": 4,
+  "por_vencer": 3,
   "pausados": 2,
-  "entregas_7d": 6,
-  "cumplimiento": 83,
-  "prioridad_alta": 2,
-  "mrr_activo": 13635.0
+  "entregas_7d": 7,
+  "cumplimiento": 86,
+  "prioridad_alta": 1,
+  "mrr_activo": 12664.5
  },
  "por_etapa": {
   "Datos faltantes": 2,
-  "Ajustes entrega": 2,
+  "Ajustes entrega": 1,
   "En proceso": 4,
   "Primer respuesta": 1
  },
  "por_area": {
   "Educación & Retail": 6,
-  "Multiindustria": 3
+  "Multiindustria": 2
  },
  "por_complejidad": {
-  "Intermedio": 3,
+  "Intermedio": 2,
   "Alto": 4,
   "Muy Alto": 2
  },
  "por_prioridad": {
   "Media": 2,
   "Alta": 1,
-  "Baja": 5,
-  "Muy Alta": 1
+  "Baja": 5
  },
  "activas": [
   {
@@ -158,45 +157,6 @@
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
-  },
-  {
-   "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
-   "empresa": "Saludsa",
-   "industria": "Seguros",
-   "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
-   "tipo": "Ticket",
-   "mrr": 970.5,
-   "due": "2026-11-28",
-   "due_on": "2026-11-28",
-   "created_at": "2026-11-18T15:49:06.662Z",
-   "created": "2026-11-18",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220675046010415",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "sdpI8zgZb3GhuUIjikgd",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 65.0,
-   "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
-   "nota_fecha": "2026-11-25 11:32",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
@@ -436,45 +396,6 @@
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
   },
   {
-   "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
-   "empresa": "Saludsa",
-   "industria": "Seguros",
-   "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
-   "tipo": "Ticket",
-   "mrr": 970.5,
-   "due": "2026-11-28",
-   "due_on": "2026-11-28",
-   "created_at": "2026-11-18T15:49:06.662Z",
-   "created": "2026-11-18",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220675046010415",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "sdpI8zgZb3GhuUIjikgd",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 65.0,
-   "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
-   "nota_fecha": "2026-11-25 11:32",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
-  },
-  {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
@@ -634,6 +555,45 @@
   }
  ],
  "completadas_7d": [
+  {
+   "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
+   "empresa": "Saludsa",
+   "industria": "Seguros",
+   "area_l10": "Multiindustria",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 970.5,
+   "due": "2026-11-28",
+   "due_on": "2026-11-28",
+   "created_at": "2026-11-18T15:49:06.662Z",
+   "created": "2026-11-18",
+   "completed_at": "2026-11-26T01:52:14.771Z",
+   "completada": "2026-11-25",
+   "gid": "1220675046010415",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "sdpI8zgZb3GhuUIjikgd",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 65.0,
+   "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-25 19:52",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": true,
+   "resumen_ia": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC"
+  },
   {
    "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
    "empresa": "Saludsa",
@@ -1148,15 +1108,15 @@
    "empresa": "Saludsa",
    "industria": "Seguros",
    "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 970.5,
    "due": "2026-11-28",
    "due_on": "2026-11-28",
    "created_at": "2026-11-18T15:49:06.662Z",
    "created": "2026-11-18",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-26T01:52:14.771Z",
+   "completada": "2026-11-25",
    "gid": "1220675046010415",
    "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
    "tipo_cliente": "Existente",
@@ -1173,14 +1133,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Nota de coordinación: te cuento que trabajaremos los dos tickets de forma coordinada. El detalle técnico y los avances del flujo Plan Dental y del enrutamiento se reportan en 🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento. Este ticket se mantiene activo para el seguimiento de la entrega anterior y el ítem SAC a proveedores médicos.",
-   "nota_fecha": "2026-11-25 11:32",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "por_vencer",
-   "dias_restantes": 2,
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-25 19:52",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual: Ajustes entrega.\n\nAjustes / avances: Se corrigió el flujo de planes dentales para omitir preexistencias y presupuestos, y se ajustó el mensaje de SAC para proveedores médicos.\n\nBloqueadores / riesgos: Persisten errores críticos en el flujo de planes dentales (cobertura internacional errónea, precios desactualizados, redundancia de datos y fallos en enrutamiento). Existen problemas de reasignación de leads recurrentes que deben ser evaluados. El equipo técnico está en proceso de reasignación tras la salida de Jorge Suyén.\n\nSiguiente paso: Continuar el trabajo coordinado con el ticket de ajustes en flujo Plan Dental y enrutamiento para resolver los errores pendientes."
+   "resumen_ia": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC"
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -2318,8 +2278,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 12,
-   "activos": 6,
-   "completados": 6
+   "activos": 5,
+   "completados": 7
   },
   {
    "nombre": "Gabriela Cid del Prado Hernández",
@@ -2397,7 +2357,7 @@
   {
    "semana": "2026-W48",
    "creados": 2,
-   "resueltos": 3
+   "resueltos": 4
   }
  ],
  "por_tipo": [
