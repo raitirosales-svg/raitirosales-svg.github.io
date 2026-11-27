@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-27 14:21",
+ "generado": "2026-11-27 15:21",
  "meta": {
-  "generado": "2026-11-27 14:21",
+  "generado": "2026-11-27 15:21",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,36 +10,36 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 10,
+  "activas": 9,
   "vencidas": 0,
-  "vence_hoy": 1,
+  "vence_hoy": 0,
   "por_vencer": 8,
   "pausados": 1,
-  "entregas_7d": 4,
+  "entregas_7d": 5,
   "cumplimiento": 100,
   "prioridad_alta": 2,
-  "mrr_activo": 15125.0
+  "mrr_activo": 14025.0
  },
  "por_etapa": {
   "Datos faltantes": 1,
-  "Ajustes entrega": 2,
+  "Ajustes entrega": 1,
   "En proceso": 6,
   "Nuevo": 1
  },
  "por_area": {
   "Educación & Retail": 6,
-  "Multiindustria": 4
+  "Multiindustria": 3
  },
  "por_complejidad": {
-  "Alto": 4,
+  "Alto": 3,
   "Intermedio": 4,
   "Muy Alto": 2
  },
  "por_prioridad": {
   "Alta": 1,
-  "Baja": 6,
   "Muy Alta": 1,
-  "Media": 2
+  "Media": 2,
+  "Baja": 5
  },
  "activas": [
   {
@@ -82,45 +82,6 @@
    "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se ha iniciado el proceso de migración del bot V2 a Cortex, manteniendo el journey, recupero de 3 toques, salida de spam e integración con HubSpot.\nBloqueadores / riesgos: Falta definir la opción de formulario (A o B) y los nombres exactos de las sedes. Se requiere un token de API privada de HubSpot para optimizar la integración, validar datos y mapear correctamente propiedades y pipelines. El ticket está pausado hasta recibir esta información.\nSiguiente paso: El cliente debe confirmar la opción de formulario, proporcionar los nombres de las sedes y entregar el token de API de HubSpot para retomar la migración."
   },
   {
-   "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
-   "empresa": "Yomeanimo!",
-   "industria": "Seguros",
-   "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
-   "tipo": "Ticket",
-   "mrr": 1100.0,
-   "due": "2026-11-27",
-   "due_on": "2026-11-27",
-   "created_at": "2026-11-04T19:59:46.387Z",
-   "created": "2026-11-04",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220226886263361",
-   "tipo_solicitud": "Ajuste o creación de Prompt",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones, Migración a cortex",
-   "atom_id": "ZHH8auLhKmtWa48oP9tu",
-   "deadline_cancelled": null,
-   "complejidad": "Alto",
-   "complejidad_nivel": 2,
-   "sla_dias_referencia": 6,
-   "prioridad": "Baja",
-   "puntaje_prioridad": 0.0,
-   "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Hola Michael,\nEl ticket quedó en Primera entrega. Les dejo el paquete de entrega de Yomi - YoMeAnimo! (Cortex) y la guía para ejecutar las pruebas.\nQué se implementó:\n- Agente Cortex con flujo de cotización, servicio y derivación; cotizador real y HubSpot.\n- Prompt V3: precios y cuotas solo del cotizador, sin planilla; email no bloqueante; T&C antes de avanzar.\n- Base de conocimiento sin precios y ficha visual; corrección de la recuperación de cláusulas de T&C.\n- Corrección de la asociación del negocio en HubSpot con el contact_id devuelto por la tool.\nEstado:\n- Construcción técnica: 89%. Avance total del paquete: 78%.\n- Validación: 3/15 casos PASS en simulador; 12 pendientes en WhatsApp real (6 críticos); 0 fallos críticos confirmados (T&C PASS 2/2 tras el fix).\n- Release 80%: pendiente de los 12 casos reales (9/12 + 0 críticos).\nPara probar, seguir el paso a paso:\n1. Abrir el documento \"Guion de prueba WhatsApp - 12 casos\": https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n2. Usar el número de prueba y un cliente/contacto distinto por caso, o resetear el contexto entre casos.\n3. No dar nombre ni email salvo en los casos de cierre (8 a 11).\n4. Ejecutar los 12 casos, capturar conversación/transcript y contacto/negocio en HubSpot, y cargar la planilla de resultados del guion.\nLos casos críticos son 1, 4, 6, 8, 9 y 10. Con 13/14/15 en PASS, se necesitan 9/12 reales + 0 críticos.\nPendientes del cliente:\n- T&C: aprobar el documento auxiliar de cláusulas, reemplazarlo por una versión oficial indexada o retirarlo. El PDF oficial sigue siendo la fuente legal.\n- Imágenes de Assisto para el carrusel (fallback a lista).\n- Verificar que la base de cláusulas esté READY antes de probar.\nEnlaces:\n- Guía de pruebas: https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n- Evaluación: https://docs.google.com/spreadsheets/d/1DtAp3rBz77PFvmvWjnrENvWokSrAMIDi/edit\n- Documentación: https://drive.google.com/file/d/1nNwxiwCXPA6HpJIOgMY4tDl-ETFkXNyH/view\n- Carpeta completa: https://drive.google.com/drive/folders/1lm0Ytj_BJXnM9tfbVfMDobnSJjVgQ5W3\nTambién dejé los links en los campos URL Documentación y URL Pruebas. El plazo de revisión es de 10 días hábiles. Quedo atento.",
-   "nota_fecha": "2026-11-17 10:33",
-   "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "vence_hoy",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
-  },
-  {
    "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
    "empresa": "Saludsa",
    "industria": "Seguros",
@@ -150,14 +111,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Si se planteo whataspp flow pero no fue aceptado por el cliente.",
-   "nota_fecha": "2026-11-27 13:29",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Hola Alex,\nMichael aprobó el plan por fases para los 15 puntos de la auditoría de Xandra. La entrega final acordada es el jueves 10/12.\n¿Nos ayudas actualizando la fecha de entrega de este ticket? Hoy figura para el 29/11 y el plan corre hasta el 10/12.\nEl detalle por punto está en la hoja:\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing\nRESUMEN\n• Fase 1 (27–28/11): punto 2 entregado; punto 1 se replica en Omega el 30/11.\n• Fase 2 (30/11–01/12): 3, 9, 11 y 15 → entrega 01/12.\n• Fase 3 (01–03/12): 5, 6, 8, 13 y 14 → entrega 02–03/12.\n• Fase 4 (03–05/12): 7 y CTWA → entrega 05/12.\n• Buffer y pruebas: 08–10/12. Entrega final: 10/12.\nEste ticket queda como el de ejecución y seguimiento de los 15 puntos. El ticket de Primera entrega mantiene lo ya entregado (dental, precios, rescate y enrutamiento).\nGracias.",
+   "nota_fecha": "2026-11-27 15:10",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: Primera entrega.\n- Ajustes / avances: Se corrigió el mensaje de SAC para proveedores médicos. Los ajustes técnicos sobre flujo de plan dental, precios y enrutamiento fueron trasladados y documentados en el ticket central (1220884029105031).\n- Bloqueadores / riesgos: Persisten dudas sobre la certificación de la asignación recurrente y la experiencia en la captura de datos. Se requiere validar el recorrido en WhatsApp con usuarios de prueba.\n- Siguiente paso: Realizar pruebas de funcionamiento para confirmar que los puntos pendientes (revisión de entrega anterior y SAC a proveedores) estén cubiertos y proceder al cierre."
+   "resumen_ia": "- Estado actual:\nEn ejecución y seguimiento de 15 puntos de auditoría bajo un plan por fases.\n\n- Ajustes / avances:\nSe han implementado y documentado ajustes previos en flujo de Plan Dental, precios, rescate y enrutamiento. El ítem de derivación a SAC para proveedores médicos se considera operativo. Se ha definido un cronograma de trabajo por fases para los puntos pendientes de la auditoría de Xandra.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero el plan de trabajo acordado con el cliente se extiende hasta el 2026-12-10. Persisten dudas sobre la certificación de asignación recurrente y la experiencia de usuario en la captura de datos.\n\n- Siguiente paso:\nEjecutar el plan por fases (Fase 1 al 28/11) y actualizar la fecha de entrega en el sistema al 10/12."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
@@ -465,14 +426,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Si se planteo whataspp flow pero no fue aceptado por el cliente.",
-   "nota_fecha": "2026-11-27 13:29",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Hola Alex,\nMichael aprobó el plan por fases para los 15 puntos de la auditoría de Xandra. La entrega final acordada es el jueves 10/12.\n¿Nos ayudas actualizando la fecha de entrega de este ticket? Hoy figura para el 29/11 y el plan corre hasta el 10/12.\nEl detalle por punto está en la hoja:\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing\nRESUMEN\n• Fase 1 (27–28/11): punto 2 entregado; punto 1 se replica en Omega el 30/11.\n• Fase 2 (30/11–01/12): 3, 9, 11 y 15 → entrega 01/12.\n• Fase 3 (01–03/12): 5, 6, 8, 13 y 14 → entrega 02–03/12.\n• Fase 4 (03–05/12): 7 y CTWA → entrega 05/12.\n• Buffer y pruebas: 08–10/12. Entrega final: 10/12.\nEste ticket queda como el de ejecución y seguimiento de los 15 puntos. El ticket de Primera entrega mantiene lo ya entregado (dental, precios, rescate y enrutamiento).\nGracias.",
+   "nota_fecha": "2026-11-27 15:10",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: Primera entrega.\n- Ajustes / avances: Se corrigió el mensaje de SAC para proveedores médicos. Los ajustes técnicos sobre flujo de plan dental, precios y enrutamiento fueron trasladados y documentados en el ticket central (1220884029105031).\n- Bloqueadores / riesgos: Persisten dudas sobre la certificación de la asignación recurrente y la experiencia en la captura de datos. Se requiere validar el recorrido en WhatsApp con usuarios de prueba.\n- Siguiente paso: Realizar pruebas de funcionamiento para confirmar que los puntos pendientes (revisión de entrega anterior y SAC a proveedores) estén cubiertos y proceder al cierre."
+   "resumen_ia": "- Estado actual:\nEn ejecución y seguimiento de 15 puntos de auditoría bajo un plan por fases.\n\n- Ajustes / avances:\nSe han implementado y documentado ajustes previos en flujo de Plan Dental, precios, rescate y enrutamiento. El ítem de derivación a SAC para proveedores médicos se considera operativo. Se ha definido un cronograma de trabajo por fases para los puntos pendientes de la auditoría de Xandra.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero el plan de trabajo acordado con el cliente se extiende hasta el 2026-12-10. Persisten dudas sobre la certificación de asignación recurrente y la experiencia de usuario en la captura de datos.\n\n- Siguiente paso:\nEjecutar el plan por fases (Fase 1 al 28/11) y actualizar la fecha de entrega en el sistema al 10/12."
   },
   {
    "nombre": "🎫 Carbone: Revisar y optimizar nuevo Cortex y WhatsApp Flow",
@@ -791,6 +752,45 @@
  ],
  "completadas_7d": [
   {
+   "nombre": "🎫 Yomeanimo!: Ajustes de prompt para migración a Cortex",
+   "empresa": "Yomeanimo!",
+   "industria": "Seguros",
+   "area_l10": "Multiindustria",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1100.0,
+   "due": "2026-11-27",
+   "due_on": "2026-11-27",
+   "created_at": "2026-11-04T19:59:46.387Z",
+   "created": "2026-11-04",
+   "completed_at": "2026-11-27T21:19:02.575Z",
+   "completada": "2026-11-27",
+   "gid": "1220226886263361",
+   "tipo_solicitud": "Ajuste o creación de Prompt",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones, Migración a cortex",
+   "atom_id": "ZHH8auLhKmtWa48oP9tu",
+   "deadline_cancelled": null,
+   "complejidad": "Alto",
+   "complejidad_nivel": 2,
+   "sla_dias_referencia": 6,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 0.0,
+   "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
+   "ultima_nota": "Hola Michael,\nDejo el detalle de cómo vamos a cerrar YoMeAnimo! y el paso del ticket a Primera entrega.\nPuntos planteados y cómo los manejamos:\n1. Condiciones del bot actual (Sí, quiero!, asesor, comprobante, Gracias, En otro momento): se validan como casos de conversación en Cortex. No agregamos un evaluador lineal en FlowBuilder; si alguna condición no se cumple, se corrige en este mismo ticket. FlowBuilder queda para la asignación por horario.\n2. Carrusel: queda como lista. El cliente ya aceptó que no es bloqueante.\n3. Comprobante: Cortex lo lee, extrae monto, fecha y referencia, y deja el resumen para el asesor. El bloque está listo para integrar. Si el equipo necesita el archivo original, FlowBuilder lo captura.\n4. Descuento y saludo: el saludo se corrigió en el nodo de asignación. El descuento y el comprobante se validan en la prueba; si no cumplen, se ajustan.\n5. Pruebas: el cliente ejecuta la batería completa con un número de pruebas. Michael gestiona el número.\nPaso del ticket: queda en Primera entrega para que el cliente haga la batería completa. Si todo está bien, pasa a producción; si algo falla, me avisan y lo depuro. Mantenemos el mismo ticket, sin abrir otro.\nPor qué: el flujo ya está construido y las consultas que surgieron deben quedar cubiertas en la prueba. Sin el número y sin la batería completa no puedo depurar con precisión; por eso no seguimos agregando alcance y lo pasamos a Primera entrega. Esto también me permite liberar capacidad para Minelab; de lo contrario, no podría tomarlo hasta dentro de dos semanas.\nQuedo atento al número de pruebas para ejecutar la batería.",
+   "nota_fecha": "2026-11-27 15:20",
+   "nota_autor": "Raiti Rosales Plata",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": true,
+   "resumen_ia": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp."
+  },
+  {
    "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
@@ -820,9 +820,9 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Xandra nos compartió el resultado de su auditoría de 15 días con 15 puntos de mejora (más el tema de Click to WhatsApp). Crees que podamos darle fechas claras como nos pidió, agrupé todo por afinidad técnica manteniendo su numeración:\n¿Ven viable crear este calendario para enviárselo a Xandra hoy? También confírmenme qué necesitamos pedirle a ella exactamente para lo de Click to WhatsApp. ¡Gracias!\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing",
-   "nota_fecha": "2026-11-27 14:12",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Hola Michael,\nSí es viable. Ya dejamos el plan por fases con fecha de trabajo y fecha de entrega por cada punto, y Michael lo aprobó hoy. La hoja actualizada es esta:\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing\nESTADO DE HOY (27/11)\n• Punto 1 (rescate 30 min): configurado en producción 3.0/3.1 con resumen IA, asignación a Rescate y tipificación \"Abandono Rescate\". Falta replicar la rama en el flujo Omega (30/11) y la prueba end-to-end con el número de pruebas +57 301 1104448.\n• Punto 2 (dental): entregado. Sin preexistencias ni presupuesto, cobertura nacional, precios \"desde\" $17.67 (Máster) y $35.83 (Privilegio), sin planes médicos. Quedan las verificaciones de tipo_de_plan y orden del resumen ya reportadas en el hilo.\n• Puntos 4, 10 y 12: ya cubiertos.\n• Puntos 3, 9, 11 y 15: parciales; se cierran en la fase 2.\n• Puntos 8 y 14: parciales; se cierran en la fase 3.\n• Puntos 5, 6, 7, 13 y CTWA: pendientes.\nCALENDARIO\n• 30/11: 3, 9, 11 y 15 → entrega 01/12.\n• 01/12: 5 y 6 → entrega 02/12 y 03/12.\n• 02/12: 8, 13 y 14 → entrega 03/12.\n• 03/12: 7 y CTWA → entrega 05/12.\n• 08–10/12: buffer, pruebas end-to-end y cierre.\n• Entrega final: jueves 10/12.\nDEPENDENCIAS\n• Xandra: definir el punto 9 (etiqueta/campo de datos confirmados) antes del 01/12.\n• Atom: confirmar si soporta el debounce de 6–8 s del punto 7; si no, queda como dependencia de plataforma y la fecha es indicativa.\n• Punto 6 (titular/otra persona): puede requerir un campo nuevo; si FlowBuilder tarda, se corre al 03/12.\nCLICK TO WHATSAPP\nPara capturar campaña y anuncio de origen necesitamos de Xandra:\n1. Acceso o ejemplo del payload referral/adContext de una conversación que venga del anuncio, o el ID de la cuenta de Meta.\n2. Confirmación de dónde guardar los datos: hoy no existen los campos \"Plataforma pauta\" y \"URL pauta\".\n3. Una conversación de prueba desde el anuncio para validar la captura.\nALCANCE\nEl alcance de este ticket (dental, precios, rescate y enrutamiento) ya está entregado. El seguimiento de los 15 puntos de la auditoría se hace en 🎫 Saludsa: Ajustar comportamiento del bot Cortex:\nProducción sigue en Julian Saludsa - Cortex v1.2 (A/B 3.0/3.1). La línea Omega 3.2/3.3 está construida y publicada como versión mejorada; no se conecta a producción hasta cerrar las pruebas y la validación.\nLa fase 2 arranca el 30/11; el punto 9 queda condicionado a la definición de Xandra.",
+   "nota_fecha": "2026-11-27 15:10",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
@@ -978,9 +978,9 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Xandra nos compartió el resultado de su auditoría de 15 días con 15 puntos de mejora (más el tema de Click to WhatsApp). Crees que podamos darle fechas claras como nos pidió, agrupé todo por afinidad técnica manteniendo su numeración:\n¿Ven viable crear este calendario para enviárselo a Xandra hoy? También confírmenme qué necesitamos pedirle a ella exactamente para lo de Click to WhatsApp. ¡Gracias!\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing",
-   "nota_fecha": "2026-11-27 14:12",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Hola Michael,\nSí es viable. Ya dejamos el plan por fases con fecha de trabajo y fecha de entrega por cada punto, y Michael lo aprobó hoy. La hoja actualizada es esta:\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing\nESTADO DE HOY (27/11)\n• Punto 1 (rescate 30 min): configurado en producción 3.0/3.1 con resumen IA, asignación a Rescate y tipificación \"Abandono Rescate\". Falta replicar la rama en el flujo Omega (30/11) y la prueba end-to-end con el número de pruebas +57 301 1104448.\n• Punto 2 (dental): entregado. Sin preexistencias ni presupuesto, cobertura nacional, precios \"desde\" $17.67 (Máster) y $35.83 (Privilegio), sin planes médicos. Quedan las verificaciones de tipo_de_plan y orden del resumen ya reportadas en el hilo.\n• Puntos 4, 10 y 12: ya cubiertos.\n• Puntos 3, 9, 11 y 15: parciales; se cierran en la fase 2.\n• Puntos 8 y 14: parciales; se cierran en la fase 3.\n• Puntos 5, 6, 7, 13 y CTWA: pendientes.\nCALENDARIO\n• 30/11: 3, 9, 11 y 15 → entrega 01/12.\n• 01/12: 5 y 6 → entrega 02/12 y 03/12.\n• 02/12: 8, 13 y 14 → entrega 03/12.\n• 03/12: 7 y CTWA → entrega 05/12.\n• 08–10/12: buffer, pruebas end-to-end y cierre.\n• Entrega final: jueves 10/12.\nDEPENDENCIAS\n• Xandra: definir el punto 9 (etiqueta/campo de datos confirmados) antes del 01/12.\n• Atom: confirmar si soporta el debounce de 6–8 s del punto 7; si no, queda como dependencia de plataforma y la fecha es indicativa.\n• Punto 6 (titular/otra persona): puede requerir un campo nuevo; si FlowBuilder tarda, se corre al 03/12.\nCLICK TO WHATSAPP\nPara capturar campaña y anuncio de origen necesitamos de Xandra:\n1. Acceso o ejemplo del payload referral/adContext de una conversación que venga del anuncio, o el ID de la cuenta de Meta.\n2. Confirmación de dónde guardar los datos: hoy no existen los campos \"Plataforma pauta\" y \"URL pauta\".\n3. Una conversación de prueba desde el anuncio para validar la captura.\nALCANCE\nEl alcance de este ticket (dental, precios, rescate y enrutamiento) ya está entregado. El seguimiento de los 15 puntos de la auditoría se hace en 🎫 Saludsa: Ajustar comportamiento del bot Cortex:\nProducción sigue en Julian Saludsa - Cortex v1.2 (A/B 3.0/3.1). La línea Omega 3.2/3.3 está construida y publicada como versión mejorada; no se conecta a producción hasta cerrar las pruebas y la validación.\nLa fase 2 arranca el 30/11; el punto 9 queda condicionado a la definición de Xandra.",
+   "nota_fecha": "2026-11-27 15:10",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
@@ -1290,14 +1290,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 65.0,
    "resumen_ticket": "Ajustar bot en Cortex para omitir preexistencias en plan dental, asignar propietario único y corregir mensaje SAC",
-   "ultima_nota": "Si se planteo whataspp flow pero no fue aceptado por el cliente.",
-   "nota_fecha": "2026-11-27 13:29",
-   "nota_autor": "Michael Sancivier",
+   "ultima_nota": "Hola Alex,\nMichael aprobó el plan por fases para los 15 puntos de la auditoría de Xandra. La entrega final acordada es el jueves 10/12.\n¿Nos ayudas actualizando la fecha de entrega de este ticket? Hoy figura para el 29/11 y el plan corre hasta el 10/12.\nEl detalle por punto está en la hoja:\nhttps://docs.google.com/spreadsheets/d/17M8X4o5M5z9Zqj1wQLS3-HnbHJm9FZ89SFYMgg3cFDI/edit?usp=sharing\nRESUMEN\n• Fase 1 (27–28/11): punto 2 entregado; punto 1 se replica en Omega el 30/11.\n• Fase 2 (30/11–01/12): 3, 9, 11 y 15 → entrega 01/12.\n• Fase 3 (01–03/12): 5, 6, 8, 13 y 14 → entrega 02–03/12.\n• Fase 4 (03–05/12): 7 y CTWA → entrega 05/12.\n• Buffer y pruebas: 08–10/12. Entrega final: 10/12.\nEste ticket queda como el de ejecución y seguimiento de los 15 puntos. El ticket de Primera entrega mantiene lo ya entregado (dental, precios, rescate y enrutamiento).\nGracias.",
+   "nota_fecha": "2026-11-27 15:10",
+   "nota_autor": "Raiti Rosales Plata",
    "estado_entrega": "por_vencer",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual: Primera entrega.\n- Ajustes / avances: Se corrigió el mensaje de SAC para proveedores médicos. Los ajustes técnicos sobre flujo de plan dental, precios y enrutamiento fueron trasladados y documentados en el ticket central (1220884029105031).\n- Bloqueadores / riesgos: Persisten dudas sobre la certificación de la asignación recurrente y la experiencia en la captura de datos. Se requiere validar el recorrido en WhatsApp con usuarios de prueba.\n- Siguiente paso: Realizar pruebas de funcionamiento para confirmar que los puntos pendientes (revisión de entrega anterior y SAC a proveedores) estén cubiertos y proceder al cierre."
+   "resumen_ia": "- Estado actual:\nEn ejecución y seguimiento de 15 puntos de auditoría bajo un plan por fases.\n\n- Ajustes / avances:\nSe han implementado y documentado ajustes previos en flujo de Plan Dental, precios, rescate y enrutamiento. El ítem de derivación a SAC para proveedores médicos se considera operativo. Se ha definido un cronograma de trabajo por fases para los puntos pendientes de la auditoría de Xandra.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero el plan de trabajo acordado con el cliente se extiende hasta el 2026-12-10. Persisten dudas sobre la certificación de asignación recurrente y la experiencia de usuario en la captura de datos.\n\n- Siguiente paso:\nEjecutar el plan por fases (Fase 1 al 28/11) y actualizar la fecha de entrega en el sistema al 10/12."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -1460,15 +1460,15 @@
    "empresa": "Yomeanimo!",
    "industria": "Seguros",
    "area_l10": "Multiindustria",
-   "etapa": "Ajustes entrega",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1100.0,
    "due": "2026-11-27",
    "due_on": "2026-11-27",
    "created_at": "2026-11-04T19:59:46.387Z",
    "created": "2026-11-04",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-27T21:19:02.575Z",
+   "completada": "2026-11-27",
    "gid": "1220226886263361",
    "tipo_solicitud": "Ajuste o creación de Prompt",
    "tipo_cliente": "Existente",
@@ -1485,14 +1485,14 @@
    "prioridad": "Baja",
    "puntaje_prioridad": 0.0,
    "resumen_ticket": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp.",
-   "ultima_nota": "Hola Michael,\nEl ticket quedó en Primera entrega. Les dejo el paquete de entrega de Yomi - YoMeAnimo! (Cortex) y la guía para ejecutar las pruebas.\nQué se implementó:\n- Agente Cortex con flujo de cotización, servicio y derivación; cotizador real y HubSpot.\n- Prompt V3: precios y cuotas solo del cotizador, sin planilla; email no bloqueante; T&C antes de avanzar.\n- Base de conocimiento sin precios y ficha visual; corrección de la recuperación de cláusulas de T&C.\n- Corrección de la asociación del negocio en HubSpot con el contact_id devuelto por la tool.\nEstado:\n- Construcción técnica: 89%. Avance total del paquete: 78%.\n- Validación: 3/15 casos PASS en simulador; 12 pendientes en WhatsApp real (6 críticos); 0 fallos críticos confirmados (T&C PASS 2/2 tras el fix).\n- Release 80%: pendiente de los 12 casos reales (9/12 + 0 críticos).\nPara probar, seguir el paso a paso:\n1. Abrir el documento \"Guion de prueba WhatsApp - 12 casos\": https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n2. Usar el número de prueba y un cliente/contacto distinto por caso, o resetear el contexto entre casos.\n3. No dar nombre ni email salvo en los casos de cierre (8 a 11).\n4. Ejecutar los 12 casos, capturar conversación/transcript y contacto/negocio en HubSpot, y cargar la planilla de resultados del guion.\nLos casos críticos son 1, 4, 6, 8, 9 y 10. Con 13/14/15 en PASS, se necesitan 9/12 reales + 0 críticos.\nPendientes del cliente:\n- T&C: aprobar el documento auxiliar de cláusulas, reemplazarlo por una versión oficial indexada o retirarlo. El PDF oficial sigue siendo la fuente legal.\n- Imágenes de Assisto para el carrusel (fallback a lista).\n- Verificar que la base de cláusulas esté READY antes de probar.\nEnlaces:\n- Guía de pruebas: https://drive.google.com/file/d/19WUC8M0rIBGlc-x0CIuyRzRMaPCIQWR8/view\n- Evaluación: https://docs.google.com/spreadsheets/d/1DtAp3rBz77PFvmvWjnrENvWokSrAMIDi/edit\n- Documentación: https://drive.google.com/file/d/1nNwxiwCXPA6HpJIOgMY4tDl-ETFkXNyH/view\n- Carpeta completa: https://drive.google.com/drive/folders/1lm0Ytj_BJXnM9tfbVfMDobnSJjVgQ5W3\nTambién dejé los links en los campos URL Documentación y URL Pruebas. El plazo de revisión es de 10 días hábiles. Quedo atento.",
-   "nota_fecha": "2026-11-17 10:33",
+   "ultima_nota": "Hola Michael,\nDejo el detalle de cómo vamos a cerrar YoMeAnimo! y el paso del ticket a Primera entrega.\nPuntos planteados y cómo los manejamos:\n1. Condiciones del bot actual (Sí, quiero!, asesor, comprobante, Gracias, En otro momento): se validan como casos de conversación en Cortex. No agregamos un evaluador lineal en FlowBuilder; si alguna condición no se cumple, se corrige en este mismo ticket. FlowBuilder queda para la asignación por horario.\n2. Carrusel: queda como lista. El cliente ya aceptó que no es bloqueante.\n3. Comprobante: Cortex lo lee, extrae monto, fecha y referencia, y deja el resumen para el asesor. El bloque está listo para integrar. Si el equipo necesita el archivo original, FlowBuilder lo captura.\n4. Descuento y saludo: el saludo se corrigió en el nodo de asignación. El descuento y el comprobante se validan en la prueba; si no cumplen, se ajustan.\n5. Pruebas: el cliente ejecuta la batería completa con un número de pruebas. Michael gestiona el número.\nPaso del ticket: queda en Primera entrega para que el cliente haga la batería completa. Si todo está bien, pasa a producción; si algo falla, me avisan y lo depuro. Mantenemos el mismo ticket, sin abrir otro.\nPor qué: el flujo ya está construido y las consultas que surgieron deben quedar cubiertas en la prueba. Sin el número y sin la batería completa no puedo depurar con precisión; por eso no seguimos agregando alcance y lo pasamos a Primera entrega. Esto también me permite liberar capacidad para Minelab; de lo contrario, no podría tomarlo hasta dentro de dos semanas.\nQuedo atento al número de pruebas para ejecutar la batería.",
+   "nota_fecha": "2026-11-27 15:20",
    "nota_autor": "Raiti Rosales Plata",
-   "estado_entrega": "vence_hoy",
+   "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
+   "resumen_ia": "Ajustar el prompt en Cortex para derivar a Avento y optimizar la cotización en WhatsApp."
   },
   {
    "nombre": "🎫 MEGA Storage Panamá: Migración a Cortex e integración SiteLink",
@@ -2396,8 +2396,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 12,
-   "activos": 6,
-   "completados": 6
+   "activos": 5,
+   "completados": 7
   },
   {
    "nombre": "Jesus Roque",
@@ -2475,7 +2475,7 @@
   {
    "semana": "2026-W48",
    "creados": 3,
-   "resueltos": 3
+   "resueltos": 4
   }
  ],
  "por_tipo": [
