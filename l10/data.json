@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-27 00:06",
+ "generado": "2026-11-27 00:36",
  "meta": {
-  "generado": "2026-11-27 00:06",
+  "generado": "2026-11-27 00:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -10,27 +10,27 @@
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 10,
+  "activas": 9,
   "vencidas": 0,
   "vence_hoy": 1,
-  "por_vencer": 7,
+  "por_vencer": 6,
   "pausados": 2,
-  "entregas_7d": 3,
+  "entregas_7d": 4,
   "cumplimiento": 100,
-  "prioridad_alta": 3,
-  "mrr_activo": 15155.0
+  "prioridad_alta": 2,
+  "mrr_activo": 13635.0
  },
  "por_etapa": {
   "Datos faltantes": 2,
-  "Ajustes entrega": 3,
+  "Ajustes entrega": 2,
   "En proceso": 5
  },
  "por_area": {
-  "Educación & Retail": 7,
+  "Educación & Retail": 6,
   "Multiindustria": 3
  },
  "por_complejidad": {
-  "Intermedio": 4,
+  "Intermedio": 3,
   "Alto": 4,
   "Muy Alto": 2
  },
@@ -38,7 +38,7 @@
   "Media": 2,
   "Alta": 1,
   "Baja": 5,
-  "Muy Alta": 2
+  "Muy Alta": 1
  },
  "activas": [
   {
@@ -157,45 +157,6 @@
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Estado actual:\n- Primera entrega realizada. El ticket se encuentra en fase de validación por parte del cliente.\n\nAjustes / avances:\n- Implementado agente Cortex con flujo de cotización, servicio y derivación.\n- Prompt V3 optimizado para cotizador y HubSpot.\n- Base de conocimiento ajustada y corrección en asociación de negocios en HubSpot.\n- Avance técnico del 89% y paquete general al 78%.\n\nBloqueadores / riesgos:\n- Pendiente validación de 12 casos en WhatsApp real por parte del cliente.\n- Requerimientos pendientes del cliente: aprobación de documento de cláusulas T&C, provisión de imágenes para carrusel y verificación de base de cláusulas.\n\nSiguiente paso:\n- Cliente debe ejecutar pruebas según guía y reportar resultados."
-  },
-  {
-   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
-   "empresa": "Saludsa",
-   "industria": "Retail / E-commerce",
-   "area_l10": "Educación & Retail",
-   "etapa": "Ajustes entrega",
-   "tipo": "Ticket",
-   "mrr": 1520.0,
-   "due": "2026-11-29",
-   "due_on": "2026-11-29",
-   "created_at": "2026-11-24T21:40:27.781Z",
-   "created": "2026-11-24",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220884029105031",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "sdpI8zgZb3GhuUIjikgd",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 75.0,
-   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Raiti sigu el numero de pruebas que le asigne a saludsa. +57 301 1104448",
-   "nota_fecha": "2026-11-26 15:39",
-   "nota_autor": "Michael Sancivier",
-   "estado_entrega": "por_vencer",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual:\nEl ticket se encuentra en etapa de ajustes tras realizar un rollback al flujo anterior (Julian Saludsa - Cortex v1.2) para mantener la operación activa. Se está trabajando en la implementación de mejoras solicitadas sobre el bot en producción.\n\n- Ajustes / avances:\nSe confirmó la recepción del número de pruebas (+57 301 1104448) para validar el nuevo flujo sin afectar la operación. Se definieron los requerimientos para el flujo dental (no preguntar preexistencias ni presupuesto, no mencionar planes médicos y ajustar respuesta de precios) y la lógica de rescate de leads.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero en los comentarios se menciona el 1 de diciembre de 2026. Riesgo de impacto operativo al realizar ajustes directamente sobre el bot en producción.\n\n- Siguiente paso:\nConectar el flujo nuevo al número de pruebas proporcionado para ejecutar los 6-8 escenarios definidos (precio, dental, SAC, menor de 18, asesor, sin respuesta, sin provincia, convenios) y validar la asignación antes de aplicar los cambios en el bot activo."
   },
   {
    "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
@@ -434,45 +395,6 @@
  ],
  "vencidas": [],
  "por_vencer": [
-  {
-   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
-   "empresa": "Saludsa",
-   "industria": "Retail / E-commerce",
-   "area_l10": "Educación & Retail",
-   "etapa": "Ajustes entrega",
-   "tipo": "Ticket",
-   "mrr": 1520.0,
-   "due": "2026-11-29",
-   "due_on": "2026-11-29",
-   "created_at": "2026-11-24T21:40:27.781Z",
-   "created": "2026-11-24",
-   "completed_at": "",
-   "completada": "",
-   "gid": "1220884029105031",
-   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "tipo_cliente": "Existente",
-   "ticket_o_proyecto": "Ticket",
-   "solicitante": "Michael Sancivier",
-   "persona_contacto": "michael.sancivier@atomchat.io",
-   "area_solicitante": "CSM",
-   "iniciativas": "Cortex, Integraciones",
-   "atom_id": "sdpI8zgZb3GhuUIjikgd",
-   "deadline_cancelled": null,
-   "complejidad": "Intermedio",
-   "complejidad_nivel": 1,
-   "sla_dias_referencia": 4,
-   "prioridad": "Muy Alta",
-   "puntaje_prioridad": 75.0,
-   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Raiti sigu el numero de pruebas que le asigne a saludsa. +57 301 1104448",
-   "nota_fecha": "2026-11-26 15:39",
-   "nota_autor": "Michael Sancivier",
-   "estado_entrega": "por_vencer",
-   "dias_restantes": 0,
-   "pausado": false,
-   "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual:\nEl ticket se encuentra en etapa de ajustes tras realizar un rollback al flujo anterior (Julian Saludsa - Cortex v1.2) para mantener la operación activa. Se está trabajando en la implementación de mejoras solicitadas sobre el bot en producción.\n\n- Ajustes / avances:\nSe confirmó la recepción del número de pruebas (+57 301 1104448) para validar el nuevo flujo sin afectar la operación. Se definieron los requerimientos para el flujo dental (no preguntar preexistencias ni presupuesto, no mencionar planes médicos y ajustar respuesta de precios) y la lógica de rescate de leads.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero en los comentarios se menciona el 1 de diciembre de 2026. Riesgo de impacto operativo al realizar ajustes directamente sobre el bot en producción.\n\n- Siguiente paso:\nConectar el flujo nuevo al número de pruebas proporcionado para ejecutar los 6-8 escenarios definidos (precio, dental, SAC, menor de 18, asesor, sin respuesta, sin provincia, convenios) y validar la asignación antes de aplicar los cambios en el bot activo."
-  },
   {
    "nombre": "🎫 Saludsa: Ajustar comportamiento del bot Cortex",
    "empresa": "Saludsa",
@@ -790,6 +712,45 @@
  ],
  "completadas_7d": [
   {
+   "nombre": "🎫 Saludsa: Ajustes en flujo Plan Dental y enrutamiento",
+   "empresa": "Saludsa",
+   "industria": "Retail / E-commerce",
+   "area_l10": "Educación & Retail",
+   "etapa": "Primera entrega",
+   "tipo": "Ticket",
+   "mrr": 1520.0,
+   "due": "2026-11-29",
+   "due_on": "2026-11-29",
+   "created_at": "2026-11-24T21:40:27.781Z",
+   "created": "2026-11-24",
+   "completed_at": "2026-11-27T06:26:11.715Z",
+   "completada": "2026-11-27",
+   "gid": "1220884029105031",
+   "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Michael Sancivier",
+   "persona_contacto": "michael.sancivier@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Cortex, Integraciones",
+   "atom_id": "sdpI8zgZb3GhuUIjikgd",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Muy Alta",
+   "puntaje_prioridad": 75.0,
+   "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-27 00:26",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
+   "dias_restantes": 0,
+   "pausado": false,
+   "discrepancia_fecha": true,
+   "resumen_ia": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes."
+  },
+  {
    "nombre": "🎫 Nimac: Realizar ajustes finos en bot Cortex NIMAC V2",
    "empresa": "Nimac",
    "industria": "Otra",
@@ -913,15 +874,15 @@
    "empresa": "Saludsa",
    "industria": "Retail / E-commerce",
    "area_l10": "Educación & Retail",
-   "etapa": "Ajustes entrega",
+   "etapa": "Primera entrega",
    "tipo": "Ticket",
    "mrr": 1520.0,
    "due": "2026-11-29",
    "due_on": "2026-11-29",
    "created_at": "2026-11-24T21:40:27.781Z",
    "created": "2026-11-24",
-   "completed_at": "",
-   "completada": "",
+   "completed_at": "2026-11-27T06:26:11.715Z",
+   "completada": "2026-11-27",
    "gid": "1220884029105031",
    "tipo_solicitud": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
    "tipo_cliente": "Existente",
@@ -938,14 +899,14 @@
    "prioridad": "Muy Alta",
    "puntaje_prioridad": 75.0,
    "resumen_ticket": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes.",
-   "ultima_nota": "Raiti sigu el numero de pruebas que le asigne a saludsa. +57 301 1104448",
-   "nota_fecha": "2026-11-26 15:39",
-   "nota_autor": "Michael Sancivier",
-   "estado_entrega": "por_vencer",
+   "ultima_nota": "Todo está listo con tu solicitud 🤩\n finalizado tu ticket por favor realiza pruebas de funcionamiento, si todo está correcto indica que la tarea está completa ✅. \nTienes hasta 10 días para dejarnos algún comentario, pasado este tiempo se dará por completada la tarea.\nPor favor llena esta encuesta de satisfacción: https://forms.gle/Ly9MRypFRtC4yN5Z7",
+   "nota_fecha": "2026-11-27 00:26",
+   "nota_autor": "—",
+   "estado_entrega": "entregado_a_tiempo",
    "dias_restantes": 0,
    "pausado": false,
    "discrepancia_fecha": true,
-   "resumen_ia": "- Estado actual:\nEl ticket se encuentra en etapa de ajustes tras realizar un rollback al flujo anterior (Julian Saludsa - Cortex v1.2) para mantener la operación activa. Se está trabajando en la implementación de mejoras solicitadas sobre el bot en producción.\n\n- Ajustes / avances:\nSe confirmó la recepción del número de pruebas (+57 301 1104448) para validar el nuevo flujo sin afectar la operación. Se definieron los requerimientos para el flujo dental (no preguntar preexistencias ni presupuesto, no mencionar planes médicos y ajustar respuesta de precios) y la lógica de rescate de leads.\n\n- Bloqueadores / riesgos:\nDiscrepancia de fecha: La fecha de entrega oficial es 2026-11-29, pero en los comentarios se menciona el 1 de diciembre de 2026. Riesgo de impacto operativo al realizar ajustes directamente sobre el bot en producción.\n\n- Siguiente paso:\nConectar el flujo nuevo al número de pruebas proporcionado para ejecutar los 6-8 escenarios definidos (precio, dental, SAC, menor de 18, asesor, sin respuesta, sin provincia, convenios) y validar la asignación antes de aplicar los cambios en el bot activo."
+   "resumen_ia": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -2317,8 +2278,8 @@
   {
    "nombre": "Michael Sancivier",
    "total": 12,
-   "activos": 7,
-   "completados": 5
+   "activos": 6,
+   "completados": 6
   },
   {
    "nombre": "Jesus Roque",
@@ -2396,7 +2357,7 @@
   {
    "semana": "2026-W48",
    "creados": 2,
-   "resueltos": 2
+   "resueltos": 3
   }
  ],
  "por_tipo": [
