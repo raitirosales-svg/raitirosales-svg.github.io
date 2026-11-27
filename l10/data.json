@@ -1,43 +1,44 @@
 {
- "generado": "2026-11-27 07:51",
+ "generado": "2026-11-27 09:36",
  "meta": {
-  "generado": "2026-11-27 07:51",
+  "generado": "2026-11-27 09:36",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
-  "tareas": 54,
-  "con_empresa": 36,
+  "tareas": 55,
+  "con_empresa": 37,
   "ai_model": "gemini-3.1-flash-lite"
  },
  "kpis": {
-  "activas": 9,
+  "activas": 10,
   "vencidas": 0,
   "vence_hoy": 1,
-  "por_vencer": 6,
+  "por_vencer": 7,
   "pausados": 2,
   "entregas_7d": 4,
   "cumplimiento": 100,
   "prioridad_alta": 2,
-  "mrr_activo": 13635.0
+  "mrr_activo": 15125.0
  },
  "por_etapa": {
   "Datos faltantes": 2,
   "Ajustes entrega": 2,
-  "En proceso": 5
+  "En proceso": 5,
+  "Nuevo": 1
  },
  "por_area": {
   "Educación & Retail": 6,
-  "Multiindustria": 3
+  "Multiindustria": 4
  },
  "por_complejidad": {
-  "Intermedio": 3,
+  "Intermedio": 4,
   "Alto": 4,
   "Muy Alto": 2
  },
  "por_prioridad": {
   "Media": 2,
   "Alta": 1,
-  "Baja": 5,
+  "Baja": 6,
   "Muy Alta": 1
  },
  "activas": [
@@ -276,6 +277,45 @@
    "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se recibió y registró la información detallada sobre las áreas de atención (Mayoreo 1 y 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo referencias de regiones y enlaces necesarios. El equipo técnico ha iniciado los trabajos de configuración.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del enrutamiento en Cortex y solicitar aclaraciones adicionales si fueran necesarias."
   },
   {
+   "nombre": "🎫 Hansa Ltda. Div. Automotriz: Asignación por marca y región",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "Automotriz",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1490.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-25T05:34:41.314Z",
+   "created": "2026-11-24",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220891039785397",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Sofia Alvarado",
+   "persona_contacto": "sofia.alvarado@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Otros",
+   "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 5.0,
+   "resumen_ticket": "Ajustar el flujo de asignación dinámica por marca y región para evitar el cruce de asesores.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "por_vencer",
+   "dias_restantes": 2,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del flujo de asignación dinámica por marca y región para evitar el cruce de asesores. Fecha de entrega: 2026-12-01."
+  },
+  {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
    "empresa": "Carbone",
    "industria": "Retail / E-commerce",
@@ -511,6 +551,45 @@
    "pausado": false,
    "discrepancia_fecha": false,
    "resumen_ia": "Estado actual: En proceso.\nAjustes / avances: Se recibió y registró la información detallada sobre las áreas de atención (Mayoreo 1 y 2, Área Comercial, Grupos, PQRS, Emisiones Aéreas y Mega Net), incluyendo referencias de regiones y enlaces necesarios. El equipo técnico ha iniciado los trabajos de configuración.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Continuar con el desarrollo del enrutamiento en Cortex y solicitar aclaraciones adicionales si fueran necesarias."
+  },
+  {
+   "nombre": "🎫 Hansa Ltda. Div. Automotriz: Asignación por marca y región",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "Automotriz",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1490.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-25T05:34:41.314Z",
+   "created": "2026-11-24",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220891039785397",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Sofia Alvarado",
+   "persona_contacto": "sofia.alvarado@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Otros",
+   "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 5.0,
+   "resumen_ticket": "Ajustar el flujo de asignación dinámica por marca y región para evitar el cruce de asesores.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "por_vencer",
+   "dias_restantes": 2,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del flujo de asignación dinámica por marca y región para evitar el cruce de asesores. Fecha de entrega: 2026-12-01."
   },
   {
    "nombre": "🎫 Carbone: Crear WhatsApp Flow e integrar con Cortex",
@@ -907,6 +986,45 @@
    "pausado": false,
    "discrepancia_fecha": true,
    "resumen_ia": "Corregir cobertura, precios y enrutamiento en el flujo Cortex para evitar reasignación incorrecta de leads recurrentes."
+  },
+  {
+   "nombre": "🎫 Hansa Ltda. Div. Automotriz: Asignación por marca y región",
+   "empresa": "Hansa Ltda. Div. Automotriz",
+   "industria": "Automotriz",
+   "area_l10": "Multiindustria",
+   "etapa": "Nuevo",
+   "tipo": "Ticket",
+   "mrr": 1490.0,
+   "due": "2026-12-01",
+   "due_on": "2026-12-01",
+   "created_at": "2026-11-25T05:34:41.314Z",
+   "created": "2026-11-24",
+   "completed_at": "",
+   "completada": "",
+   "gid": "1220891039785397",
+   "tipo_solicitud": "Flujo Flowbuilder",
+   "tipo_cliente": "Existente",
+   "ticket_o_proyecto": "Ticket",
+   "solicitante": "Sofia Alvarado",
+   "persona_contacto": "sofia.alvarado@atomchat.io",
+   "area_solicitante": "CSM",
+   "iniciativas": "Otros",
+   "atom_id": "uxFCMFBn315fMC20W3oR",
+   "deadline_cancelled": null,
+   "complejidad": "Intermedio",
+   "complejidad_nivel": 1,
+   "sla_dias_referencia": 4,
+   "prioridad": "Baja",
+   "puntaje_prioridad": 5.0,
+   "resumen_ticket": "Ajustar el flujo de asignación dinámica por marca y región para evitar el cruce de asesores.",
+   "ultima_nota": "",
+   "nota_fecha": "",
+   "nota_autor": "",
+   "estado_entrega": "por_vencer",
+   "dias_restantes": 2,
+   "pausado": false,
+   "discrepancia_fecha": false,
+   "resumen_ia": "Estado actual: Nuevo.\nAjustes / avances: Sin dato.\nBloqueadores / riesgos: Sin dato.\nSiguiente paso: Iniciar el ajuste del flujo de asignación dinámica por marca y región para evitar el cruce de asesores. Fecha de entrega: 2026-12-01."
   },
   {
    "nombre": "🎫 Mega Travel: Ajustar enrutamiento de conversaciones en Cortex",
@@ -2301,8 +2419,8 @@
   },
   {
    "nombre": "Sofia Alvarado",
-   "total": 2,
-   "activos": 0,
+   "total": 3,
+   "activos": 1,
    "completados": 2
   },
   {
@@ -2356,7 +2474,7 @@
   },
   {
    "semana": "2026-W48",
-   "creados": 2,
+   "creados": 3,
    "resueltos": 3
   }
  ],
@@ -2378,11 +2496,11 @@
    "total": 4
   },
   {
-   "tipo": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
-   "total": 2
+   "tipo": "Flujo Flowbuilder",
+   "total": 3
   },
   {
-   "tipo": "Flujo Flowbuilder",
+   "tipo": "Ajuste o creación de Prompt, Flujo Flowbuilder, Integración",
    "total": 2
   },
   {
