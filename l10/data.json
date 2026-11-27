@@ -1,7 +1,7 @@
 {
- "generado": "2026-11-27 07:36",
+ "generado": "2026-11-27 07:51",
  "meta": {
-  "generado": "2026-11-27 07:36",
+  "generado": "2026-11-27 07:51",
   "fuente": "asana",
   "asana_workspace": "1176142409313345",
   "asana_proyecto": "1212942458636323",
@@ -71,14 +71,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-11-24 09:50",
-   "nota_autor": "—",
+   "ultima_nota": "Hola equipo les confirmo que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.",
+   "nota_fecha": "2026-11-27 07:41",
+   "nota_autor": "Michael Sancivier",
    "estado_entrega": "vencido",
    "dias_restantes": -2,
    "pausado": true,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
+   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se confirmó que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.\nBloqueadores / riesgos: Discrepancia de fecha: El ticket indica entrega el 2026-11-25, pero en comentarios se mencionó el 2026-11-24. El ticket se encuentra en estado de datos faltantes tras haber superado la fecha de entrega.\nSiguiente paso: Retomar las pruebas de integración con los endpoints habilitados y validar la configuración del token de staging y producción."
   },
   {
    "nombre": "🎫 Universidad Panamericana: Migrar bot V2 a Cortex",
@@ -661,14 +661,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-11-24 09:50",
-   "nota_autor": "—",
+   "ultima_nota": "Hola equipo les confirmo que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.",
+   "nota_fecha": "2026-11-27 07:41",
+   "nota_autor": "Michael Sancivier",
    "estado_entrega": "vencido",
    "dias_restantes": -2,
    "pausado": true,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
+   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se confirmó que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.\nBloqueadores / riesgos: Discrepancia de fecha: El ticket indica entrega el 2026-11-25, pero en comentarios se mencionó el 2026-11-24. El ticket se encuentra en estado de datos faltantes tras haber superado la fecha de entrega.\nSiguiente paso: Retomar las pruebas de integración con los endpoints habilitados y validar la configuración del token de staging y producción."
   },
   {
    "nombre": "🎫 Universidad Panamericana: Migrar bot V2 a Cortex",
@@ -1016,14 +1016,14 @@
    "prioridad": "Media",
    "puntaje_prioridad": 25.0,
    "resumen_ticket": "Configurar el token de staging en la integración WhatsApp BOT V4 para avanzar hacia producción.",
-   "ultima_nota": "Faltan algunos datos😔\n Notamos que faltan algunos datos para completar tu solicitud. Tienes 7 días para enviarlos antes de que el ticket expire.\n¡Sabemos que puedes lograrlo😎! Creemos en ti 🚀",
-   "nota_fecha": "2026-11-24 09:50",
-   "nota_autor": "—",
+   "ultima_nota": "Hola equipo les confirmo que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.",
+   "nota_fecha": "2026-11-27 07:41",
+   "nota_autor": "Michael Sancivier",
    "estado_entrega": "vencido",
    "dias_restantes": -2,
    "pausado": true,
    "discrepancia_fecha": false,
-   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se probó la llave de staging y se confirmó que responde, pero el servicio de pedidos y el link de pago devuelven error 404. Se creó un carrito de prueba exitoso, pero el link de pago falla por el mismo error.\nBloqueadores / riesgos: El cliente debe habilitar o confirmar la ruta de MX staging (mx_new_exp_store_view) para la llave proporcionada. Se requiere un pedido de staging para pruebas y las IPs de salida de Atom para producción. Discrepancia de fecha: El equipo de implementación estima la entrega para el 24 de noviembre, aunque la fecha oficial es el 25.\nSiguiente paso: Esperar confirmación del cliente sobre la habilitación de la ruta y la recepción de los datos solicitados."
+   "resumen_ia": "Estado actual: Datos faltantes.\nAjustes / avances: Se confirmó que el equipo de desarrollo de Minelab ya implementó los endpoints de Magento y están disponibles para continuar con las pruebas.\nBloqueadores / riesgos: Discrepancia de fecha: El ticket indica entrega el 2026-11-25, pero en comentarios se mencionó el 2026-11-24. El ticket se encuentra en estado de datos faltantes tras haber superado la fecha de entrega.\nSiguiente paso: Retomar las pruebas de integración con los endpoints habilitados y validar la configuración del token de staging y producción."
   },
   {
    "nombre": "🎫 FarmaValue Guatemala y El Salvador: Ajustar Cortex Instagram y Facebook",
